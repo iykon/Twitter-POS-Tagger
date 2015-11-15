@@ -1,9 +1,12 @@
 #training data
-emission/NPC/*
-emission/POS/*
+emission/NPC/
+emission/POS/
 
 #compiled python
-*.py*
+*.pyc
 
 # Mac directory file
 .DS_Store
+
+#pyenv directory
+.python-version
