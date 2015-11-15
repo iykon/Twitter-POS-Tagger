@@ -1,0 +1,9 @@
+#training data
+emission/NPC
+emission/POS
+
+#compiled python
+.py*
+
+# Mac directory file
+.DS_Store
