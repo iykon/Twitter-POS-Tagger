@@ -1,7 +1,8 @@
 #training data
-emission/NPC/
-emission/POS/
-
+*.in
+*.out
+train
+ptrain
 #compiled python
 *.pyc
 
