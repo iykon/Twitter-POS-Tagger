@@ -41,23 +41,32 @@ def preprocess(infile,outfile) :
         if outf:
             outf.close()
         return outline
-
 # compute:
 #1.the count(y->x) saved in the first returned value with key "x y" in hashing table
 #2. the count(y) save with key "y" in the second return value in hashing table
 def compute(infile) :
     try:
+        # 'hello' 'tag'   matrix["hello tag"]= num
+        # matrix[tag][hello] = n
+        # labels["tag"] = n
+        inf = open(infile,'r')
+        inline = inf.readlines()
         matrix = {}
         labels = {}
         for line in inline:
             if line=='\n':
                 continue
-            line = line.strip()
-            label = line.split()[1]
-            if line in matrix:
-                matrix[line] += 1
+            line = line.strip().split()
+            word = line[0]
+            label = line[1]
+            if word in matrix:
+                if label in matrix[word]:
+                    matrix[word][label] += 1
+                else :
+                    matrix[word][label] = 1
             else:
-                matrix[line] = 1
+                matrix[word] = {}
+                matrix[word][label] = 1
 
             if label in labels:
                 labels[label] += 1
@@ -71,24 +80,31 @@ def compute(infile) :
             inf.close()
         return matrix, labels
 # compute the emission probability with the hashing tables get from function compute
-def emit(word, tag, matrix, labels):
-    word = processWord(word)
+def emit(word, tag, matrix, labels,p = True):
+    if p:
+        word = processWord(word)
+
     numer = 0
     denom = 0
 
-    if word+' '+tag in matrix:
-        numer = matrix[word+' '+tag]
+# matrix[word][tag] = n
+
+    if word in matrix:
+        if tag in matrix[word]:
+            numer = matrix[word][tag]
+        else :
+            numer = 0
+    else :
+        numer = 1
+
     if tag in labels:
         denom = labels[tag]
     else:
         raise RuntimeError("Tag '"+tag+"' not found")
 
-    if numer == 0:
-        return 1.0/(denom+1.0)
-    else :
-        return numer*1.0/(denom+1.0)
+    return numer*1.0/(denom+1.0)
 # predict the labels of the input file
-def predict(infile, outfile, matrix, labels):
+def predict(infile, outfile, matrix, labels,p=True):
     start=time.clock()
     try:
         inf = open(infile,'r')
@@ -103,7 +119,7 @@ def predict(infile, outfile, matrix, labels):
             bestprob = 0
             besttag = ""
             for tag in labels.keys():
-                prob = emit(line,tag,matrix, labels)
+                prob = emit(line,tag,matrix, labels, p)
                 if prob>bestprob:
                     bestprob=prob
                     besttag=tag
