@@ -3,10 +3,21 @@ import numpy as np
 import scipy as scp
 import string
 import time
+import re
+# judge whether a sentence has URL
+def hasURL(word):
+    rt = re.search('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+',word)
+    if rt is not None:
+        return True
+    else :
+        return False
 # process words:
 # words having only punctuations stay the same
 # other words, erase the punctuations
 def processWord(word):
+# if word has URL, return the word it self
+    if hasURL(word) :
+        return word
     pword = ''.join(ch for ch in word if ch not in string.punctuation)
     if pword == '':
         pword = word
@@ -83,18 +94,16 @@ def compute(infile) :
 def emit(word, tag, matrix, labels,p = True):
     if p:
         word = processWord(word)
-
     numer = 0
     denom = 0
-
-# matrix[word][tag] = n
-
     if word in matrix:
         if tag in matrix[word]:
             numer = matrix[word][tag]
         else :
+            # count zero under this tag
             numer = 0
     else :
+        # new word
         numer = 1
 
     if tag in labels:
@@ -105,7 +114,7 @@ def emit(word, tag, matrix, labels,p = True):
     return numer*1.0/(denom+1.0)
 # predict the labels of the input file
 def predict(infile, outfile, matrix, labels,p=True):
-    start=time.clock()
+    # start=time.clock()
     try:
         inf = open(infile,'r')
         outf = open(outfile, 'w')
@@ -149,6 +158,8 @@ def evaluate(testfile,answerfile):
         i = 0
         error = 0
         total = 0
+        if len(answer) != len(test):
+            raise RuntimeError("File length different")
         while i<len(answer) and i<len(test):
             # print i,'-th loop\n'
             if test[i]=='\n' and answer[i]=='\n':
