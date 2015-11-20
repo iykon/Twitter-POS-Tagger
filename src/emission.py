@@ -44,7 +44,10 @@ class emission(object):
             if inf:
                 inf.close()
     # compute the emission probability with the hashing tables get from function compute
-    def emit(self,word, tag):
+    def emit(self,word, tag,p=True):
+        if p:
+            word = tool.processWord(word)
+
         numer = 0
         denom = 0
         if word in self.matrix:
@@ -76,13 +79,10 @@ class emission(object):
                     writeline.append('\n')
                     continue
                 line = line.strip()
-                if p:
-                    line = tool.processWord(line)
-
                 bestprob = 0
                 besttag = ""
                 for tag in self.labels.keys():
-                    prob = self.emit(line,tag)
+                    prob = self.emit(line,tag,p)
                     if prob>bestprob:
                         bestprob=prob
                         besttag=tag
