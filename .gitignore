@@ -1,8 +1,13 @@
 #training data
-#*.in
-#*.out
-#train
-#ptrain
+*.in
+*.out
+train
+ptrain
+# idea project file
+*.iml
+*.xml
+.name
+.idea/*
 #compiled python
 *.pyc
 
