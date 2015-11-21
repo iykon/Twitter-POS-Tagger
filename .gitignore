@@ -1,8 +1,8 @@
 #training data
-*.in
-*.out
-train
-ptrain
+#*.in
+#*.out
+#train
+#ptrain
 #compiled python
 *.pyc
 
