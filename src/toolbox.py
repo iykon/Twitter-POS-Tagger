@@ -50,7 +50,7 @@ def preprocess(infile,outfile) :
             outf.close()
         return outline
 # evaluate the error rate of our prediction
-def evaluate(testfile,answerfile,col=1):
+def evaluate(testfile,answerfile,col=1, pr = False):
     # start = time.clock()
     try:
         testf = open(testfile,'r')
@@ -69,12 +69,18 @@ def evaluate(testfile,answerfile,col=1):
                 i += 1
                 continue
             total += 1
+            word = test[i].strip().split()[0]
             t = test[i].strip().split()[col]
             a = answer[i].strip().split()[1]
             # print 't:',t
             # print 'a:',a
             if t != a :
                 error += 1
+                if pr:
+                    print "i:",i
+                    print "word:",word
+                    print "t:",t
+                    print "a:",a
             i += 1
     except IOError, e:
         print e

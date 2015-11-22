@@ -1,6 +1,6 @@
 import time
 import string
-
+import numpy as np
 class transition(object):
     def __init__(self):
         self.start = {}
@@ -68,20 +68,20 @@ class transition(object):
         if fword in self.matrix:
             if nword in self.matrix[fword]:
                 if fword in self.states:
-                    return self.matrix[fword][nword]*1.0/self.states[fword]
+                    return np.float64(self.matrix[fword][nword]*1.0)/np.float64(self.states[fword])
                 else :
                     raise RuntimeError("current tag:"+fword+"\n never occurred in train data")
             else :
-                return 0
+                return np.float64(0)
         else :
-            return 0
+            return np.float64(0)
     def startwith(self, word) :
         if word in self.start:
-            return self.start[word]*1.0 / self.states['START']
+            return np.float64(self.start[word]*1.0) / np.float64(self.states['START'])
         else:
-            return 0
+            return np.float64(0)
     def stopwith(self, word) :
         if word in self.stop:
-            return self.stop[word]*1.0/self.states[word]
+            return np.float64(self.stop[word]*1.0)/np.float64(self.states[word])
         else :
-            return 0
+            return np.float64(0)

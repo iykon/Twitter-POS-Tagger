@@ -2,6 +2,7 @@
 import string
 import time
 import toolbox as tool
+import numpy as np
 class emission(object):
     def __init__(self):
         self.matrix = {}
@@ -65,7 +66,7 @@ class emission(object):
         else:
             raise RuntimeError("Tag '"+tag+"' not found")
 
-        return numer*1.0/(denom+1.0)
+        return np.float64(numer*1.0)/np.float64(denom+1.0)
     # predict the labels of the input file
     def predict(self, infile, outfile, p=True):
         # start=time.clock()
