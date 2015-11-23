@@ -7,6 +7,7 @@ class emission(object):
     def __init__(self):
         self.matrix = {}
         self.labels = {}
+        self.most = None
     # compute:
     #1.the count(y->x) saved in the first returned value with key "x y" in hashing table
     #2. the count(y) save with key "y" in the second return value in hashing table
@@ -101,3 +102,14 @@ class emission(object):
             if outf:
                 outf.close()
             # print 'time:',time.clock() - start
+    def mostprob(self) :
+        if self.most is None:
+            prob = 0
+            highest = ""
+            for i in self.labels:
+                if self.labels[i] > prob:
+                    prob = self.labels[i]
+                    highest = i
+            self.most = highest
+        return self.most
+

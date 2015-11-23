@@ -173,15 +173,15 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
         count = range(len(inlines))
         matrix = []
         outlines = []
-        sen = 1
-        start = 0
+        # sen = 1
+        # start = 0
         for i in count:
             # print "the", i, "-th loop"
             line = inlines[i]
             if START is True:
                 # print "START"
-                print "START:",sen
-                start = time.clock()
+                # print "START:",sen
+                # start = time.clock()
                 tags = {}
                 word = line.strip()
                 for tag in e.labels:
@@ -191,9 +191,9 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                 START = False
             elif line == '\n':
                 # print "End Sentence"
-                print "END:",sen
-                sen += 1
-                print "Time:", time.clock() - start
+                # print "END:",sen
+                # sen += 1
+                # print "Time:", time.clock() - start
                 START = True
                 nb = NBest(best)
                 for tag in e.labels:
@@ -268,6 +268,9 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                 for j in cnt:
                     lw = lastword[j]
                     nm = lastnum[j]
+                    scr = lastscore[j]
+                    if scr == 0:
+                        lw = e.mostprob()
                     word = word + ' ' + lw
                     nb = matrix[i][lw]
                     if isinstance(nb, float):
