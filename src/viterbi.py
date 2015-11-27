@@ -3,7 +3,7 @@ import toolbox as tool
 import transition as tr
 import time
 import numpy as np
-
+# This class could maintain the N-best route to one possible tag at one position
 class NBest(object):
     def __init__(self, n):
         self.label = []
@@ -11,32 +11,18 @@ class NBest(object):
         self.args = []
         self.num = []
         self.N = n
-
+# add new tag, its probability and number into the array
     def add(self, word, prob, m):
         self.label.append(word)
         self.score.append(prob)
         self.num.append(m)
-
+# get the first N from them
     def best(self):
-
-        # print "when compute"
-        # print "label:",self.label
-        # print "score:",self.score
-
-        # temp = np.array(self.score)
-        # print "temp:",temp
-        # print "args:",self.args
-        # print "temp argsort", temp.argsort()
         self.args = np.argsort(self.score)[-self.N:]
-        # print "args:",self.args
-
         blabel = []
         bscore = []
         bnum = []
         for i in self.args:
-            # print i,"-th loop when compute"
-            # print 'label:',self.label[i]
-            # print 'score:',self.score[i]
             blabel.append(self.label[i])
             bscore.append(self.score[i])
             bnum.append(self.num[i])
@@ -46,13 +32,10 @@ class NBest(object):
         self.label = blabel
         self.score = bscore
         self.num = bnum
-        # print 'labels:',self.label
-        # print 'scores:',self.score
-
+# get the first i-th label in the array
     def pop(self,i):
         return self.label.pop(i)
-
-
+# the algorithm to get the best 1 path, deprecated, there exists one more general method, see viterbi_NBest
 def viterbi_best(e, t, infile, outfile, p=True):
     try:
         inf = open(infile, 'r')
@@ -162,8 +145,7 @@ def viterbi_best(e, t, infile, outfile, p=True):
             inf.close()
         if outf:
             outf.close()
-
-
+# this algorihtm calculates first N best paths
 def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
     try:
         inf = open(infile, 'r')
@@ -173,27 +155,17 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
         count = range(len(inlines))
         matrix = []
         outlines = []
-        # sen = 1
-        # start = 0
         for i in count:
-            # print "the", i, "-th loop"
             line = inlines[i]
+            # calculate all possible tags and its score and which path of previous tag this path comes from
             if START is True:
-                # print "START"
-                # print "START:",sen
-                # start = time.clock()
                 tags = {}
                 word = line.strip()
                 for tag in e.labels:
                     tags[tag] = 1.0*t.startwith(tag) * e.emit(word, tag, p)
                 matrix.append(tags)
-                # print tags
                 START = False
             elif line == '\n':
-                # print "End Sentence"
-                # print "END:",sen
-                # sen += 1
-                # print "Time:", time.clock() - start
                 START = True
                 nb = NBest(best)
                 for tag in e.labels:
@@ -205,60 +177,43 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                             prob = b.score[j] * t.stopwith(tag)
                             nb.add(tag, prob,j)
                 nb.best()
-                # print i,":",nb.score
-                # print "best score at this sentence:", nb.score[0]
-                # print nb.score[0].hex()
-                # print "type:",type(nb.score[0])
-                # print nb.label,"-->STOP:",nb.score
                 matrix.append(nb)
             else:
-                # print "In sentence"
                 tags = {}
                 word = line.strip()
-                # print "word:",word
                 for tag in e.labels:
                     nb = NBest(best)
                     for ftag in e.labels:
                         # case 1
                         # the second word in the sentence
                         if isinstance(matrix[i - 1][ftag], float):
-                            # print "second word of the sentence"
                             prob = matrix[i - 1][ftag] * t.transit(ftag, tag) * e.emit(word, tag, p)
-                            # print ftag,"-->",tag,":",prob
                             nb.add(ftag, prob,-1)
                         # case 2
                         # from the third word of the sentence
                         else:
-                            # print "within sentence"
                             b = matrix[i - 1][ftag]
                             for j in range(len(b.label)):
                                 prob = b.score[j] * t.transit(ftag, tag) * e.emit(word, tag, p)
-                                # print ftag,"-->",tag,":",prob
                                 nb.add(ftag, prob,j)
                     nb.best()
-                    # print "after compute"
-                    # print nb.label,"-->",tag,":",nb.score
                     tags[tag] = nb
                 matrix.append(tags)
-
+        # decode the sentence
         count.reverse()
         lastword = []
         lastnum = []
         lastscore = []
         for i in count:
             line = inlines[i]
+            # end of a sentence, get all the final tags
             if line == '\n':
                 nb = matrix[i]
                 lastword = nb.label
                 lastnum = nb.num
                 lastscore = nb.score
-                # print "endsentence"
-                # print "word:",lastword
-                # print "number:",lastnum
-                # print "score:", nb.score[0]
-                # print "score:", nb.score[0].hex()
-                # print "type:",type(nb.score[0])
                 outlines.append('\n')
+            # in the sentence, extract all current tags from the result stored in the position behind
             else:
                 currentlastword = []
                 currentlastnum = []
@@ -274,32 +229,18 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                     word = word + ' ' + lw
                     nb = matrix[i][lw]
                     if isinstance(nb, float):
-                        # the first word in a sentence
+                        # the first word in a sentence, do nothing
                         continue
                     else:
-                        # print "in sentence for :", lw
-                        # print "number:", nm
-                        # print "from words:",nb.label
-                        # print "from numbers:",nb.num
-                        # print "respective scores:",nb.score
-                        # print "select words:",nb.label[nm]
-                        # print "select number:", nb.num[nm]
+                        # get the tags of previous position
                         currentlastword.append(nb.label[nm])
                         currentlastnum.append(nb.num[nm])
                         currentlastscore.append(nb.score[nm])
                 lastword = currentlastword
                 lastnum = currentlastnum
                 lastscore = currentlastscore
-                # print "within sentence:"
-                # print "word:",lastword
-                # print "number:",lastnum
-                # if len(lastscore) > 0:
-                    # print "score:", lastscore[0]
-                    # print "score:",lastscore[0].hex()
-                    # print "type:",type(lastscore[0])
                 word += '\n'
                 outlines.append(word)
-        # print "outlines:",outlines
         outlines.reverse()
         outf.writelines(outlines)
     except IOError, error:

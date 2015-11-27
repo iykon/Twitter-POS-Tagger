@@ -1,4 +1,3 @@
-'''A simple and time consuming method of calculating emission probability'''
 import string
 import time
 import toolbox as tool
@@ -102,6 +101,7 @@ class emission(object):
             if outf:
                 outf.close()
             # print 'time:',time.clock() - start
+# get the label that is most probably to appear, useful when some labels at some point are uncertain (scoreing 0)
     def mostprob(self) :
         if self.most is None:
             prob = 0
@@ -112,4 +112,3 @@ class emission(object):
                     highest = i
             self.most = highest
         return self.most
-

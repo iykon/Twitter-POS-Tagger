@@ -7,6 +7,7 @@ class transition(object):
         self.stop = {}
         self.matrix = {}
         self.states = {}
+# compute the parameters within the given file
     def compute(self,infile):
         try:
             inf = open(infile,'r')
@@ -64,6 +65,7 @@ class transition(object):
         finally :
             if inf:
                 inf.close()
+# within a sentence, calculate the probability that nword is transitioned from fword
     def transit(self,fword,nword) :
         if fword in self.matrix:
             if nword in self.matrix[fword]:
@@ -75,11 +77,13 @@ class transition(object):
                 return np.float64(0)
         else :
             return np.float64(0)
+# compute the probability the sentence starts with the given word
     def startwith(self, word) :
         if word in self.start:
             return np.float64(self.start[word]*1.0) / np.float64(self.states['START'])
         else:
             return np.float64(0)
+# compute the probability that the sentence stops with the word
     def stopwith(self, word) :
         if word in self.stop:
             return np.float64(self.stop[word]*1.0)/np.float64(self.states[word])
