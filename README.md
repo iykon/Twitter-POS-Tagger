@@ -102,9 +102,71 @@ This module contains the class which maintains the emission probabilty of text g
 This class computes emission probability of the given text with the Maximal Likelihood Estimator introduced in Hidden Markov Model.
 
 The general case formula is:
-$$ e(word|tag) = \frac{count(word,tag)}{count(tag)}$$
+$$ e(word|tag) = \frac{count(word,tag)}{count(tag)+1}$$
 As we can hardly enumerate all possible *"word"*s in the given text file, for a word that has never appeared in the corpus, we provide a special case formula to estimate it's emission probability:
 $$e(new|tag) = \frac{1}{count(tag)+1}$$
+
+An experiment, when we change the estimator for new words, the result is better than before:
+$$e(new|tag) = \frac{count(tag)}{count(tag)+1}$$
+**My thoughts, the score actually doesn't matter, but we should tend to give the new word a more probable tag, this trick applied to part 5**
+
+without preprocessor
+POS,MLE: 0.340717299578
+POS,DP: 0.377285513361
+runtime: 146.777487
+1 :POS, DP2: 0.352320675105
+2 :POS, DP2: 0.353375527426
+3 :POS, DP2: 0.360407876231
+4 :POS, DP2: 0.357946554149
+5 :POS, DP2: 0.356891701828
+6 :POS, DP2: 0.35970464135
+7 :POS, DP2: 0.365682137834
+8 :POS, DP2: 0.362869198312
+9 :POS, DP2: 0.369549929677
+10 :POS, DP2: 0.364978902954
+with preprocessor
+POS, MLE: 0.322784810127
+POS, DP: 0.323136427567
+runtime: 265.356141
+1 :POS, DP2: 0.307665260197
+2 :POS, DP2: 0.319971870605
+3 :POS, DP2: 0.3129395218
+4 :POS, DP2: 0.313291139241
+5 :POS, DP2: 0.317862165963
+6 :POS, DP2: 0.323136427567
+7 :POS, DP2: 0.321729957806
+8 :POS, DP2: 0.32770745429
+9 :POS, DP2: 0.321026722925
+10 :POS, DP2: 0.322081575246
+without preprocessor
+NPC,MLE: 0.242995738508
+NPC,DP: 0.191072022244
+runtime: 12.2817
+1 :NPC, DP2: 0.191072022244
+2 :NPC, DP2: 0.204732976698
+3 :NPC, DP2: 0.21727566718
+4 :NPC, DP2: 0.221930063167
+5 :NPC, DP2: 0.23613503793
+6 :NPC, DP2: 0.235500347569
+7 :NPC, DP2: 0.240396530359
+8 :NPC, DP2: 0.242935291806
+9 :NPC, DP2: 0.244053555777
+10 :NPC, DP2: 0.285714285714
+with preprocessor
+NPC, MLE: 0.269259830145
+NPC, DP: 0.200652824372
+runtime: 18.826656
+1 :NPC, DP2: 0.200652824372
+2 :NPC, DP2: 0.218091697646
+3 :NPC, DP2: 0.226796022607
+4 :NPC, DP2: 0.236195484631
+5 :NPC, DP2: 0.245776286759
+6 :NPC, DP2: 0.250551576148
+7 :NPC, DP2: 0.255417535588
+8 :NPC, DP2: 0.258167860489
+9 :NPC, DP2: 0.257200713271
+10 :NPC, DP2: 0.2
+
 Internally, this class maintains two Python dictionaries, named *matrix* and *labels*, which has:
 
 	matrix[word][tags] = count(word, tag)
@@ -134,7 +196,3 @@ With the emission probability, one way to predict labels of a given corpus is to
 Then the object labels the input file with emission probability MLE and writes the labeled corpus into output file. 
 
 When *p* is set True, the word would be processed with toolbox before computing emission probability.
-
-
- 
-	
