@@ -1,6 +1,5 @@
 import time
 import string
-import numpy as np
 class transition(object):
     def __init__(self):
         self.start = {}
@@ -70,22 +69,22 @@ class transition(object):
         if fword in self.matrix:
             if nword in self.matrix[fword]:
                 if fword in self.states:
-                    return np.float64(self.matrix[fword][nword]*1.0)/np.float64(self.states[fword])
+                    return self.matrix[fword][nword]*1.0/self.states[fword]
                 else :
                     raise RuntimeError("current tag:"+fword+"\n never occurred in train data")
             else :
-                return np.float64(0)
+                return 0
         else :
-            return np.float64(0)
+            return 0
 # compute the probability the sentence starts with the given word
     def startwith(self, word) :
         if word in self.start:
-            return np.float64(self.start[word]*1.0) / np.float64(self.states['START'])
+            return self.start[word]*1.0 / self.states['START']
         else:
-            return np.float64(0)
+            return 0
 # compute the probability that the sentence stops with the word
     def stopwith(self, word) :
         if word in self.stop:
-            return np.float64(self.stop[word]*1.0)/np.float64(self.states[word])
+            return self.stop[word]*1.0/self.states[word]
         else :
-            return np.float64(0)
+            return 0

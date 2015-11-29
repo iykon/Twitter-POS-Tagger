@@ -2,7 +2,6 @@ import emission as em
 import toolbox as tool
 import transition as tr
 import time
-import numpy as np
 # This class could maintain the N-best route to one possible tag at one position
 class worditem(object):
     def __init__(self, word, prob, m):
@@ -78,7 +77,7 @@ def viterbi_best(e, t, infile, outfile, p=True):
                 START = False
             elif line == '\n':
                 # print "STOP"
-                bestprob = np.float64(0)
+                bestprob = 0
                 endtag = ""
                 for tag in e.labels.keys():
                     tags[tag] = t.stopwith(tag) * matrix[i - 1][tag]
@@ -274,37 +273,37 @@ def main():
     tool.preprocess('../data/POS/train', '../data/POS/ptrain')
     tool.preprocess('../data/NPC/train', '../data/NPC/ptrain')
 
-    # e0 = em.emission()
-    # t0 = tr.transition()
-    # print "without preprocessor"
-    # e0.compute('../data/POS/train')
-    # t0.compute('../data/POS/train')
-    # e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out',p=False)
-    # print "POS,MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
-    # viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out',p=False)
-    # print "POS,DP:", tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
-    # start = time.clock()
-    # viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=10, p=False)
-    # print "runtime:",time.clock()-start
-    # c = 1
-    # while c<=10:
-        # print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
-        # c+=1
+    e0 = em.emission()
+    t0 = tr.transition()
+    print "without preprocessor"
+    e0.compute('../data/POS/train')
+    t0.compute('../data/POS/train')
+    e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out',p=False)
+    print "POS,MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
+    viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out',p=False)
+    print "POS,DP:", tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
+    start = time.clock()
+    viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=10, p=False)
+    print "runtime:",time.clock()-start
+    c = 1
+    while c<=10:
+        print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
+        c+=1
 
-    # print "with preprocessor"
-    # e0.compute('../data/POS/ptrain')
-    # t0.compute('../data/POS/ptrain')
-    # e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out')
-    # print "POS, MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
-    # viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out')
-    # print "POS, DP:",tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
-    # start = time.clock()
-    # viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=10)
-    # print "runtime:",time.clock() - start
-    # c = 1
-    # while c <= 10:
-        # print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
-        # c += 1
+    print "with preprocessor"
+    e0.compute('../data/POS/ptrain')
+    t0.compute('../data/POS/ptrain')
+    e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out')
+    print "POS, MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
+    viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out')
+    print "POS, DP:",tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
+    start = time.clock()
+    viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=10)
+    print "runtime:",time.clock() - start
+    c = 1
+    while c <= 10:
+        print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
+        c += 1
 
     e1 = em.emission()
     t1 = tr.transition()
