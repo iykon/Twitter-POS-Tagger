@@ -4,37 +4,53 @@ import transition as tr
 import time
 import numpy as np
 # This class could maintain the N-best route to one possible tag at one position
+class worditem(object):
+    def __init__(self, word, prob, m):
+        self.word = word
+        self.score = prob
+        self.path = m
 class NBest(object):
     def __init__(self, n):
-        self.label = []
-        self.score = []
-        self.args = []
-        self.num = []
+        self.elements=[None,]
         self.N = n
 # add new tag, its probability and number into the array
+# maintain this entire array with a heap
     def add(self, word, prob, m):
-        self.label.append(word)
-        self.score.append(prob)
-        self.num.append(m)
+        a = worditem(word,prob,m)
+        self.elements.append(a)
+        i = len(self.elements)-1
+        while self.elements[i/2] is not None and self.elements[i/2].score<a.score:
+            self.elements[i] = self.elements[i/2]
+            i = i/2
+        self.elements[i] = a
+    def deleteMax(self) :
+        a = self.elements[1]
+        b = self.elements.pop()
+        i = 1;
+        while i*2<len(self.elements):
+            child = i*2
+            if child+1<len(self.elements) and self.elements[child+1].score>self.elements[child].score:
+                child+=1
+            if self.elements[child].score > b.score:
+                self.elements[i] = self.elements[child]
+            else:
+                break;
+            i = child
+# avoid indexing zero
+        if i<len(self.elements):
+            self.elements[i] = b
+        return a
 # get the first N from them
     def best(self):
-        self.args = np.argsort(self.score)[-self.N:]
-        blabel = []
-        bscore = []
-        bnum = []
-        for i in self.args:
-            blabel.append(self.label[i])
-            bscore.append(self.score[i])
-            bnum.append(self.num[i])
-        blabel.reverse()
-        bscore.reverse()
-        bnum.reverse()
-        self.label = blabel
-        self.score = bscore
-        self.num = bnum
+        belement = []
+        i = 1
+        while i<=self.N and len(self.elements)>1:
+            belement.append(self.deleteMax())
+            i+=1
+        self.elements = belement
 # get the first i-th label in the array
     def pop(self,i):
-        return self.label.pop(i)
+        return self.elements.pop(i)
 # the algorithm to get the best 1 path, deprecated, there exists one more general method, see viterbi_NBest
 def viterbi_best(e, t, infile, outfile, p=True):
     try:
@@ -69,6 +85,7 @@ def viterbi_best(e, t, infile, outfile, p=True):
                     if tags[tag] >= bestprob:
                         bestprob = tags[tag]
                         endtag = tag
+                # print "endsentence:",endtag," score:",bestprob
                 # print i,":",bestprob
                 # print endtag,":",bestprob
                 # print "best score of this sentence:", bestprob
@@ -93,7 +110,7 @@ def viterbi_best(e, t, infile, outfile, p=True):
                             tags[tag] = prob
                             fromtag[tag] = ftag
                     # print "after compute:"
-                    # print fromtag[tag],"-->",tag,":",tags[tag]
+                    # print "*****chosen:",fromtag[tag],"-->",tag,":",tags[tag] 
                 # print tags
                 # print fromtag
                 matrix.append(tags)
@@ -110,6 +127,7 @@ def viterbi_best(e, t, infile, outfile, p=True):
                     # print "end sentence:"
                     # print "tag:", lasttag
                     # print "score:",matrix[i][lasttag]
+                    # print "endsentence:",lasttag, "   score:", matrix[i][lasttag]
                     # print "score:",matrix[i][lasttag].hex()
                     # print "type:", type(matrix[i][lasttag])
                     finalpath.append(lasttag)
@@ -119,6 +137,7 @@ def viterbi_best(e, t, infile, outfile, p=True):
                 word = inlines[i].strip()
                 if isinstance(path[i], dict):
                     lasttag = path[i][lasttag]
+                    # print "within sentence:", lasttag, "   score:",matrix[i][lasttag]
                     # print "in sentence:"
                     # print "tag: ", lasttag
                     # print "score:", matrix[i][lasttag]
@@ -145,6 +164,7 @@ def viterbi_best(e, t, infile, outfile, p=True):
             inf.close()
         if outf:
             outf.close()
+
 # this algorihtm calculates first N best paths
 def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
     try:
@@ -173,10 +193,11 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                         raise RuntimeError("Sentence has no words")
                     else:
                         b = matrix[i - 1][tag]
-                        for j in range(len(b.label)):
-                            prob = b.score[j] * t.stopwith(tag)
+                        for j in range(len(b.elements)):
+                            prob = b.elements[j].score * t.stopwith(tag)
                             nb.add(tag, prob,j)
                 nb.best()
+                # print "end sentence:",nb.elements[0].word,"score:",nb.elements[0].score, "from:",nb.elements[0].path
                 matrix.append(nb)
             else:
                 tags = {}
@@ -193,52 +214,48 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                         # from the third word of the sentence
                         else:
                             b = matrix[i - 1][ftag]
-                            for j in range(len(b.label)):
-                                prob = b.score[j] * t.transit(ftag, tag) * e.emit(word, tag, p)
+                            for j in range(len(b.elements)):
+                                prob = b.elements[j].score * t.transit(ftag, tag) * e.emit(word, tag, p)
+                                # print ftag,"-->",tag,":", prob
                                 nb.add(ftag, prob,j)
                     nb.best()
+                    # print "******chosen:",nb.elements[0].word,"-->",tag,":",nb.elements[0].score
                     tags[tag] = nb
                 matrix.append(tags)
         # decode the sentence
+        # print "DECODING"
         count.reverse()
-        lastword = []
-        lastnum = []
-        lastscore = []
+        lastelement = []
         for i in count:
             line = inlines[i]
             # end of a sentence, get all the final tags
             if line == '\n':
                 nb = matrix[i]
-                lastword = nb.label
-                lastnum = nb.num
-                lastscore = nb.score
+                lastelement = nb.elements
                 outlines.append('\n')
+                # print "endsentence:",lastelement[0].word, "score:",lastelement[0].score, "from:" ,lastelement[0].path
             # in the sentence, extract all current tags from the result stored in the position behind
             else:
-                currentlastword = []
-                currentlastnum = []
-                currentlastscore = []
+                currentlastelement = []
                 word = line.strip()
-                cnt = range(len(lastword))
+                cnt = range(len(lastelement))
                 for j in cnt:
-                    lw = lastword[j]
-                    nm = lastnum[j]
-                    scr = lastscore[j]
+                    lw = lastelement[j].word
+                    nm = lastelement[j].path
+                    scr = lastelement[j].score
                     if scr == 0:
                         lw = e.mostprob()
                     word = word + ' ' + lw
+                    # print "word:",word
                     nb = matrix[i][lw]
                     if isinstance(nb, float):
                         # the first word in a sentence, do nothing
                         continue
                     else:
                         # get the tags of previous position
-                        currentlastword.append(nb.label[nm])
-                        currentlastnum.append(nb.num[nm])
-                        currentlastscore.append(nb.score[nm])
-                lastword = currentlastword
-                lastnum = currentlastnum
-                lastscore = currentlastscore
+                        currentlastelement.append(nb.elements[nm])
+                        # print j,"-th, within sentence:",currentlastelement[0].word, "score:",currentlastelement[0].score, "from:", currentlastelement[0].path
+                lastelement = currentlastelement
                 word += '\n'
                 outlines.append(word)
         outlines.reverse()
@@ -257,37 +274,37 @@ def main():
     tool.preprocess('../data/POS/train', '../data/POS/ptrain')
     tool.preprocess('../data/NPC/train', '../data/NPC/ptrain')
 
-    e0 = em.emission()
-    t0 = tr.transition()
-    print "without preprocessor"
-    e0.compute('../data/POS/train')
-    t0.compute('../data/POS/train')
-    e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out',p=False)
-    print "POS,MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
-    viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out',p=False)
-    print "POS,DP:", tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
-    start = time.clock()
-    viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=10, p=False)
-    print "runtime:",time.clock()-start
-    c = 1
-    while c<=10:
-        print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
-        c+=1
+    # e0 = em.emission()
+    # t0 = tr.transition()
+    # print "without preprocessor"
+    # e0.compute('../data/POS/train')
+    # t0.compute('../data/POS/train')
+    # e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out',p=False)
+    # print "POS,MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
+    # viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out',p=False)
+    # print "POS,DP:", tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
+    # start = time.clock()
+    # viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=10, p=False)
+    # print "runtime:",time.clock()-start
+    # c = 1
+    # while c<=10:
+        # print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
+        # c+=1
 
-    print "with preprocessor"
-    e0.compute('../data/POS/ptrain')
-    t0.compute('../data/POS/ptrain')
-    e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out')
-    print "POS, MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
-    viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out')
-    print "POS, DP:",tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
-    start = time.clock()
-    viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=10)
-    print "runtime:",time.clock() - start
-    c = 1
-    while c <= 10:
-        print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
-        c += 1
+    # print "with preprocessor"
+    # e0.compute('../data/POS/ptrain')
+    # t0.compute('../data/POS/ptrain')
+    # e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out')
+    # print "POS, MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
+    # viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out')
+    # print "POS, DP:",tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
+    # start = time.clock()
+    # viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=10)
+    # print "runtime:",time.clock() - start
+    # c = 1
+    # while c <= 10:
+        # print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
+        # c += 1
 
     e1 = em.emission()
     t1 = tr.transition()
