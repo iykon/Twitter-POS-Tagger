@@ -66,7 +66,12 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
         count = range(len(inlines))
         matrix = []
         outlines = []
+        start = time.clock()
         for i in count:
+            print "i:",i,"time", time.clock() - start
+            start = time.clock()
+            # print "START:",START
+            # print "SECSTART:", SECSTART
             line = inlines[i]
             # calculate all possible tags and its score and which path of previous tag this path comes from
             if START is True and SECSTART is True:
@@ -82,7 +87,7 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                 for tag in e.labels:
                     tags[tag] = {}
                     for lword in e.labels:
-                        tags[tag][lword] = 1.0*t.transit('START',lword,tag) * e.emit(word,tag,p)
+                        tags[tag][lword] = 1.0*matrix[i-1][lword]*t.transit('START',lword,tag) * e.emit(word,tag,p)
                 matrix.append(tags)
                 SECSTART = False
             elif line == '\n':
@@ -113,16 +118,16 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                 nb.best()
                 matrix.append(nb)
                 # print "end sentence:",nb.elements[0].word,"score:",nb.elements[0].score, "from:",nb.elements[0].path
-                matrix.append(nb)
             else:
                 tags = {}
                 word = line.strip()
                 for tag in e.labels:
-                    nb = NBest(best)
                     for lword in e.labels:
+                        nb = NBest(best)
                         for llword in e.labels:
                             # third word in the sentence
                             if isinstance(matrix[i-1][lword][llword],float) :
+                                # print "third word in a sentence"
                                 prob = 1.0*matrix[i-1][lword][llword]*t.transit(llword,lword,tag)*e.emit(word,tag,p)
                                 nb.add(llword,lword,prob,-1)
                             # after the third word in the sentence
@@ -131,14 +136,19 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                                 for j in range(len(b.elements)):
                                     prob = 1.0*b.elements[j].score*t.transit(llword,lword,tag)*e.emit(word,tag,p)
                                     nb.add(llword, lword, prob, j)
-                    nb.best()
+                        nb.best()
                     # print "******chosen:",nb.elements[0].word,"-->",tag,":",nb.elements[0].score
-                    tags[tag] = nb
+                        if tag not in tags:
+                            tags[tag] = {}
+                        tags[tag][lword] = nb
                 matrix.append(tags)
         # decode the sentence
         # print "DECODING"
         count.reverse()
         lastelement = []
+        SECHEAD = False
+        HEAD = False
+        ONEHEAD = False
         for i in count:
             line = inlines[i]
             # end of a sentence, get all the final tags
@@ -146,34 +156,61 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                 nb = matrix[i]
                 lastelement = nb.elements
                 outlines.append('\n')
-
+                tlw = nb.elements[0].lword
+                tllw = nb.elements[0].llword
+                if tlw == 'START' and tllw == 'START':
+                    raise RuntimeError("Sentence appears START->STOP")
+                elif tllw == 'START':
+                    #this sentence has only one word
+                    ONEHEAD = True
+                elif isinstance(matrix[i-1][tlw][tllw],float) and isinstance(matrix[i-2][tllw],float):
+                    SECHEAD = True
+                    HEAD = False
                 # print "endsentence:",lastelement[0].word, "score:",lastelement[0].score, "from:" ,lastelement[0].path
+            elif SECHEAD is True and HEAD is False:
+                word = line.strip()
+                for j in range(len(lastelement)):
+                    word= word +' '+lastelement[j].lword
+                outlines.append(word)
+                SECHEAD = False
+                HEAD = True
+            elif SECHEAD is False and HEAD is True:
+                word = line.strip()
+                for j in range(len(lastelement)):
+                    word = word + ' ' + lastelement[j].llword
+                outlines.append(word)
+                SECHEAD = False
+                HEAD = False
+            elif ONEHEAD is True:
+                word = line.strip()
+                for j in range(len(lastelement)):
+                    word = word + ' '+lastelement[j].lword
+                outlines.append(word)
+                ONEHEAD = False
             # in the sentence, extract all current tags from the result stored in the position behind
             else:
                 currentlastelement = []
                 word = line.strip()
-                cnt = range(len(lastelement))
-                for j in cnt:
+                for j in range(len(lastelement)):
                     llw = lastelement[j].llword
                     lw = lastelement[j].lword
                     nm = lastelement[j].path
                     scr = lastelement[j].score
-                    if isinstance(matrix[i-1][lw],float)
                     if scr == 0:
-                        lw = e.mostprob()
-                    word = word + ' ' + lw
-
+                        word = word + ' '+e.mostprob()
+                    else :
+                        word = word + ' '+ lw
                     # print "word:",word
-                    nb = matrix[i][lw]
-                    if isinstance(nb, float):
-                        # the first word in a sentence, do nothing
-                        continue
-                    else:
-                        # get the tags of previous position
-                        currentlastelement.append(nb.elements[nm])
-                        # print j,"-th, within sentence:",currentlastelement[0].word, "score:",currentlastelement[0].score, "from:", currentlastelement[0].path
+                    nb = matrix[i][lw][llw]
+                    # get the tags of previous position
+                    currentlastelement.append(nb.elements[nm])
+                    # print j,"-th, within sentence:",currentlastelement[0].word, "score:",currentlastelement[0].score, "from:", currentlastelement[0].path
                 lastelement = currentlastelement
-                word += '\n'
+                tlw = lastelement[0].lword
+                tllw = lastelement[0].llword
+                if isinstance(matrix[i-1][tlw][tllw],float) and isinstance(matrix[i-2][tllw],float):
+                    SECHEAD = True
+                    HEAD = False
                 outlines.append(word)
         outlines.reverse()
         outf.writelines(outlines)
@@ -197,9 +234,9 @@ def main():
     e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out',p=False)
     print "POS,MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
     print "POS,MLE likelihood:", e0.filelikelihood("../data/POS/dev.p2.out",p=False)
-    viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out',p=False)
-    print "POS,DP:", tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
-    print "POS,DP likelihood:", e0.filelikelihood("../data/POS/dev.p3.out", p=False)
+    # viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out',p=False)
+    # print "POS,DP:", tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
+    # print "POS,DP likelihood:", e0.filelikelihood("../data/POS/dev.p3.out", p=False)
     start = time.clock()
     viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=10, p=False)
     print "runtime:",time.clock()-start
@@ -215,9 +252,9 @@ def main():
     e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out')
     print "POS, MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
     print "POS, MLE, likelihood:",e0.filelikelihood("../data/POS/dev.p2.out")
-    viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out')
-    print "POS, DP:",tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
-    print "POS, DP likelihood:", e0.filelikelihood("../data/POS/dev.p3.out")
+    # viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out')
+    # print "POS, DP:",tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
+    # print "POS, DP likelihood:", e0.filelikelihood("../data/POS/dev.p3.out")
     start = time.clock()
     viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=10)
     print "runtime:",time.clock() - start
@@ -235,9 +272,9 @@ def main():
     e1.predict('../data/NPC/dev.in','../data/NPC/dev.p2.out',p=False)
     print "NPC,MLE:", tool.evaluate('../data/NPC/dev.p2.out','../data/NPC/dev.out')
     print "NPC,MLE likelihood:", e1.filelikelihood("../data/NPC/dev.p2.out",p=False)
-    viterbi_best(e1,t1,'../data/NPC/dev.in','../data/NPC/dev.p3.out',p=False)
-    print "NPC,DP:", tool.evaluate('../data/NPC/dev.p3.out','../data/NPC/dev.out')
-    print "NPC,DP likelihood:", e1.filelikelihood("../data/NPC/dev.p3.out",p=False)
+    # viterbi_best(e1,t1,'../data/NPC/dev.in','../data/NPC/dev.p3.out',p=False)
+    # print "NPC,DP:", tool.evaluate('../data/NPC/dev.p3.out','../data/NPC/dev.out')
+    # print "NPC,DP likelihood:", e1.filelikelihood("../data/NPC/dev.p3.out",p=False)
     start = time.clock()
     viterbi_Nbest(e1, t1, '../data/NPC/dev.in', '../data/NPC/dev.p4.out', best=10, p=False)
     print "runtime:",time.clock() - start
@@ -253,9 +290,9 @@ def main():
     e1.predict('../data/NPC/dev.in','../data/NPC/dev.p2.out')
     print 'NPC, MLE:', tool.evaluate('../data/NPC/dev.p2.out','../data/NPC/dev.out')
     print "NPC, MLE likelihood:", e1.filelikelihood("../data/NPC/dev.p2.out")
-    viterbi_best(e1,t1,'../data/NPC/dev.in','../data/NPC/dev.p3.out')
-    print 'NPC, DP:',tool.evaluate('../data/NPC/dev.p3.out','../data/NPC/dev.out')
-    print "NPC, DP likelihood:", e1.filelikelihood("../data/NPC/dev.p3.out")
+    # viterbi_best(e1,t1,'../data/NPC/dev.in','../data/NPC/dev.p3.out')
+    # print 'NPC, DP:',tool.evaluate('../data/NPC/dev.p3.out','../data/NPC/dev.out')
+    # print "NPC, DP likelihood:", e1.filelikelihood("../data/NPC/dev.p3.out")
     start = time.clock()
     viterbi_Nbest(e1, t1, '../data/NPC/dev.in', '../data/NPC/dev.p4.out', best=10)
     print "runtime:",time.clock()-start
