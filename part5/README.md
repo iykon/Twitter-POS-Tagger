@@ -2,6 +2,8 @@
 
 ##Some improvements are done to the algorihtm
 
+### improvments on emission probability
+
 1. For new words, the emission probability estimator is changed to:
 $$e(word, tag) = \frac{count(tag)}{count(tag)+1}$$
 the basic thought is to let our algorithm tend to choose more frequent tags when we meet new words. it does help to improve the result.
@@ -114,3 +116,116 @@ runtime: 19.830939
 9 :NPC, DP2 likelihood: 0.0563927489684
 10 :NPC, DP2: 0.259135007707
 10 :NPC, DP2 likelihood: 0.0558497823595
+
+
+###improvments on transition probability
+
+use sigmoid funcition to process the transition probability:
+$$P(A->B)= \frac{count(A,B)}{count(A)}$$
+$$score(A->B) = \frac{1}{1+e^{-P(A->B)}}$$
+this helps to eliminate the number of scoreing zero, and makes the transition probability smoother, but the resulit is not strictly better:
+
+without preprocessor
+POS,MLE: 0.340717299578
+POS,MLE likelihood: 0.44939194816
+POS,DP: 0.338607594937
+POS,DP likelihood: 0.447725585813
+runtime: 164.406103
+1 :POS, DP2: 0.338607594937
+1 :POS, DP2 likelihood: 0.447725585813
+2 :POS, DP2: 0.342827004219
+2 :POS, DP2 likelihood: 0.447677061891
+3 :POS, DP2: 0.344936708861
+3 :POS, DP2 likelihood: 0.447762945438
+4 :POS, DP2: 0.346694796062
+4 :POS, DP2 likelihood: 0.447722619298
+5 :POS, DP2: 0.34423347398
+5 :POS, DP2 likelihood: 0.447312928638
+6 :POS, DP2: 0.345991561181
+6 :POS, DP2 likelihood: 0.447279854964
+7 :POS, DP2: 0.349859353024
+7 :POS, DP2 likelihood: 0.447446308868
+8 :POS, DP2: 0.351617440225
+8 :POS, DP2 likelihood: 0.447421767345
+9 :POS, DP2: 0.348101265823
+9 :POS, DP2 likelihood: 0.447532348044
+10 :POS, DP2: 0.344585091421
+10 :POS, DP2 likelihood: 0.447574051977
+with preprocessor
+POS, MLE: 0.322784810127
+POS, MLE, likelihood: 0.424347590673
+POS, DP: 0.31223628692
+POS, DP likelihood: 0.422950833255
+runtime: 298.812549
+1 :POS, DP2: 0.31223628692
+1 :POS, DP2 likelihood: 0.422950833255
+2 :POS, DP2: 0.317862165963
+2 :POS, DP2 likelihood: 0.422875078737
+3 :POS, DP2: 0.319971870605
+3 :POS, DP2 likelihood: 0.422931372681
+4 :POS, DP2: 0.321729957806
+4 :POS, DP2 likelihood: 0.422921521773
+5 :POS, DP2: 0.320675105485
+5 :POS, DP2 likelihood: 0.42242411522
+6 :POS, DP2: 0.322081575246
+6 :POS, DP2 likelihood: 0.422365850007
+7 :POS, DP2: 0.324894514768
+7 :POS, DP2 likelihood: 0.422752414981
+8 :POS, DP2: 0.325949367089
+8 :POS, DP2 likelihood: 0.422580710667
+9 :POS, DP2: 0.323136427567
+9 :POS, DP2 likelihood: 0.422527864325
+10 :POS, DP2: 0.316807313643
+10 :POS, DP2 likelihood: 0.422535571169
+without preprocessor
+NPC,MLE: 0.242995738508
+NPC,MLE likelihood: 0.0923896897338
+NPC,DP: 0.229002327198
+NPC,DP likelihood: 0.0923823736945
+runtime: 15.06673
+1 :NPC, DP2: 0.229002327198
+1 :NPC, DP2 likelihood: 0.0923823736945
+2 :NPC, DP2: 0.260495058482
+2 :NPC, DP2 likelihood: 0.0922256657483
+3 :NPC, DP2: 0.270680327621
+3 :NPC, DP2 likelihood: 0.0920853916788
+4 :NPC, DP2: 0.268836703237
+4 :NPC, DP2 likelihood: 0.0918950406958
+5 :NPC, DP2: 0.277873485055
+5 :NPC, DP2 likelihood: 0.0917940096101
+6 :NPC, DP2: 0.283132348052
+6 :NPC, DP2 likelihood: 0.0917895174067
+7 :NPC, DP2: 0.282286094236
+7 :NPC, DP2 likelihood: 0.0916623471207
+8 :NPC, DP2: 0.285882672953
+8 :NPC, DP2 likelihood: 0.0916222498843
+9 :NPC, DP2: 0.290174388733
+9 :NPC, DP2 likelihood: 0.0915718227112
+10 :NPC, DP2: 0.284885302385
+10 :NPC, DP2 likelihood: 0.0916242374961
+with preprocessor
+NPC, MLE: 0.269259830145
+NPC, MLE likelihood: 0.0597943008795
+NPC, DP: 0.251458276665
+NPC, DP likelihood: 0.05978741087
+runtime: 22.890641
+1 :NPC, DP2: 0.251488500015
+1 :NPC, DP2 likelihood: 0.05978741087
+2 :NPC, DP2: 0.277964155106
+2 :NPC, DP2 likelihood: 0.0595705312647
+3 :NPC, DP2: 0.287031160274
+3 :NPC, DP2 likelihood: 0.059437769455
+4 :NPC, DP2: 0.289630368423
+4 :NPC, DP2 likelihood: 0.0592650641459
+5 :NPC, DP2: 0.294012754254
+5 :NPC, DP2 likelihood: 0.0592097676048
+6 :NPC, DP2: 0.300601444676
+6 :NPC, DP2 likelihood: 0.0591060975212
+7 :NPC, DP2: 0.299241393901
+7 :NPC, DP2 likelihood: 0.0590036348591
+8 :NPC, DP2: 0.303563333031
+8 :NPC, DP2 likelihood: 0.0590047718958
+9 :NPC, DP2: 0.306887901593
+9 :NPC, DP2 likelihood: 0.0588909195661
+10 :NPC, DP2: 0.30564874422
+10 :NPC, DP2 likelihood: 0.0588598178468

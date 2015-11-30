@@ -1,5 +1,8 @@
 import time
 import string
+import math
+def sigmoid(a):
+    return 1.0/(1.0+math.exp(-a))
 class transition(object):
     def __init__(self):
         self.start = {}
@@ -69,22 +72,22 @@ class transition(object):
         if fword in self.matrix:
             if nword in self.matrix[fword]:
                 if fword in self.states:
-                    return self.matrix[fword][nword]*1.0/self.states[fword]
+                    return sigmoid(self.matrix[fword][nword]*1.0/self.states[fword])
                 else :
                     raise RuntimeError("current tag:"+fword+"\n never occurred in train data")
             else :
-                return 0
+                return sigmoid(0)
         else :
-            return 0
+            return sigmoid(0)
 # compute the probability the sentence starts with the given word
     def startwith(self, word) :
         if word in self.start:
-            return self.start[word]*1.0 / self.states['START']
+            return sigmoid(self.start[word]*1.0 / self.states['START'])
         else:
-            return 0
+            return sigmoid(0)
 # compute the probability that the sentence stops with the word
     def stopwith(self, word) :
         if word in self.stop:
-            return self.stop[word]*1.0/self.states[word]
+            return sigmoid(self.stop[word]*1.0/self.states[word])
         else :
-            return 0
+            return sigmoid(0)
