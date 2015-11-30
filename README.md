@@ -70,6 +70,7 @@ runtime: 23.08525
 8 :NPC, DP2: 0.275425393659
 9 :NPC, DP2: 0.267144195606
 10 :NPC, DP2: 0.257142857143
+
 ##toolbox.py
 This module provides the tools that facilitates other modules, including preprocessor and evaluation methods:
 ####Preprocessor
@@ -188,6 +189,56 @@ After this step the *matrix* and *labels* in emission classes is computed.
 ####guess the most probable tag
 	e.mostprob()
 It occurs in Hidden Markov Model that at some points in a sentence, all possible tags score 0. When it occurs such scenario one enhacement is tag this position as the most probable label among all possible labels.
+
+Another try: only change the word guess at 0 score point but don't change the original path, the result proves to be worse than before 
+without preprocessor
+runtime: 160.738827
+1 :POS, DP2: 0.387834036568
+2 :POS, DP2: 0.393108298172
+3 :POS, DP2: 0.396272855134
+4 :POS, DP2: 0.393459915612
+5 :POS, DP2: 0.399789029536
+6 :POS, DP2: 0.396976090014
+7 :POS, DP2: 0.403305203938
+8 :POS, DP2: 0.397679324895
+9 :POS, DP2: 0.403656821378
+10 :POS, DP2: 0.401195499297
+with preprocessor
+runtime: 274.522126
+1 :POS, DP2: 0.340014064698
+2 :POS, DP2: 0.347046413502
+3 :POS, DP2: 0.352672292546
+4 :POS, DP2: 0.352320675105
+5 :POS, DP2: 0.353375527426
+6 :POS, DP2: 0.356188466948
+7 :POS, DP2: 0.356891701828
+8 :POS, DP2: 0.353727144866
+9 :POS, DP2: 0.356188466948
+10 :POS, DP2: 0.360759493671
+without preprocessor
+runtime: 13.108931
+1 :NPC, DP2: 0.224136367758
+2 :NPC, DP2: 0.24311663191
+3 :NPC, DP2: 0.244265119231
+4 :NPC, DP2: 0.255659322392
+5 :NPC, DP2: 0.257291383323
+6 :NPC, DP2: 0.264333424003
+7 :NPC, DP2: 0.262610693021
+8 :NPC, DP2: 0.269682957053
+9 :NPC, DP2: 0.26738598241
+10 :NPC, DP2: 0.271428571429
+with preprocessor
+runtime: 20.377208
+1 :NPC, DP2: 0.216036509807
+2 :NPC, DP2: 0.236739504942
+3 :NPC, DP2: 0.240819657267
+4 :NPC, DP2: 0.255719769094
+5 :NPC, DP2: 0.256566022909
+6 :NPC, DP2: 0.264877444313
+7 :NPC, DP2: 0.266358388491
+8 :NPC, DP2: 0.274065342884
+9 :NPC, DP2: 0.267476652462
+10 :NPC, DP2: 0.285714285714
 
 ####MLE predictor:
 With the emission probability, one way to predict labels of a given corpus is to use Maximal Likelihood, that is, to find out the most probable tag for the word under emission probability.
