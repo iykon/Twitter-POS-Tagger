@@ -1,6 +1,7 @@
 import emission as em
 import toolbox as tool
-import transition as tr
+import bi_transition as bitr
+import tri_transition as tritr
 import time
 # This class could maintain the N-best route to one possible tag at one position
 class worditem(object):
@@ -54,9 +55,121 @@ class NBest(object):
 # get the first i-th label in the array
     def pop(self,i):
         return self.elements.pop(i)
+def viterbi_best(e, t, infile, outfile, p=True):
+    try:
+        inf = open(infile, 'r')
+        outf = open(outfile, 'w')
+        inlines = inf.readlines()
+        START = True
 
+        matrix = []
+        path = []
+
+        rg = range(len(inlines))
+        for i in rg:
+            # print "loop:",i
+            line = inlines[i]
+            tags = {}
+            if START and line!='\n' and line!='\r\n':
+                # print "START"
+                word = line.strip().split()[0]
+                # print word
+                for tag in e.labels.keys():
+                    tags[tag] = t.startwith(tag) * e.emit(word, tag, p)
+                # print tags
+                matrix.append(tags)
+                path.append(None)
+                START = False
+            elif line == '\n' or line=='\r\n':
+                # print "STOP"
+                bestprob = 0
+                endtag = ""
+                for tag in e.labels.keys():
+                    tags[tag] = t.stopwith(tag) * matrix[i - 1][tag]
+                    if tags[tag] >= bestprob:
+                        bestprob = tags[tag]
+                        endtag = tag
+                # print "endsentence:",endtag," score:",bestprob
+                # print i,":",bestprob
+                # print endtag,":",bestprob
+                # print "best score of this sentence:", bestprob
+                # print bestprob.hex()
+                # print "type:",type(bestprob)
+                matrix.append(tags)
+                path.append(endtag)
+                START = True
+            else:
+                # print "in sentence"
+                word = line.strip().split()[0]
+                # print "word:",word
+                fromtag = {}
+                for tag in e.labels.keys():
+                    for ftag in e.labels.keys():
+                        prob = matrix[i - 1][ftag] * t.transit(ftag, tag) * e.emit(word, tag, p)
+                        # print ftag,"-->",tag,":",prob
+                        if tag not in tags:
+                            tags[tag] = prob
+                            fromtag[tag] = ftag
+                        elif tags[tag] <= prob:
+                            tags[tag] = prob
+                            fromtag[tag] = ftag
+                    # print "after compute:"
+                    # print "*****chosen:",fromtag[tag],"-->",tag,":",tags[tag] 
+                # print tags
+                # print fromtag
+                matrix.append(tags)
+                path.append(fromtag)
+
+        rg.reverse()
+        finalpath = []
+        lasttag = ""
+        for i in rg:
+            if inlines[i] == '\n':
+                if isinstance(path[i], str):
+                    lasttag = path[i]
+                    # print "i:",i
+                    # print "end sentence:"
+                    # print "tag:", lasttag
+                    # print "score:",matrix[i][lasttag]
+                    # print "endsentence:",lasttag, "   score:", matrix[i][lasttag]
+                    # print "score:",matrix[i][lasttag].hex()
+                    # print "type:", type(matrix[i][lasttag])
+                    finalpath.append(lasttag)
+                else:
+                    raise RuntimeError("endtag must be determined")
+            elif path[i] is not None:
+                word = inlines[i].strip().split()[0]
+                if isinstance(path[i], dict):
+                    lasttag = path[i][lasttag]
+                    # print "within sentence:", lasttag, "   score:",matrix[i][lasttag]
+                    # print "in sentence:"
+                    # print "tag: ", lasttag
+                    # print "score:", matrix[i][lasttag]
+                    # print "score: ", matrix[i][lasttag].hex()
+                    # print "type:" , type(matrix[i][lasttag])
+                    finalpath.append(lasttag)
+                else:
+                    raise RuntimeError("in text must correspond to a dict")
+        outlines = []
+        for line in inlines:
+            if line == '\n':
+                outlines.append('\n')
+                continue
+            else:
+                word = line.strip().split()[0]
+                tag = finalpath.pop()
+                outlines.append(word + " " + tag + "\n")
+        outf.writelines(outlines)
+    except IOError, e:
+        print e
+        exit(0)
+    finally:
+        if inf:
+            inf.close()
+        if outf:
+            outf.close()
 # this algorihtm calculates first N best paths
-def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
+def viterbi_Nbest(e, bt, tt, infile, outfile,lambda0=0.4, lambda1=0.5, lambda2=0.1, best=10, p=True):
     try:
         inf = open(infile, 'r')
         outf = open(outfile, 'w')
@@ -68,6 +181,7 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
         outlines = []
         start = time.clock()
         for i in count:
+            print "i:",i
             # print "i:",i,"time", time.clock() - start
             # start = time.clock()
             # print "START:",START
@@ -78,7 +192,7 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                 tags = {}
                 word = line.strip()
                 for tag in e.labels:
-                    tags[tag] = 1.0*t.transit('START','START',tag) * e.emit(word, tag, p)
+                    tags[tag] = 1.0*(lambda0+lambda1*bt.startwith(tag)+lambda2*tt.transit('START','START',tag) )* e.emit(word, tag, p)
                 matrix.append(tags)
                 START = False
             elif START is False and SECSTART is True:
@@ -87,7 +201,7 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                 for tag in e.labels:
                     tags[tag] = {}
                     for lword in e.labels:
-                        tags[tag][lword] = 1.0*matrix[i-1][lword]*t.transit('START',lword,tag) * e.emit(word,tag,p)
+                        tags[tag][lword] = 1.0*matrix[i-1][lword]*(lambda0+lambda1*bt.startwith(tag)+lambda2*tt.transit('START',lword,tag))* e.emit(word,tag,p)
                 matrix.append(tags)
                 SECSTART = False
             elif line == '\n':
@@ -100,20 +214,20 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                         raise RuntimeError("Sentence has no words")
                     # sentence havine only one word
                     elif isinstance(matrix[i-1][lword],float):
-                        prob = 1.0 * matrix[i-1][lword]*t.transit('START',lword,'STOP')
+                        prob = 1.0 * matrix[i-1][lword]*(lambda0+lambda1*bt.stopwith(lword)+lambda2*tt.transit('START',lword,'STOP'))
                         nb.add('START',lword,prob,-1)
                     # more than one word
                     else :
                         for llword in e.labels:
                             # sentence has only two words
                             if isinstance(matrix[i-1][lword][llword],float):
-                                prob = 1.0*matrix[i-1][lword][llword]*t.transit(llword,lword,'STOP')
+                                prob = 1.0*matrix[i-1][lword][llword]*(lambda0+lambda1*bt.stopwith(lword)+lambda2*tt.transit(llword,lword,'STOP'))
                                 nb.add(llword,lword,prob,-1)
                             # sentence has more than two words
                             else :
                                 b = matrix[i-1][lword][llword]
                                 for j in range(len(b.elements)):
-                                    prob = 1.0*b.elements[j].score * t.transit(llword,lword,'STOP')
+                                    prob = 1.0*b.elements[j].score *(lambda0+lambda1*bt.stopwith(lword)+lambda2*tt.transit(llword,lword,'STOP'))
                                     nb.add(llword,lword,prob,j)
                 nb.best()
                 print "score:", nb.elements[0].score
@@ -129,13 +243,13 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                             # third word in the sentence
                             if isinstance(matrix[i-1][lword][llword],float) :
                                 # print "third word in a sentence"
-                                prob = 1.0*matrix[i-1][lword][llword]*t.transit(llword,lword,tag)*e.emit(word,tag,p)
+                                prob = 1.0*matrix[i-1][lword][llword]*(lambda0 + lambda1*bt.transit(lword,tag) + lambda2*tt.transit(llword,lword,tag))*e.emit(word,tag,p)
                                 nb.add(llword,lword,prob,-1)
                             # after the third word in the sentence
                             else :
                                 b = matrix[i-1][lword][llword]
                                 for j in range(len(b.elements)):
-                                    prob = 1.0*b.elements[j].score*t.transit(llword,lword,tag)*e.emit(word,tag,p)
+                                    prob = 1.0*b.elements[j].score*(lambda0+lambda1*bt.transit(lword,tag)+lambda2*tt.transit(llword,lword,tag))*e.emit(word,tag,p)
                                     nb.add(llword, lword, prob, j)
                         nb.best()
                     # print "******chosen:",nb.elements[0].word,"-->",tag,":",nb.elements[0].score
@@ -232,7 +346,8 @@ def main():
     tool.preprocess('../data/NPC/train', '../data/NPC/ptrain')
 
     e0 = em.emission()
-    t0 = tr.transition()
+    bt0 = bitr.bi_transition()
+    tt0 = tritr.tri_transition()
     # print "without preprocessor"
     # e0.compute('../data/POS/train')
     # t0.compute('../data/POS/train')
@@ -253,21 +368,24 @@ def main():
 
     print "with preprocessor"
     e0.compute('../data/POS/ptrain')
-    t0.compute('../data/POS/ptrain')
-    e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out')
-    # print "POS, MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
+    bt0.compute('../data/POS/ptrain')
+    tt0.compute('../data/POS/ptrain')
+    e0.predict('../data/POS/test.in','../data/POS/test.p1.out')
+    # era,eno= tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out',col=1,pr=True)
+    # print "error rate:",era
     # print "POS, MLE, likelihood:",e0.filelikelihood("../data/POS/dev.p2.out")
-    # viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out')
-    # print "POS, DP:",tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
+    viterbi_best(e0,bt0,'../data/POS/test.in','../data/POS/test.p2.out')
+    # era,eno = tool.evaluate('../data/POS/train.out','../data/POS/train')
+    # print "POS, DP:", era
     # print "POS, DP likelihood:", e0.filelikelihood("../data/POS/dev.p3.out")
-    start = time.clock()
-    viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=1)
-    print "runtime:",time.clock() - start
-    c = 1
-    while c <= 1:
-        print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
-        print c,":POS, DP2 likelihood:", e0.filelikelihood("../data/POS/dev.p4.out",col=c)
-        c += 1
+    # start = time.clock()
+    # viterbi_Nbest(e0, bt0, tt0, '../data/POS/dev.in', '../data/POS/dev.p4.out',lambda0=0, lambda1=1.0, lambda2=0.0, best=1)
+    # print "runtime:",time.clock() - start
+    # c = 1
+    # while c <= 1:
+        # era, eno = tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c,pr=True)
+        # print c,":POS, DP2:",era       # print c,":POS, DP2 likelihood:", e0.filelikelihood("../data/POS/dev.p4.out",col=c)
+        # c += 1
 
     # e1 = em.emission()
     # t1 = tr.transition()

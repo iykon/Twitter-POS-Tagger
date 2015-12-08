@@ -1,6 +1,6 @@
 import time
 import string
-class transition(object):
+class tri_transition(object):
     def __init__(self):
         self.matrix = {}
         self.states = {}
@@ -64,14 +64,14 @@ class transition(object):
 # within a sentence, calculate the probability that nword is transitioned from fword
     def transit(self,llword,lword,word) :
         if llword not in self.matrix:
-            print "transit 0:", llword,",",lword, "-->", word
+            # print "transit 0:", llword,",",lword, "-->", word
             return 0
         if lword not in self.matrix[llword]:
-            print "transit 0:", llword,",",lword,"-->",word
+            # print "transit 0:", llword,",",lword,"-->",word
             return 0
         if word not in self.matrix[llword][lword]:
-            print "transit 0:", llword,",",lword,"-->",word
+            # print "transit 0:", llword,",",lword,"-->",word
             return 0
         else:
-            print "transit ", self.matrix[llword][lword][word]*1.0/self.states[llword][lword],llword,",",lword,"-->",word
+            # print "transit ", self.matrix[llword][lword][word]*1.0/self.states[llword][lword],llword,",",lword,"-->",word
             return self.matrix[llword][lword][word]*1.0/self.states[llword][lword]

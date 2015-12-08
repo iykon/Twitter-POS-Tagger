@@ -13,8 +13,23 @@ def hasURL(word):
 # other words, erase the punctuations
 def processWord(word):
 # if word has URL, return the word it self
-    # if hasURL(word) :
+    # print word
+    if hasURL(word) :
+        return "URL"
+    if word[0] == '@':
+        return "USR"
+    if word[0] == '#':
+        return 'HT'
+    if word[0] in ['0','1','2','3','4','5','6','7','8','9']:
+        return "DIGIT"
+    # if word == 'RT':
         # return word
+    # if word in ['XD','OMG']:
+        # return 'UH'
+    # if word[0] in string.uppercase and ''.join(ch for ch in word if ch not in string.punctuation)!='' and ''.join(ch for ch in word if ch in string.lowercase)=='':
+        # return 'NNP'
+    # if word[0] in string.uppercase and word not in ['I', 'Im']:
+        # return 'NNP'
     pword = ''.join(ch for ch in word if ch not in string.punctuation)
     if pword == '':
         pword = word
@@ -55,6 +70,7 @@ def evaluate(testfile,answerfile,col=1, pr = False):
     try:
         testf = open(testfile,'r')
         ansf = open(answerfile, 'r')
+        errno = []
 
         test = testf.readlines()
         answer = ansf.readlines()
@@ -77,10 +93,11 @@ def evaluate(testfile,answerfile,col=1, pr = False):
             if t != a :
                 error += 1
                 if pr:
-                    print "i:",i
-                    print "word:",word
-                    print "t:",t
-                    print "a:",a
+                    print i,":",word," ",t," ", a
+                    errno.append(str(i))
+                    # print "word:",word
+                    # print "t:",t
+                    # print "a:",a
             i += 1
     except IOError, e:
         print e
@@ -91,4 +108,7 @@ def evaluate(testfile,answerfile,col=1, pr = False):
         if ansf:
             ansf.close()
         # print 'time:',time.clock()-start
-        return error*1.0/total
+        print "error:",error
+        print "total:",total
+        return error*1.0/total, errno
+

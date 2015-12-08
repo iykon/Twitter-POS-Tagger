@@ -256,7 +256,7 @@ not O
 opening O
 mydoor O
 at O
-3am O
+DIGIT O
 lol O
 
 still O
@@ -488,7 +488,7 @@ i O
 know O
 i O
 eat O
-3 O
+DIGIT O
 ball O
 ony O
 
@@ -504,7 +504,7 @@ how O
 so O
 now O
 got O
-3 B-NP
+DIGIT B-NP
 pp I-NP
 l O
 >< O
@@ -556,7 +556,7 @@ meet O
 leaving O
 hse B-NP
 in O
-5 B-NP
+DIGIT B-NP
 min I-NP
 . O
 
@@ -727,7 +727,7 @@ to O
 keep O
 <#> B-NP
 to O
-1 B-NP
+DIGIT B-NP
 free O
 
 yes O
@@ -790,7 +790,7 @@ tonight B-NP
 !!! O
 chinese O
 until O
-4 O
+DIGIT O
 haha O
 
 heee O
@@ -843,7 +843,7 @@ xx O
 lols O
 ok O
 btw O
-2moro O
+DIGIT O
 dylan O
 say O
 cant O
@@ -863,7 +863,7 @@ lols O
 sry O
 manz B-NP
 bout O
-8 B-NP
+DIGIT B-NP
 reach O
 hostel B-NP
 :/ O
@@ -1323,7 +1323,7 @@ name I-NP
 truman O
 said O
 they O
-4 O
+DIGIT O
 arent O
 going O
 maybe O
@@ -1446,16 +1446,16 @@ shes O
 off O
 only O
 at O
-6pm O
+DIGIT O
 
 the O
 question O
 is O
 implementing O
-2x4 O
+DIGIT O
 decoder O
 on O
-5 O
+DIGIT O
 variable O
 de O
 
@@ -1607,7 +1607,7 @@ tagerror B-NP
 tagerror I-NP
 of O
 platoon O
-5 O
+DIGIT O
 pple O
 then O
 we O
@@ -1812,7 +1812,7 @@ the O
 whole O
 of O
 lorong O
-7 O
+DIGIT O
 doesnt O
 have O
 wirelesssg B-NP
@@ -2227,7 +2227,7 @@ ill B-NP
 be O
 there O
 by O
-9 B-NP
+DIGIT B-NP
 
 people B-NP
 now O
@@ -2334,7 +2334,7 @@ you B-NP
 haha O
 i B-NP
 have O
-2 B-NP
+DIGIT B-NP
 seats I-NP
 still O
 
@@ -2624,7 +2624,7 @@ also O
 playing O
 zzz O
 i B-NP
-2moro B-NP
+DIGIT B-NP
 go O
 borrow O
 le O
@@ -2740,7 +2740,7 @@ internet I-NP
 resets O
 on O
 the B-NP
-1st I-NP
+DIGIT I-NP
 
 you B-NP
 sleep O
@@ -2760,7 +2760,7 @@ meet I-NP
 go I-NP
 timbre I-NP
 at I-NP
-7 I-NP
+DIGIT I-NP
 . O
 
 hee O
@@ -2998,7 +2998,7 @@ be O
 quite O
 late O
 maybe O
-4pm B-NP
+DIGIT B-NP
 ? O
 tell O
 u B-NP
@@ -3458,7 +3458,7 @@ ya O
 decimal B-NP
 at O
 canteen B-NP
-2 I-NP
+DIGIT I-NP
 . O
 
 hey O
@@ -3520,7 +3520,7 @@ also O
 want O
 haha O
 got O
-2labs B-NP
+DIGIT B-NP
 , O
 not O
 so O
@@ -3767,7 +3767,7 @@ to O
 make O
 it O
 so O
-3 O
+DIGIT O
 
 lol O
 i B-NP
@@ -3817,7 +3817,7 @@ m O
 not O
 sure O
 maybe O
-5pm B-NP
+DIGIT B-NP
 ? O
 
 haha O
@@ -3971,7 +3971,7 @@ why O
 
 nhsvs O
 <#> O
-2 O
+DIGIT O
 
 fucking B-NP
 ramsay I-NP
@@ -4067,12 +4067,12 @@ i B-NP
 see O
 i B-NP
 have O
-3tuitions B-NP
+DIGIT B-NP
 lined O
 up O
 today B-NP
 from O
-3pm B-NP
+DIGIT B-NP
 . O
 
 hahaha O
@@ -4253,7 +4253,7 @@ he O
 will O
 cook O
 until O
-7 O
+DIGIT O
 plus O
 lol O
 
@@ -4627,7 +4627,7 @@ drinking O
 hot B-NP
 soup I-NP
 gimme O
-5 B-NP
+DIGIT B-NP
 mins I-NP
 ! O
 
@@ -4731,7 +4731,7 @@ stop O
 at O
 bedoktowards O
 tampines O
-6 O
+DIGIT O
 stops O
 opposite O
 the O
@@ -5014,7 +5014,7 @@ twitter B-NP
 ! O
 it B-NP
 s O
-1pm B-NP
+DIGIT B-NP
 at O
 my B-NP
 house I-NP
@@ -5031,7 +5031,7 @@ late O
 le O
 lol O
 pass O
-5pm O
+DIGIT O
 le O
 haha O
 just O
@@ -5188,7 +5188,7 @@ too O
 i B-NP
 guess O
 nvm O
-1 B-NP
+DIGIT B-NP
 week I-NP
 later I-NP
 come O
@@ -5275,7 +5275,7 @@ rice I-NP
 vomitted O
 twice O
 laosai O
-4 O
+DIGIT O
 times O
 now B-NP
 recovering O
@@ -5433,7 +5433,7 @@ in O
 all O
 at O
 most O
-2 B-NP
+DIGIT B-NP
 pages O
 
 haha O
@@ -5471,16 +5471,16 @@ ng O
 aboutit O
 i O
 tagerror B-NP
-2 I-NP
+DIGIT I-NP
 chem I-NP
 tagerror I-NP
 hons O
 modules O
 n B-NP
 sem O
-2 O
+DIGIT O
 and O
-1 O
+DIGIT O
 bio O
 hons O
 if O
@@ -5502,7 +5502,7 @@ jackson I-NP
 rec I-NP
 center I-NP
 before O
-7ish O
+DIGIT O
 right O
 
 not O
@@ -5530,7 +5530,7 @@ asap O
 got O
 pe B-NP
 at O
-3 B-NP
+DIGIT B-NP
 
 kk O
 can O
@@ -5892,12 +5892,12 @@ room I-NP
 lols O
 den O
 found O
-2 B-NP
+DIGIT B-NP
 empty I-NP
 wine I-NP
 bottles I-NP
 and O
-1 B-NP
+DIGIT B-NP
 vodkabottle I-NP
 
 cig O
@@ -6010,7 +6010,7 @@ on I-NP
 .. O
 actually O
 the O
-2 B-NP
+DIGIT B-NP
 issues I-NP
 i B-NP
 raised O
@@ -6048,7 +6048,7 @@ ah O
 
 contact O
 for O
-4 O
+DIGIT O
 verse O
 crescent O
 ricky O
@@ -6239,7 +6239,7 @@ thennormally O
 we O
 will O
 buy O
-0 O
+DIGIT O
 <#> O
 7cm O
 for O
@@ -6535,7 +6535,7 @@ youre O
 living O
 with O
 no O
-5 O
+DIGIT O
 for O
 the O
 next O
@@ -6552,7 +6552,7 @@ you O
 the O
 letters O
 on O
-5 O
+DIGIT O
 so O
 you O
 can O
@@ -6565,7 +6565,7 @@ l O
 j O
 k O
 l O
-5 O
+DIGIT O
 hahaha O
 
 yes O
@@ -6592,7 +6592,7 @@ bad O
 will O
 leave O
 after O
-7 O
+DIGIT O
 soplease O
 start O
 wihtout O
@@ -6927,7 +6927,7 @@ will O
 be O
 home O
 by O
-4 O
+DIGIT O
 
 that O
 said O
@@ -7191,7 +7191,7 @@ break O
 then O
 choir O
 and O
-2nd O
+DIGIT O
 msg O
 
 ps O
@@ -7406,7 +7406,7 @@ means O
 to O
 b O
 a O
-3 B-NP
+DIGIT B-NP
 tier I-NP
 architecture I-NP
 coz O
@@ -7448,7 +7448,7 @@ this O
 week O
 at O
 no B-NP
-1 I-NP
+DIGIT I-NP
 in O
 most B-NP
 of I-NP
@@ -7799,7 +7799,7 @@ hee O
 
 oh O
 the O
-3 O
+DIGIT O
 of O
 us O
 are O
@@ -8043,14 +8043,14 @@ at O
 yihthough B-NP
 ... O
 com B-NP
-1 I-NP
+DIGIT I-NP
 too O
 far O
 lol O
 
 haha O
 is O
-2 O
+DIGIT O
 way O
 mah O
 i O
@@ -8089,7 +8089,7 @@ prescription I-NP
 pharmacy B-NP
 is O
 like O
-2 B-NP
+DIGIT B-NP
 minutes I-NP
 away O
 ugh O
@@ -8125,13 +8125,13 @@ jiayoutogether O
 bah O
 
 lousy O
-2moro B-NP
+DIGIT B-NP
 when O
 fly O
 
 hahaha O
 by O
-5 O
+DIGIT O
 is O
 it O
 but O
@@ -8254,7 +8254,7 @@ i B-NP
 finish O
 sch B-NP
 USR O
-6pm B-NP
+DIGIT B-NP
 . O
 
 kranji B-NP
@@ -8553,7 +8553,7 @@ been O
 
 lols O
 left O
-2 B-NP
+DIGIT B-NP
 fish I-NP
 ! O
 
@@ -8687,7 +8687,7 @@ room O
 you O
 will O
 see O
-2 O
+DIGIT O
 of O
 them O
 le O
@@ -8745,7 +8745,7 @@ too O
 i B-NP
 guess O
 
-5plus B-NP
+DIGIT B-NP
 dear B-NP
 .. O
 
@@ -9118,7 +9118,7 @@ aspects O
 is O
 tmr O
 what O
-1pm B-NP
+DIGIT B-NP
 ? O
 
 mana O
@@ -9135,7 +9135,7 @@ go O
 u O
 coming O
 hostel O
-1st O
+DIGIT O
 
 you B-NP
 were O
@@ -9220,7 +9220,7 @@ u B-NP
 come O
 out O
 in O
-5 B-NP
+DIGIT B-NP
 min I-NP
 i B-NP
 reach O
@@ -9329,7 +9329,7 @@ i B-NP
 reach O
 clementi B-NP
 at O
-4 B-NP
+DIGIT B-NP
 ! O
 
 ok O
@@ -9415,7 +9415,7 @@ can O
 bahh O
 
 okwe O
-2 O
+DIGIT O
 nia O
 meh O
 
@@ -9747,14 +9747,14 @@ mates I-NP
 ! O
 
 haha O
-7 B-NP
+DIGIT B-NP
 books I-NP
 enough O
 lo O
 at O
 least O
 that O
-7 B-NP
+DIGIT B-NP
 books I-NP
 wont O
 require O
@@ -9783,7 +9783,7 @@ so O
 unrelated O
 lol O
 uhh O
-7 B-NP
+DIGIT B-NP
 is O
 next O
 to O
@@ -9907,7 +9907,7 @@ diet B-NP
 and O
 i B-NP
 ate O
-1 O
+DIGIT O
 too O
 many O
 slices B-NP
@@ -9954,7 +9954,7 @@ hey O
 tamp O
 mrt O
 at O
-1pm O
+DIGIT O
 
 goodevening O
 folk O
@@ -10047,7 +10047,7 @@ older O
 n B-NP
 mi I-NP
 by I-NP
-1 I-NP
+DIGIT I-NP
 tagerror I-NP
 year O
 
@@ -10588,7 +10588,7 @@ for O
 helicopter O
 to O
 pass O
-1st O
+DIGIT O
 
 wanna O
 have O
@@ -10690,7 +10690,7 @@ at O
 iluma B-NP
 , O
 probably O
-6pm B-NP
+DIGIT B-NP
 can O
 lol O
 my B-NP
@@ -10701,7 +10701,7 @@ go O
 sakae B-NP
 buffet I-NP
 at O
-3pm B-NP
+DIGIT B-NP
 . O
 x O
 
@@ -10800,7 +10800,7 @@ earliest O
 appointment O
 date O
 is O
-8feb O
+DIGIT O
 and O
 i B-NP
 have O
@@ -10930,7 +10930,7 @@ have O
 to O
 wait O
 till O
-2 O
+DIGIT O
 for O
 the O
 bus O
@@ -11096,7 +11096,7 @@ boss B-NP
 of O
 the B-NP
 junior I-NP
-3on3 I-NP
+DIGIT I-NP
 hahaha O
 damn O
 cute O
@@ -12504,9 +12504,9 @@ i O
 already O
 got O
 it O
-2 O
+DIGIT O
 to O
-3 O
+DIGIT O
 
 cfm O
 la O
@@ -12624,7 +12624,7 @@ realise O
 bidding B-NP
 ends O
 tmr B-NP
-5 B-NP
+DIGIT B-NP
 pm I-NP
 . O
 haha O
@@ -12647,7 +12647,7 @@ but O
 we O
 eating O
 at O
-1pm O
+DIGIT O
 
 dont O
 forget O
@@ -13021,7 +13021,7 @@ to O
 la O
 at O
 around O
-1 O
+DIGIT O
 
 yo O
 tonight O
@@ -13391,7 +13391,7 @@ some O
 diagrams O
 for O
 task O
-8 O
+DIGIT O
 u O
 take O
 a O
@@ -13518,7 +13518,7 @@ just O
 now O
 he B-NP
 wrote O
-3p O
+DIGIT O
 <#> B-NP
 x O
 <#> B-NP
@@ -13582,7 +13582,7 @@ encyclopedia I-NP
 when O
 i B-NP
 was O
-6 B-NP
+DIGIT B-NP
 , O
 so O
 aft O
@@ -14029,10 +14029,10 @@ day I-NP
 i B-NP
 quite O
 free O
-1 O
+DIGIT O
 onli O
 take O
-4 B-NP
+DIGIT B-NP
 mods I-NP
 this B-NP
 sem I-NP
@@ -14242,7 +14242,7 @@ meet O
 effort O
 lunch B-NP
 at O
-1pm B-NP
+DIGIT B-NP
 ? O
 
 missing O
@@ -14343,7 +14343,7 @@ chs O
 , O
 ramchandra B-NP
 nagar I-NP
-1 B-NP
+DIGIT B-NP
 , O
 off O
 mega B-NP
@@ -14374,7 +14374,7 @@ there O
 soon O
 
 got O
-2 O
+DIGIT O
 girls O
 want O
 to O
@@ -14494,7 +14494,7 @@ there O
 a O
 little B-NP
 after I-NP
-9 I-NP
+DIGIT I-NP
 
 not O
 coming O
@@ -15218,7 +15218,7 @@ so O
 cheap O
 i O
 buy O
-1 O
+DIGIT O
 more O
 myself O
 then O
@@ -15501,7 +15501,7 @@ kept O
 waking O
 up O
 every O
-2 B-NP
+DIGIT B-NP
 hours I-NP
 to O
 see O
@@ -15647,7 +15647,7 @@ week I-NP
 yosh O
 tonight O
 after O
-9pm O
+DIGIT O
 free O
 
 ohh O
@@ -16168,7 +16168,7 @@ hmm O
 monday O
 <#> O
 to O
-1 O
+DIGIT O
 
 lol O
 how O
@@ -16270,7 +16270,7 @@ haha O
 why O
 lazy O
 
-4got O
+DIGIT O
 le O
 i O
 bought O
@@ -16405,7 +16405,7 @@ hey O
 u B-NP
 free O
 at O
-4 B-NP
+DIGIT B-NP
 ? O
 
 reaching O
@@ -16702,7 +16702,7 @@ meet O
 back O
 gate O
 at O
-2 O
+DIGIT O
 
 haha O
 ins O
@@ -16747,13 +16747,13 @@ again O
 ._. O
 mine O
 was O
-4th O
+DIGIT O
 floor O
 for O
-3 O
+DIGIT O
 years O
 then O
-5th O
+DIGIT O
 floor O
 nowsecond O
 haha O
@@ -17231,7 +17231,7 @@ haha O
 s B-NP
 h O
 the O
-1 O
+DIGIT O
 hour O
 de O
 le O
@@ -17526,7 +17526,7 @@ im O
 outside O
 highschool O
 staffroom O
-2nd O
+DIGIT O
 floor O
 
 hows O
@@ -17534,7 +17534,7 @@ it B-NP
 ? O
 
 ard O
-1 O
+DIGIT O
 like O
 tat O
 ba O
@@ -17851,7 +17851,7 @@ ya O
 lo O
 u O
 got O
-2 O
+DIGIT O
 other O
 show O
 to O
@@ -18080,7 +18080,7 @@ a O
 bit O
 k O
 around O
-7 O
+DIGIT O
 still O
 full O
 full O
@@ -18169,7 +18169,7 @@ suibian O
 
 i B-NP
 got O
-2 B-NP
+DIGIT B-NP
 compulsory I-NP
 books I-NP
 .. O
@@ -18423,7 +18423,7 @@ library O
 
 haha O
 about O
-1am B-NP
+DIGIT B-NP
 . O
 
 haha O
@@ -18500,7 +18500,7 @@ now O
 maybe O
 leaving O
 around O
-3 O
+DIGIT O
 plus O
 
 my B-NP
@@ -18571,7 +18571,7 @@ qn O
 put O
 can O
 use O
-1 O
+DIGIT O
 decoder O
 to O
 do O
@@ -18585,7 +18585,7 @@ on O
 the O
 way O
 abt O
-9 B-NP
+DIGIT B-NP
 i B-NP
 thinkwhy O
 u B-NP
@@ -18824,7 +18824,7 @@ hahaha O
 
 targetting O
 at O
-4 O
+DIGIT O
 days O
 
 thanks O
@@ -18843,7 +18843,7 @@ sis I-NP
 
 if O
 bout O
-6pm O
+DIGIT O
 play O
 u O
 ok O
@@ -18855,7 +18855,7 @@ the O
 <#> O
 th O
 but O
-1 O
+DIGIT O
 week O
 of O
 blocks O
@@ -18911,7 +18911,7 @@ wow O
 until O
 cny B-NP
 is O
-2 O
+DIGIT O
 months B-NP
 ! O
 haha O
@@ -19078,10 +19078,10 @@ i B-NP
 meet O
 you B-NP
 friday B-NP
-5pm I-NP
+DIGIT I-NP
 at O
 canteen B-NP
-2 I-NP
+DIGIT I-NP
 ? O
 
 ok O
@@ -19173,7 +19173,7 @@ i B-NP
 m O
 free O
 at O
-5pm B-NP
+DIGIT B-NP
 , O
 do O
 you B-NP
@@ -19219,7 +19219,7 @@ better O
 soon O
 
 research O
-3rd B-NP
+DIGIT B-NP
 and O
 national B-NP
 instruments I-NP
@@ -19596,7 +19596,7 @@ i O
 finished O
 my B-NP
 day I-NP
-3 I-NP
+DIGIT I-NP
 d O
 
 something O
@@ -19627,7 +19627,7 @@ ok O
 lor O
 from O
 chapter B-NP
-3 I-NP
+DIGIT I-NP
 onwards I-NP
 ? O
 
@@ -19645,7 +19645,7 @@ food I-NP
 wait O
 what O
 
-2 B-NP
+DIGIT B-NP
 . O
 why O
 
@@ -19923,7 +19923,7 @@ awwww O
 :-( O
 
 bangkok B-NP
-9th B-NP
+DIGIT B-NP
 to I-NP
 <#> I-NP
 th I-NP
@@ -20012,7 +20012,7 @@ the B-NP
 morning I-NP
 ! O
 
-4w O
+DIGIT O
 technologies B-NP
 in O
 guindy B-NP
@@ -20099,7 +20099,7 @@ had O
 dinner O
 you O
 
-2 B-NP
+DIGIT B-NP
 meals I-NP
 no O
 gravy B-NP
@@ -20153,7 +20153,7 @@ went O
 swimming B-NP
 . O
 yea O
-8pm B-NP
+DIGIT B-NP
 is O
 fine O
 for O
@@ -20200,7 +20200,7 @@ redistribute O
 then O
 if O
 bout O
-6pm O
+DIGIT O
 at O
 my O
 house O
@@ -20388,7 +20388,7 @@ hahalast O
 time O
 i O
 stay O
-2nd O
+DIGIT O
 floor O
 also O
 stuffy O
@@ -20752,7 +20752,7 @@ make O
 it B-NP
 this O
 friday B-NP
-5pm I-NP
+DIGIT I-NP
 . O
 
 again O
@@ -20800,7 +20800,7 @@ to O
 play O
 im O
 watchinghangover O
-2 O
+DIGIT O
 now O
 haha O
 ohh O
@@ -20840,7 +20840,7 @@ i B-NP
 m O
 at O
 the B-NP
-2nd I-NP
+DIGIT I-NP
 floor I-NP
 . O
 cya O
@@ -20919,7 +20919,7 @@ search I-NP
 :) O
 
 then O
-5 B-NP
+DIGIT B-NP
 groups I-NP
 eh O
 we B-NP
@@ -21215,7 +21215,7 @@ time I-NP
 bah O
 
 puiloltake O
-8 O
+DIGIT O
 mchahahaeh O
 i O
 think O
@@ -21266,9 +21266,9 @@ yeap O
 set O
 
 i B-NP
-1 B-NP
+DIGIT B-NP
 to O
-4 B-NP
+DIGIT B-NP
 free O
 how B-NP
 
@@ -21583,7 +21583,7 @@ i O
 from O
 soc O
 year O
-4 O
+DIGIT O
 
 hahahah O
 okay O
@@ -21591,7 +21591,7 @@ please O
 text O
 me O
 at O
-4pm O
+DIGIT O
 in O
 case O
 i O
@@ -22083,7 +22083,7 @@ uhh O
 i B-NP
 think O
 around O
-7 B-NP
+DIGIT B-NP
 having O
 breakfast B-NP
 first O
@@ -22155,7 +22155,7 @@ the B-NP
 bathroom I-NP
 fixtures I-NP
 and I-NP
-3rd I-NP
+DIGIT I-NP
 floor I-NP
 bathtub I-NP
 andrain I-NP
@@ -22184,7 +22184,7 @@ to O
 clarifyif O
 unsure O
 the B-NP
-2nd I-NP
+DIGIT I-NP
 floor I-NP
 bathtub I-NP
 also O
@@ -22575,16 +22575,16 @@ sims O
 its O
 on O
 nov O
-4 O
+DIGIT O
 & O
-5 O
-7 O
+DIGIT O
+DIGIT O
 am O
 to O
-9 O
+DIGIT O
 pm O
 with O
-5hours O
+DIGIT O
 break O
 on O
 both O
@@ -22688,7 +22688,7 @@ happy O
 holidays O
 
 chapter B-NP
-2 I-NP
+DIGIT I-NP
 lalol O
 
 yup O
@@ -23329,9 +23329,9 @@ bring O
 notes O
 
 yeah O
-1pm B-NP
+DIGIT B-NP
 to O
-7pm B-NP
+DIGIT B-NP
 kbox B-NP
 . O
 then O
@@ -23382,7 +23382,7 @@ shall O
 we O
 meet O
 at O
-3pm O
+DIGIT O
 at O
 choa O
 chu O
@@ -23622,7 +23622,7 @@ that B-NP
 
 no O
 calc O
-2moro O
+DIGIT O
 ar O
 
 hahaha O
@@ -23730,7 +23730,7 @@ bucks B-NP
 right O
 can O
 pass O
-6 B-NP
+DIGIT B-NP
 to O
 shihui B-NP
 ? O
@@ -23957,7 +23957,7 @@ i B-NP
 got O
 class B-NP
 till O
-6 B-NP
+DIGIT B-NP
 . O
 
 ohh O
@@ -24551,16 +24551,16 @@ name I-NP
 i B-NP
 got O
 like O
-3b B-NP
+DIGIT B-NP
 and O
-1 B-NP
+DIGIT B-NP
 a I-NP
 hiakbut O
 a O
 is O
 for O
 the O
-8mcwootloldun O
+DIGIT O
 emo O
 la O
 u O
@@ -25034,7 +25034,7 @@ this O
 friday O
 
 so O
-2moro B-NP
+DIGIT B-NP
 how B-NP
 ? O
 
@@ -25065,7 +25065,7 @@ will O
 be O
 office B-NP
 from O
-8am B-NP
+DIGIT B-NP
 to O
 <#> B-NP
 am I-NP
@@ -25220,7 +25220,7 @@ give O
 it O
 on O
 feb B-NP
-1 I-NP
+DIGIT I-NP
 
 ben B-NP
 is O
@@ -25339,7 +25339,7 @@ m I-NP
 interchange I-NP
 instead O
 at O
-3 B-NP
+DIGIT B-NP
 ? O
 
 yeah O
@@ -25570,7 +25570,7 @@ should O
 be O
 back O
 before O
-8 B-NP
+DIGIT B-NP
 . O
 
 huh O
@@ -25729,7 +25729,7 @@ how B-NP
 much I-NP
 is O
 cafe B-NP
-3 I-NP
+DIGIT I-NP
 ? O
 it B-NP
 s O
@@ -26057,7 +26057,7 @@ to O
 i B-NP
 free O
 till O
-5pm B-NP
+DIGIT B-NP
 actually O
 but O
 i B-NP
@@ -26083,7 +26083,7 @@ liar B-NP
 game I-NP
 , O
 at O
-9pm O
+DIGIT O
 
 love O
 u B-NP
@@ -26339,9 +26339,9 @@ realised O
 got O
 art B-NP
 frm B-NP
-2 I-NP
+DIGIT I-NP
 to I-NP
-4 I-NP
+DIGIT I-NP
 le O
 u B-NP
 all I-NP
@@ -26424,7 +26424,7 @@ meet O
 at O
 where O
 tonight O
-9pm O
+DIGIT O
 
 <#> B-NP
 at O
@@ -26606,7 +26606,7 @@ yet O
 maybe O
 at O
 about O
-2 O
+DIGIT O
 then O
 how O
 about O
@@ -26617,7 +26617,7 @@ the O
 brake O
 sensors O
 the O
-14 O
+DIGIT O
 <#> O
 npt O
 male O
@@ -26652,7 +26652,7 @@ min I-NP
 from O
 telegraph B-NP
 
-2 B-NP
+DIGIT B-NP
 days I-NP
 only O
 leave B-NP
@@ -26755,7 +26755,7 @@ soon I-NP
 i B-NP
 still O
 got O
-2 O
+DIGIT O
 semsroarrrhaha O
 oh O
 ya O
@@ -26781,7 +26781,7 @@ i O
 woke O
 up O
 at O
-2 O
+DIGIT O
 plus O
 then O
 thot O
@@ -26909,7 +26909,7 @@ me O
 check O
 please O
 slow O
-3g O
+DIGIT O
 here O
 
 haha O
@@ -27093,7 +27093,7 @@ meet O
 you O
 tmr O
 at O
-9am O
+DIGIT O
 
 abeg O
 make O
@@ -27153,7 +27153,7 @@ building O
 haha O
 nope O
 only O
-4 B-NP
+DIGIT B-NP
 girls I-NP
 came O
 for O
@@ -27278,7 +27278,7 @@ lesson I-NP
 i B-NP
 can O
 take O
-1 B-NP
+DIGIT B-NP
 . O
 now O
 dam O
@@ -27403,7 +27403,7 @@ date O
 mah O
 
 lols O
-1 O
+DIGIT O
 small O
 dog O
 nia O
@@ -27461,7 +27461,7 @@ le O
 reach O
 home O
 abt O
-7 O
+DIGIT O
 wan O
 dinner O
 
@@ -27627,7 +27627,7 @@ just O
 repliedsay O
 oktold O
 him O
-4pm O
+DIGIT O
 tamp O
 
 lol O
@@ -27734,7 +27734,7 @@ gt O
 another B-NP
 meeting I-NP
 till O
-2 B-NP
+DIGIT B-NP
 :. O
 u B-NP
 all O
@@ -27939,7 +27939,7 @@ dear O
 i B-NP
 am O
 in O
-1 B-NP
+DIGIT B-NP
 of I-NP
 the I-NP
 tut I-NP
@@ -28003,7 +28003,7 @@ i B-NP
 m O
 waiting O
 for O
-2 B-NP
+DIGIT B-NP
 weeks I-NP
 when O
 they O
@@ -28027,7 +28027,7 @@ quite O
 low O
 xd O
 
-1 O
+DIGIT O
 a O
 <#> B-NP
 . O
@@ -28036,12 +28036,12 @@ a O
 also O
 if O
 possible O
-2 O
+DIGIT O
 alvin O
 chia O
-3 O
+DIGIT O
 mechanicalengineering O
-4 O
+DIGIT O
 sunday O
 preferably O
 
@@ -28262,7 +28262,7 @@ sankar B-NP
 
 i B-NP
 have O
-4 B-NP
+DIGIT B-NP
 points I-NP
 on O
 foursquare B-NP
@@ -28536,7 +28536,7 @@ u B-NP
 ? O
 
 fuck O
-2moro B-NP
+DIGIT B-NP
 monday B-NP
 timetable I-NP
 
@@ -28562,7 +28562,7 @@ sian O
 haha O
 today O
 got O
-2 O
+DIGIT O
 mtgs O
 
 u B-NP
@@ -28792,7 +28792,7 @@ see O
 you O
 
 yes O
-8 B-NP
+DIGIT B-NP
 pm I-NP
 
 uhh O
@@ -28802,9 +28802,9 @@ i B-NP
 need O
 to O
 get O
-1 B-NP
+DIGIT B-NP
 or I-NP
-2 I-NP
+DIGIT I-NP
 parts I-NP
 i I-NP
 ran I-NP
@@ -28838,7 +28838,7 @@ you B-NP
 think O
 
 latest O
-5 B-NP
+DIGIT B-NP
 
 looks O
 like O
@@ -28980,7 +28980,7 @@ think O
 it B-NP
 starts O
 at O
-9 B-NP
+DIGIT B-NP
 but O
 not O
 sure O
@@ -29238,7 +29238,7 @@ ok O
 d O
 
 ps O
-2day B-NP
+DIGIT B-NP
 nvr O
 go O
 back B-NP
@@ -29546,7 +29546,7 @@ daling B-NP
 i B-NP
 leaving O
 in O
-5 B-NP
+DIGIT B-NP
 min I-NP
 . O
 kisses B-NP
@@ -29596,7 +29596,7 @@ lasting O
 as O
 much O
 as O
-2 B-NP
+DIGIT B-NP
 hours I-NP
 . O
 you B-NP
@@ -29627,7 +29627,7 @@ ut O
 leaving O
 hse B-NP
 in O
-5 O
+DIGIT O
 
 of O
 course O
@@ -29798,9 +29798,9 @@ color I-NP
 
 smscastle O
 quote O
-4 O
+DIGIT O
 students O
-2 B-NP
+DIGIT B-NP
 days I-NP
 before O
 the O
@@ -29809,7 +29809,7 @@ we B-NP
 refer O
 foreign O
 author O
-1 B-NP
+DIGIT B-NP
 day I-NP
 before O
 exam B-NP
@@ -29853,7 +29853,7 @@ kazekage B-NP
 you O
 mean O
 
-6pm B-NP
+DIGIT B-NP
 at O
 ourspace B-NP
 . O
@@ -29944,7 +29944,7 @@ my B-NP
 slot I-NP
 is O
 at O
-4pm B-NP
+DIGIT B-NP
 but O
 i B-NP
 have O
@@ -30159,7 +30159,7 @@ tommorrow B-NP
 can O
 
 bout O
-1 B-NP
+DIGIT B-NP
 plus I-NP
 
 i B-NP
@@ -30384,7 +30384,7 @@ its O
 not O
 just O
 next O
-2 O
+DIGIT O
 weekends O
 becoz O
 i O
@@ -30400,7 +30400,7 @@ july O
 so O
 actually O
 its O
-3 O
+DIGIT O
 weekends O
 u O
 check O
@@ -30411,7 +30411,7 @@ again O
 go O
 cut O
 hair O
-1st O
+DIGIT O
 nth O
 to O
 do O
@@ -30538,7 +30538,7 @@ confirmed O
 <#> B-NP
 so O
 dinner B-NP
-5 B-NP
+DIGIT B-NP
 ? O
 
 erm O
@@ -30679,7 +30679,7 @@ brake O
 lines O
 can O
 move O
-1 O
+DIGIT O
 keep O
 to O
 the O
@@ -30984,7 +30984,7 @@ and O
 hotel B-NP
 .. O
 abt B-NP
-8k I-NP
+DIGIT I-NP
 ? O
 
 how O
@@ -31008,7 +31008,7 @@ cp B-NP
 ! O
 end O
 ard O
-6 B-NP
+DIGIT B-NP
 ! O
 
 like O
@@ -31162,18 +31162,18 @@ happy O
 birthday O
 d O
 
-1 O
+DIGIT O
 b O
 <#> O
 . B-NP
-2 O
+DIGIT O
 alvin O
 chia O
-3 O
+DIGIT O
 a B-NP
 l O
 ng B-NP
-4 I-NP
+DIGIT I-NP
 ) O
 sat O
 morningnight O
@@ -31671,7 +31671,7 @@ dunno O
 whether O
 going O
 hm O
-1st O
+DIGIT O
 not O
 sunday O
 morning O
@@ -32294,7 +32294,7 @@ my B-NP
 way I-NP
 around O
 pgp B-NP
-1 I-NP
+DIGIT I-NP
 leh O
 
 hey O
@@ -32523,7 +32523,7 @@ nvr O
 feed O
 water B-NP
 for O
-3 O
+DIGIT O
 days O
 yup O
 glen B-NP
@@ -32998,7 +32998,7 @@ ur O
 smses O
 now O
 sunday O
-1pm O
+DIGIT O
 no O
 problem O
 
@@ -34379,7 +34379,7 @@ its O
 tmr O
 ol O
 
-9 O
+DIGIT O
 plus O
 
 nah O
@@ -34696,9 +34696,9 @@ lot O
 btw O
 
 from O
-5 B-NP
+DIGIT B-NP
 to O
-2 B-NP
+DIGIT B-NP
 only O
 my B-NP
 work I-NP
@@ -35156,7 +35156,7 @@ i B-NP
 stalked O
 you B-NP
 for O
-5 B-NP
+DIGIT B-NP
 mins I-NP
 aft O
 you B-NP
@@ -35402,7 +35402,7 @@ happens O
 that O
 there O
 r O
-2waxsto O
+DIGIT O
 do O
 wat O
 you O
@@ -35716,7 +35716,7 @@ am O
 already O
 at O
 level B-NP
-3 I-NP
+DIGIT I-NP
 consult I-NP
 area I-NP
 
@@ -35793,7 +35793,7 @@ motivated O
 
 u O
 need O
-2 O
+DIGIT O
 days O
 for O
 it O
@@ -35801,7 +35801,7 @@ meh O
 anyway O
 the O
 buffet O
-2hrs O
+DIGIT O
 only O
 u O
 want O
@@ -36145,9 +36145,9 @@ cool O
 be O
 there B-NP
 in O
-5 B-NP
+DIGIT B-NP
 
-9am O
+DIGIT O
 is O
 okay O
 
@@ -36471,7 +36471,7 @@ dun O
 lame O
 la O
 gym O
-1st O
+DIGIT O
 
 what B-NP
 happen O
@@ -36600,14 +36600,14 @@ i O
 have O
 lessons O
 till O
-6pm O
+DIGIT O
 on O
 friday O
 so O
 is O
 <#> O
 or O
-7pm O
+DIGIT O
 fine O
 
 i B-NP
@@ -36771,7 +36771,7 @@ sem O
 
 sure O
 so O
-8 O
+DIGIT O
 is O
 ok O
 rite O
@@ -36896,7 +36896,7 @@ create O
 a B-NP
 contact I-NP
 form O
-4 B-NP
+DIGIT B-NP
 careers O
 
 i O
@@ -36949,7 +36949,7 @@ ch O
 i O
 l B-NP
 ate O
-5 O
+DIGIT O
 min O
 today O
 they O
@@ -37151,7 +37151,7 @@ d O
 
 agar O
 agar O
-2nd B-NP
+DIGIT B-NP
 floor I-NP
 ? O
 
@@ -37190,18 +37190,18 @@ i O
 said O
 
 lols O
-2moro B-NP
+DIGIT B-NP
 check O
 la O
 btw O
 quiz B-NP
-2moro I-NP
+DIGIT I-NP
 ? O
 
 minimum O
 walk B-NP
 is O
-3miles O
+DIGIT O
 a O
 day O
 
@@ -37265,7 +37265,7 @@ week O
 lol O
 not O
 meet O
-4pm O
+DIGIT O
 meh O
 i O
 on O
@@ -37302,7 +37302,7 @@ be O
 going O
 down O
 around O
-6 O
+DIGIT O
 bah O
 then O
 eat O
@@ -37427,7 +37427,7 @@ leave O
 home O
 at O
 about O
-3pm O
+DIGIT O
 k O
 my O
 sis O
@@ -37498,7 +37498,7 @@ ya O
 same O
 my O
 qn O
-2 O
+DIGIT O
 also O
 lah O
 lol O
@@ -37574,7 +37574,7 @@ yeah O
 it B-NP
 s O
 at O
-7 B-NP
+DIGIT B-NP
 
 yo O
 dude O
@@ -37604,7 +37604,7 @@ nite O
 
 revision O
 the O
-4 O
+DIGIT O
 passages O
 you O
 all O
@@ -38136,7 +38136,7 @@ yeap O
 i B-NP
 napped O
 for O
-5 B-NP
+DIGIT B-NP
 mins I-NP
 then O
 karyee B-NP
@@ -38179,7 +38179,7 @@ i O
 got O
 here O
 at O
-5am O
+DIGIT O
 and O
 have O
 a O
@@ -38316,7 +38316,7 @@ wwwverycdcom O
 search O
 drupal O
 
-2day B-NP
+DIGIT B-NP
 not O
 going O
 
@@ -38494,7 +38494,7 @@ oki O
 got O
 lesson O
 until O
-4 O
+DIGIT O
 tagerror B-NP
 zzzhaha I-NP
 
@@ -38821,7 +38821,7 @@ of O
 themgot O
 classes O
 at O
-9 O
+DIGIT O
 and O
 siblings O
 who O
@@ -39167,7 +39167,7 @@ USR O
 u B-NP
 in O
 the B-NP
-1 I-NP
+DIGIT I-NP
 wshay I-NP
 
 would O
@@ -39339,9 +39339,9 @@ outside O
 sr2 B-NP
 . O
 com B-NP
-1 I-NP
+DIGIT I-NP
 level I-NP
-2 I-NP
+DIGIT I-NP
 
 i B-NP
 am O
@@ -39368,7 +39368,7 @@ maoists I-NP
 mei B-NP
 yings I-NP
 present I-NP
-1 B-NP
+DIGIT B-NP
 person I-NP
 rm O
 <#> B-NP
@@ -39382,11 +39382,11 @@ s O
 wat O
 she O
 wansorry O
-4 O
+DIGIT O
 tat B-NP
 n O
 thankx O
-4 O
+DIGIT O
 ur B-NP
 corporation I-NP
 .. O
@@ -39416,7 +39416,7 @@ friends B-NP
 h B-NP
 tagerror I-NP
 dont O
-4get O
+DIGIT O
 to O
 bring O
 the O
@@ -39445,7 +39445,7 @@ to O
 wake O
 up O
 at O
-6 B-NP
+DIGIT B-NP
 tmr I-NP
 ): O
 
@@ -39545,7 +39545,7 @@ try O
 to O
 reach O
 by O
-5pm O
+DIGIT O
 :-) O
 
 i O
@@ -39567,7 +39567,7 @@ ot5 O
 is O
 one O
 true O
-5 O
+DIGIT O
 like O
 youknow O
 otp O
@@ -39772,10 +39772,10 @@ jiashan B-NP
 ! O
 d O
 
-4 O
+DIGIT O
 cores O
 and O
-1 O
+DIGIT O
 ss O
 thinking O
 of O
@@ -40129,7 +40129,7 @@ home B-NP
 come O
 my B-NP
 room I-NP
-2nite B-NP
+DIGIT B-NP
 la O
 
 doing O
@@ -40234,7 +40234,7 @@ remember O
 i O
 havesth O
 at O
-2 O
+DIGIT O
 too O
 lol O
 and O
@@ -40247,7 +40247,7 @@ lol O
 
 ! O
 not B-NP
-7 I-NP
+DIGIT I-NP
 lol O
 
 ohh O
@@ -40360,7 +40360,7 @@ ya O
 gg O
 study O
 bio B-NP
-1st O
+DIGIT O
 la O
 
 yeap O
@@ -40631,7 +40631,7 @@ the O
 wholecolour O
 range O
 only O
-8 O
+DIGIT O
 bucks O
 hahaha O
 haha O
@@ -40826,7 +40826,7 @@ my B-NP
 lesson I-NP
 end O
 at O
-4pm B-NP
+DIGIT B-NP
 . O
 u B-NP
 ? O
@@ -41210,7 +41210,7 @@ hahaha O
 hmm O
 go O
 train O
-1st O
+DIGIT O
 then O
 cardio O
 
@@ -41264,7 +41264,7 @@ phir O
 vapas O
 aa O
 gai O
-3rd O
+DIGIT O
 time O
 vo O
 use O
@@ -41337,7 +41337,7 @@ u B-NP
 we B-NP
 left O
 at O
-2 B-NP
+DIGIT B-NP
 . O
 now O
 at O
@@ -41559,7 +41559,7 @@ to O
 clementi O
 gym O
 le O
-2moro O
+DIGIT O
 <#> O
 am O
 come O
@@ -42158,7 +42158,7 @@ boy B-NP
 tonight B-NP
 playing O
 
-6pm B-NP
+DIGIT B-NP
 leo B-NP
 s O
 house B-NP
@@ -42310,7 +42310,7 @@ here O
 
 ! O
 not O
-7 O
+DIGIT O
 p O
 
 miss O
@@ -42545,7 +42545,7 @@ surprise O
 hugs O
 v O
 happy O
-2 B-NP
+DIGIT B-NP
 months I-NP
 (: O
 sorry O
@@ -42700,7 +42700,7 @@ the O
 unit O
 on O
 the O
-1st O
+DIGIT O
 or O
 later O
 
@@ -42812,7 +42812,7 @@ yo O
 i B-NP
 only O
 need O
-2 B-NP
+DIGIT B-NP
 more I-NP
 tickets I-NP
 and O
@@ -42932,7 +42932,7 @@ doing O
 just O
 get O
 any O
-5v O
+DIGIT O
 source O
 digital O
 pin O
@@ -43022,7 +43022,7 @@ see O
 your B-NP
 message I-NP
 after O
-3 B-NP
+DIGIT B-NP
 days I-NP
 
 haha O
@@ -43056,7 +43056,7 @@ at O
 north B-NP
 point I-NP
 at O
-2pm B-NP
+DIGIT B-NP
 tmr I-NP
 ? O
 it B-NP
@@ -43133,7 +43133,7 @@ mac O
 games O
 
 gate B-NP
-3 I-NP
+DIGIT I-NP
 ! O
 sorry O
 i B-NP
@@ -43190,7 +43190,7 @@ ca I-NP
 r O
 gonna O
 fetch O
-5 B-NP
+DIGIT B-NP
 ppl I-NP
 to O
 the B-NP
@@ -43316,7 +43316,7 @@ p O
 ct B-NP
 session I-NP
 until O
-4pm B-NP
+DIGIT B-NP
 
 wednesday O
 can O
@@ -43360,7 +43360,7 @@ enuff O
 to O
 go O
 for O
-6 O
+DIGIT O
 lesson O
 lah O
 lol O
@@ -43566,19 +43566,19 @@ family O
 day O
 i O
 have O
-1 O
+DIGIT O
 arduino O
 mega O
-1 O
+DIGIT O
 cmps O
 <#> O
 , O
-5 O
+DIGIT O
 srf O
 <#> O
 s O
 and O
-4 O
+DIGIT O
 sets O
 of O
 metal O
@@ -43596,7 +43596,7 @@ think O
 
 yaya O
 bout B-NP
-7 I-NP
+DIGIT I-NP
 
 pig O
 im O
@@ -43724,7 +43724,7 @@ i O
 playednormal O
 till O
 wave O
-3 O
+DIGIT O
 then O
 got O
 owned O
@@ -43800,7 +43800,7 @@ course O
 
 waa O
 nice O
-4s O
+DIGIT O
 ar O
 download O
 age B-NP
@@ -43895,7 +43895,7 @@ i B-NP
 will O
 come O
 around O
-8o B-NP
+DIGIT B-NP
 clock I-NP
 . O
 
@@ -44159,7 +44159,7 @@ tmr I-NP
 my O
 lab O
 at O
-2pm O
+DIGIT O
 
 walking O
 there B-NP
@@ -44281,7 +44281,7 @@ it B-NP
 ll O
 end O
 in O
-1 B-NP
+DIGIT B-NP
 hr I-NP
 actually O
 haha O
@@ -44600,7 +44600,7 @@ kismis B-NP
 . O
 opposite B-NP
 canteen I-NP
-2 I-NP
+DIGIT I-NP
 . O
 
 ok O
@@ -44755,7 +44755,7 @@ wells O
 k O
 :) O
 
-4 O
+DIGIT O
 min O
 reach O
 
@@ -44911,7 +44911,7 @@ spacing I-NP
 , O
 will O
 have O
-3 B-NP
+DIGIT B-NP
 pages I-NP
 fir I-NP
 executive I-NP
@@ -44956,7 +44956,7 @@ guy O
 living O
 home O
 in O
-6minutes O
+DIGIT O
 
 hahah O
 dont O
@@ -44979,7 +44979,7 @@ im O
 not O
 free O
 until O
-3 B-NP
+DIGIT B-NP
 =( O
 
 tmr B-NP
@@ -45969,14 +45969,14 @@ end O
 wan O
 go O
 back O
-2gether O
+DIGIT O
 
 on O
 bus B-NP
 lo O
 bblp B-NP
 
-3pm O
+DIGIT O
 better O
 for O
 me O
@@ -45990,7 +45990,7 @@ that O
 but O
 now O
 its O
-3 O
+DIGIT O
 already O
 
 no O
@@ -46017,7 +46017,7 @@ take O
 your B-NP
 paper I-NP
 at O
-9pm B-NP
+DIGIT B-NP
 . O
 
 sorry O
@@ -46049,11 +46049,11 @@ u B-NP
 all I-NP
 for O
 drinks O
-2night B-NP
+DIGIT B-NP
 , O
 just O
 ended O
-1 B-NP
+DIGIT B-NP
 camp I-NP
 , O
 tml B-NP
@@ -46319,7 +46319,7 @@ blk O
 serangoon O
 north O
 ave O
-4 O
+DIGIT O
 HT O
 <#> B-NP
 <#> B-NP
@@ -46558,7 +46558,7 @@ no O
 lah O
 is O
 sign O
-2 O
+DIGIT O
 year O
 <#> O
 trade O
@@ -46590,7 +46590,7 @@ lo O
 now O
 i O
 got O
-1 O
+DIGIT O
 gb O
 can O
 use O
@@ -46754,7 +46754,7 @@ up O
 i B-NP
 slept O
 til O
-3 B-NP
+DIGIT B-NP
 today B-NP
 cause O
 i B-NP
@@ -46887,7 +46887,7 @@ wellsfargobacon B-NP
 
 i B-NP
 anything O
-1 B-NP
+DIGIT B-NP
 , O
 though O
 i O
@@ -47188,7 +47188,7 @@ answered O
 you B-NP
 
 so O
-2moro O
+DIGIT O
 how O
 
 hahaha O
@@ -47477,7 +47477,7 @@ that O
 can O
 physically O
 isolate O
-2 O
+DIGIT O
 sensors O
 then O
 can O
@@ -47791,7 +47791,7 @@ soon O
 im O
 door O
 openerhahaha O
-7 O
+DIGIT O
 
 hahaha O
 coz O
@@ -47844,7 +47844,7 @@ ps O
 i B-NP
 end O
 at O
-3 B-NP
+DIGIT B-NP
 . O
 want O
 do O
@@ -47926,7 +47926,7 @@ in O
 you O
 end O
 at O
-1 O
+DIGIT O
 then O
 come O
 find O
@@ -48478,7 +48478,7 @@ do O
 haha O
 ._. O
 lol O
-2 B-NP
+DIGIT B-NP
 are O
 you B-NP
 srs O
@@ -48559,7 +48559,7 @@ k O
 yo O
 we B-NP
 meet O
-6pm B-NP
+DIGIT B-NP
 cally B-NP
 house I-NP
 ! O
@@ -48993,7 +48993,7 @@ him B-NP
 a O
 blackberry O
 bold O
-2 O
+DIGIT O
 or O
 torch O
 should O
@@ -49049,7 +49049,7 @@ exams I-NP
 !! O
 jyjy O
 
-3 O
+DIGIT O
 i B-NP
 wonder O
 where O
@@ -49104,7 +49104,7 @@ totes O
 
 i B-NP
 have O
-2 B-NP
+DIGIT B-NP
 with O
 me B-NP
 
@@ -49581,10 +49581,10 @@ found O
 too O
 fast O
 all O
-3 O
+DIGIT O
 groups O
 found O
-3 O
+DIGIT O
 eggs O
 
 would O
@@ -49681,7 +49681,7 @@ out O
 
 ya O
 urs O
-2moro O
+DIGIT O
 mass O
 gay O
 outing O
@@ -49718,7 +49718,7 @@ le O
 go O
 sleep O
 cya O
-2moro B-NP
+DIGIT B-NP
 
 in O
 work B-NP
@@ -49815,7 +49815,7 @@ love O
 u B-NP
 lots O
 
-2 O
+DIGIT O
 omg O
 xx O
 
@@ -49873,7 +49873,7 @@ omg O
 you B-NP
 slept O
 at O
-3 B-NP
+DIGIT B-NP
 !! O
 freaking O
 late O
@@ -49881,7 +49881,7 @@ le O
 i B-NP
 slept O
 at O
-5 B-NP
+DIGIT B-NP
 haha O
 my B-NP
 dad I-NP
@@ -50166,7 +50166,7 @@ do O
 that B-NP
 ? O
 
-8 B-NP
+DIGIT B-NP
 ? O
 lol O
 
@@ -50254,7 +50254,7 @@ of O
 somebody O
 its O
 just O
-4 O
+DIGIT O
 loko B-NP
 all O
 night O
@@ -50435,7 +50435,7 @@ done O
 swimming O
 eventdcan O
 get O
-2 O
+DIGIT O
 event O
 tshirts O
 and O
@@ -50784,7 +50784,7 @@ yu I-NP
 mr B-NP
 kan I-NP
 from I-NP
-4 I-NP
+DIGIT I-NP
 verde I-NP
 crescent I-NP
 here O
@@ -51142,7 +51142,7 @@ haha O
 :) O
 
 hee O
-4pm B-NP
+DIGIT B-NP
 ! O
 
 my O
@@ -51176,7 +51176,7 @@ man B-NP
 
 oh O
 that O
-1 O
+DIGIT O
 i B-NP
 ng O
 or B-NP
@@ -51481,7 +51481,7 @@ run O
 rai B-NP
 n O
 so O
-5pm O
+DIGIT O
 ly B-NP
 tagerror I-NP
 wont O
@@ -51674,7 +51674,7 @@ do O
 
 hmm O
 ok O
-7 B-NP
+DIGIT B-NP
 is O
 fine O
 jc B-NP
@@ -51872,9 +51872,9 @@ and O
 i O
 confirm O
 going O
-3 O
+DIGIT O
 on O
-3 O
+DIGIT O
 comp O
 next O
 year O
@@ -51890,7 +51890,7 @@ mins O
 
 coming O
 at O
-9 O
+DIGIT O
 go O
 play O
 your O
@@ -51910,7 +51910,7 @@ the B-NP
 prestige I-NP
 yet O
 
-6pm O
+DIGIT O
 <#> O
 
 yeah O
@@ -52284,7 +52284,7 @@ i B-NP
 reaching O
 in O
 abt B-NP
-2 I-NP
+DIGIT I-NP
 stops I-NP
 
 oh O
@@ -52416,7 +52416,7 @@ i O
 tink O
 we B-NP
 all I-NP
-3 I-NP
+DIGIT I-NP
 going O
 le O
 u O
@@ -52482,7 +52482,7 @@ for O
 a B-NP
 music I-NP
 school I-NP
-1 I-NP
+DIGIT I-NP
 percy B-NP
 oso O
 shd O
@@ -52549,7 +52549,7 @@ explain O
 in O
 words O
 
-5 O
+DIGIT O
 lo O
 go O
 where O
@@ -52672,7 +52672,7 @@ lol O
 the O
 continuing O
 ur O
-2ndround O
+DIGIT O
 
 haha O
 sorry O
@@ -52685,12 +52685,12 @@ meet O
 at O
 lakeside O
 at O
-8 O
+DIGIT O
 (: O
 supposedto O
 reach O
 at O
-9 O
+DIGIT O
 (: O
 
 tt O
@@ -52783,7 +52783,7 @@ bz O
 for O
 the B-NP
 next I-NP
-2 I-NP
+DIGIT I-NP
 wks I-NP
 , O
 i B-NP
@@ -52835,7 +52835,7 @@ morning I-NP
 n O
 go O
 down O
-2gether B-NP
+DIGIT B-NP
 
 can O
 i B-NP
@@ -53142,7 +53142,7 @@ in O
 holywood O
 
 qn B-NP
-3 I-NP
+DIGIT I-NP
 , O
 if O
 a B-NP
@@ -53162,11 +53162,11 @@ same B-NP
 vector I-NP
 so O
 only O
-1 O
+DIGIT O
 vector B-NP
 , O
 cant O
-2x2 B-NP
+DIGIT B-NP
 matrix I-NP
 
 no O
@@ -53460,7 +53460,7 @@ and O
 a B-NP
 team I-NP
 consistsof O
-5 B-NP
+DIGIT B-NP
 members I-NP
 . O
 for O
@@ -53730,7 +53730,7 @@ make O
 calls O
 
 at O
-3 O
+DIGIT O
 da O
 
 tues B-NP
@@ -53818,7 +53818,7 @@ everything O
 actlx O
 i B-NP
 did O
-2 B-NP
+DIGIT B-NP
 suibi I-NP
 haha O
 
@@ -54676,7 +54676,7 @@ help O
 cheat O
 
 abt O
-7 B-NP
+DIGIT B-NP
 
 hi O
 im O
@@ -54717,7 +54717,7 @@ threedesktops O
 for O
 us O
 abt O
-2 O
+DIGIT O
 months O
 ago O
 one O
@@ -54916,9 +54916,9 @@ you O
 overseas O
 
 haha O
-1 O
+DIGIT O
 r B-NP
-1 I-NP
+DIGIT I-NP
 leh O
 new O
 burger O
@@ -55158,7 +55158,7 @@ that B-NP
 
 start O
 at O
-3 B-NP
+DIGIT B-NP
 ? O
 
 i O
@@ -55499,7 +55499,7 @@ a O
 chance O
 
 agak O
-1pm O
+DIGIT O
 ba O
 dun O
 need O
@@ -55520,9 +55520,9 @@ will O
 meet O
 at O
 com B-NP
-2 I-NP
+DIGIT I-NP
 level I-NP
-4 I-NP
+DIGIT I-NP
 . O
 room B-NP
 number I-NP
@@ -55553,9 +55553,9 @@ today B-NP
 
 tutorial B-NP
 page I-NP
-9 I-NP
+DIGIT I-NP
 qn I-NP
-1 I-NP
+DIGIT I-NP
 whole O
 thing O
 
@@ -55719,9 +55719,9 @@ making O
 
 lols O
 u O
-1 O
+DIGIT O
 on O
-2 O
+DIGIT O
 sec O
 sch O
 fren O
@@ -55744,7 +55744,7 @@ xlb B-NP
 buffet B-NP
 dinner I-NP
 at O
-5pm B-NP
+DIGIT B-NP
 . O
 see O
 ya B-NP
@@ -55752,7 +55752,7 @@ then O
 
 should O
 be O
-2pm O
+DIGIT O
 open O
 
 haha O
@@ -56109,9 +56109,9 @@ in O
 moffit B-NP
 until O
 like O
-4 B-NP
+DIGIT B-NP
 or I-NP
-5 I-NP
+DIGIT I-NP
 
 all O
 these O
@@ -56234,7 +56234,7 @@ with O
 my B-NP
 choir I-NP
 from O
-6 B-NP
+DIGIT B-NP
 to O
 time B-NP
 i B-NP
@@ -56587,7 +56587,7 @@ thanks O
 hmmm O
 meet O
 like O
-7 B-NP
+DIGIT B-NP
 tonite I-NP
 ? O
 
@@ -56613,7 +56613,7 @@ on O
 it B-NP
 ending O
 before O
-4pm B-NP
+DIGIT B-NP
 . O
 
 a O
@@ -56623,13 +56623,13 @@ say O
 take O
 once B-NP
 every O
-8 B-NP
+DIGIT B-NP
 hours I-NP
 . O
 its O
 only O
 been O
-5 B-NP
+DIGIT B-NP
 but O
 pain B-NP
 is O
@@ -56850,7 +56850,7 @@ why O
 your B-NP
 messages I-NP
 all O
-2 O
+DIGIT O
 words O
 long O
 man B-NP
@@ -56994,7 +56994,7 @@ up O
 
 spot B-NP
 offer I-NP
-4 O
+DIGIT O
 tech B-NP
 support I-NP
 day B-NP
@@ -57007,7 +57007,7 @@ jan I-NP
 , O
 <#> B-NP
 to O
-1pm B-NP
+DIGIT B-NP
 USR O
 pay4pay B-NP
 no I-NP
@@ -57260,7 +57260,7 @@ lo O
 walk O
 in O
 
-5 O
+DIGIT O
 minutes O
 
 haha O
@@ -57557,13 +57557,13 @@ hmwk B-NP
 . O
 how O
 bout O
-2moro B-NP
+DIGIT B-NP
 ? O
 
 were B-NP
 aiming O
 for O
-8 B-NP
+DIGIT B-NP
 
 hahaha O
 i O
@@ -57639,7 +57639,7 @@ bowl O
 how O
 ahthe O
 other O
-2 O
+DIGIT O
 of O
 them O
 goingif O
@@ -57820,7 +57820,7 @@ they B-NP
 tot O
 u B-NP
 all B-NP
-9 I-NP
+DIGIT I-NP
 then O
 reach O
 then O
@@ -57843,7 +57843,7 @@ i O
 have O
 rehearsal B-NP
 from O
-8 B-NP
+DIGIT B-NP
 to O
 <#> B-NP
 ? O
@@ -57907,12 +57907,12 @@ okay O
 i B-NP
 reserve O
 for O
-9 B-NP
+DIGIT B-NP
 eh O
 
 tell O
 ya B-NP
-2nite B-NP
+DIGIT B-NP
 ps O
 now O
 busy O
@@ -58142,7 +58142,7 @@ yizhans O
 fine O
 with O
 monday O
-6 O
+DIGIT O
 where O
 shall O
 we O
@@ -58382,7 +58382,7 @@ you B-NP
 wats O
 siala O
 sap B-NP
-1 I-NP
+DIGIT I-NP
 sibo I-NP
 hahahahashd O
 be O
@@ -58572,7 +58572,7 @@ im O
 outside O
 now O
 choice O
-3 O
+DIGIT O
 better O
 forme O
 monday O
@@ -58823,12 +58823,12 @@ m O
 so O
 much O
 bore O
-2day O
+DIGIT O
 bcoz O
 of O
 much O
 work O
-8 O
+DIGIT O
 office O
 
 heehee O
@@ -58989,7 +58989,7 @@ it B-NP
 ? O
 
 ave B-NP
-7 I-NP
+DIGIT I-NP
 block I-NP
 <#> I-NP
 bus I-NP
@@ -59003,7 +59003,7 @@ ll O
 be O
 there B-NP
 at O
-4 B-NP
+DIGIT B-NP
 . O
 
 haha O
@@ -59027,7 +59027,7 @@ else O
 same O
 i O
 also O
-2 O
+DIGIT O
 put O
 i O
 dunno O
@@ -59244,7 +59244,7 @@ haha O
 ok O
 arh O
 got B-NP
-6hour I-NP
+DIGIT I-NP
 enuff I-NP
 bah I-NP
 tagerror I-NP
@@ -59266,7 +59266,7 @@ cause O
 jason O
 free O
 at O
-8pm O
+DIGIT O
 then O
 seowting O
 say O
@@ -59303,7 +59303,7 @@ small O
 p O
 haha O
 we O
-3 O
+DIGIT O
 girls O
 cycling O
 feels O
@@ -59452,7 +59452,7 @@ i B-NP
 at O
 meeting B-NP
 room I-NP
-5 I-NP
+DIGIT I-NP
 . O
 hee O
 
@@ -59488,7 +59488,7 @@ be O
 in B-NP
 sch I-NP
 around I-NP
-4 I-NP
+DIGIT I-NP
 for I-NP
 exchange I-NP
 stuff I-NP
@@ -60436,7 +60436,7 @@ ba O
 
 at O
 level O
-3 O
+DIGIT O
 kopitiam O
 
 mughe O
@@ -60485,7 +60485,7 @@ are O
 you B-NP
 free O
 at O
-7 B-NP
+DIGIT B-NP
 ? O
 
 dont O
@@ -60865,7 +60865,7 @@ i B-NP
 oso O
 quite B-NP
 lazy I-NP
-1 I-NP
+DIGIT I-NP
 lol O
 
 feel O
@@ -60896,7 +60896,7 @@ that B-NP
 
 haha O
 yeah O
-2 B-NP
+DIGIT B-NP
 oz O
 is O
 kind O
@@ -61086,7 +61086,7 @@ you O
 got O
 <#> O
 to O
-1 O
+DIGIT O
 didnt O
 manage O
 to O
@@ -61110,7 +61110,7 @@ mobs O
 notnew O
 attack O
 for O
-2nd B-NP
+DIGIT B-NP
 job I-NP
 class I-NP
 and O
@@ -61121,7 +61121,7 @@ a B-NP
 retard I-NP
 using O
 a B-NP
-2hsword I-NP
+DIGIT I-NP
 
 haha O
 how O
@@ -61305,7 +61305,7 @@ haha O
 sorry O
 i O
 got O
-3 O
+DIGIT O
 assignment O
 due O
 tmr O
@@ -61537,7 +61537,7 @@ why O
 
 argh O
 my B-NP
-3g B-NP
+DIGIT B-NP
 is O
 spotty O
 anyway O
@@ -61607,7 +61607,7 @@ we O
 have O
 time O
 
-8 B-NP
+DIGIT B-NP
 bucks I-NP
 !!!!! O
 dddddd O
@@ -61652,7 +61652,7 @@ sj I-NP
 and I-NP
 phua I-NP
 going O
-2nite B-NP
+DIGIT B-NP
 
 orh O
 she O
@@ -61678,7 +61678,7 @@ chalet I-NP
 !? O
 
 bout O
-2 O
+DIGIT O
 
 how O
 you O
@@ -61800,7 +61800,7 @@ in O
 the B-NP
 old I-NP
 one I-NP
-2 O
+DIGIT O
 match O
 it B-NP
 up O
@@ -62011,7 +62011,7 @@ emooooooo O
 hmm O
 sentosa B-NP
 ur O
-2nd B-NP
+DIGIT B-NP
 home I-NP
 ? O
 
@@ -62065,7 +62065,7 @@ e O
 why O
 tagerror B-NP
 think I-NP
-1 I-NP
+DIGIT I-NP
 ye I-NP
 ar O
 is O
@@ -62362,7 +62362,7 @@ call O
 mcdonald O
 s O
 after O
-2am O
+DIGIT O
 for O
 another O
 run O
@@ -62405,7 +62405,7 @@ orchard I-NP
 first B-NP
 draft I-NP
 n O
-2nd B-NP
+DIGIT B-NP
 draft I-NP
 almost O
 totally O
@@ -62483,9 +62483,9 @@ i B-NP
 m O
 free O
 from O
-3 B-NP
+DIGIT B-NP
 to O
-6 B-NP
+DIGIT B-NP
 eh O
 then O
 i B-NP
@@ -62578,7 +62578,7 @@ cost O
 $<#> O
 lol O
 
-3 O
+DIGIT O
 te O
 thats O
 y O
@@ -62588,7 +62588,7 @@ sure O
 of O
 the O
 other O
-1 O
+DIGIT O
 art O
 gem O
 can O
@@ -62633,7 +62633,7 @@ tho O
 it O
 was O
 <#> B-NP
-2 B-NP
+DIGIT B-NP
 days I-NP
 ago I-NP
 . O
@@ -62707,7 +62707,7 @@ i B-NP
 go O
 there B-NP
 at O
-4 B-NP
+DIGIT B-NP
 it B-NP
 s O
 closed O
@@ -62759,7 +62759,7 @@ take O
 bah O
 cause O
 i B-NP
-8am B-NP
+DIGIT B-NP
 need O
 go O
 sch O
@@ -62992,7 +62992,7 @@ now I-NP
 
 tomorrow B-NP
 at I-NP
-3 I-NP
+DIGIT I-NP
 :) O
 just O
 need O
@@ -63142,7 +63142,7 @@ see O
 u B-NP
 at O
 com O
-1 O
+DIGIT O
 later O
 
 when O
@@ -63234,7 +63234,7 @@ start O
 in O
 afternoon B-NP
 about O
-4pm O
+DIGIT O
 ok O
 
 oh O
@@ -63302,7 +63302,7 @@ till O
 how O
 
 haha O
-6pm B-NP
+DIGIT B-NP
 . O
 lol O
 
@@ -63364,7 +63364,7 @@ then O
 never O
 bathe O
 for O
-2 B-NP
+DIGIT B-NP
 days I-NP
 in I-NP
 a I-NP
@@ -63417,7 +63417,7 @@ only O
 played O
 until O
 level B-NP
-8 I-NP
+DIGIT I-NP
 coz O
 the B-NP
 cashitem I-NP
@@ -63531,16 +63531,16 @@ no I-NP
 i I-NP
 a I-NP
 e B-NP
-1 I-NP
+DIGIT I-NP
 onl I-NP
 , B-NP
 the O
 other B-NP
-1 I-NP
+DIGIT I-NP
 yuhui I-NP
 tagerror I-NP
 eat O
-1 O
+DIGIT O
 enough O
 to O
 laosai B-NP
@@ -63559,7 +63559,7 @@ jus O
 gymed O
 yest O
 . O
-2moro B-NP
+DIGIT B-NP
 going O
 swimming O
 ps O
@@ -63690,7 +63690,7 @@ b I-NP
 oth O
 oso O
 got O
-1 O
+DIGIT O
 
 baobei O
 laogong O
@@ -63718,7 +63718,7 @@ kya O
 eh O
 dunno O
 around O
-6 B-NP
+DIGIT B-NP
 ? O
 
 haha O
@@ -64079,7 +64079,7 @@ u O
 a O
 bit O
 b4 O
-2 O
+DIGIT O
 
 i B-NP
 m O
@@ -64415,7 +64415,7 @@ is O
 mr O
 kan O
 of O
-4 O
+DIGIT O
 verse O
 crescent O
 thank O
@@ -64462,7 +64462,7 @@ can O
 we B-NP
 meet O
 at O
-4pm B-NP
+DIGIT B-NP
 instead O
 paiseh O
 
@@ -64995,7 +64995,7 @@ taking O
 attendance O
 
 hey O
-2moro B-NP
+DIGIT B-NP
 free O
 machamp B-NP
 jio O
@@ -65111,7 +65111,7 @@ the O
 ftt O
 dates O
 only O
-2 O
+DIGIT O
 left O
 during O
 may O
@@ -65142,7 +65142,7 @@ the O
 earliest O
 date O
 with O
-8pm O
+DIGIT O
 to O
 decimal O
 pm O
@@ -65194,13 +65194,13 @@ u B-NP
 the B-NP
 questions I-NP
 liaohahagot O
-2 B-NP
+DIGIT B-NP
 parts I-NP
 one B-NP
 is O
 for O
 vendors B-NP
-1 B-NP
+DIGIT B-NP
 is O
 for O
 clients B-NP
@@ -65377,7 +65377,7 @@ kinda O
 meeting B-NP
 last O
 for O
-4 B-NP
+DIGIT B-NP
 h I-NP
 ? O
 mayb O
@@ -65461,7 +65461,7 @@ today O
 please O
 come O
 after O
-8pm O
+DIGIT O
 as O
 i O
 will O
@@ -65536,7 +65536,7 @@ just O
 woke O
 up O
 at O
-4pm B-NP
+DIGIT B-NP
 . O
 
 ah O
@@ -65667,14 +65667,14 @@ should O
 be O
 there O
 by O
-8 O
+DIGIT O
 at O
 the O
 latest O
 probably O
 closer O
 to O
-7 O
+DIGIT O
 are O
 jay O
 and O
@@ -65795,7 +65795,7 @@ number I-NP
 kk O
 reaching O
 in O
-5 B-NP
+DIGIT B-NP
 mins I-NP
 . O
 meet O
@@ -65867,7 +65867,7 @@ haha O
 no O
 access O
 to O
-9 B-NP
+DIGIT B-NP
 gag I-NP
 . O
 you O
@@ -66106,7 +66106,7 @@ haha O
 i O
 already O
 eat O
-4 B-NP
+DIGIT B-NP
 pieces O
 this B-NP
 morn I-NP
@@ -66124,7 +66124,7 @@ had O
 a O
 lesson B-NP
 at O
-8 B-NP
+DIGIT B-NP
 then O
 suddenly O
 fire B-NP
@@ -66289,7 +66289,7 @@ feasibility B-NP
 based O
 on O
 the B-NP
-3 I-NP
+DIGIT I-NP
 perspectives I-NP
 . O
 can O
@@ -66558,7 +66558,7 @@ well O
 russia O
 lost O
 like O
-8mil O
+DIGIT O
 in O
 combat O
 and O
@@ -67064,7 +67064,7 @@ at O
 amk B-NP
 mrt I-NP
 at O
-1 B-NP
+DIGIT B-NP
 pm I-NP
 , O
 reply O
@@ -67088,7 +67088,7 @@ her O
 parents O
 arriving O
 at O
-7pm O
+DIGIT O
 also O
 
 pray O
@@ -67187,7 +67187,7 @@ on O
 wednesday O
 also O
 the O
-1st O
+DIGIT O
 guest O
 window O
 canbe O
@@ -67263,7 +67263,7 @@ can O
 e B-NP
 ry O
 easy O
-1by O
+DIGIT O
 today O
 must O
 finish O
@@ -67396,7 +67396,7 @@ august O
 <#> O
 to O
 september O
-1 O
+DIGIT O
 hope O
 you O
 can O
@@ -67725,7 +67725,7 @@ hmm O
 i B-NP
 leave O
 at O
-9 B-NP
+DIGIT B-NP
 then O
 . O
 haha O
@@ -67938,7 +67938,7 @@ ehfirst O
 got O
 <#> B-NP
 and I-NP
-6 I-NP
+DIGIT I-NP
 better I-NP
 bags I-NP
 which O
@@ -67946,10 +67946,10 @@ i B-NP
 think O
 is O
 still O
-2nd B-NP
+DIGIT B-NP
 <#> I-NP
 and I-NP
-6 I-NP
+DIGIT I-NP
 even I-NP
 more I-NP
 cui I-NP
@@ -67957,7 +67957,7 @@ bag I-NP
 then O
 u B-NP
 all I-NP
-3rd I-NP
+DIGIT I-NP
 lorgot O
 mouse B-NP
 and I-NP
@@ -68025,7 +68025,7 @@ else O
 see O
 u O
 at O
-3 O
+DIGIT O
 tmr O
 at O
 boonlay O
@@ -68113,7 +68113,7 @@ weeks I-NP
 then O
 got O
 like O
-5 B-NP
+DIGIT B-NP
 exams I-NP
 this O
 weekwhoao O
@@ -68185,7 +68185,7 @@ u O
 r O
 looking O
 at O
-0 O
+DIGIT O
 exp O
 im O
 typically O
@@ -68527,7 +68527,7 @@ fate B-NP
 hmmmm O
 massage B-NP
 for I-NP
-4 I-NP
+DIGIT I-NP
 pax I-NP
 ? O
 
@@ -68652,7 +68652,7 @@ bro O
 damn O
 random O
 hmm O
-9am O
+DIGIT O
 is O
 okay O
 sup O
@@ -68829,7 +68829,7 @@ we O
 can O
 leave O
 at O
-1 O
+DIGIT O
 (: O
 
 ok O
@@ -68880,7 +68880,7 @@ friends I-NP
 go O
 buy O
 eh O
-1 B-NP
+DIGIT B-NP
 for O
 2 B-NP
 . O
@@ -69283,7 +69283,7 @@ can O
 go O
 to O
 unit B-NP
-3 I-NP
+DIGIT I-NP
 . O
 although O
 i B-NP
@@ -69354,7 +69354,7 @@ pls O
 meet O
 me B-NP
 at O
-1 B-NP
+DIGIT B-NP
 clock I-NP
 
 you O
@@ -69426,7 +69426,7 @@ tmr B-NP
 alright O
 we B-NP
 meet O
-6pm B-NP
+DIGIT B-NP
 at O
 ourspace B-NP
 . O
@@ -69494,7 +69494,7 @@ got O
 free O
 skins O
 b4 O
-9 O
+DIGIT O
 jan O
 
 woo O
@@ -69527,10 +69527,10 @@ oo O
 hiong O
 hiongeh O
 noe B-NP
-1 O
+DIGIT O
 or O
 maybe O
-2 O
+DIGIT O
 but O
 overseas B-NP
 enjoying O
@@ -69620,7 +69620,7 @@ to O
 do O
 lolz O
 
-1 O
+DIGIT O
 stop O
 awaywhere O
 u O
@@ -69629,7 +69629,7 @@ at O
 ah O
 
 bout O
-6 O
+DIGIT O
 when B-NP
 land B-NP
 training I-NP
@@ -69682,7 +69682,7 @@ five O
 
 wan O
 train O
-2moro B-NP
+DIGIT B-NP
 ?? O
 
 no O
@@ -69899,7 +69899,7 @@ y O
 ask O
 u B-NP
 lolneed O
-1 B-NP
+DIGIT B-NP
 more I-NP
 for I-NP
 group I-NP
@@ -70220,7 +70220,7 @@ homealready O
 hey O
 guys B-NP
 , O
-5pm B-NP
+DIGIT B-NP
 , O
 paya B-NP
 lebar I-NP
@@ -70398,7 +70398,7 @@ die O
 can O
 like O
 get O
-1 B-NP
+DIGIT B-NP
 or O
 smth O
 i B-NP
@@ -70425,12 +70425,12 @@ will O
 you O
 bethere O
 like O
-5 O
+DIGIT O
 mins O
 before O
 that O
 just O
-5 O
+DIGIT O
 mins O
 can O
 le O
@@ -70599,7 +70599,7 @@ my B-NP
 test I-NP
 is O
 at O
-1 B-NP
+DIGIT B-NP
 haha O
 
 you B-NP
@@ -70873,7 +70873,7 @@ reservoir I-NP
 
 tuition O
 at O
-4pm O
+DIGIT O
 today O
 ok O
 
@@ -70989,7 +70989,7 @@ coming O
 back O
 for O
 nx B-NP
-2 I-NP
+DIGIT I-NP
 days I-NP
 . O
 his B-NP
@@ -70999,7 +70999,7 @@ me O
 problems B-NP
 since O
 day B-NP
-1 I-NP
+DIGIT I-NP
 and O
 i B-NP
 had O
@@ -71147,7 +71147,7 @@ no I-NP
 correct O
 wad O
 
-3 O
+DIGIT O
 days O
 will O
 be O
@@ -71257,7 +71257,7 @@ y O
 
 yo O
 after O
-5 B-NP
+DIGIT B-NP
 plus I-NP
 free O
 
@@ -71320,7 +71320,7 @@ kancheepuram I-NP
 dtchennai I-NP
 <#> I-NP
 time O
-8 B-NP
+DIGIT B-NP
 am I-NP
 on O
 both B-NP
@@ -71359,7 +71359,7 @@ zhong B-NP
 cuts O
 at O
 chap B-NP
-2 I-NP
+DIGIT I-NP
 lor O
 lol O
 :) O
@@ -71401,7 +71401,7 @@ not O
 sia O
 i O
 last B-NP
-2 I-NP
+DIGIT I-NP
 days I-NP
 spent O
 like O
@@ -71746,7 +71746,7 @@ i O
 mean O
 the O
 question O
-5 O
+DIGIT O
 lol O
 
 let O
@@ -71779,7 +71779,7 @@ gifts B-NP
 at O
 bugis B-NP
 at O
-1 B-NP
+DIGIT B-NP
 pm I-NP
 today I-NP
 if O
@@ -71801,7 +71801,7 @@ le O
 eh O
 i O
 think O
-6 O
+DIGIT O
 leave O
 
 hmm O
@@ -71978,7 +71978,7 @@ but O
 we O
 short O
 of O
-1 O
+DIGIT O
 player O
 
 post B-NP
@@ -72141,7 +72141,7 @@ havent O
 seen O
 her O
 recentlyu O
-2 O
+DIGIT O
 meetup O
 must O
 call O
@@ -72348,7 +72348,7 @@ big O
 hitteranyway O
 good O
 
-8pm B-NP
+DIGIT B-NP
 on O
 monday B-NP
 can O
@@ -72393,25 +72393,25 @@ watching O
 i B-NP
 am I-NP
 number I-NP
-4 I-NP
+DIGIT I-NP
 " O
 at O
 cine B-NP
-9pm B-NP
+DIGIT B-NP
 see O
 ya B-NP
 then O
 :) O
 
 msg O
-173 O
+DIGIT O
 from O
 3752a4ca0fb31b06b860fa9bc47d8df487f52cf1f07d98dd O
 , O
 to7c450fcffda82c8687f52cf1f07d98dd O
 , O
 20120130 O
-023840 O
+DIGIT O
 
 integrated O
 program O
@@ -72473,7 +72473,7 @@ bblp O
 reaching O
 northpt B-NP
 in O
-5 O
+DIGIT O
 min O
 
 really O
@@ -72799,7 +72799,7 @@ sha O
 cos O
 no O
 shakara O
-4 O
+DIGIT O
 beggar B-NP
 . O
 
@@ -73108,7 +73108,7 @@ tell O
 him O
 if O
 u O
-2 O
+DIGIT O
 meetcall O
 me O
 along O
@@ -73132,7 +73132,7 @@ jus O
 gonna O
 sign O
 up O
-1st O
+DIGIT O
 cus O
 i B-NP
 not O
@@ -73358,7 +73358,7 @@ station B-NP
 . O
 yay O
 
-7 O
+DIGIT O
 but O
 cally B-NP
 not O
@@ -73399,7 +73399,7 @@ ph B-NP
 eh O
 u B-NP
 free O
-2day B-NP
+DIGIT B-NP
 ? O
 
 haha O
@@ -73596,10 +73596,10 @@ yeah O
 he B-NP
 said O
 min B-NP
-2 I-NP
+DIGIT I-NP
 pax I-NP
 max I-NP
-4 I-NP
+DIGIT I-NP
 
 later O
 then O
@@ -73676,7 +73676,7 @@ be O
 done O
 latestmaybe O
 by O
-6pm B-NP
+DIGIT B-NP
 ? O
 
 wac O
@@ -73758,7 +73758,7 @@ a O
 ride O
 
 uncharted O
-3 O
+DIGIT O
 dand O
 perhaps O
 have O
@@ -73775,7 +73775,7 @@ bpo O
 spot O
 offer O
 salary O
-2 O
+DIGIT O
 lac O
 on O
 <#> O
@@ -73864,9 +73864,9 @@ doing O
 tablet B-NP
 
 bout O
-1 B-NP
+DIGIT B-NP
 to I-NP
-2 I-NP
+DIGIT I-NP
 days I-NP
 after O
 i B-NP
@@ -74151,7 +74151,7 @@ to I-NP
 go I-NP
 holiday I-NP
 for I-NP
-2 I-NP
+DIGIT I-NP
 weeks I-NP
 de O
 once O
@@ -74285,7 +74285,7 @@ be O
 like O
 last B-NP
 time I-NP
-12 B-NP
+DIGIT B-NP
 rite O
 why O
 le O
@@ -75397,7 +75397,7 @@ also O
 haha O
 ending O
 at O
-3pm B-NP
+DIGIT B-NP
 . O
 yeah O
 going O
@@ -75437,7 +75437,7 @@ tutorial B-NP
 lol O
 its O
 on O
-4 O
+DIGIT O
 mar O
 lecturetime O
 see O
@@ -75548,7 +75548,7 @@ a B-NP
 great I-NP
 nite I-NP
 
-8 B-NP
+DIGIT B-NP
 lidda I-NP
 t O
 
@@ -75559,7 +75559,7 @@ woke O
 up O
 before O
 fucking O
-3 B-NP
+DIGIT B-NP
 this B-NP
 wouldnt O
 be O
@@ -75937,9 +75937,9 @@ decimal O
 microfarad O
 capacitors O
 maybe O
-2 O
+DIGIT O
 or O
-3 O
+DIGIT O
 im O
 held O
 up O
@@ -76008,7 +76008,7 @@ rmbr O
 
 yup O
 day O
-0 O
+DIGIT O
 
 naice O
 wo O
@@ -76683,7 +76683,7 @@ r O
 having O
 exams O
 in O
-2 O
+DIGIT O
 weeks O
 time O
 so O
@@ -76844,7 +76844,7 @@ okay O
 
 paper O
 at O
-9 O
+DIGIT O
 rite O
 wake O
 at O
@@ -77077,7 +77077,7 @@ lols O
 nid O
 to O
 sleep O
-1st O
+DIGIT O
 la O
 
 fighting O
@@ -77094,7 +77094,7 @@ what O
 about O
 it O
 being O
-9 O
+DIGIT O
 what O
 do O
 you O
@@ -77118,7 +77118,7 @@ sia O
 
 hi O
 for O
-2 O
+DIGIT O
 weeks O
 starting O
 from O
@@ -77467,7 +77467,7 @@ what O
 the O
 i B-NP
 have O
-6 B-NP
+DIGIT B-NP
 !! O
 
 dear O
@@ -77544,7 +77544,7 @@ will O
 make O
 you B-NP
 go O
-7 B-NP
+DIGIT B-NP
 eleven I-NP
 the B-NP
 instant I-NP
@@ -77730,7 +77730,7 @@ sure O
 sure O
 how O
 about O
-3 B-NP
+DIGIT B-NP
 ? O
 
 haha O
@@ -78002,7 +78002,7 @@ think O
 want O
 meet O
 about O
-3pm O
+DIGIT O
 
 yay O
 thks O
@@ -78195,7 +78195,7 @@ de O
 will O
 be O
 about O
-5 O
+DIGIT O
 mins O
 late O
 
@@ -78443,7 +78443,7 @@ theory O
 fredericksburg O
 rd O
 suite O
-2 O
+DIGIT O
 phone O
 HT O
 <#> O
@@ -79064,7 +79064,7 @@ im O
 going O
 over O
 ard O
-3pm O
+DIGIT O
 plusstaying O
 a O
 while O
@@ -79200,7 +79200,7 @@ pig O
 going O
 up O
 in O
-5 O
+DIGIT O
 min O
 
 we B-NP
@@ -79329,7 +79329,7 @@ usual O
 seat O
 now O
 is O
-2tables O
+DIGIT O
 away O
 from O
 curtains O
@@ -79423,7 +79423,7 @@ sorry O
 
 oh O
 only O
-4 B-NP
+DIGIT B-NP
 outside I-NP
 players I-NP
 allowed O
@@ -79658,7 +79658,7 @@ but O
 i B-NP
 ll O
 refer B-NP
-9 O
+DIGIT O
 so O
 that O
 i O
@@ -79700,7 +79700,7 @@ alreadylol O
 
 comin O
 back O
-2nite B-NP
+DIGIT B-NP
 ? O
 
 hoho O
@@ -80144,7 +80144,7 @@ home O
 xp O
 
 ya O
-4h B-NP
+DIGIT B-NP
 here O
 le O
 
@@ -80575,7 +80575,7 @@ did O
 hahap O
 pat O
 
-7pm B-NP
+DIGIT B-NP
 at O
 lt B-NP
 <#> I-NP
@@ -80807,7 +80807,7 @@ thats O
 used O
 by O
 the B-NP
-3 I-NP
+DIGIT I-NP
 of O
 us O
 and O
@@ -80857,7 +80857,7 @@ send O
 him O
 our O
 ideas O
-1st O
+DIGIT O
 clifton O
 got O
 reply O
@@ -80901,7 +80901,7 @@ make O
 a O
 lovely O
 day O
-7 O
+DIGIT O
 days O
 make O
 a O
@@ -80940,7 +80940,7 @@ nite O
 
 no O
 eh O
-1 B-NP
+DIGIT B-NP
 queue I-NP
 entity I-NP
 only O
@@ -80984,7 +80984,7 @@ around O
 the B-NP
 area I-NP
 
-1 B-NP
+DIGIT B-NP
 more I-NP
 stop I-NP
 dear B-NP
@@ -81486,7 +81486,7 @@ morning O
 no O
 lah O
 only O
-8 O
+DIGIT O
 row O
 leh O
 where O
@@ -81519,7 +81519,7 @@ wednesday B-NP
 okok O
 start O
 at O
-7 O
+DIGIT O
 izzitk O
 
 lol O
@@ -81716,7 +81716,7 @@ me O
 lol O
 i O
 have O
-9 O
+DIGIT O
 buckson O
 my O
 ez O
@@ -81870,14 +81870,14 @@ at O
 all O
 
 msg O
-27 O
+DIGIT O
 from O
 3752a4ca0fb31b06b860fa9bc47d8df487f52cf1f07d98dd O
 , O
 toa3c4a6b05b76282d87f52cf1f07d98dd O
 , O
 20110915 O
-035158 O
+DIGIT O
 
 haha O
 i B-NP
@@ -82161,7 +82161,7 @@ call O
 me B-NP
 
 eh O
-7 O
+DIGIT O
 i O
 think O
 you O
@@ -82238,7 +82238,7 @@ hang O
 out O
 until O
 like O
-9 O
+DIGIT O
 plus O
 then O
 i O
@@ -82625,16 +82625,16 @@ your B-NP
 plan I-NP
 as O
 follows O
-1 O
+DIGIT O
 swap O
-3rd B-NP
+DIGIT B-NP
 level I-NP
 master B-NP
 bedroom I-NP
 walkin B-NP
 wardrobe I-NP
 , O
-2 O
+DIGIT O
 keep O
 back B-NP
 porch I-NP
@@ -82692,7 +82692,7 @@ examination I-NP
 will O
 start O
 from O
-5th B-NP
+DIGIT B-NP
 december I-NP
 so O
 i B-NP
@@ -82728,7 +82728,7 @@ but O
 only O
 today O
 till O
-1pm O
+DIGIT O
 yea O
 any O
 cadetsproblem O
@@ -82782,7 +82782,7 @@ a O
 lo O
 someone O
 need O
-1 O
+DIGIT O
 hour O
 to O
 re B-NP
@@ -82901,9 +82901,9 @@ viewers O
 voted O
 for O
 are O
-5 O
+DIGIT O
 and O
-7 O
+DIGIT O
 so O
 i O
 am O
@@ -82992,7 +82992,7 @@ you O
 later O
 k O
 
-5pmlesson O
+DIGIT O
 start O
 already O
 talk O
@@ -83046,7 +83046,7 @@ ur B-NP
 shirt I-NP
 on O
 monday B-NP
-9 B-NP
+DIGIT B-NP
 ill O
 be O
 at O
@@ -83134,7 +83134,7 @@ nigeria B-NP
 
 hahaha O
 this O
-1 O
+DIGIT O
 is O
 call O
 bo O
@@ -83360,7 +83360,7 @@ curry I-NP
 p O
 
 haha O
-6pm B-NP
+DIGIT B-NP
 lo O
 
 sorry O
@@ -83503,7 +83503,7 @@ cousins I-NP
 place I-NP
 ? O
 saw O
-7 B-NP
+DIGIT B-NP
 ! O
 
 would O
@@ -84051,9 +84051,9 @@ city I-NP
 can O
 do O
 max B-NP
-2 I-NP
+DIGIT I-NP
 or I-NP
-3 I-NP
+DIGIT I-NP
 days I-NP
 
 of O
@@ -84256,7 +84256,7 @@ off O
 joel B-NP
 not O
 coming O
-2nite B-NP
+DIGIT B-NP
 
 your B-NP
 favorite I-NP
@@ -84432,7 +84432,7 @@ single I-NP
 one I-NP
 also O
 zzz O
-6 O
+DIGIT O
 mv O
 a O
 lot O
@@ -84578,7 +84578,7 @@ make O
 it O
 ok O
 
-6 B-NP
+DIGIT B-NP
 wht O
 
 eh O
@@ -84784,7 +84784,7 @@ i O
 woke O
 up O
 at O
-3 O
+DIGIT O
 btw O
 xd O
 
@@ -84801,7 +84801,7 @@ we O
 are O
 at O
 lot O
-1 O
+DIGIT O
 alreadyjust O
 want O
 to O
@@ -84830,7 +84830,7 @@ you B-NP
 
 thursday B-NP
 , O
-2 B-NP
+DIGIT B-NP
 <#> I-NP
 or O
 <#> B-NP
@@ -84892,7 +84892,7 @@ year O
 so O
 your O
 sem O
-2 O
+DIGIT O
 notproperly O
 planned O
 everyday O
@@ -84904,7 +84904,7 @@ i B-NP
 put O
 on O
 like O
-3 B-NP
+DIGIT B-NP
 kg I-NP
 !! O
 
@@ -84973,7 +84973,7 @@ ur I-NP
 room I-NP
 . O
 pl O
-6 B-NP
+DIGIT B-NP
 there O
 
 hahaha O
@@ -85040,7 +85040,7 @@ i B-NP
 gotta O
 wear O
 the B-NP
-2 I-NP
+DIGIT I-NP
 tee I-NP
 shirts I-NP
 . O
@@ -85179,7 +85179,7 @@ p O
 lol O
 at B-NP
 where I-NP
-1 B-NP
+DIGIT B-NP
 stop I-NP
 away O
 
@@ -85225,7 +85225,7 @@ after O
 today B-NP
 
 yup O
-6pm O
+DIGIT O
 <#> O
 
 lol O
@@ -85364,7 +85364,7 @@ tagerror B-NP
 tagerror I-NP
 haha O
 yup O
-1 O
+DIGIT O
 and O
 a O
 halflol O
@@ -85641,7 +85641,7 @@ can O
 work O
 
 only O
-1 B-NP
+DIGIT B-NP
 attachment I-NP
 
 hahaha O
@@ -86182,7 +86182,7 @@ soon O
 see O
 nus O
 le O
-2 O
+DIGIT O
 dtops O
 more O
 
@@ -86332,7 +86332,7 @@ pushing O
 the O
 bbq O
 to O
-5pm O
+DIGIT O
 since O
 no O
 run O
@@ -86391,7 +86391,7 @@ s O
 atserangoon B-NP
 north I-NP
 ave I-NP
-4 I-NP
+DIGIT I-NP
 . O
 
 ive O
@@ -86503,7 +86503,7 @@ confirmed O
 next O
 meeting O
 is O
-1pm B-NP
+DIGIT B-NP
 at O
 com1 B-NP
 tmr O
@@ -86745,7 +86745,7 @@ in O
 sch B-NP
 for O
 just O
-3 B-NP
+DIGIT B-NP
 hours I-NP
 . O
 
@@ -86992,7 +86992,7 @@ later O
 ok O
 sorry O
 
-2nite O
+DIGIT O
 u O
 wan O
 gym O
@@ -87114,7 +87114,7 @@ haha O
 before O
 or O
 latest O
-7th B-NP
+DIGIT B-NP
 feb I-NP
 if O
 possible O
@@ -87173,7 +87173,7 @@ haha O
 thanks O
 
 hee O
-1 B-NP
+DIGIT B-NP
 then O
 eat O
 lunch B-NP
@@ -87418,7 +87418,7 @@ awesome O
 :) O
 
 wth O
-1st O
+DIGIT O
 
 go O
 where B-NP
@@ -87577,7 +87577,7 @@ free O
 tmr O
 
 day B-NP
-1 I-NP
+DIGIT I-NP
 in O
 school B-NP
 and O
@@ -88093,7 +88093,7 @@ meet O
 him B-NP
 today B-NP
 at I-NP
-2 I-NP
+DIGIT I-NP
 pm I-NP
 
 national B-NP
@@ -88129,7 +88129,7 @@ hey O
 i O
 meet O
 sj O
-1st O
+DIGIT O
 later O
 come O
 find O
@@ -88144,7 +88144,7 @@ resume O
 tue O
 timing O
 on O
-3rd O
+DIGIT O
 of O
 august O
 okay O
@@ -88530,7 +88530,7 @@ d O
 now O
 at O
 blk O
-3 O
+DIGIT O
 
 huishan B-NP
 , O
@@ -88735,7 +88735,7 @@ closer O
 
 hmm O
 see O
-1st O
+DIGIT O
 we O
 waiting O
 for O
@@ -89043,7 +89043,7 @@ i O
 am O
 at O
 table O
-6 O
+DIGIT O
 you B-NP
 dud O
 how O
@@ -89103,7 +89103,7 @@ lecture B-NP
 on O
 night B-NP
 sky I-NP
-8 B-NP
+DIGIT B-NP
 to O
 decimal B-NP
 . O
@@ -89187,9 +89187,9 @@ then O
 wake O
 up O
 around O
-3 O
+DIGIT O
 or O
-4 O
+DIGIT O
 to O
 study O
 
@@ -89299,7 +89299,7 @@ p O
 
 leaving O
 at O
-7 O
+DIGIT O
 let O
 me O
 know O
@@ -89463,7 +89463,7 @@ haha O
 meeting O
 you O
 at O
-4 O
+DIGIT O
 righthahaha O
 same O
 i O
@@ -89519,7 +89519,7 @@ up O
 with O
 pk B-NP
 from O
-2 B-NP
+DIGIT B-NP
 onwards I-NP
 ? O
 
@@ -89810,7 +89810,7 @@ i O
 at O
 biz O
 le O
-1 O
+DIGIT O
 min O
 more O
 i O
@@ -89942,7 +89942,7 @@ follow O
 since O
 last O
 week O
-1 O
+DIGIT O
 month O
 later O
 will O
@@ -90083,7 +90083,7 @@ really O
 long O
 leaving O
 at O
-9pm O
+DIGIT O
 you O
 
 a O
@@ -90218,7 +90218,7 @@ hi O
 is O
 your B-NP
 corsair I-NP
-2gb I-NP
+DIGIT I-NP
 ram I-NP
 under O
 warranty B-NP
@@ -90582,7 +90582,7 @@ discharge O
 todaycan O
 leave O
 at O
-5 O
+DIGIT O
 so O
 dont O
 need O
@@ -90647,7 +90647,7 @@ bus O
 ttain O
 coming O
 in O
-4 O
+DIGIT O
 min O
 love O
 my O
@@ -90836,7 +90836,7 @@ so O
 only O
 available O
 at O
-3 B-NP
+DIGIT B-NP
 
 wanna O
 eat O
@@ -90869,7 +90869,7 @@ me B-NP
 ! O
 
 yep O
-9th O
+DIGIT O
 floor O
 
 lol O
@@ -90983,7 +90983,7 @@ bring O
 bag O
 
 t B-NP
-2 I-NP
+DIGIT I-NP
 may I-NP
 be O
 need O
@@ -91252,7 +91252,7 @@ s B-NP
 ee O
 me O
 at O
-2 O
+DIGIT O
 
 haha O
 see O
@@ -91291,7 +91291,7 @@ chinese I-NP
 lol O
 haha O
 err O
-23 B-NP
+DIGIT B-NP
 ? O
 im O
 gettingdistractedx O
@@ -91439,7 +91439,7 @@ ser O
 lyn B-NP
 leaving O
 at O
-2 B-NP
+DIGIT B-NP
 plus I-NP
 so O
 do O
@@ -91875,7 +91875,7 @@ is O
 it O
 gonna O
 be O
-3d O
+DIGIT O
 
 i O
 tink O
@@ -91955,7 +91955,7 @@ i O
 think O
 pay O
 him O
-5 O
+DIGIT O
 each O
 is O
 reasonable O
@@ -92282,7 +92282,7 @@ ok O
 i O
 try O
 eh O
-2moro O
+DIGIT O
 if O
 see O
 me O
@@ -92362,7 +92362,7 @@ things I-NP
 to O
 do O
 
-16 B-NP
+DIGIT B-NP
 . O
 lols O
 we B-NP
@@ -92478,7 +92478,7 @@ of O
 the O
 night O
 about O
-2am O
+DIGIT O
 then O
 i O
 realise O
@@ -92658,10 +92658,10 @@ o O
 
 wah O
 for O
-6d5n B-NP
+DIGIT B-NP
 still O
 below O
-3k B-NP
+DIGIT B-NP
 , O
 good O
 good O
@@ -92871,7 +92871,7 @@ i O
 reaching O
 in O
 about O
-1 O
+DIGIT O
 hour O
 u O
 all O
@@ -93403,7 +93403,7 @@ s O
 fine O
 dans O
 working O
-2morrow B-NP
+DIGIT B-NP
 so O
 not O
 sure O
@@ -93501,13 +93501,13 @@ timah I-NP
 run I-NP
 ? O
 lol O
-2day B-NP
+DIGIT B-NP
 run O
 good B-NP
 form I-NP
 for I-NP
-1st I-NP
-2km I-NP
+DIGIT I-NP
+DIGIT I-NP
 after O
 ttheel B-NP
 strike I-NP
@@ -93531,7 +93531,7 @@ applications B-NP
 of I-NP
 differentiation I-NP
 tut B-NP
-4b I-NP
+DIGIT I-NP
 ) O
 
 nth O
@@ -93967,9 +93967,9 @@ ill O
 be O
 home O
 around O
-8 O
+DIGIT O
 or O
-9 O
+DIGIT O
 though O
 
 hi O
@@ -93983,7 +93983,7 @@ been O
 sold O
 thanks O
 
-9 O
+DIGIT O
 very O
 early O
 tagerror B-NP
@@ -93994,7 +93994,7 @@ shld O
 take O
 bt B-NP
 tagerror I-NP
-1 O
+DIGIT O
 hr O
 at O
 most O
@@ -94090,7 +94090,7 @@ have O
 laptop O
 
 nvm O
-2moro O
+DIGIT O
 den O
 gimme O
 lo O
@@ -94277,7 +94277,7 @@ omw B-NP
 back I-NP
 now O
 
-2moro B-NP
+DIGIT B-NP
 gt O
 on O
 wad O
@@ -94293,7 +94293,7 @@ do O
 whatever B-NP
 haha O
 
-2moro O
+DIGIT O
 i O
 guess O
 heck O
@@ -94540,12 +94540,12 @@ walao O
 neva O
 say O
 early O
-1 B-NP
+DIGIT B-NP
 
 hee O
 lg O
 rechingin O
-3 O
+DIGIT O
 stops O
 lv O
 u O
@@ -94677,7 +94677,7 @@ too O
 heavybig O
 less O
 than O
-1kg O
+DIGIT O
 
 then O
 not O
@@ -94693,7 +94693,7 @@ bah O
 
 normally O
 for O
-2 O
+DIGIT O
 ill O
 charge O
 <#> O
@@ -94739,7 +94739,7 @@ u B-NP
 free O
 tomorrow B-NP
 at I-NP
-4pm I-NP
+DIGIT I-NP
 ? O
 
 any O
@@ -95123,7 +95123,7 @@ reach O
 my O
 house O
 at O
-6pm O
+DIGIT O
 
 oh O
 oh O
@@ -95147,7 +95147,7 @@ haha O
 i O
 see O
 mood O
-1 O
+DIGIT O
 la O
 dont O
 pressurise O
@@ -95228,7 +95228,7 @@ how O
 did O
 you B-NP
 miss O
-2 O
+DIGIT O
 omg O
 haha O
 ooo O
@@ -95600,7 +95600,7 @@ cause O
 i B-NP
 need O
 these B-NP
-4 I-NP
+DIGIT I-NP
 images I-NP
 to O
 make O
@@ -95830,7 +95830,7 @@ np O
 
 dude B-NP
 avatar B-NP
-3d I-NP
+DIGIT I-NP
 was O
 imp O
 at O
@@ -95870,7 +95870,7 @@ food B-NP
 poisoning I-NP
 . O
 lost O
-3kg B-NP
+DIGIT B-NP
 le O
 
 just O
@@ -95887,7 +95887,7 @@ movie I-NP
 only O
 . O
 after O
-6 B-NP
+DIGIT B-NP
 pm I-NP
 vijay I-NP
 movie I-NP
@@ -95930,7 +95930,7 @@ not O
 nobel B-NP
 ! O
 year O
-5 B-NP
+DIGIT B-NP
 sc I-NP
 ! O
 havent O
@@ -96420,7 +96420,7 @@ window B-NP
 shopping I-NP
 ! O
 
-9pm O
+DIGIT O
 show O
 
 alright O
@@ -96647,13 +96647,13 @@ is O
 the B-NP
 only I-NP
 year I-NP
-6 I-NP
+DIGIT I-NP
 here O
 haha O
 the B-NP
 rest I-NP
 year B-NP
-5 I-NP
+DIGIT I-NP
 ! O
 
 what O
@@ -96779,7 +96779,7 @@ have O
 to O
 reach O
 at O
-8 O
+DIGIT O
 im O
 going O
 downstairs O
@@ -97092,7 +97092,7 @@ daddy B-NP
 i O
 reaching O
 in O
-5 O
+DIGIT O
 min O
 
 ya O
@@ -97188,7 +97188,7 @@ med B-NP
 
 ps O
 i B-NP
-2moro B-NP
+DIGIT B-NP
 cant O
 go O
 
@@ -97446,7 +97446,7 @@ very O
 pissed O
 yup O
 icomplete O
-34 O
+DIGIT O
 of O
 the O
 tutorial O
@@ -97595,7 +97595,7 @@ and O
 debussy B-NP
 . O
 about O
-4pm B-NP
+DIGIT B-NP
 . O
 free O
 u B-NP
@@ -97683,7 +97683,7 @@ jeffery I-NP
 . O
 
 tmr B-NP
-8pm I-NP
+DIGIT I-NP
 tuition B-NP
 can O
 
@@ -97855,7 +97855,7 @@ waa O
 someone B-NP
 excited O
 bout O
-2moro B-NP
+DIGIT B-NP
 eh O
 
 haha O
@@ -97951,7 +97951,7 @@ i O
 have O
 class O
 at O
-3 O
+DIGIT O
 or O
 whatever O
 
@@ -98076,7 +98076,7 @@ budget B-NP
 for O
 bb B-NP
 bold I-NP
-2 I-NP
+DIGIT I-NP
 is O
 cos O
 i O
@@ -98109,16 +98109,16 @@ say O
 i O
 never O
 do O
-2 O
+DIGIT O
 4 O
 then O
 say O
 he O
 never O
 do O
-1 O
+DIGIT O
 & O
-3 O
+DIGIT O
 hahaha O
 
 i B-NP
@@ -98263,13 +98263,13 @@ time O
 u O
 eating O
 breakfast O
-2moro O
+DIGIT O
 can O
 help O
 me O
 openturnstile O
 at O
-7 O
+DIGIT O
 
 ahh O
 accidentally O
@@ -98454,7 +98454,7 @@ u B-NP
 do O
 all B-NP
 in O
-1 B-NP
+DIGIT B-NP
 nite I-NP
 ? O
 oo O
@@ -98496,7 +98496,7 @@ i B-NP
 can O
 reach O
 earliest O
-1pm B-NP
+DIGIT B-NP
 
 are O
 you B-NP
@@ -98674,7 +98674,7 @@ and O
 discuss O
 
 for O
-4 B-NP
+DIGIT B-NP
 pax I-NP
 ? O
 
@@ -98865,7 +98865,7 @@ cheong O
 will O
 come O
 around O
-7pm O
+DIGIT O
 tonight O
 
 that B-NP
@@ -98959,7 +98959,7 @@ laps O
 ohh O
 no O
 caught O
-2b B-NP
+DIGIT B-NP
 cluster I-NP
 mentor I-NP
 ! O
@@ -99009,7 +99009,7 @@ twist O
 lol O
 
 only O
-2 B-NP
+DIGIT B-NP
 days I-NP
 leave I-NP
 :) O
@@ -99082,7 +99082,7 @@ slot O
 pool B-NP
 ends O
 at O
-5 B-NP
+DIGIT B-NP
 then O
 got O
 debrief B-NP
@@ -99508,7 +99508,7 @@ way O
 
 gg O
 wksht B-NP
-2c I-NP
+DIGIT I-NP
 where O
 got O
 ester B-NP
@@ -99765,10 +99765,10 @@ not O
 long O
 ago O
 after O
-4 O
+DIGIT O
 buses O
 of O
-9 O
+DIGIT O
 went O
 
 lol O
@@ -99809,7 +99809,7 @@ i O
 end O
 sch O
 at O
-1 O
+DIGIT O
 ifyoure O
 free O
 then O
@@ -100237,7 +100237,7 @@ see O
 you B-NP
 at O
 the B-NP
-2pm I-NP
+DIGIT I-NP
 lecture I-NP
 ? O
 
@@ -100416,7 +100416,7 @@ sup O
 ch8 B-NP
 show I-NP
 at O
-9pm B-NP
+DIGIT B-NP
 was O
 prolly O
 going O
@@ -100564,7 +100564,7 @@ me O
 whereee O
 
 yeah O
-3 O
+DIGIT O
 of O
 us O
 hilda O
@@ -100627,9 +100627,9 @@ nice O
 (: O
 haha O
 youonly O
-2 B-NP
+DIGIT B-NP
 or O
-3 B-NP
+DIGIT B-NP
 exams B-NP
 right O
 
@@ -101218,7 +101218,7 @@ e B-NP
 coz O
 no O
 more O
-2 O
+DIGIT O
 tagerror B-NP
 days I-NP
 
@@ -101248,7 +101248,7 @@ house I-NP
 play O
 
 haha O
-3 B-NP
+DIGIT B-NP
 of I-NP
 us I-NP
 today I-NP
@@ -101636,7 +101636,7 @@ invite O
 
 only O
 study O
-2 O
+DIGIT O
 days O
 gg O
 max O
@@ -101677,7 +101677,7 @@ me B-NP
 lol O
 siantot O
 tat O
-1 B-NP
+DIGIT B-NP
 can O
 scoreproject O
 still O
@@ -101749,7 +101749,7 @@ group I-NP
 haha O
 
 about O
-7 B-NP
+DIGIT B-NP
 plus I-NP
 . O
 
@@ -102032,9 +102032,9 @@ ms O
 lee O
 aggro O
 
-7am O
+DIGIT O
 to O
-9am O
+DIGIT O
 
 ok O
 ehh O
@@ -102193,7 +102193,7 @@ tell O
 me B-NP
 the B-NP
 win I-NP
-2nd I-NP
+DIGIT I-NP
 prize I-NP
 de I-NP
 name I-NP
@@ -102392,7 +102392,7 @@ all O
 the O
 way O
 la O
-2moro O
+DIGIT O
 nite O
 den O
 i O
@@ -102412,9 +102412,9 @@ u O
 book O
 in O
 is O
-7th O
+DIGIT O
 or O
-9th O
+DIGIT O
 
 i O
 meeting O
@@ -102578,7 +102578,7 @@ u B-NP
 more O
 
 lol O
-9pm B-NP
+DIGIT B-NP
 . O
 
 oh O
@@ -102620,7 +102620,7 @@ section B-NP
 
 wth O
 i B-NP
-1st B-NP
+DIGIT B-NP
 ques I-NP
 <#> B-NP
 mins I-NP
@@ -102812,7 +102812,7 @@ h I-NP
 ave O
 the O
 original O
-1 O
+DIGIT O
 
 hahaha O
 i B-NP
@@ -103294,7 +103294,7 @@ no O
 training O
 per O
 week O
-2moro O
+DIGIT O
 morning O
 u O
 free O
@@ -103782,7 +103782,7 @@ i O
 need O
 to O
 sleep O
-2moro O
+DIGIT O
 is O
 a O
 long O
@@ -103801,16 +103801,16 @@ swimming I-NP
 event I-NP
 ? O
 on O
-4 O
+DIGIT O
 & O
-5nov O
-7 O
+DIGIT O
+DIGIT O
 am O
 to O
-9 O
+DIGIT O
 pm O
 with O
-5 B-NP
+DIGIT B-NP
 hours I-NP
 break I-NP
 in O
@@ -104034,8 +104034,8 @@ talked O
 to O
 timo B-NP
 until O
-4 B-NP
-7 B-NP
+DIGIT B-NP
+DIGIT B-NP
 
 yeah O
 it B-NP
@@ -104154,7 +104154,7 @@ working O
 for O
 event O
 these O
-2 O
+DIGIT O
 days O
 
 he O
@@ -104207,12 +104207,12 @@ you B-NP
 ... O
 
 core O
-2 O
+DIGIT O
 duo O
 asus B-NP
 board I-NP
 , O
-2 B-NP
+DIGIT B-NP
 gb O
 ddr3 B-NP
 ram I-NP
@@ -104525,7 +104525,7 @@ my B-NP
 cca I-NP
 starts O
 at O
-2 B-NP
+DIGIT B-NP
 haha O
 >< O
 
@@ -104535,7 +104535,7 @@ just O
 my B-NP
 meeting I-NP
 at O
-1pm B-NP
+DIGIT B-NP
 :) O
 
 how O
@@ -105527,7 +105527,7 @@ him B-NP
 =) O
 
 bout O
-7 O
+DIGIT O
 u O
 finished O
 alr O
@@ -105581,7 +105581,7 @@ i O
 very O
 shui O
 bian O
-1 O
+DIGIT O
 beggers O
 cant O
 be O
@@ -105647,7 +105647,7 @@ her O
 sis O
 in O
 year O
-1 O
+DIGIT O
 looks O
 super O
 alot O
@@ -105823,7 +105823,7 @@ run O
 pao O
 i O
 have O
-3 O
+DIGIT O
 more O
 friends O
 from O
@@ -106294,7 +106294,7 @@ haha O
 i B-NP
 was O
 listing O
-3 B-NP
+DIGIT B-NP
 guys O
 i B-NP
 talk O
@@ -106466,10 +106466,10 @@ the B-NP
 team I-NP
 take O
 best B-NP
-4 I-NP
+DIGIT I-NP
 readings I-NP
 mine I-NP
-4th I-NP
+DIGIT I-NP
 . O
 gideon B-NP
 dam O
@@ -106718,7 +106718,7 @@ can O
 join O
 them B-NP
 !! O
-2 B-NP
+DIGIT B-NP
 more I-NP
 stops I-NP
 !! O
@@ -106755,7 +106755,7 @@ joel B-NP
 yh B-NP
 not O
 coming O
-2day B-NP
+DIGIT B-NP
 zzz O
 
 s B-NP
@@ -106823,19 +106823,19 @@ for O
 <#> B-NP
 assignment I-NP
 ? O
-1 O
-6 O
+DIGIT O
+DIGIT O
 <#> O
 , O
 9 O
-3 O
+DIGIT O
 <#> O
 6 O
 <#> O
 85 O
 <#> O
 , O
-1 O
+DIGIT O
 
 haha O
 ooo O
@@ -106944,14 +106944,14 @@ e O
 d O
 
 yeeeeeeepmsg O
-1985 O
+DIGIT O
 from O
 be7224a0d4bffb0af6d2c073b353fcfb6b681be2d79e1662 O
 , O
 to944baf87cb3baab20fd2a1ae0a918c3a O
 , O
 20130704 O
-035204oh O
+DIGIT O
 haha O
 well O
 were O
@@ -107047,7 +107047,7 @@ we B-NP
 meet O
 at O
 around B-NP
-1 I-NP
+DIGIT I-NP
 ? O
 or O
 is O
@@ -107326,7 +107326,7 @@ rmb B-NP
 bah O
 haha O
 its O
-2 B-NP
+DIGIT B-NP
 test O
 one O
 quiz B-NP
@@ -107708,9 +107708,9 @@ on O
 me O
 inthe O
 past O
-1 O
+DIGIT O
 or O
-2 O
+DIGIT O
 months O
 yeah O
 came O
@@ -107821,7 +107821,7 @@ pick O
 you O
 up O
 at O
-7 O
+DIGIT O
 pm O
 
 ok O
@@ -107859,7 +107859,7 @@ u O
 know O
 when O
 our O
-7th O
+DIGIT O
 sem O
 results O
 will O
@@ -108594,7 +108594,7 @@ now I-NP
 ol O
 
 choose O
-1 B-NP
+DIGIT B-NP
 la O
 lols O
 
@@ -108748,7 +108748,7 @@ back O
 in O
 sch B-NP
 by B-NP
-4 I-NP
+DIGIT I-NP
 ! O
 (: O
 
@@ -108773,7 +108773,7 @@ i B-NP
 stayed O
 up O
 until O
-2am B-NP
+DIGIT B-NP
 just O
 forsettling O
 the B-NP
@@ -108846,7 +108846,7 @@ you O
 
 why O
 then O
-2moro O
+DIGIT O
 how O
 own O
 ubin O
@@ -108926,11 +108926,11 @@ house I-NP
 loud O
 and O
 crazy O
-7 B-NP
+DIGIT B-NP
 kids I-NP
 . O
 only O
-2 B-NP
+DIGIT B-NP
 biys I-NP
 ( O
 including O
@@ -108939,7 +108939,7 @@ noble B-NP
 ha O
 ha O
 evry O
-1 O
+DIGIT O
 i O
 kno O
 has O
@@ -109061,9 +109061,9 @@ discussing O
 with O
 you O
 items O
-5 O
+DIGIT O
 & O
-6 O
+DIGIT O
 on O
 glassmeasurement O
 need O
@@ -109214,7 +109214,7 @@ realize O
 ur B-NP
 lesson I-NP
 till O
-7 O
+DIGIT O
 kiss O
 u O
 
@@ -109338,7 +109338,7 @@ fecl3 O
 i B-NP
 stop O
 at O
-3 O
+DIGIT O
 full O
 etches O
 depends O
@@ -109498,7 +109498,7 @@ sleepy O
 lols O
 but O
 then O
-2moro B-NP
+DIGIT B-NP
 test B-NP
 le O
 
@@ -109570,7 +109570,7 @@ try O
 eep B-NP
 tagerror I-NP
 at O
-1 O
+DIGIT O
 then O
 wa O
 wa O
@@ -109844,7 +109844,7 @@ get O
 intermediate O
 monster O
 crystal O
-3 O
+DIGIT O
 
 i B-NP
 miss O
@@ -110034,7 +110034,7 @@ lik O
 lols O
 i B-NP
 last O
-5 O
+DIGIT O
 min O
 totally O
 give O
@@ -110057,7 +110057,7 @@ for O
 the B-NP
 bbq I-NP
 at I-NP
-3pm I-NP
+DIGIT I-NP
 la O
 we B-NP
 buying O
@@ -110414,7 +110414,7 @@ just O
 let O
 her B-NP
 know O
-1 B-NP
+DIGIT B-NP
 day I-NP
 in O
 advanced O
@@ -110425,7 +110425,7 @@ has O
 been O
 opened O
 at O
-800am O
+DIGIT O
 
 can O
 you O
@@ -110737,7 +110737,7 @@ gonna O
 be O
 here B-NP
 before O
-9 B-NP
+DIGIT B-NP
 ? O
 
 ok O
@@ -111103,7 +111103,7 @@ orh O
 i O
 end O
 at O
-6 O
+DIGIT O
 today O
 wanna O
 meet O
@@ -111269,7 +111269,7 @@ m O
 not O
 there O
 at O
-4 B-NP
+DIGIT B-NP
 , O
 can O
 call O
@@ -111453,14 +111453,14 @@ glory I-NP
 , O
 then O
 about O
-6 B-NP
+DIGIT B-NP
 . O
 if O
 you B-NP
 want O
 ralphs B-NP
 maybe O
-2 B-NP
+DIGIT B-NP
 
 heh O
 thanks O
@@ -111538,8 +111538,8 @@ cus O
 too O
 late O
 
-4 O
-5 O
+DIGIT O
+DIGIT O
 plus O
 u O
 all O
@@ -111627,7 +111627,7 @@ my O
 dad O
 come O
 at O
-8 O
+DIGIT O
 
 robotics B-NP
 room I-NP
@@ -111686,7 +111686,7 @@ if O
 eating O
 lunch B-NP
 comeat O
-1 B-NP
+DIGIT B-NP
 if O
 not O
 decimal B-NP
@@ -111713,7 +111713,7 @@ bill O
 stating O
 i O
 have O
-5 O
+DIGIT O
 taps O
 when O
 is O
@@ -111771,7 +111771,7 @@ you B-NP
 . O
 
 woah O
-4 O
+DIGIT O
 hours O
 paper O
 
@@ -111970,7 +111970,7 @@ my O
 sis O
 bday O
 on O
-5july O
+DIGIT O
 can O
 changethe O
 dinner O
@@ -112180,7 +112180,7 @@ for O
 hardcopy B-NP
 then O
 nov B-NP
-89 I-NP
+DIGIT I-NP
 got O
 presentation B-NP
 
@@ -112447,7 +112447,7 @@ oh O
 ya O
 mine O
 from O
-9 O
+DIGIT O
 to O
 <#> O
 . O
@@ -112646,20 +112646,20 @@ fact I-NP
 nobody B-NP
 teaches O
 volcanoes B-NP
-2 O
+DIGIT O
 erupt O
 tsunamis B-NP
-2 O
+DIGIT O
 arise O
 hurricanes B-NP
-2 O
+DIGIT O
 sway O
 aroundn O
 no O
-1 O
+DIGIT O
 teaches O
 hw O
-2 O
+DIGIT O
 choose O
 a B-NP
 wife I-NP
@@ -112926,7 +112926,7 @@ i B-NP
 choose O
 de O
 all O
-3pm B-NP
+DIGIT B-NP
 de O
 
 had O
@@ -112960,7 +112960,7 @@ haha O
 my B-NP
 bro I-NP
 got O
-5 B-NP
+DIGIT B-NP
 exams B-NP
 andstill O
 damn O
@@ -113227,7 +113227,7 @@ sch B-NP
 
 i O
 put O
-2 O
+DIGIT O
 yest O
 now O
 no O
@@ -113880,7 +113880,7 @@ colored I-NP
 bathtub I-NP
 on O
 the B-NP
-2nd I-NP
+DIGIT I-NP
 floor I-NP
 mbr I-NP
 ? O
@@ -114037,7 +114037,7 @@ is O
 coming O
 back O
 
-2moro B-NP
+DIGIT B-NP
 going O
 joel B-NP
 hse I-NP
@@ -114051,9 +114051,9 @@ up O
 
 i O
 think O
-2 O
+DIGIT O
 to O
-3 O
+DIGIT O
 weeks O
 frm O
 now O
@@ -114140,7 +114140,7 @@ im O
 asleep O
 
 heh O
-4pm B-NP
+DIGIT B-NP
 . O
 d O
 
@@ -114210,7 +114210,7 @@ notes I-NP
 bah O
 
 bring O
-2moro B-NP
+DIGIT B-NP
 do O
 
 no O
@@ -114465,7 +114465,7 @@ a B-NP
 dance I-NP
 recital I-NP
 at I-NP
-8thatll I-NP
+DIGIT I-NP
 be I-NP
 about I-NP
 an I-NP
@@ -114722,11 +114722,11 @@ haha O
 yups O
 she O
 got O
-3 O
+DIGIT O
 younger O
 sisters O
 the O
-2nd O
+DIGIT O
 youngest O
 isstudying O
 here O
@@ -114917,7 +114917,7 @@ suddenly O
 jio O
 me O
 go O
-2moro O
+DIGIT O
 so O
 i O
 tot O
@@ -114987,9 +114987,9 @@ can O
 you O
 take O
 wed O
-2 O
+DIGIT O
 to O
-3 O
+DIGIT O
 
 much O
 better O
@@ -115068,7 +115068,7 @@ i B-NP
 only O
 have O
 pussy B-NP
-5kg I-NP
+DIGIT I-NP
 fixed I-NP
 weights I-NP
 . O
@@ -115162,17 +115162,17 @@ tuesday B-NP
 . O
 only O
 buy O
-2 B-NP
+DIGIT B-NP
 meals I-NP
 only O
-2 B-NP
+DIGIT B-NP
 . O
 no O
 gravy O
 only O
-2 B-NP
+DIGIT B-NP
 mark O
-2 B-NP
+DIGIT B-NP
 ! O
 
 oh O
@@ -115249,7 +115249,7 @@ xi I-NP
 , O
 change O
 to O
-3pm B-NP
+DIGIT B-NP
 ok O
 
 name O
@@ -115334,7 +115334,7 @@ he B-NP
 gets O
 out O
 at O
-5 B-NP
+DIGIT B-NP
 . O
 his B-NP
 work I-NP
@@ -115438,7 +115438,7 @@ today O
 ish O
 minutes B-NP
 was O
-5 B-NP
+DIGIT B-NP
 minutes I-NP
 ago I-NP
 . O
@@ -115647,7 +115647,7 @@ g B-NP
 
 yeah O
 season B-NP
-5 I-NP
+DIGIT I-NP
 now O
 ohh O
 going O
@@ -115673,7 +115673,7 @@ m O
 home B-NP
 le O
 
-8 B-NP
+DIGIT B-NP
 at O
 the O
 latest O
@@ -115881,7 +115881,7 @@ should O
 be O
 fine O
 around O
-2pm O
+DIGIT O
 
 yes O
 please O
@@ -116644,7 +116644,7 @@ is O
 dun O
 need O
 carry O
-2 O
+DIGIT O
 things O
 together O
 lehlol O
@@ -116667,7 +116667,7 @@ how O
 first O
 but O
 got O
-4 O
+DIGIT O
 hour O
 do O
 nothing O
@@ -116745,7 +116745,7 @@ movie I-NP
 ? O
 
 lol O
-8am O
+DIGIT O
 at O
 macpherson O
 
@@ -116804,7 +116804,7 @@ cramps I-NP
 for O
 the O
 first B-NP
-2 I-NP
+DIGIT I-NP
 months I-NP
 i B-NP
 didnt O
@@ -116937,7 +116937,7 @@ kevin B-NP
 ok O
 but O
 before O
-5pm B-NP
+DIGIT B-NP
 , O
 can O
 
@@ -116976,7 +116976,7 @@ toot O
 la O
 the O
 chapter O
-1 O
+DIGIT O
 way O
 of O
 finding O
@@ -117076,14 +117076,14 @@ cleaner O
 wanna O
 gym B-NP
 at O
-4 B-NP
+DIGIT B-NP
 ? O
 
 hey O
 math B-NP
 case I-NP
 study I-NP
-2 I-NP
+DIGIT I-NP
 the O
 <#> B-NP
 possible I-NP
@@ -117336,7 +117336,7 @@ okay O
 so O
 i O
 have O
-4 B-NP
+DIGIT B-NP
 things O
 today B-NP
 i B-NP
@@ -117491,7 +117491,7 @@ hahahaha O
 
 im O
 gng O
-2 O
+DIGIT O
 b O
 late O
 bcoz O
@@ -117621,7 +117621,7 @@ lah O
 i O
 <#> O
 end O
-3 O
+DIGIT O
 then O
 got O
 lesson O
@@ -117781,7 +117781,7 @@ wan O
 wait O
 for O
 next O
-1 B-NP
+DIGIT B-NP
 hahaha O
 
 now O
@@ -118007,7 +118007,7 @@ in O
 cula B-NP
 ! B-NP
 
-2day O
+DIGIT O
 not O
 staying O
 
@@ -118032,7 +118032,7 @@ ill O
 get O
 there O
 at O
-3 B-NP
+DIGIT B-NP
 , O
 unless O
 you O
@@ -118131,7 +118131,7 @@ of O
 tv O
 
 hey O
-2moro B-NP
+DIGIT B-NP
 going O
 into O
 water B-NP
@@ -118177,7 +118177,7 @@ probablytaking O
 mon O
 <#> O
 to O
-1 O
+DIGIT O
 right O
 aft O
 lecture O
@@ -118486,7 +118486,7 @@ just O
 went O
 arcade O
 for O
-2 O
+DIGIT O
 hours O
 
 haha O
@@ -118543,7 +118543,7 @@ of O
 me O
 in O
 ear B-NP
-1 I-NP
+DIGIT I-NP
 shor I-NP
 t O
 fat O
@@ -118704,7 +118704,7 @@ i O
 went O
 bugis O
 with O
-3 O
+DIGIT O
 guys O
 it O
 was O
@@ -119067,7 +119067,7 @@ on O
 my B-NP
 pw I-NP
 is O
-2oo B-NP
+DIGIT B-NP
 <#> I-NP
 hahaha O
 i B-NP
@@ -119121,7 +119121,7 @@ at O
 center B-NP
 column I-NP
 last I-NP
-7th I-NP
+DIGIT I-NP
 row I-NP
 
 can O
@@ -119175,7 +119175,7 @@ notice O
 thur O
 <#> O
 to O
-6 O
+DIGIT O
 is O
 alright O
 its O
@@ -119263,7 +119263,7 @@ problem I-NP
 
 ok O
 then O
-2pm B-NP
+DIGIT B-NP
 on O
 sunday B-NP
 ? O
@@ -119341,7 +119341,7 @@ i O
 cant O
 smthing O
 on O
-2moro O
+DIGIT O
 
 <#> O
 * O
@@ -119394,7 +119394,7 @@ it O
 wouldve O
 rang O
 in O
-5mins B-NP
+DIGIT B-NP
 ! O
 hahaha O
 okay O
@@ -119655,7 +119655,7 @@ fail O
 last O
 time O
 that O
-1 O
+DIGIT O
 ah O
 
 wahhs O
@@ -119839,7 +119839,7 @@ up O
 to O
 dadar B-NP
 
-4 O
+DIGIT O
 ldrs O
 
 ah O
@@ -119870,7 +119870,7 @@ he B-NP
 watched O
 before O
 
-5pm B-NP
+DIGIT B-NP
 and O
 in O
 btw O
@@ -119976,7 +119976,7 @@ exam B-NP
 with O
 in O
 march B-NP
-3 I-NP
+DIGIT I-NP
 
 yeah O
 so O
@@ -120027,7 +120027,7 @@ if O
 not O
 confirmsleep O
 until O
-6am O
+DIGIT O
 
 you O
 guys O
@@ -120123,7 +120123,7 @@ lol O
 i O
 reaching O
 in O
-2 O
+DIGIT O
 stops O
 time O
 lol O
@@ -120303,7 +120303,7 @@ opens O
 
 i B-NP
 have O
-2 B-NP
+DIGIT B-NP
 docs I-NP
 appointments I-NP
 next B-NP
@@ -120420,7 +120420,7 @@ free O
 tonight O
 
 hahaha O
-1 B-NP
+DIGIT B-NP
 pm I-NP
 ! O
 timo B-NP
@@ -120641,7 +120641,7 @@ you B-NP
 want O
 to O
 take O
-2 O
+DIGIT O
 star O
 kayaking O
 course O
@@ -120666,7 +120666,7 @@ haha O
 lol O
 its O
 holiday O
-2moro O
+DIGIT O
 night O
 going O
 to O
@@ -120683,7 +120683,7 @@ correct O
 
 uhh O
 vietnam B-NP
-5 B-NP
+DIGIT B-NP
 june B-NP
 to O
 <#> B-NP
@@ -120868,7 +120868,7 @@ to O
 wake O
 up O
 at O
-4 O
+DIGIT O
 to O
 study O
 
@@ -120973,7 +120973,7 @@ happy O
 too O
 with O
 your B-NP
-9gag I-NP
+DIGIT I-NP
 toy I-NP
 storyshoes I-NP
 ! O
@@ -120998,7 +120998,7 @@ board I-NP
 cpu O
 : O
 <#> B-NP
-4 B-NP
+DIGIT B-NP
 gb O
 ram O
 : O
@@ -121034,7 +121034,7 @@ balance B-NP
 : O
 <#> B-NP
 
-6pm O
+DIGIT O
 bbq O
 right O
 
@@ -121204,7 +121204,7 @@ so O
 sad O
 the O
 year O
-5s O
+DIGIT O
 are O
 inspringwood O
 
@@ -121533,7 +121533,7 @@ sleephaha O
 i B-NP
 slept O
 around O
-1 B-NP
+DIGIT B-NP
 , O
 tired O
 cannot O
@@ -122632,7 +122632,7 @@ to O
 brief O
 me O
 earlier O
-2day O
+DIGIT O
 
 have O
 to O
@@ -122669,7 +122669,7 @@ haha O
 tat O
 time O
 i O
-4 O
+DIGIT O
 pm O
 buy O
 have O
@@ -122830,7 +122830,7 @@ to O
 our O
 place O
 at O
-4 O
+DIGIT O
 verde O
 crescent O
 to O
@@ -123052,9 +123052,9 @@ to O
 do O
 and O
 draft O
-1 O
+DIGIT O
 or O
-2question O
+DIGIT O
 that O
 u O
 need O
@@ -123185,10 +123185,10 @@ donthand O
 up O
 still O
 got O
-3 B-NP
+DIGIT B-NP
 zuowen I-NP
 and O
-2 B-NP
+DIGIT B-NP
 jianbao I-NP
 :/ O
 chibi B-NP
@@ -123543,7 +123543,7 @@ help O
 my O
 fren O
 buy O
-1 O
+DIGIT O
 more O
 white O
 thks O
@@ -123699,7 +123699,7 @@ kwhy O
 <#> B-NP
 am I-NP
 to O
-1pm B-NP
+DIGIT B-NP
 . O
 
 oh O
@@ -123733,7 +123733,7 @@ hahahahaha O
 yeah O
 i B-NP
 have O
-7 B-NP
+DIGIT B-NP
 things I-NP
 to O
 complete O
@@ -123867,7 +123867,7 @@ stories I-NP
 haha O
 
 bought O
-2 O
+DIGIT O
 hdds B-NP
 , O
 both O
@@ -123954,9 +123954,9 @@ think O
 got O
 math B-NP
 class I-NP
-6 B-NP
+DIGIT B-NP
 to I-NP
-7 I-NP
+DIGIT I-NP
 so O
 i B-NP
 dk O
@@ -124498,7 +124498,7 @@ lets O
 hav O
 lunch B-NP
 tme I-NP
-2day B-NP
+DIGIT B-NP
 USR O
 d B-NP
 shop I-NP
@@ -124627,7 +124627,7 @@ tmr B-NP
 my B-NP
 cluster I-NP
 got O
-2tickets B-NP
+DIGIT B-NP
 to I-NP
 real I-NP
 steel I-NP
@@ -124845,17 +124845,17 @@ tomorrow B-NP
 will O
 be O
 the B-NP
-4th I-NP
+DIGIT I-NP
 lesson I-NP
 . O
 the B-NP
 previous I-NP
-3 I-NP
+DIGIT I-NP
 lessons I-NP
 are O
 on O
 aug B-NP
-5 I-NP
+DIGIT I-NP
 and O
 <#> B-NP
 sept I-NP
@@ -124912,7 +124912,7 @@ you O
 to O
 today B-NP
 
-2nd O
+DIGIT O
 level O
 
 ohh O
@@ -125476,7 +125476,7 @@ that O
 <#> O
 dollars O
 is O
-2years O
+DIGIT O
 sent O
 and O
 that O
@@ -125571,7 +125571,7 @@ the O
 fucking O
 dealing B-NP
 
-3 B-NP
+DIGIT B-NP
 . O
 but O
 got O
@@ -125612,7 +125612,7 @@ i O
 gg O
 outhee O
 
-2nite O
+DIGIT O
 can O
 i O
 wanna O
@@ -125638,12 +125638,12 @@ weining O
 is O
 there O
 a O
-2nd O
+DIGIT O
 slot O
 for O
 the O
 cip O
-2moro O
+DIGIT O
 
 lololol O
 i O
@@ -125986,7 +125986,7 @@ started O
 not O
 long O
 ago O
-1page B-NP
+DIGIT B-NP
 onlyloly O
 want O
 pics B-NP
@@ -126186,7 +126186,7 @@ because O
 i B-NP
 lost O
 another O
-5 O
+DIGIT O
 pounds O
 woohoo O
 
@@ -126323,7 +126323,7 @@ to O
 last O
 u B-NP
 for O
-1 B-NP
+DIGIT B-NP
 week I-NP
 tis O
 time O
@@ -126463,7 +126463,7 @@ be O
 my O
 guest O
 
-2moro O
+DIGIT O
 got O
 wat O
 test O
@@ -126605,7 +126605,7 @@ is O
 there O
 a B-NP
 number I-NP
-3 I-NP
+DIGIT I-NP
 ? O
 
 eh O
@@ -126644,7 +126644,7 @@ eg O
 . O
 the O
 other O
-2 O
+DIGIT O
 i O
 not O
 so O
@@ -126833,7 +126833,7 @@ hell O
 got O
 overtaken O
 by O
-2 B-NP
+DIGIT B-NP
 girls I-NP
 during O
 last B-NP
@@ -127498,13 +127498,13 @@ yup O
 need O
 spam O
 banana B-NP
-2moro B-NP
+DIGIT B-NP
 . O
-2day B-NP
+DIGIT B-NP
 go O
 buffet B-NP
 eat O
-2 B-NP
+DIGIT B-NP
 bowls I-NP
 porridge I-NP
 .. O
@@ -127688,7 +127688,7 @@ où O
 
 i B-NP
 by O
-9pm B-NP
+DIGIT B-NP
 tell O
 u B-NP
 ok O
@@ -128113,7 +128113,7 @@ how O
 much O
 for O
 an B-NP
-8th I-NP
+DIGIT I-NP
 ? O
 fifty B-NP
 ? O
@@ -128542,7 +128542,7 @@ bid I-NP
 
 rofl O
 about O
-7 B-NP
+DIGIT B-NP
 plus I-NP
 bah O
 
@@ -128565,7 +128565,7 @@ go O
 slp O
 le O
 cya O
-2moro B-NP
+DIGIT B-NP
 
 i B-NP
 know O
@@ -128662,20 +128662,20 @@ ll O
 be O
 there O
 in O
-5 B-NP
+DIGIT B-NP
 ! O
 
 ahhh O
 okay O
 make O
 it B-NP
-5 B-NP
+DIGIT B-NP
 then O
 meet O
 you B-NP
 at O
 canteen B-NP
-2 I-NP
+DIGIT I-NP
 . O
 
 haha O
@@ -128838,7 +128838,7 @@ til O
 tomorrow O
 
 finish O
-2 O
+DIGIT O
 days O
 loshake O
 leg O
@@ -128868,7 +128868,7 @@ presentation B-NP
 i B-NP
 only O
 got O
-2 B-NP
+DIGIT B-NP
 mins I-NP
 is O
 it O
@@ -129154,7 +129154,7 @@ planorbidae O
 normally O
 train O
 bout O
-2 O
+DIGIT O
 times O
 per O
 week O
@@ -129467,7 +129467,7 @@ will O
 he B-NP
 let O
 only O
-2 B-NP
+DIGIT B-NP
 days I-NP
 in O
 leh O
@@ -129682,7 +129682,7 @@ d O
 ah O
 very O
 easy O
-1 O
+DIGIT O
 la O
 we B-NP
 see O
@@ -129749,7 +129749,7 @@ the O
 office O
 at O
 about O
-6pm O
+DIGIT O
 today O
 
 haha O
@@ -129836,10 +129836,10 @@ for O
 talk O
 at O
 raffles O
-7 O
+DIGIT O
 to O
 abt O
-9 O
+DIGIT O
 . O
 so O
 shld O
@@ -130103,9 +130103,9 @@ then O
 aft O
 that B-NP
 play O
-5 B-NP
+DIGIT B-NP
 on I-NP
-5 I-NP
+DIGIT I-NP
 then O
 i B-NP
 had O
@@ -130146,7 +130146,7 @@ not O
 staying O
 le O
 haha O
-5day O
+DIGIT O
 camp O
 omg O
 shiok O
@@ -130250,7 +130250,7 @@ today B-NP
 
 eating O
 at O
-2 O
+DIGIT O
 
 hahahahahahahahaha O
 thank O
@@ -130391,9 +130391,9 @@ hmmm O
 okay O
 wed O
 around O
-2 O
+DIGIT O
 to O
-3 O
+DIGIT O
 
 just O
 dinner B-NP
@@ -131090,7 +131090,7 @@ hi O
 ricky O
 how O
 about O
-1pm O
+DIGIT O
 tomorrow O
 we O
 are O
@@ -131293,7 +131293,7 @@ a O
 little O
 later O
 than O
-6 B-NP
+DIGIT B-NP
 
 cekam O
 bus O
@@ -131715,7 +131715,7 @@ who O
 i O
 see O
 like O
-5 O
+DIGIT O
 times O
 a O
 year O
@@ -131772,7 +131772,7 @@ availableperhaps O
 tuesday B-NP
 evening I-NP
 after O
-7pm B-NP
+DIGIT B-NP
 ? O
 will O
 that B-NP
@@ -131902,7 +131902,7 @@ serious O
 eh O
 okay O
 heh O
-1 B-NP
+DIGIT B-NP
 more I-NP
 hour I-NP
 to O
@@ -131988,7 +131988,7 @@ isnt O
 it B-NP
 longer O
 than O
-5 B-NP
+DIGIT B-NP
 mins I-NP
 lor O
 oh O
@@ -132007,7 +132007,7 @@ come O
 to O
 park B-NP
 at O
-6 B-NP
+DIGIT B-NP
 
 nope O
 no O
@@ -132040,7 +132040,7 @@ shihui B-NP
 and O
 he B-NP
 kissed O
-4 B-NP
+DIGIT B-NP
 guys I-NP
 in O
 the B-NP
@@ -132378,7 +132378,7 @@ trip O
 to O
 ily O
 at O
-6pm O
+DIGIT O
 tablesbooked O
 already O
 im O
@@ -132497,7 +132497,7 @@ be O
 tmr O
 at O
 about O
-1pm O
+DIGIT O
 ill O
 checkwith O
 the B-NP
@@ -132510,7 +132510,7 @@ u B-NP
 .. O
 
 about O
-6 B-NP
+DIGIT B-NP
 i B-NP
 think O
 
@@ -132949,19 +132949,19 @@ email O
 me O
 softcopy O
 
-2 B-NP
+DIGIT B-NP
 to I-NP
-3 I-NP
+DIGIT I-NP
 i B-NP
 got O
 tutorial B-NP
 .. O
 can O
 either O
-3pm B-NP
+DIGIT B-NP
 or O
 before B-NP
-2 I-NP
+DIGIT I-NP
 ? O
 
 yeah O
@@ -133018,7 +133018,7 @@ night O
 hmm O
 i B-NP
 think O
-7 B-NP
+DIGIT B-NP
 onwards I-NP
 no O
 problem O
@@ -133231,7 +133231,7 @@ got O
 ocs O
 end O
 at O
-1 B-NP
+DIGIT B-NP
 
 ok O
 i B-NP
@@ -133257,7 +133257,7 @@ service B-NP
 systems I-NP
 . O
 gt O
-1 B-NP
+DIGIT B-NP
 more I-NP
 i B-NP
 forgot O
@@ -133565,7 +133565,7 @@ hao I-NP
 liao I-NP
 mean O
 
-6pm B-NP
+DIGIT B-NP
 USR O
 ur B-NP
 hous I-NP
@@ -133784,7 +133784,7 @@ is O
 it O
 decimal O
 or O
-7 O
+DIGIT O
 pm O
 
 do O
@@ -133818,17 +133818,17 @@ square O
 is O
 correct O
 ( O
-5 O
+DIGIT O
 + O
-4x O
+DIGIT O
 - O
 x2 O
 = O
-9 O
+DIGIT O
 - O
-4 O
+DIGIT O
 + O
-4x O
+DIGIT O
 - O
 x O
 ), O
@@ -133868,7 +133868,7 @@ ay O
 / O
 <#> O
 sems O
-2 O
+DIGIT O
 de O
 <#> O
 paper O
@@ -133901,7 +133901,7 @@ take O
 finish O
 already O
 ok O
-1 O
+DIGIT O
 u B-NP
 if O
 confirm O
@@ -134091,7 +134091,7 @@ hear O
 yai O
 just O
 got O
-2 O
+DIGIT O
 new O
 jobsone O
 teaching O
@@ -134173,9 +134173,9 @@ the O
 charges O
 right O
 
-2 O
+DIGIT O
 drivers O
-1 O
+DIGIT O
 large O
 battery O
 yeah O
@@ -134364,7 +134364,7 @@ thailand O
 affected O
 hopefully O
 this O
-5 O
+DIGIT O
 mth O
 nothinghappen O
 lol O
@@ -134433,9 +134433,9 @@ above O
 he O
 got O
 the O
-3 O
+DIGIT O
 to O
-4 O
+DIGIT O
 one O
 lol O
 nobody O
@@ -134607,7 +134607,7 @@ enter O
 this B-NP
 place I-NP
 
-2 B-NP
+DIGIT B-NP
 more O
 
 slap O
@@ -134641,7 +134641,7 @@ okay O
 the B-NP
 hotel I-NP
 is O
-5star O
+DIGIT O
 is O
 hilton O
 and O
@@ -134660,9 +134660,9 @@ stay I-NP
 the B-NP
 flight I-NP
 is O
-6k B-NP
+DIGIT B-NP
 for O
-4ppl B-NP
+DIGIT B-NP
 .. O
 
 okie O
@@ -134694,7 +134694,7 @@ tink O
 my O
 lastqn O
 got O
-2 O
+DIGIT O
 working O
 mark O
 
@@ -134765,7 +134765,7 @@ probably O
 reach O
 home O
 ard O
-5 O
+DIGIT O
 
 haha O
 u B-NP
@@ -135124,7 +135124,7 @@ just O
 want O
 to O
 use O
-1 B-NP
+DIGIT B-NP
 hour I-NP
 of O
 sick B-NP
@@ -135218,14 +135218,14 @@ tmr B-NP
 ? O
 
 msg O
-82 O
+DIGIT O
 from O
 3752a4ca0fb31b06b860fa9bc47d8df487f52cf1f07d98dd O
 , O
 to062fa69577a9d4dac1e59213faef1c4c O
 , O
 20111022 O
-120922 O
+DIGIT O
 
 lg O
 wait O
@@ -135277,7 +135277,7 @@ d O
 take O
 dillon B-NP
 sleeping O
-7 O
+DIGIT O
 
 hahahaha O
 no O
@@ -135591,7 +135591,7 @@ bang O
 can O
 alreadyplay O
 until O
-1 B-NP
+DIGIT B-NP
 le O
 hahahaha O
 
@@ -135923,7 +135923,7 @@ pon I-NP
 this B-NP
 is O
 the B-NP
-1st I-NP
+DIGIT I-NP
 time I-NP
 we B-NP
 have O
@@ -135960,7 +135960,7 @@ i O
 din O
 reply O
 by O
-6 O
+DIGIT O
 lol O
 
 truman O
@@ -135986,7 +135986,7 @@ blk B-NP
 serangoon I-NP
 north I-NP
 ave I-NP
-4 I-NP
+DIGIT I-NP
 HT I-NP
 <#> I-NP
 
@@ -136249,7 +136249,7 @@ xd O
 i O
 end O
 at O
-4 O
+DIGIT O
 le O
 where O
 u O
@@ -136305,7 +136305,7 @@ i B-NP
 gt O
 tut B-NP
 nw O
-3pm B-NP
+DIGIT B-NP
 can O
 
 yup O
@@ -136318,7 +136318,7 @@ lessons I-NP
 are O
 decimal B-NP
 or O
-2 B-NP
+DIGIT B-NP
 . O
 
 uuuuuuuuu O
@@ -136360,14 +136360,14 @@ basically O
 any B-NP
 time I-NP
 after O
-1 B-NP
+DIGIT B-NP
 all B-NP
 this I-NP
 semester I-NP
 
 started O
 at O
-9 O
+DIGIT O
 can O
 faint O
 haha O
@@ -136495,7 +136495,7 @@ got O
 math O
 lecture O
 at O
-1pm B-NP
+DIGIT B-NP
 yeah O
 
 hi O
@@ -136529,7 +136529,7 @@ at O
 the B-NP
 lobby I-NP
 . O
-2pm B-NP
+DIGIT B-NP
 ? O
 
 where O
@@ -136537,7 +136537,7 @@ u O
 eating O
 
 later O
-9pm O
+DIGIT O
 at O
 usual O
 place O
@@ -136736,7 +136736,7 @@ will O
 be O
 leaving O
 around O
-7 B-NP
+DIGIT B-NP
 from O
 here B-NP
 . O
@@ -137203,7 +137203,7 @@ to O
 degrees I-NP
 . O
 
-4 B-NP
+DIGIT B-NP
 . O
 thks O
 
@@ -137487,7 +137487,7 @@ haha O
 i O
 need O
 an O
-8th B-NP
+DIGIT B-NP
 but O
 im O
 off O
@@ -137688,7 +137688,7 @@ lim I-NP
 ya O
 lol O
 tml O
-9 O
+DIGIT O
 am O
 lo O
 can O
@@ -137882,13 +137882,13 @@ raidmax O
 scorpio O
 case O
 core B-NP
-2 I-NP
+DIGIT I-NP
 duo I-NP
 e I-NP
 <#> I-NP
 , O
 and O
-1 B-NP
+DIGIT B-NP
 gb I-NP
 ddr2 I-NP
 ram I-NP
@@ -138049,7 +138049,7 @@ or O
 just O
 do O
 that B-NP
-6times O
+DIGIT O
 
 lol O
 you B-NP
@@ -138129,7 +138129,7 @@ to O
 play O
 he B-NP
 got I-NP
-2 I-NP
+DIGIT I-NP
 sets I-NP
 ! O
 okay O
@@ -138194,7 +138194,7 @@ also O
 can O
 
 yea O
-2day O
+DIGIT O
 meet O
 at O
 <#> O
@@ -138503,17 +138503,17 @@ clicking I-NP
 ? O
 p O
 
-1 O
+DIGIT O
 b O
 <#> O
 . O
-2 O
+DIGIT O
 alvin O
 chia O
-3 O
+DIGIT O
 mechanical O
 engineering O
-4 O
+DIGIT O
 wkday O
 nightsprefer O
 wkend O
@@ -138561,7 +138561,7 @@ watch O
 k O
 thks O
 so O
-2moro B-NP
+DIGIT B-NP
 still O
 meeting O
 at O
@@ -138921,7 +138921,7 @@ read O
 somearticle O
 one O
 then O
-2nd O
+DIGIT O
 is O
 see O
 some O
@@ -139030,7 +139030,7 @@ spot O
 shaun O
 i O
 have O
-3 O
+DIGIT O
 more O
 friends O
 from O
@@ -139352,7 +139352,7 @@ tagerror B-NP
 really I-NP
 max I-NP
 tagerror I-NP
-3 O
+DIGIT O
 points O
 le O
 next O
@@ -139363,7 +139363,7 @@ i O
 n B-NP
 hi I-NP
 t O
-2 O
+DIGIT O
 tagerror B-NP
 even I-NP
 s I-NP
@@ -139422,7 +139422,7 @@ evar O
 
 * O
 not O
-7 O
+DIGIT O
 
 they O
 released O
@@ -139613,7 +139613,7 @@ kisses O
 
 ok O
 still O
-3hours B-NP
+DIGIT B-NP
 ? O
 
 yeap O
@@ -139652,7 +139652,7 @@ should O
 be O
 der O
 by O
-10 O
+DIGIT O
 
 heh O
 thanks O
@@ -139857,7 +139857,7 @@ coming O
 got O
 seats O
 for O
-2 O
+DIGIT O
 more O
 person O
 u O
@@ -140543,14 +140543,14 @@ you B-NP
 get O
 
 msg O
-183 O
+DIGIT O
 from O
 3752a4ca0fb31b06b860fa9bc47d8df487f52cf1f07d98dd O
 , O
 to3f20eaaf9243c8c2f86c5f0a74eb2cd6 O
 , O
 20120207 O
-011059 O
+DIGIT O
 
 ok O
 i B-NP
@@ -140759,13 +140759,13 @@ haha O
 enough O
 to O
 play O
-1 B-NP
+DIGIT B-NP
 round I-NP
 mah O
 
 lesson O
 at O
-4pm O
+DIGIT O
 tmr O
 ok O
 
@@ -140971,9 +140971,9 @@ i B-NP
 just O
 have O
 rehearsal B-NP
-6 B-NP
+DIGIT B-NP
 to O
-7 B-NP
+DIGIT B-NP
 , O
 then O
 time B-NP
@@ -141119,7 +141119,7 @@ want O
 
 haha O
 okay O
-3pm B-NP
+DIGIT B-NP
 at O
 your B-NP
 house I-NP
@@ -141355,7 +141355,7 @@ hwkeep O
 me B-NP
 posted O
 luv O
-2 B-NP
+DIGIT B-NP
 mj O
 
 oh O
@@ -141673,7 +141673,7 @@ nicerd O
 
 dunno O
 prolly O
-3 B-NP
+DIGIT B-NP
 
 ok O
 so O
@@ -141702,15 +141702,15 @@ buffet B-NP
 is O
 only O
 from O
-5to B-NP
-7pm I-NP
+DIGIT B-NP
+DIGIT I-NP
 , O
 because O
 last B-NP
 order I-NP
 is O
 at O
-7pm B-NP
+DIGIT B-NP
 . O
 dont O
 be O
@@ -142067,7 +142067,7 @@ xp O
 
 done O
 at O
-4 B-NP
+DIGIT B-NP
 . O
 can O
 i B-NP
@@ -142079,7 +142079,7 @@ then O
 go O
 home B-NP
 around B-NP
-6 I-NP
+DIGIT I-NP
 ? O
 
 i B-NP
@@ -142189,14 +142189,14 @@ i B-NP
 llwake O
 up O
 at O
-4 B-NP
+DIGIT B-NP
 ! O
 
 later O
 we O
 having O
 teh O
-9pm O
+DIGIT O
 at O
 tamp O
 if O
@@ -142665,7 +142665,7 @@ it I-NP
 be O
 tagerror B-NP
 or I-NP
-2 I-NP
+DIGIT I-NP
 hr I-NP
 tagerror I-NP
 on B-NP
@@ -143046,7 +143046,7 @@ good O
 
 was O
 playng O
-9 B-NP
+DIGIT B-NP
 doors I-NP
 game I-NP
 and O
@@ -143074,7 +143074,7 @@ rwhen O
 we B-NP
 find O
 using O
-2 B-NP
+DIGIT B-NP
 points I-NP
 previously O
 they B-NP
@@ -143131,7 +143131,7 @@ t O
 or O
 using O
 the B-NP
-2points I-NP
+DIGIT I-NP
 . O
 i B-NP
 cant O
@@ -143598,7 +143598,7 @@ have O
 quit O
 
 ourspace O
-7pm O
+DIGIT O
 
 if O
 we B-NP
@@ -143697,7 +143697,7 @@ stn I-NP
 ctrl I-NP
 rms I-NP
 at O
-0800 B-NP
+DIGIT B-NP
 n O
 we B-NP
 can O
@@ -143705,7 +143705,7 @@ make O
 our B-NP
 way O
 down O
-2gether B-NP
+DIGIT B-NP
 . O
 do O
 sms O
@@ -143878,7 +143878,7 @@ thingu I-NP
 
 kk O
 then O
-6pm O
+DIGIT O
 at O
 my O
 house O
@@ -143966,13 +143966,13 @@ life O
 one O
 
 haha O
-3pm B-NP
+DIGIT B-NP
 at O
 cally B-NP
 house I-NP
 ? O
 
-2nd B-NP
+DIGIT B-NP
 floor I-NP
 enter O
 from O
@@ -144203,7 +144203,7 @@ is O
 formed O
 when O
 udraw O
-2 B-NP
+DIGIT B-NP
 lines I-NP
 from O
 centre O
@@ -144238,7 +144238,7 @@ apt O
 indralok B-NP
 complex I-NP
 phase O
-2 O
+DIGIT O
 new O
 navghar O
 road O
@@ -144252,7 +144252,7 @@ well O
 
 i B-NP
 have O
-2 B-NP
+DIGIT B-NP
 switches I-NP
 with O
 me B-NP
@@ -144281,7 +144281,7 @@ i B-NP
 havent O
 cut O
 the B-NP
-8way I-NP
+DIGIT I-NP
 connector I-NP
 wire I-NP
 yet O
@@ -144412,7 +144412,7 @@ fst B-NP
 lecture I-NP
 
 mazda O
-2 O
+DIGIT O
 
 oh O
 okok O
@@ -144488,15 +144488,15 @@ sad O
 
 my O
 qn B-NP
-1 I-NP
-2nd I-NP
+DIGIT I-NP
+DIGIT I-NP
 part I-NP
 abit O
 longer O
 u B-NP
 free O
 at O
-3pm B-NP
+DIGIT B-NP
 right O
 later O
 just O
@@ -144577,7 +144577,7 @@ vulgarity B-NP
 ! O
 
 hey O
-2moro B-NP
+DIGIT B-NP
 u B-NP
 got O
 sch B-NP
@@ -144861,7 +144861,7 @@ suggestions O
 
 perhaps O
 after O
-3pm O
+DIGIT O
 ? O
 tentatively O
 since O
@@ -144995,7 +144995,7 @@ a O
 problem O
 maybe O
 about O
-8plus O
+DIGIT O
 
 hmmm O
 i O
@@ -145087,7 +145087,7 @@ wanna O
 go O
 msg O
 u B-NP
-1 B-NP
+DIGIT B-NP
 day I-NP
 b4 I-NP
 
@@ -145095,7 +145095,7 @@ dont O
 bother O
 
 sems O
-2 O
+DIGIT O
 de O
 the O
 one O
@@ -145156,7 +145156,7 @@ mui O
 keng O
 terrace O
 level O
-5 O
+DIGIT O
 s O
 <#> O
 
@@ -145274,7 +145274,7 @@ well O
 tmr O
 im O
 ending O
-3pm O
+DIGIT O
 lehhh O
 
 oh O
@@ -145502,7 +145502,7 @@ the O
 chinese O
 testtoday O
 by O
-6 O
+DIGIT O
 lol O
 
 hahahaheh O
@@ -145878,9 +145878,9 @@ at O
 <#> O
 ! O
 
-1y B-NP
+DIGIT B-NP
 , O
-2y B-NP
+DIGIT B-NP
 , O
 i B-NP
 think O
@@ -146000,7 +146000,7 @@ early I-NP
 or I-NP
 slack I-NP
 until I-NP
-7 I-NP
+DIGIT I-NP
 i B-NP
 say O
 u B-NP
@@ -146124,14 +146124,14 @@ meet O
 you O
 all O
 
-2oo O
+DIGIT O
 <#> O
 thanks O
 
 lesson O
 tmr O
 at O
-4pm O
+DIGIT O
 k O
 
 bye O
@@ -146173,7 +146173,7 @@ we O
 eating O
 dinner O
 
-5 B-NP
+DIGIT B-NP
 more I-NP
 minutes I-NP
 to O
@@ -146204,7 +146204,7 @@ yup O
 jus O
 continue O
 got O
-1 B-NP
+DIGIT B-NP
 issue I-NP
 is O
 good O
@@ -146415,7 +146415,7 @@ lectures O
 all O
 end O
 at O
-4pm O
+DIGIT O
 
 yup O
 shld O
@@ -146674,7 +146674,7 @@ him B-NP
 !!! O
 
 we B-NP
-3 B-NP
+DIGIT B-NP
 at O
 com1 B-NP
 entrance I-NP
@@ -146867,7 +146867,7 @@ get O
 used O
 to O
 it B-NP
-1 B-NP
+DIGIT B-NP
 sec I-NP
 without O
 u B-NP
@@ -147187,7 +147187,7 @@ one O
 oo O
 lols O
 question B-NP
-4 I-NP
+DIGIT I-NP
 left O
 blank O
 
@@ -147369,7 +147369,7 @@ about O
 i O
 think O
 
-9 O
+DIGIT O
 plus O
 <#> O
 th O
@@ -147518,7 +147518,7 @@ exam B-NP
 tagerror I-NP
 bio O
 got O
-2 O
+DIGIT O
 oh O
 no O
 dont O
@@ -147712,14 +147712,14 @@ a B-NP
 ryan I-NP
 and O
 was O
-2 B-NP
+DIGIT B-NP
 hours I-NP
 latep O
 
 we B-NP
 where O
 got O
-5 B-NP
+DIGIT B-NP
 pp I-NP
 l O
 
@@ -147798,7 +147798,7 @@ side O
 in O
 the O
 next O
-6hrs B-NP
+DIGIT B-NP
 see O
 a O
 doctor B-NP
@@ -147939,7 +147939,7 @@ everybody B-NP
 was O
 now O
 only B-NP
-3 I-NP
+DIGIT I-NP
 people I-NP
 there O
 :/ O
@@ -148027,7 +148027,7 @@ take O
 exam B-NP
 with O
 march B-NP
-3 I-NP
+DIGIT I-NP
 
 it B-NP
 s O
@@ -148401,11 +148401,11 @@ ku O
 ji O
 made O
 from O
-7 O
+DIGIT O
 o O
 clock O
 until O
-9 O
+DIGIT O
 oclock O
 (: O
 
@@ -148446,7 +148446,7 @@ oh O
 it B-NP
 started O
 around O
-5 B-NP
+DIGIT B-NP
 plus I-NP
 already O
 
@@ -148592,7 +148592,7 @@ you B-NP
 want O
 to O
 take O
-2 O
+DIGIT O
 star O
 on O
 date O
@@ -148670,7 +148670,7 @@ it O
 back O
 
 bout O
-1 B-NP
+DIGIT B-NP
 
 haha O
 umm O
@@ -148817,7 +148817,7 @@ teach O
 my B-NP
 class I-NP
 at O
-5 O
+DIGIT O
 ... O
 
 ok O
@@ -148845,7 +148845,7 @@ thank O
 you B-NP
 
 for O
-2 B-NP
+DIGIT B-NP
 ppl I-NP
 <#> B-NP
 bucks I-NP
@@ -148876,7 +148876,7 @@ ting I-NP
 nvm O
 found O
 
-2moro B-NP
+DIGIT B-NP
 wan O
 go O
 sentosa B-NP
@@ -148930,18 +148930,18 @@ for O
 the O
 day O
 is O
-25 O
+DIGIT O
 members O
 
 msg O
-140 O
+DIGIT O
 from O
 3752a4ca0fb31b06b860fa9bc47d8df487f52cf1f07d98dd O
 , O
 toa6ae4681c787661d87f52cf1f07d98dd O
 , O
 20111129 O
-010936 O
+DIGIT O
 
 the O
 new O
@@ -149053,7 +149053,7 @@ s I-NP
 sed B-NP
 ly O
 until O
-2pmat O
+DIGIT O
 che B-NP
 rvons O
 so O
@@ -149068,7 +149068,7 @@ c I-NP
 luster O
 n B-NP
 till I-NP
-6 I-NP
+DIGIT I-NP
 on I-NP
 y B-NP
 onsa I-NP
@@ -149079,7 +149079,7 @@ be O
 ayb B-NP
 tagerror B-NP
 tagerror I-NP
-1 O
+DIGIT O
 of O
 us O
 can O
@@ -149183,7 +149183,7 @@ have O
 rehearsal O
 time B-NP
 to O
-3 B-NP
+DIGIT B-NP
 . O
 love O
 you B-NP
@@ -149401,7 +149401,7 @@ camp O
 is O
 up O
 in O
-3 O
+DIGIT O
 weeks O
 time O
 and O
@@ -149419,7 +149419,7 @@ you B-NP
 all I-NP
 on O
 monday B-NP
-1pm I-NP
+DIGIT I-NP
 in O
 sch B-NP
 ? O
@@ -149466,7 +149466,7 @@ cant O
 spray O
 on O
 apr O
-1 O
+DIGIT O
 dude O
 we O
 have O
@@ -149487,7 +149487,7 @@ very O
 fast O
 will O
 end O
-1hr B-NP
+DIGIT B-NP
 more O
 
 no O
@@ -149520,7 +149520,7 @@ no O
 change O
 bah O
 
-7pm O
+DIGIT O
 btw O
 the O
 keys O
@@ -149861,7 +149861,7 @@ the B-NP
 drawer I-NP
 all O
 lock O
-1 B-NP
+DIGIT B-NP
 dunno O
 key B-NP
 hide O
@@ -150382,7 +150382,7 @@ wutup O
 
 lol O
 extra O
-1 O
+DIGIT O
 dollar O
 nia O
 treat O
@@ -150421,7 +150421,7 @@ even O
 been O
 james O
 rossknowing O
-8th O
+DIGIT O
 grade O
 us O
 hahah O
@@ -150537,9 +150537,9 @@ mah O
 
 no O
 se O
-1 B-NP
+DIGIT B-NP
 ? O
-2 B-NP
+DIGIT B-NP
 ? O
 
 dear O
@@ -150700,7 +150700,7 @@ for O
 okayyy O
 i O
 think O
-7pm O
+DIGIT O
 
 when O
 you B-NP
@@ -151196,7 +151196,7 @@ are O
 here O
 le O
 gate B-NP
-3 I-NP
+DIGIT I-NP
 ! O
 
 pays O
@@ -151243,7 +151243,7 @@ have O
 to O
 travel B-NP
 for O
-2 B-NP
+DIGIT B-NP
 days I-NP
 now B-NP
 . O
@@ -151257,7 +151257,7 @@ vivien O
 only O
 gave O
 us O
-2 O
+DIGIT O
 hours O
 to O
 decide O
@@ -151291,7 +151291,7 @@ friday B-NP
 should O
 be O
 till O
-9 B-NP
+DIGIT B-NP
 pm O
 
 haha O
@@ -151328,7 +151328,7 @@ i B-NP
 think O
 i B-NP
 drank O
-7 B-NP
+DIGIT B-NP
 cups I-NP
 . O
 
@@ -151650,14 +151650,14 @@ tmr O
 ma O
 
 msg O
-1491 O
+DIGIT O
 from O
 df501e0b21bc88cc1e464dd95bf722da8865851c93267498 O
 , O
 to3f28549208ed23e1a409ec3a79628cfa O
 , O
 20101121 O
-100839 O
+DIGIT O
 
 yeap O
 she B-NP
@@ -151871,7 +151871,7 @@ okie O
 nvm O
 then O
 
-3 B-NP
+DIGIT B-NP
 why O
 
 why O
@@ -152029,7 +152029,7 @@ lol O
 ya O
 only O
 that O
-2 B-NP
+DIGIT B-NP
 method I-NP
 anything O
 else O
@@ -152601,7 +152601,7 @@ hey O
 you O
 end O
 at O
-6 O
+DIGIT O
 
 nope O
 it B-NP
@@ -152965,7 +152965,7 @@ batt O
 alr O
 
 ok O
-2 B-NP
+DIGIT B-NP
 more I-NP
 stops I-NP
 . O
@@ -153292,14 +153292,14 @@ i B-NP
 guess O
 the B-NP
 entire I-NP
-4 I-NP
+DIGIT I-NP
 hours I-NP
 only O
 got O
-8 B-NP
+DIGIT B-NP
 of I-NP
 us I-NP
-4 B-NP
+DIGIT B-NP
 at I-NP
 another I-NP
 table I-NP
@@ -153711,7 +153711,7 @@ d O
 wake O
 up O
 at O
-9 O
+DIGIT O
 mah O
 you O
 wake O
@@ -153866,20 +153866,20 @@ b I-NP
 ... O
 bus O
 stop O
-1 O
+DIGIT O
 at O
 route O
 a O
 bus O
 stop O
-2 O
+DIGIT O
 at O
 route O
 b O
 i B-NP
-1 B-NP
+DIGIT B-NP
 - I-NP
-2 I-NP
+DIGIT I-NP
 they B-NP
 show O
 the B-NP
@@ -153954,7 +153954,7 @@ you B-NP
 should O
 though O
 
-6pm O
+DIGIT O
 eh O
 
 otw O
@@ -154012,7 +154012,7 @@ will O
 take O
 at O
 least O
-1 B-NP
+DIGIT B-NP
 full I-NP
 day I-NP
 
@@ -154470,7 +154470,7 @@ japanese B-NP
 ! O
 anyway O
 got O
-2 B-NP
+DIGIT B-NP
 of I-NP
 them I-NP
 self O
@@ -154549,7 +154549,7 @@ work O
 at O
 his B-NP
 place I-NP
-1 I-NP
+DIGIT I-NP
 hahaha O
 
 lol O
@@ -154585,9 +154585,9 @@ mon O
 then O
 around O
 say O
-1 O
+DIGIT O
 to O
-2 O
+DIGIT O
 
 mike B-NP
 said O
@@ -155079,7 +155079,7 @@ everything B-NP
 im O
 at O
 level O
-1 O
+DIGIT O
 now O
 i O
 scared O
@@ -155131,7 +155131,7 @@ my B-NP
 lesson I-NP
 end O
 USR O
-4pm O
+DIGIT O
 hehe O
 
 yeah O
@@ -155198,7 +155198,7 @@ have O
 to O
 reach O
 before O
-4o B-NP
+DIGIT B-NP
 clock I-NP
 so O
 call O
@@ -155220,13 +155220,13 @@ in O
 schoo B-NP
 l O
 till O
-8 B-NP
+DIGIT B-NP
 go O
 back O
 oso O
 close O
 to O
-9 B-NP
+DIGIT B-NP
 . O
 the O
 report O
@@ -155246,7 +155246,7 @@ i B-NP
 email O
 u B-NP
 all O
-2 B-NP
+DIGIT B-NP
 past I-NP
 sem O
 or O
@@ -155351,7 +155351,7 @@ to O
 continue O
 lol O
 
-7pm O
+DIGIT O
 im O
 not O
 gonna O
@@ -155444,9 +155444,9 @@ collect O
 instead O
 
 uhh O
-2 B-NP
+DIGIT B-NP
 or O
-3 B-NP
+DIGIT B-NP
 yes O
 inventory O
 check O
@@ -155794,7 +155794,7 @@ bi O
 ..:-).. O
 
 bout O
-5 B-NP
+DIGIT B-NP
 at B-NP
 nus I-NP
 . O
@@ -155944,7 +155944,7 @@ ipod B-NP
 oh O
 you B-NP
 have O
-3 B-NP
+DIGIT B-NP
 weeks I-NP
 to O
 revise O
@@ -155999,7 +155999,7 @@ butt I-NP
 . O
 
 hey O
-9 O
+DIGIT O
 meet O
 backgate O
 
@@ -156098,14 +156098,14 @@ but O
 we B-NP
 r O
 getting O
-2 O
+DIGIT O
 the B-NP
 age I-NP
 we I-NP
 want I-NP
 b I-NP
 able I-NP
-2 I-NP
+DIGIT I-NP
 remember I-NP
 we I-NP
 have I-NP
@@ -156210,7 +156210,7 @@ prayer B-NP
 bss O
 umm O
 about O
-5 O
+DIGIT O
 plus O
 haha O
 is O
@@ -156327,7 +156327,7 @@ i B-NP
 just O
 received O
 the B-NP
-2 I-NP
+DIGIT I-NP
 tix I-NP
 one I-NP
 twice O
@@ -156636,7 +156636,7 @@ what O
 
 oh O
 oh O
-6pm O
+DIGIT O
 eh O
 
 tml O
@@ -157193,7 +157193,7 @@ u O
 will O
 enjoy O
 got O
-3 O
+DIGIT O
 more O
 sessions O
 to O
@@ -157306,7 +157306,7 @@ geometricisomerism B-NP
 ? O
 how O
 come O
-23chlorobutane B-NP
+DIGIT B-NP
 has O
 geometric B-NP
 isomerism I-NP
@@ -157439,7 +157439,7 @@ erm O
 i B-NP
 tmr O
 got O
-2 B-NP
+DIGIT B-NP
 assignments I-NP
 due O
 today B-NP
@@ -157585,7 +157585,7 @@ were O
 sleeping O
 at O
 like O
-1 O
+DIGIT O
 haha O
 
 lol O
@@ -157925,16 +157925,16 @@ sth O
 weird O
 balloted O
 for O
-4 O
+DIGIT O
 to O
-6 O
+DIGIT O
 but O
 it O
 shows O
 upas O
-2 O
+DIGIT O
 to O
-4 O
+DIGIT O
 strange O
 
 lol O
@@ -158074,7 +158074,7 @@ u B-NP
 register O
 le O
 left O
-2 B-NP
+DIGIT B-NP
 slot I-NP
 p O
 u B-NP
@@ -158095,7 +158095,7 @@ dun O
 want O
 can O
 cancel O
-2days B-NP
+DIGIT B-NP
 before I-NP
 dun O
 worry O
@@ -158450,7 +158450,7 @@ i B-NP
 m O
 at O
 level O
-2 O
+DIGIT O
 which B-NP
 part I-NP
 are O
@@ -158513,7 +158513,7 @@ hahahaha O
 im O
 so O
 happy O
-2 O
+DIGIT O
 more O
 programming O
 paper O
@@ -158785,7 +158785,7 @@ u O
 order O
 lo O
 below O
-50 O
+DIGIT O
 
 hahaha O
 ohh O
@@ -159038,15 +159038,15 @@ very O
 very O
 unglam O
 
-7 B-NP
-4 B-NP
+DIGIT B-NP
+DIGIT B-NP
 )=- O
 decimal O
-4 B-NP
+DIGIT B-NP
 x O
 decimal O
-4 B-NP
-74 B-NP
+DIGIT B-NP
+DIGIT B-NP
 )) O
 
 haha O
@@ -159080,7 +159080,7 @@ go O
 toilet B-NP
 first O
 
-2nite B-NP
+DIGIT B-NP
 den O
 ask O
 
@@ -159222,7 +159222,7 @@ show O
 lo O
 still O
 got O
-2 O
+DIGIT O
 episode O
 to O
 go O
@@ -159543,7 +159543,7 @@ march O
 <#> O
 th O
 day O
-0 O
+DIGIT O
 
 yup O
 damn O
@@ -159665,7 +159665,7 @@ before O
 my O
 rehearsal O
 at O
-8 O
+DIGIT O
 :) O
 
 huh O
@@ -159779,7 +159779,7 @@ smoke O
 kk O
 u B-NP
 keep O
-1 B-NP
+DIGIT B-NP
 st O
 
 we O
@@ -159910,7 +159910,7 @@ bus O
 delol O
 
 like O
-1 O
+DIGIT O
 
 did O
 u B-NP
@@ -160054,7 +160054,7 @@ eh O
 now B-NP
 get O
 step B-NP
-2 I-NP
+DIGIT I-NP
 outta O
 the O
 way O
@@ -160130,7 +160130,7 @@ tohave O
 lesson O
 after O
 wed O
-3pm O
+DIGIT O
 thanks O
 
 so O
@@ -160200,7 +160200,7 @@ be O
 in O
 nus B-NP
 at O
-6 B-NP
+DIGIT B-NP
 i B-NP
 have O
 some O
@@ -160208,7 +160208,7 @@ difficultydelivering O
 the B-NP
 report I-NP
 by O
-5 B-NP
+DIGIT B-NP
 .. O
 
 ivle B-NP
@@ -160445,12 +160445,12 @@ you B-NP
 can O
 come O
 about O
-8 B-NP
+DIGIT B-NP
 the B-NP
 girls I-NP
 are O
 coming O
-2 O
+DIGIT O
 do O
 you O
 have O
@@ -160757,7 +160757,7 @@ da O
 
 come O
 at O
-8 O
+DIGIT O
 
 how O
 did O
@@ -160954,7 +160954,7 @@ wait O
 for O
 me O
 till O
-6 B-NP
+DIGIT B-NP
 
 ya O
 after O
@@ -160992,7 +160992,7 @@ just O
 gymed O
 on O
 sat O
-2moro O
+DIGIT O
 den O
 gym O
 u O
@@ -161141,7 +161141,7 @@ want O
 to O
 borrow O
 your B-NP
-1tb I-NP
+DIGIT I-NP
 hdd I-NP
 . O
 
@@ -161342,7 +161342,7 @@ my B-NP
 cluster I-NP
 outing O
 ard B-NP
-9 I-NP
+DIGIT I-NP
 like O
 that B-NP
 unless O
@@ -161368,7 +161368,7 @@ call O
 with O
 fren B-NP
 phone I-NP
-2moro B-NP
+DIGIT B-NP
 
 yeah O
 hard O
@@ -161511,7 +161511,7 @@ already O
 
 pfffft O
 its O
-7 O
+DIGIT O
 am O
 to O
 me O
@@ -161722,13 +161722,13 @@ tagerror B-NP
 s I-NP
 omethingon O
 at O
-2 O
+DIGIT O
 i O
 t B-NP
 g O
 a B-NP
 t O
-4 O
+DIGIT O
 s B-NP
 iderin O
 tagerror B-NP
@@ -162020,7 +162020,7 @@ canmeet O
 later O
 at O
 abt B-NP
-8 I-NP
+DIGIT I-NP
 or O
 <#> B-NP
 . O
@@ -162140,7 +162140,7 @@ got O
 mediafire B-NP
 mah O
 find O
-1 B-NP
+DIGIT B-NP
 more I-NP
 guy I-NP
 leh O
@@ -162422,7 +162422,7 @@ u B-NP
 . O
 
 ya O
-3rd O
+DIGIT O
 
 is O
 gu O
@@ -162433,7 +162433,7 @@ de O
 but O
 toss B-NP
 until I-NP
-4 I-NP
+DIGIT I-NP
 is O
 quite O
 xin O
@@ -162453,7 +162453,7 @@ time O
 also O
 probably O
 about O
-8pm O
+DIGIT O
 the O
 chancethat O
 ivan O
@@ -162464,7 +162464,7 @@ really O
 slim O
 la O
 its O
-1 O
+DIGIT O
 week O
 to O
 his O
@@ -162937,7 +162937,7 @@ sorry O
 can O
 change O
 to O
-5pm O
+DIGIT O
 tomorrow O
 or O
 friday O
@@ -163258,12 +163258,12 @@ u O
 ovulatewhen O
 will O
 get O
-2u O
+DIGIT O
 in O
 about O
-2 O
+DIGIT O
 to O
-3wks O
+DIGIT O
 but O
 pls O
 pls O
@@ -163292,7 +163292,7 @@ me O
 
 eh2nd O
 or O
-3rd O
+DIGIT O
 floor O
 
 who O
@@ -163358,7 +163358,7 @@ he B-NP
 said O
 bugis B-NP
 at O
-1 B-NP
+DIGIT B-NP
 hahaha O
 but O
 i B-NP
@@ -163396,7 +163396,7 @@ no O
 time O
 
 like O
-7 O
+DIGIT O
 plus O
 i O
 guess O
@@ -163443,11 +163443,11 @@ no O
 , O
 bldg B-NP
 - O
-2 B-NP
+DIGIT B-NP
 c O
 plot O
 - O
-4 O
+DIGIT O
 indrayani O
 chs O
 nnp B-NP
@@ -163724,7 +163724,7 @@ friday O
 haha O
 okay O
 okay O
-1 B-NP
+DIGIT B-NP
 koi I-NP
 . O
 
@@ -163739,7 +163739,7 @@ my B-NP
 lesson I-NP
 end O
 after B-NP
-7 I-NP
+DIGIT I-NP
 .. O
 dun O
 think O
@@ -163753,7 +163753,7 @@ is O
 what B-NP
 time I-NP
 ? O
-9 B-NP
+DIGIT B-NP
 i B-NP
 think O
 im O
@@ -163859,7 +163859,7 @@ late O
 go O
 c O
 doctor B-NP
-1st O
+DIGIT O
 
 ok O
 but O
@@ -164115,7 +164115,7 @@ ryan O
 
 hey O
 after O
-5pm B-NP
+DIGIT B-NP
 free O
 wanna O
 play O
@@ -164166,7 +164166,7 @@ do O
 la O
 kk O
 cya O
-2moro O
+DIGIT O
 wan O
 gym O
 earlier O
@@ -164192,7 +164192,7 @@ and O
 s O
 on O
 imm O
-2nd O
+DIGIT O
 fl O
 
 yo O
@@ -164333,7 +164333,7 @@ lee O
 chan O
 lye O
 the O
-2 O
+DIGIT O
 teachers O
 ihate O
 most O
@@ -164377,7 +164377,7 @@ fun O
 we O
 only O
 have O
-2 O
+DIGIT O
 days O
 left O
 to O
@@ -164451,7 +164451,7 @@ is O
 in O
 less B-NP
 than I-NP
-2 I-NP
+DIGIT I-NP
 weeks I-NP
 xx O
 need O
@@ -164711,7 +164711,7 @@ in O
 computer B-NP
 science I-NP
 department I-NP
-1st O
+DIGIT O
 floor O
 
 haha O
@@ -164889,7 +164889,7 @@ scruffy O
 curly O
 hair O
 maybe O
-58 O
+DIGIT O
 
 ok O
 ask O
@@ -164964,9 +164964,9 @@ i O
 gt O
 the O
 slot O
-4 O
+DIGIT O
 to O
-5 O
+DIGIT O
 
 go O
 there O
@@ -165056,7 +165056,7 @@ got O
 cake B-NP
 ? O
 need O
-1 B-NP
+DIGIT B-NP
 
 so O
 how O
@@ -165439,7 +165439,7 @@ go O
 popular O
 whattime O
 if O
-5 O
+DIGIT O
 maybe O
 ill O
 go O
@@ -165480,7 +165480,7 @@ to O
 do O
 today B-NP
 . O
-2 B-NP
+DIGIT B-NP
 projects I-NP
 deadline I-NP
 approaching O
@@ -165607,7 +165607,7 @@ to O
 schedule O
 out O
 a B-NP
-3 I-NP
+DIGIT I-NP
 month I-NP
 long I-NP
 plan I-NP
@@ -165667,7 +165667,7 @@ pass O
 away O
 less O
 than O
-3 O
+DIGIT O
 yrs O
 ago O
 so O
@@ -165692,7 +165692,7 @@ in O
 sch O
 ill B-NP
 abt O
-4pm O
+DIGIT O
 but B-NP
 day B-NP
 tran I-NP
@@ -165832,7 +165832,7 @@ lo O
 train B-NP
 just O
 left O
-4 B-NP
+DIGIT B-NP
 min I-NP
 . O
 kisss B-NP
@@ -166088,7 +166088,7 @@ hurt O
 to O
 walk O
 for O
-2 B-NP
+DIGIT B-NP
 days I-NP
 :/ O
 
@@ -166161,7 +166161,7 @@ flow I-NP
 didnt O
 visit O
 for O
-6 B-NP
+DIGIT B-NP
 months I-NP
 ? O
 its O
@@ -166203,8 +166203,8 @@ waa O
 emo O
 i B-NP
 see O
-1st O
-2moro B-NP
+DIGIT O
+DIGIT B-NP
 . O
 discuss O
 with O
@@ -166539,7 +166539,7 @@ at O
 kallang O
 mrt O
 at O
-9 O
+DIGIT O
 <#> O
 same O
 time O
@@ -166574,7 +166574,7 @@ my B-NP
 store I-NP
 only O
 at O
-3 B-NP
+DIGIT B-NP
 . O
 aircon B-NP
 here O
@@ -166721,7 +166721,7 @@ my O
 paper O
 end O
 at O
-4 O
+DIGIT O
 i O
 think O
 likelythat O
@@ -166997,7 +166997,7 @@ be O
 free O
 tml O
 at O
-9am O
+DIGIT O
 
 haha O
 bet O
@@ -167082,7 +167082,7 @@ has O
 saying O
 earth O
 is O
-6k O
+DIGIT O
 years O
 old O
 or O
@@ -167257,7 +167257,7 @@ haha O
 its O
 from O
 - O
-1 O
+DIGIT O
 
 yeahi O
 dont O
@@ -167283,7 +167283,7 @@ i B-NP
 ll O
 leave O
 maybe O
-7ish O
+DIGIT O
 
 will O
 reach O
@@ -167339,7 +167339,7 @@ to O
 stop O
 by O
 b4 O
-5pm O
+DIGIT O
 
 oh O
 okay O
@@ -167455,7 +167455,7 @@ medicine B-NP
 c2d O
 decimal B-NP
 asus B-NP
-2 B-NP
+DIGIT B-NP
 gb O
 ddr3 B-NP
 dvd B-NP
@@ -167685,7 +167685,7 @@ take O
 your B-NP
 time I-NP
 . O
-5pm B-NP
+DIGIT B-NP
 meeting I-NP
 canceled O
 by O
@@ -168011,11 +168011,11 @@ i B-NP
 thought O
 we B-NP
 said I-NP
-2 I-NP
+DIGIT I-NP
 hours I-NP
 slave I-NP
 not I-NP
-3 I-NP
+DIGIT I-NP
 ... O
 you B-NP
 are O
@@ -168043,7 +168043,7 @@ me O
 lol O
 
 question B-NP
-4 I-NP
+DIGIT I-NP
 how B-NP
 
 okay O
@@ -168138,7 +168138,7 @@ thursday B-NP
 is O
 fine O
 after O
-4pm B-NP
+DIGIT B-NP
 , O
 if O
 u B-NP
@@ -168167,7 +168167,7 @@ can O
 meet O
 you O
 at O
-6pm O
+DIGIT O
 lol O
 
 yeah O
@@ -168553,7 +168553,7 @@ lah O
 and O
 still O
 got O
-5 O
+DIGIT O
 mth O
 lo O
 
@@ -168771,7 +168771,7 @@ i O
 tink O
 at O
 least O
-8 O
+DIGIT O
 ppl O
 den O
 fun O
@@ -168904,7 +168904,7 @@ nothing B-NP
 
 if O
 its O
-6 O
+DIGIT O
 bucks O
 i O
 may O
@@ -169115,9 +169115,9 @@ my B-NP
 art I-NP
 changed O
 frm O
-1 B-NP
+DIGIT B-NP
 to O
-4 B-NP
+DIGIT B-NP
 le O
 so O
 only O
@@ -169284,7 +169284,7 @@ up O
 to O
 the B-NP
 warren I-NP
-7pm B-NP
+DIGIT B-NP
 to O
 present O
 your B-NP
@@ -169384,7 +169384,7 @@ make O
 me O
 stop O
 at O
-2pm O
+DIGIT O
 haha O
 
 ok O
@@ -169398,7 +169398,7 @@ can O
 help O
 us B-NP
 buy O
-3 O
+DIGIT O
 can O
 mushroom B-NP
 soup I-NP
@@ -169624,7 +169624,7 @@ cant O
 bully O
 lol O
 btw O
-2moro O
+DIGIT O
 train O
 and O
 i O
@@ -169995,10 +169995,10 @@ yet I-NP
 primary O
 sch O
 fren O
-1 O
+DIGIT O
 guy O
 only O
-2 O
+DIGIT O
 ppl O
 go O
 own O
@@ -170448,7 +170448,7 @@ pls O
 call O
 me B-NP
 at O
-8pm B-NP
+DIGIT B-NP
 
 do O
 you O
@@ -170517,11 +170517,11 @@ house O
 mondaywhole O
 day O
 thursday O
-4pm O
+DIGIT O
 and O
 onwards O
 friday O
-7pm O
+DIGIT O
 and O
 onwards O
 satmorning O
@@ -170529,13 +170529,13 @@ to O
 <#> B-NP
 pm O
 sunday O
-2pm O
+DIGIT O
 and O
 onwards O
 
 probably O
 around O
-1 O
+DIGIT O
 month O
 the O
 renovators O
@@ -170708,7 +170708,7 @@ i B-NP
 gotta O
 leave O
 at O
-2 B-NP
+DIGIT B-NP
 too O
 
 nah O
@@ -170754,7 +170754,7 @@ you B-NP
 free O
 for O
 all B-NP
-4 I-NP
+DIGIT I-NP
 days I-NP
 ? O
 
@@ -171490,7 +171490,7 @@ i B-NP
 going O
 sch B-NP
 USR O
-4pm B-NP
+DIGIT B-NP
 . O
 
 sorry O
@@ -171554,7 +171554,7 @@ when O
 ct B-NP
 ends O
 around O
-4 B-NP
+DIGIT B-NP
 ? O
 nat B-NP
 says O
@@ -171753,9 +171753,9 @@ lol O
 mine O
 is O
 normally O
-1 O
+DIGIT O
 to O
-2 O
+DIGIT O
 
 pig B-NP
 ~ O
@@ -172014,7 +172014,7 @@ minute O
 
 there O
 bold B-NP
-2 I-NP
+DIGIT I-NP
 <#> B-NP
 . O
 is O
@@ -172120,7 +172120,7 @@ mayb O
 go O
 for O
 a B-NP
-4lb I-NP
+DIGIT I-NP
 one O
 
 lol O
@@ -172530,7 +172530,7 @@ i B-NP
 m O
 out O
 
-3 B-NP
+DIGIT B-NP
 days I-NP
 at I-NP
 nite I-NP
@@ -172547,7 +172547,7 @@ korean O
 bbq O
 me O
 zm O
-2jeremyshilal O
+DIGIT O
 lj O
 tong O
 jason O
@@ -172625,9 +172625,9 @@ both B-NP
 sides I-NP
 x O
 decimal O
-4 B-NP
+DIGIT B-NP
 = O
-7 B-NP
+DIGIT B-NP
 can O
 do O
 from O
@@ -172768,7 +172768,7 @@ talk O
 to O
 u B-NP
 in O
-5 B-NP
+DIGIT B-NP
 min O
 hee O
 
@@ -172815,7 +172815,7 @@ sad O
 ok O
 hows O
 day B-NP
-1 I-NP
+DIGIT I-NP
 ? O
 
 oh O
@@ -172958,7 +172958,7 @@ stopper O
 
 same O
 time O
-2pm B-NP
+DIGIT B-NP
 ? O
 
 hahaha O
@@ -172983,7 +172983,7 @@ la O
 u O
 going O
 back O
-2moro O
+DIGIT O
 morning O
 
 soh B-NP
@@ -172992,7 +172992,7 @@ time I-NP
 meet O
 at O
 jurong B-NP
-2moro B-NP
+DIGIT B-NP
 
 only O
 have O
@@ -173001,7 +173001,7 @@ left O
 so O
 i B-NP
 got O
-2 B-NP
+DIGIT B-NP
 ms I-NP
 
 how O
@@ -173417,7 +173417,7 @@ nice O
 na O
 
 jeff B-NP
-6pm B-NP
+DIGIT B-NP
 at O
 my B-NP
 house I-NP
@@ -173811,13 +173811,13 @@ downstairs I-NP
 eh O
 
 lols O
-2day B-NP
+DIGIT B-NP
 holiday O
 wad O
 but O
 they B-NP
 all I-NP
-2moro B-NP
+DIGIT B-NP
 coming O
 
 ohh O
@@ -174020,7 +174020,7 @@ plant O
 was O
 closed O
 at O
-1100pm O
+DIGIT O
 accounts O
 handed O
 over O
@@ -174092,18 +174092,18 @@ stickies O
 weirens O
 voice O
 
-1 O
+DIGIT O
 a8g4 O
-2 O
+DIGIT O
 alvin O
 chia O
-3 O
+DIGIT O
 mechanical O
 engineering O
-4 O
+DIGIT O
 only O
 satbetween O
-8am5pm O
+DIGIT O
 
 ohh O
 as O
@@ -174333,7 +174333,7 @@ shirts I-NP
 .. O
 gg O
 at O
-4 B-NP
+DIGIT B-NP
 bah O
 
 near O
@@ -174430,7 +174430,7 @@ out B-NP
 it O
 was O
 like O
-5 B-NP
+DIGIT B-NP
 miles I-NP
 i O
 think O
@@ -174510,7 +174510,7 @@ will O
 be O
 back O
 by O
-8 O
+DIGIT O
 
 sayang O
 my B-NP
@@ -174804,7 +174804,7 @@ if O
 i O
 can O
 carry O
-2 O
+DIGIT O
 robots O
 :/ O
 see O
@@ -174841,7 +174841,7 @@ get O
 there O
 
 all O
-3 O
+DIGIT O
 days O
 
 haha O
@@ -174961,7 +174961,7 @@ be O
 first O
 grouploli O
 take O
-4 O
+DIGIT O
 mods O
 oso O
 dun O
@@ -175207,7 +175207,7 @@ be O
 heading O
 out O
 in O
-5 B-NP
+DIGIT B-NP
 mins I-NP
 , O
 ccl B-NP
@@ -175313,13 +175313,13 @@ i B-NP
 left O
 house B-NP
 at O
-7 B-NP
+DIGIT B-NP
 instead O
 of O
 reaching B-NP
 station I-NP
 at I-NP
-7 I-NP
+DIGIT I-NP
 
 can O
 you O
@@ -175345,7 +175345,7 @@ oh O
 xt O
 said O
 about O
-4pm O
+DIGIT O
 but O
 we O
 will O
@@ -175448,7 +175448,7 @@ venue I-NP
 is O
 at O
 tr B-NP
-5 I-NP
+DIGIT I-NP
 right O
 
 lol O
@@ -175526,7 +175526,7 @@ smoke O
 
 hmmm O
 okay O
-4 B-NP
+DIGIT B-NP
 then O
 pasir B-NP
 ris I-NP
@@ -175650,7 +175650,7 @@ then O
 come O
 down O
 within O
-5 B-NP
+DIGIT B-NP
 min I-NP
 
 hhaha O
@@ -175884,14 +175884,14 @@ the O
 one O
 that O
 got O
-2nd O
+DIGIT O
 part O
-2 O
+DIGIT O
 hour O
 de O
 hope O
 the O
-2 O
+DIGIT O
 hour O
 notthat O
 boring O
@@ -176149,7 +176149,7 @@ pigs O
 i O
 was O
 the O
-4th O
+DIGIT O
 last O
 to O
 sleep O
@@ -176296,9 +176296,9 @@ u B-NP
 wanna O
 jog O
 frm O
-2 B-NP
+DIGIT B-NP
 to O
-4 B-NP
+DIGIT B-NP
 today B-NP
 ? O
 
@@ -176388,7 +176388,7 @@ enough B-NP
 money I-NP
 to O
 buy O
-2 B-NP
+DIGIT B-NP
 burger I-NP
 ma O
 
@@ -176544,10 +176544,10 @@ my B-NP
 dad I-NP
 said O
 got O
-4 B-NP
+DIGIT B-NP
 out O
 the B-NP
-5 I-NP
+DIGIT I-NP
 famous I-NP
 actors I-NP
 , O
@@ -176967,7 +176967,7 @@ u O
 still O
 go O
 at O
-5 O
+DIGIT O
 
 ooo O
 haha O
@@ -177633,7 +177633,7 @@ u O
 all O
 at O
 tampines O
-1lol O
+DIGIT O
 
 how O
 long O
@@ -177911,14 +177911,14 @@ haha O
 i B-NP
 reaching O
 in O
-2 B-NP
+DIGIT B-NP
 bus I-NP
 stops I-NP
 :) O
 
 haha O
 later O
-1 O
+DIGIT O
 going O
 nus O
 ooo O
@@ -178105,7 +178105,7 @@ tonight I-NP
 . O
 it B-NP
 s O
-5 B-NP
+DIGIT B-NP
 mins O
 walking O
 dst O
@@ -178114,7 +178114,7 @@ railway B-NP
 can O
 fetch O
 me O
-2moro B-NP
+DIGIT B-NP
 frm O
 bukit B-NP
 panjang I-NP
@@ -178348,7 +178348,7 @@ dear O
 
 yup O
 meet O
-6pm B-NP
+DIGIT B-NP
 at O
 somewhere B-NP
 lol O
@@ -178358,7 +178358,7 @@ be O
 in O
 sch B-NP
 around O
-4pm O
+DIGIT O
 for O
 napfa B-NP
 . O
@@ -178512,7 +178512,7 @@ tot O
 meeting O
 at O
 go O
-1st O
+DIGIT O
 den O
 got O
 bus O
@@ -178545,7 +178545,7 @@ u B-NP
 wearing O
 
 quest B-NP
-3 I-NP
+DIGIT I-NP
 the O
 i B-NP
 compound I-NP
@@ -178602,7 +178602,7 @@ i O
 sat O
 through O
 the O
-2 O
+DIGIT O
 recess O
 periods O
 
@@ -178778,7 +178778,7 @@ measured O
 won O
 anything B-NP
 ? O
-2moro B-NP
+DIGIT B-NP
 wat I-NP
 time I-NP
 go O
@@ -179526,7 +179526,7 @@ dunno O
 he O
 com3 O
 or O
-4or O
+DIGIT O
 is O
 he O
 from O
@@ -179719,7 +179719,7 @@ everyone B-NP
 (: O
 
 hey O
-2moro B-NP
+DIGIT B-NP
 till O
 wat B-NP
 time I-NP
@@ -179837,7 +179837,7 @@ HT I-NP
 <#> I-NP
 
 haha O
-1pm B-NP
+DIGIT B-NP
 . O
 d O
 
@@ -179872,7 +179872,7 @@ hmm O
 no B-NP
 idea I-NP
 eh O
-1pm O
+DIGIT O
 
 ya O
 lor O
@@ -180472,7 +180472,7 @@ still O
 on O
 bus B-NP
 . O
-2 B-NP
+DIGIT B-NP
 more I-NP
 stops I-NP
 . O
@@ -180481,7 +180481,7 @@ waa O
 so O
 shiok O
 mine O
-2day B-NP
+DIGIT B-NP
 first B-NP
 paper I-NP
 . O
@@ -180509,7 +180509,7 @@ anypossibility O
 earlier O
 time O
 like O
-8am O
+DIGIT O
 but O
 if O
 u O
@@ -180656,7 +180656,7 @@ tmr B-NP
 ? O
 
 ya O
-4 O
+DIGIT O
 haha O
 hope O
 it B-NP
@@ -180683,7 +180683,7 @@ tix B-NP
 ! O
 
 maybe O
-5pm O
+DIGIT O
 leh O
 
 he B-NP
@@ -180855,15 +180855,15 @@ a B-NP
 contract I-NP
 ? O
 
-1 O
+DIGIT O
 b1e3 O
-2 O
+DIGIT O
 alvin O
 chia O
-3 O
+DIGIT O
 mechanical O
 engineering O
-4 O
+DIGIT O
 wkday O
 nights O
 wkends O
@@ -180929,7 +180929,7 @@ hr B-NP
 saw O
 me B-NP
 for O
-2 B-NP
+DIGIT B-NP
 hours I-NP
 a I-NP
 week I-NP
@@ -181009,7 +181009,7 @@ omg O
 ifinished O
 lunch O
 in O
-5mins O
+DIGIT O
 
 oh O
 then O
@@ -181238,7 +181238,7 @@ im O
 on O
 campus O
 til O
-7 O
+DIGIT O
 i O
 could O
 grab O
@@ -181458,7 +181458,7 @@ le O
 andthe O
 ion B-NP
 number I-NP
-1 I-NP
+DIGIT I-NP
 since I-NP
 when I-NP
 we O
@@ -181549,7 +181549,7 @@ you B-NP
 woke O
 up O
 at O
-1pm B-NP
+DIGIT B-NP
 ah O
 
 woo O
@@ -181614,7 +181614,7 @@ at O
 my O
 assignment O
 qn O
-1for O
+DIGIT O
 an O
 hour O
 le O
@@ -181970,9 +181970,9 @@ seven I-NP
 or I-NP
 so I-NP
 . O
-5 O
-3 O
-1 O
+DIGIT O
+DIGIT O
+DIGIT O
 
 get O
 well O
@@ -182125,7 +182125,7 @@ first O
 
 sembawang O
 abt O
-8 O
+DIGIT O
 more O
 mins O
 to O
@@ -182141,7 +182141,7 @@ anything B-NP
 ~ O
 
 p O
-5 O
+DIGIT O
 actionsartp4 O
 person O
 hierarchy O
@@ -182153,7 +182153,7 @@ buying O
 paddle B-NP
 . O
 need O
-5 B-NP
+DIGIT B-NP
 each I-NP
 
 i O
@@ -182306,7 +182306,7 @@ train O
 
 i B-NP
 have O
-1 B-NP
+DIGIT B-NP
 minute I-NP
 of O
 footage B-NP
@@ -182540,7 +182540,7 @@ so O
 is O
 it B-NP
 like O
-2 B-NP
+DIGIT B-NP
 floors I-NP
 de O
 i B-NP
@@ -182866,7 +182866,7 @@ maybe O
 i B-NP
 ll O
 comein O
-1 B-NP
+DIGIT B-NP
 hour I-NP
 ... O
 
@@ -183206,7 +183206,7 @@ to O
 grocery O
 shop O
 at O
-6 O
+DIGIT O
 
 huh O
 poke O
@@ -183354,7 +183354,7 @@ coz O
 today B-NP
 no O
 table O
-4 O
+DIGIT O
 then O
 they B-NP
 spill O
@@ -183626,7 +183626,7 @@ haha O
 need O
 reach O
 at O
-8 B-NP
+DIGIT B-NP
 ! O
 haha O
 then O
@@ -183719,7 +183719,7 @@ to O
 come O
 up O
 around O
-4pm B-NP
+DIGIT B-NP
 on O
 saturday B-NP
 ? O
@@ -183756,17 +183756,17 @@ u O
 all O
 going O
 
-1 O
+DIGIT O
 b O
 <#> O
 . O
-2 O
+DIGIT O
 alvin O
 chia O
-3 O
+DIGIT O
 mechanical O
 engineering O
-4 O
+DIGIT O
 wkday O
 nights O
 wkends O
@@ -183868,7 +183868,7 @@ try O
 be O
 ready O
 by O
-7 B-NP
+DIGIT B-NP
 . O
 i B-NP
 ll O
@@ -184277,7 +184277,7 @@ pple O
 total O
 ahwe O
 here O
-3 O
+DIGIT O
 pple O
 
 in O
@@ -184392,7 +184392,7 @@ yishun O
 safra O
 mine O
 start O
-5 B-NP
+DIGIT B-NP
 pm O
 
 mr B-NP
@@ -184513,7 +184513,7 @@ meeting O
 ricky B-NP
 downstairs B-NP
 at O
-8pm B-NP
+DIGIT B-NP
 . O
 will O
 be O
@@ -184804,7 +184804,7 @@ pm O
 instead O
 
 coz O
-5ppl O
+DIGIT O
 tagerror B-NP
 tagerror I-NP
 the O
@@ -184828,7 +184828,7 @@ after O
 lunch B-NP
 at O
 abt O
-2 B-NP
+DIGIT B-NP
 can O
 
 how O
@@ -184920,7 +184920,7 @@ free O
 d O
 
 pleased O
-5 O
+DIGIT O
 minutes O
 im O
 there O
@@ -184983,7 +184983,7 @@ earliest O
 will O
 be O
 abt O
-4pm O
+DIGIT O
 
 yeah O
 luckily O
@@ -185029,7 +185029,7 @@ just O
 chill O
 for O
 another O
-6hrs B-NP
+DIGIT B-NP
 . O
 if O
 you B-NP
@@ -185329,7 +185329,7 @@ rest O
 =) O
 
 see O
-1st O
+DIGIT O
 
 oh O
 kk O
@@ -185423,7 +185423,7 @@ ill O
 be O
 there O
 around O
-5 O
+DIGIT O
 
 will O
 be O
@@ -185448,7 +185448,7 @@ bye O
 ok O
 give O
 me O
-5 O
+DIGIT O
 minutes O
 i O
 think O
@@ -185960,7 +185960,7 @@ tagerror B-NP
 good I-NP
 sh I-NP
 orts O
-2 O
+DIGIT O
 for O
 <#> O
 . O
@@ -185987,7 +185987,7 @@ okay O
 
 it B-NP
 s O
-2d B-NP
+DIGIT B-NP
 image I-NP
 lol O
 
@@ -186268,7 +186268,7 @@ that O
 i O
 slept O
 at O
-9pm O
+DIGIT O
 
 hi O
 yeng O
@@ -186323,7 +186323,7 @@ talking O
 bout O
 someone O
 running O
-5k B-NP
+DIGIT B-NP
 . O
 and O
 i B-NP
@@ -186443,7 +186443,7 @@ were O
 outside O
 for O
 like O
-2 B-NP
+DIGIT B-NP
 hours I-NP
 . O
 and O
@@ -186460,7 +186460,7 @@ cause O
 it B-NP
 started O
 at O
-1 B-NP
+DIGIT B-NP
 am I-NP
 
 sure O
@@ -186756,7 +186756,7 @@ results O
 liao O
 not O
 i B-NP
-8 I-NP
+DIGIT I-NP
 received O
 sms O
 already O
@@ -186988,7 +186988,7 @@ bit O
 extreme O
 
 oo O
-2 O
+DIGIT O
 more O
 ? O
 i O
@@ -187167,14 +187167,14 @@ haiz O
 .. O
 sianz O
 but O
-4 O
+DIGIT O
 pple O
 do O
 will O
 be O
 better O
 than O
-2 O
+DIGIT O
 pple O
 not O
 
@@ -187678,9 +187678,9 @@ went O
 there B-NP
 like O
 maybe O
-3 B-NP
+DIGIT B-NP
 to I-NP
-4 I-NP
+DIGIT I-NP
 years I-NP
 ago O
 school B-NP
@@ -188122,7 +188122,7 @@ home B-NP
 le O
 
 hmm O
-9th O
+DIGIT O
 i O
 going O
 ndp O
@@ -188163,7 +188163,7 @@ soon O
 
 nhsis O
 <#> O
-3 O
+DIGIT O
 
 now B-NP
 can O
@@ -188491,7 +188491,7 @@ and O
 my O
 last O
 qn O
-5 O
+DIGIT O
 mark O
 i O
 tink O
@@ -188499,7 +188499,7 @@ i O
 got O
 working O
 mark O
-2 O
+DIGIT O
 mark O
 lollol O
 maybe O
@@ -188704,9 +188704,9 @@ name I-NP
 ? O
 
 like O
-5 O
+DIGIT O
 plus O
-6 O
+DIGIT O
 
 ya B-NP
 then O
@@ -188778,7 +188778,7 @@ swim O
 at O
 clementi B-NP
 at O
-5 B-NP
+DIGIT B-NP
 ? O
 
 missed O
@@ -189119,7 +189119,7 @@ eat O
 see O
 ya O
 at O
-6 O
+DIGIT O
 then O
 
 what O
@@ -189560,7 +189560,7 @@ after O
 that B-NP
 
 the O
-2 O
+DIGIT O
 oz O
 guy B-NP
 is O
@@ -189729,7 +189729,7 @@ yo O
 reached O
 japan B-NP
 safely O
-1 B-NP
+DIGIT B-NP
 sms I-NP
 cost O
 <#> B-NP
@@ -189770,7 +189770,7 @@ total O
 han O
 re O
 bes O
-4 O
+DIGIT O
 kam O
 to O
 hai O
@@ -190113,7 +190113,7 @@ old O
 akron O
 
 at O
-4 B-NP
+DIGIT B-NP
 . O
 lets B-NP
 go O
@@ -190164,7 +190164,7 @@ i B-NP
 m O
 bringing O
 a B-NP
-2m I-NP
+DIGIT I-NP
 long I-NP
 paddle I-NP
 home B-NP
@@ -190181,7 +190181,7 @@ test B-NP
 brought O
 forward O
 to O
-1pm B-NP
+DIGIT B-NP
 .. O
 ok O
 hor O
@@ -190648,9 +190648,9 @@ want O
 you B-NP
 to O
 take O
-2 B-NP
+DIGIT B-NP
 or I-NP
-3 I-NP
+DIGIT I-NP
 pictures I-NP
 of I-NP
 yourself I-NP
@@ -190696,7 +190696,7 @@ haha O
 whatcha B-NP
 wanna I-NP
 doonline I-NP
-7 I-NP
+DIGIT I-NP
 
 it B-NP
 s O
@@ -190716,7 +190716,7 @@ something B-NP
 . O
 
 ps O
-4got O
+DIGIT O
 going O
 with O
 yuanwei O
@@ -190764,7 +190764,7 @@ much O
 dear O
 
 taq O
-4 O
+DIGIT O
 te B-NP
 in4mation I-NP
 
@@ -191139,7 +191139,7 @@ thing I-NP
 later O
 lor O
 after O
-9 O
+DIGIT O
 why O
 
 anything O
@@ -191177,7 +191177,7 @@ late O
 
 i O
 lost O
-4 O
+DIGIT O
 pounds O
 since O
 my O
@@ -191270,7 +191270,7 @@ ordered O
 his B-NP
 gift I-NP
 online O
-2 B-NP
+DIGIT B-NP
 weeks I-NP
 ago I-NP
 and O
@@ -191377,7 +191377,7 @@ i B-NP
 know O
 when O
 after O
-8pm B-NP
+DIGIT B-NP
 ) O
 you B-NP
 are O
@@ -191455,7 +191455,7 @@ go O
 where O
 
 its O
-1 O
+DIGIT O
 am O
 
 i O
@@ -191665,7 +191665,7 @@ squareyukiyaki O
 we O
 will O
 meet O
-7pm O
+DIGIT O
 there O
 so O
 see O
@@ -192060,13 +192060,13 @@ no O
 coz O
 you B-NP
 put O
-1 B-NP
-2 I-NP
-4 I-NP
-5 I-NP
+DIGIT B-NP
+DIGIT I-NP
+DIGIT I-NP
+DIGIT I-NP
 hahaha O
 no O
-3 B-NP
+DIGIT B-NP
 ! O
 (: O
 xs O
@@ -192097,7 +192097,7 @@ u B-NP
 can O
 only O
 take O
-2 B-NP
+DIGIT B-NP
 out O
 shopping O
 at O
@@ -192204,7 +192204,7 @@ cop I-NP
 last B-NP
 night I-NP
 until O
-2 B-NP
+DIGIT B-NP
 , O
 so O
 shes O
@@ -192257,7 +192257,7 @@ but O
 when O
 you B-NP
 win O
-4v5 B-NP
+DIGIT B-NP
 its O
 quite O
 shiok O
@@ -192330,7 +192330,7 @@ ask O
 roy B-NP
 to O
 buy O
-2 B-NP
+DIGIT B-NP
 bottles O
 of O
 lemon B-NP
@@ -192599,10 +192599,10 @@ tell O
 u B-NP
 wat O
 u B-NP
-2nite B-NP
+DIGIT B-NP
 chiong O
 plus O
-2moro B-NP
+DIGIT B-NP
 morning I-NP
 den O
 aft O
@@ -192615,7 +192615,7 @@ lee I-NP
 truman O
 here O
 i O
-4got O
+DIGIT O
 to O
 hand O
 in O
@@ -192692,7 +192692,7 @@ hope O
 can O
 sleep O
 by O
-3 O
+DIGIT O
 haha O
 will O
 take O
@@ -192869,11 +192869,11 @@ team B-NP
 kick I-NP
 me B-NP
 won O
-3rd B-NP
+DIGIT B-NP
 for O
 research O
 and O
-1st B-NP
+DIGIT B-NP
 for O
 national B-NP
 instruments I-NP
@@ -192976,7 +192976,7 @@ you O
 can O
 go O
 at O
-3cause O
+DIGIT O
 i O
 have O
 class O
@@ -193213,7 +193213,7 @@ melon O
 is O
 cancelledat O
 about O
-7k O
+DIGIT O
 but O
 i O
 just O
@@ -193269,7 +193269,7 @@ tue O
 dethat O
 decimal O
 to O
-6 O
+DIGIT O
 ! O
 that O
 one O
@@ -193664,7 +193664,7 @@ duuno O
 wheres O
 that B-NP
 actually O
-2nd B-NP
+DIGIT B-NP
 floor I-NP
 ? O
 
@@ -193759,7 +193759,7 @@ happens O
 that O
 there O
 r O
-2waxsto O
+DIGIT O
 do O
 wat O
 you B-NP
@@ -193843,7 +193843,7 @@ was O
 wrong O
 its O
 lvl B-NP
-5 I-NP
+DIGIT I-NP
 
 where O
 you B-NP
@@ -193896,7 +193896,7 @@ i B-NP
 meet O
 u B-NP
 at O
-6 B-NP
+DIGIT B-NP
 ? O
 
 where O
@@ -193952,7 +193952,7 @@ to O
 teach O
 me O
 fdr O
-1 O
+DIGIT O
 tml O
 then O
 rest O
@@ -194010,7 +194010,7 @@ are O
 arent O
 you B-NP
 bringing O
-1k B-NP
+DIGIT B-NP
 ????? O
 
 i B-NP
@@ -194057,7 +194057,7 @@ a O
 msg O
 i O
 sent O
-2 O
+DIGIT O
 days O
 back O
 leh O
@@ -194379,7 +194379,7 @@ i O
 make O
 anynoise O
 at O
-2pm O
+DIGIT O
 
 haha O
 i B-NP
@@ -194822,7 +194822,7 @@ la O
 
 bring O
 thumbdrive B-NP
-2moro B-NP
+DIGIT B-NP
 ! O
 thks O
 
@@ -195017,7 +195017,7 @@ dear O
 ma B-NP
 pls O
 dnt O
-4get O
+DIGIT O
 to O
 tke O
 ur B-NP
@@ -195038,7 +195038,7 @@ i O
 done O
 it O
 within O
-5 O
+DIGIT O
 min O
 how O
 u O
@@ -195345,7 +195345,7 @@ still O
 gt O
 slot O
 for O
-1 O
+DIGIT O
 girl O
 
 pon O
@@ -195376,7 +195376,7 @@ u O
 liddat O
 ur O
 extra O
-1 O
+DIGIT O
 k O
 finish O
 soon O
@@ -195411,7 +195411,7 @@ it B-NP
 ? O
 
 level B-NP
-6 I-NP
+DIGIT I-NP
 . O
 
 im O
@@ -195419,7 +195419,7 @@ meeting O
 tt B-NP
 later O
 at O
-5 B-NP
+DIGIT B-NP
 though O
 possible O
 to O
@@ -195620,7 +195620,7 @@ sunday B-NP
 
 on O
 after O
-3pm B-NP
+DIGIT B-NP
 . O
 
 ohh O
@@ -195639,7 +195639,7 @@ will O
 get O
 better O
 
-9pm B-NP
+DIGIT B-NP
 + O
 math B-NP
 lesson I-NP
@@ -195714,7 +195714,7 @@ with O
 you O
 looking O
 at O
-9gag O
+DIGIT O
 and O
 you O
 will O
@@ -197056,7 +197056,7 @@ kaisa O
 gaya O
 
 yeah O
-6 O
+DIGIT O
 eh O
 got O
 u O
@@ -197522,7 +197522,7 @@ i O
 am O
 reaching O
 in O
-5 B-NP
+DIGIT B-NP
 tagerror I-NP
 min O
 
@@ -198041,7 +198041,7 @@ the O
 graphics O
 cangive O
 us O
-1 O
+DIGIT O
 more O
 week O
 
@@ -198151,7 +198151,7 @@ and O
 lessons B-NP
 start O
 at O
-8 B-NP
+DIGIT B-NP
 ... O
 when O
 is O
@@ -198226,7 +198226,7 @@ just O
 ended O
 :-) O
 got O
-2 O
+DIGIT O
 lecturers O
 one O
 moreentertaining O
@@ -198374,7 +198374,7 @@ cos O
 not O
 <#> B-NP
 lol O
-2 B-NP
+DIGIT B-NP
 lehbut O
 still O
 fartake O
@@ -198675,7 +198675,7 @@ buff O
 triangle O
 man O
 ok O
-2moro O
+DIGIT O
 jus O
 do O
 wad O
@@ -198859,7 +198859,7 @@ sun O
 let O
 uschoose O
 from O
-4 O
+DIGIT O
 colours O
 then O
 the O
@@ -198911,7 +198911,7 @@ also O
 leh O
 i B-NP
 read O
-7 B-NP
+DIGIT B-NP
 books I-NP
 le O
 
@@ -199005,7 +199005,7 @@ have O
 cs O
 and O
 cca O
-5 O
+DIGIT O
 hours O
 straight O
 shoots O
@@ -199167,7 +199167,7 @@ ins I-NP
 tagerror B-NP
 tagerror I-NP
 until O
-4 O
+DIGIT O
 i O
 think O
 
@@ -199603,9 +199603,9 @@ pretty O
 sure O
 it B-NP
 s O
-1st B-NP
+DIGIT B-NP
 n O
-2nd B-NP
+DIGIT B-NP
 . O
 
 still O
@@ -200000,7 +200000,7 @@ might O
 as O
 well O
 take O
-1 B-NP
+DIGIT B-NP
 car I-NP
 
 i B-NP
@@ -200011,7 +200011,7 @@ in O
 the B-NP
 afternoon I-NP
 at O
-2 B-NP
+DIGIT B-NP
 so O
 i B-NP
 was O
@@ -200213,7 +200213,7 @@ the B-NP
 first I-NP
 and O
 best O
-2 O
+DIGIT O
 wish O
 u O
 jai O
@@ -200351,7 +200351,7 @@ think O
 i O
 can O
 see O
-1st O
+DIGIT O
 
 scam O
 so O
@@ -200509,7 +200509,7 @@ i B-NP
 pick O
 up O
 another O
-8th O
+DIGIT O
 when O
 youre B-NP
 done O
@@ -200566,9 +200566,9 @@ are O
 to O
 <#> O
 and O
-2 O
+DIGIT O
 to O
-6 O
+DIGIT O
 
 k O
 here O
@@ -200767,7 +200767,7 @@ pm I-NP
 gym B-NP
 normally O
 after O
-6pm B-NP
+DIGIT B-NP
 , O
 i B-NP
 find O
@@ -201017,7 +201017,7 @@ buy O
 back O
 reach O
 home O
-7 O
+DIGIT O
 plus O
 nw O
 at O
@@ -201082,9 +201082,9 @@ wah O
 lame O
 today O
 my O
-2pm B-NP
+DIGIT B-NP
 to I-NP
-4pm I-NP
+DIGIT I-NP
 lesson I-NP
 only O
 last O
@@ -201160,7 +201160,7 @@ le O
 wah O
 i B-NP
 thought O
-7pm B-NP
+DIGIT B-NP
 leh O
 lol O
 
@@ -201230,7 +201230,7 @@ my O
 locker O
 in O
 class B-NP
-4s2 I-NP
+DIGIT I-NP
 tower I-NP
 block I-NP
 first I-NP
@@ -201293,7 +201293,7 @@ now O
 .. O
 end O
 at O
-6pm B-NP
+DIGIT B-NP
 
 erm O
 should O
@@ -201382,7 +201382,7 @@ so O
 u O
 all O
 sing O
-1 O
+DIGIT O
 more O
 only O
 lah O
@@ -201419,7 +201419,7 @@ will O
 contact O
 your O
 students O
-1 O
+DIGIT O
 week O
 before O
 the O
@@ -201779,7 +201779,7 @@ on O
 theway O
 back O
 at O
-2am O
+DIGIT O
 it O
 was O
 damn O
@@ -201856,13 +201856,13 @@ i O
 forgot O
 there O
 are O
-2 O
+DIGIT O
 more O
 lines O
 so O
 altogether O
 is O
-4 O
+DIGIT O
 major O
 parts O
 andthen O
@@ -201986,7 +201986,7 @@ it B-NP
 up O
 before O
 like B-NP
-8 I-NP
+DIGIT I-NP
 
 incredible O
 im B-NP
@@ -202206,13 +202206,13 @@ the O
 show O
 ended O
 after O
-8 O
+DIGIT O
 seasons O
 i O
 am O
 finishing O
 season O
-3 O
+DIGIT O
 
 and O
 youll O
@@ -202260,7 +202260,7 @@ to O
 interview O
 it O
 pple B-NP
-1ha I-NP
+DIGIT I-NP
 ha O
 let O
 me O
@@ -202437,9 +202437,9 @@ okie O
 
 next O
 week O
-1 O
-3 O
-5 O
+DIGIT O
+DIGIT O
+DIGIT O
 free O
 sentosa O
 on O
@@ -202708,7 +202708,7 @@ ll O
 dl O
 it B-NP
 in O
-3d B-NP
+DIGIT B-NP
 when O
 it B-NP
 s O
@@ -202776,7 +202776,7 @@ mark O
 involve O
 x O
 lol O
-1 O
+DIGIT O
 mark O
 only O
 and O
@@ -202832,7 +202832,7 @@ reach O
 northpiint B-NP
 le O
 
-6 B-NP
+DIGIT B-NP
 min I-NP
 . O
 
@@ -202979,7 +202979,7 @@ will O
 be O
 office B-NP
 around O
-4 B-NP
+DIGIT B-NP
 pm O
 now B-NP
 i B-NP
@@ -203034,7 +203034,7 @@ and O
 have O
 not O
 gone O
-4the O
+DIGIT O
 driving O
 test O
 yet O
@@ -203180,7 +203180,7 @@ d O
 
 now O
 lo O
-2moro B-NP
+DIGIT B-NP
 math B-NP
 ass I-NP
 due O
@@ -203349,7 +203349,7 @@ tmr O
 lesson O
 starts O
 at O
-2 O
+DIGIT O
 
 you B-NP
 think O
@@ -203613,13 +203613,13 @@ sob O
 sob O
 no O
 arh O
-3pm O
+DIGIT O
 got O
 labto O
 gooo O
 wat O
 lose O
-2 O
+DIGIT O
 put O
 of O
 <#> O
@@ -203649,9 +203649,9 @@ prices B-NP
 usually O
 ranges O
 from O
-6 B-NP
+DIGIT B-NP
 to O
-8 B-NP
+DIGIT B-NP
 . O
 the B-NP
 prices I-NP
@@ -203692,14 +203692,14 @@ i O
 nvr O
 train O
 for O
-2 O
+DIGIT O
 weeks O
 everyday O
 arp O
 frm O
-9 O
+DIGIT O
 to O
-5 O
+DIGIT O
 == O
 
 rofl O
@@ -204045,7 +204045,7 @@ we B-NP
 go O
 kbox B-NP
 thursday B-NP
-9sept I-NP
+DIGIT I-NP
 , O
 might O
 not O
@@ -204133,7 +204133,7 @@ i O
 have O
 cca O
 until O
-6 O
+DIGIT O
 
 aight O
 one B-NP
@@ -204342,7 +204342,7 @@ time O
 coming O
 my B-NP
 hse I-NP
-2moro I-NP
+DIGIT I-NP
 
 haha O
 okay O
@@ -204430,7 +204430,7 @@ got O
 <#> O
 lesson O
 in O
-5 O
+DIGIT O
 mth O
 not O
 bad O
@@ -204585,7 +204585,7 @@ bblp B-NP
 wat O
 the O
 week O
-9 O
+DIGIT O
 need O
 hand O
 in O
@@ -204743,9 +204743,9 @@ it B-NP
 will O
 start O
 around O
-8 B-NP
+DIGIT B-NP
 or I-NP
-9 I-NP
+DIGIT I-NP
 pm I-NP
 tonite I-NP
 ! O
@@ -204772,7 +204772,7 @@ but O
 need O
 chiong O
 i B-NP
-3pm B-NP
+DIGIT B-NP
 got O
 pe B-NP
 
@@ -204913,7 +204913,7 @@ me B-NP
 lo O
 erm O
 ass B-NP
-5 I-NP
+DIGIT I-NP
 u B-NP
 done O
 
@@ -205015,7 +205015,7 @@ USR O
 string O
 gr O
 complex O
-5th O
+DIGIT O
 flr O
 <#> O
 , O
@@ -205145,7 +205145,7 @@ i O
 was O
 sleeping O
 since O
-9pm O
+DIGIT O
 i O
 only O
 left O
@@ -205182,7 +205182,7 @@ source B-NP
 reliable O
 
 bout O
-6 B-NP
+DIGIT B-NP
 
 dillon B-NP
 chew I-NP
@@ -205289,7 +205289,7 @@ we I-NP
 only O
 wrote O
 like O
-3 O
+DIGIT O
 this O
 entire O
 , B-NP
@@ -205348,7 +205348,7 @@ stats O
 paper O
 ha B-NP
 tagerror I-NP
-2 O
+DIGIT O
 more O
 
 i O
@@ -205456,7 +205456,7 @@ much O
 is O
 torch B-NP
 in O
-9ja B-NP
+DIGIT B-NP
 . O
 
 yeah O
@@ -205528,7 +205528,7 @@ have O
 no O
 idea O
 
-2 O
+DIGIT O
 np O
 lic B-NP
 key I-NP
@@ -205863,7 +205863,7 @@ person B-NP
 she B-NP
 endwork O
 USR O
-5pm B-NP
+DIGIT B-NP
 . O
 
 sorry O
@@ -205995,7 +205995,7 @@ phone I-NP
 is O
 outdated O
 in O
-3months B-NP
+DIGIT B-NP
 ?? O
 
 i B-NP
@@ -206167,7 +206167,7 @@ mins I-NP
 hey O
 u O
 returning O
-2day O
+DIGIT O
 
 not O
 not O
@@ -206316,7 +206316,7 @@ stuff B-NP
 
 train B-NP
 in O
-2 B-NP
+DIGIT B-NP
 min I-NP
 hee O
 
@@ -206828,7 +206828,7 @@ to O
 buy O
 a O
 cheap B-NP
-2nd I-NP
+DIGIT I-NP
 hand I-NP
 macbook I-NP
 pro I-NP
@@ -207204,7 +207204,7 @@ worries O
 lah O
 itll O
 be O
-4 O
+DIGIT O
 soon O
 (; O
 
@@ -207280,7 +207280,7 @@ thot I-NP
 u O
 end O
 at O
-1 O
+DIGIT O
 anyway O
 u O
 ing B-NP
@@ -207308,7 +207308,7 @@ place O
 between O
 <#> O
 to O
-4 O
+DIGIT O
 ba O
 meet O
 for O
@@ -207538,7 +207538,7 @@ but O
 theres O
 only O
 like O
-1 O
+DIGIT O
 bowls O
 worth O
 left O
@@ -207636,7 +207636,7 @@ abiola B-NP
 
 icic O
 the O
-8mc O
+DIGIT O
 mod O
 good O
 luck O
@@ -207867,7 +207867,7 @@ invasion I-NP
 battle I-NP
 of I-NP
 la I-NP
-9pm B-NP
+DIGIT B-NP
 de O
 dinner B-NP
 at O
@@ -208043,7 +208043,7 @@ at O
 home O
 
 talk O
-2 O
+DIGIT O
 u O
 later O
 
@@ -208252,11 +208252,11 @@ did O
 irp O
 in O
 yr O
-4 O
+DIGIT O
 and O
 arp O
 inyr O
-5 O
+DIGIT O
 so O
 transcript O
 is O
@@ -208275,7 +208275,7 @@ yris O
 slacker O
 than O
 yr O
-5 O
+DIGIT O
 oo O
 
 dun O
@@ -208601,7 +208601,7 @@ my B-NP
 turn I-NP
 at O
 chapter B-NP
-2 I-NP
+DIGIT I-NP
 .. O
 
 only O
@@ -208678,7 +208678,7 @@ can O
 buy O
 tickets O
 for O
-6 O
+DIGIT O
 people O
 
 i O
@@ -208748,11 +208748,11 @@ i B-NP
 m O
 outside O
 sr B-NP
-1 I-NP
+DIGIT I-NP
 . O
 com1 B-NP
 level I-NP
-2 I-NP
+DIGIT I-NP
 
 haha O
 b4 O
@@ -208994,11 +208994,11 @@ want O
 to O
 meet O
 till O
-3 O
+DIGIT O
 is O
 itor O
 from O
-3 O
+DIGIT O
 i B-NP
 gt O
 lecture B-NP
@@ -209089,7 +209089,7 @@ the O
 integrity O
 attack O
 foressay O
-2 O
+DIGIT O
 
 happy B-NP
 new I-NP
@@ -209348,7 +209348,7 @@ wah O
 like O
 tat B-NP
 i B-NP
-7 B-NP
+DIGIT B-NP
 nid O
 leave O
 house B-NP
@@ -209358,12 +209358,12 @@ rest O
 ok O
 then O
 jiu O
-9 B-NP
+DIGIT B-NP
 lor O
 
 bblp O
 later O
-9 O
+DIGIT O
 have O
 ur B-NP
 cute B-NP
@@ -209782,7 +209782,7 @@ i B-NP
 thinkits O
 cuteand O
 otherstuff B-NP
-2nite B-NP
+DIGIT B-NP
 i B-NP
 wont O
 b O
@@ -209794,7 +209794,7 @@ late O
 coz O
 tmr B-NP
 hv O
-2 O
+DIGIT O
 wake O
 up O
 atard O
@@ -209920,7 +209920,7 @@ keys I-NP
 again O
 
 only O
-1 B-NP
+DIGIT B-NP
 ? O
 
 wish O
@@ -210343,7 +210343,7 @@ price O
 in O
 meeting B-NP
 room I-NP
-5 I-NP
+DIGIT I-NP
 u B-NP
 in O
 school B-NP
@@ -210499,7 +210499,7 @@ be O
 funny O
 to O
 have O
-4 B-NP
+DIGIT B-NP
 conclusions I-NP
 ! O
 
@@ -210650,7 +210650,7 @@ time B-NP
 class B-NP
 outing I-NP
 end O
-2moro B-NP
+DIGIT B-NP
 
 hey O
 sorry O
@@ -210672,7 +210672,7 @@ i O
 bought O
 handphone O
 holders O
-5 O
+DIGIT O
 bucks O
 each O
 si O
@@ -210834,7 +210834,7 @@ would O
 
 haha O
 mine O
-2pmsame O
+DIGIT O
 t B-NP
 
 kkapo O
@@ -210956,7 +210956,7 @@ ok O
 just O
 call O
 before O
-5pm O
+DIGIT O
 office O
 hour O
 lor O
@@ -211503,7 +211503,7 @@ to O
 wake O
 up O
 at O
-2 B-NP
+DIGIT B-NP
 xd O
 
 i B-NP
@@ -211895,9 +211895,9 @@ milk O
 tomorrow O
 in O
 block O
-2 O
+DIGIT O
 flat O
-1110 O
+DIGIT O
 smr O
 fountainhead O
 
@@ -211995,7 +211995,7 @@ dads O
 this O
 saturday O
 at O
-5 O
+DIGIT O
 for O
 his O
 bday O
@@ -212036,9 +212036,9 @@ to O
 meet O
 lcs O
 in O
-1st O
+DIGIT O
 or O
-2nd O
+DIGIT O
 break O
 
 haha O
@@ -212245,7 +212245,7 @@ come O
 hey O
 later O
 bout O
-5 O
+DIGIT O
 wanna O
 swim O
 
@@ -212697,7 +212697,7 @@ mepray O
 please O
 lol O
 
-2 O
+DIGIT O
 ppl O
 den O
 rained O
@@ -212716,7 +212716,7 @@ is O
 there O
 land O
 training O
-2day B-NP
+DIGIT B-NP
 ? O
 
 lol O
@@ -212782,14 +212782,14 @@ babe B-NP
 ? O
 you B-NP
 said O
-2 B-NP
+DIGIT B-NP
 hours I-NP
 and O
 it B-NP
 s O
 been O
 almost B-NP
-4 I-NP
+DIGIT I-NP
 ... O
 is O
 your B-NP
@@ -212903,7 +212903,7 @@ dear O
 i O
 at O
 the O
-2nd O
+DIGIT O
 floor O
 toilet O
 i O
@@ -212974,7 +212974,7 @@ ll O
 
 the B-NP
 thing I-NP
-8pm B-NP
+DIGIT B-NP
 rite O
 we B-NP
 havent O
@@ -213149,7 +213149,7 @@ no O
 we B-NP
 put O
 party B-NP
-7 I-NP
+DIGIT I-NP
 days I-NP
 a I-NP
 week I-NP
@@ -213299,7 +213299,7 @@ aug B-NP
 to I-NP
 feb I-NP
 <#> I-NP
-7x I-NP
+DIGIT I-NP
 <#> I-NP
 this B-NP
 is O
@@ -213364,7 +213364,7 @@ and O
 it B-NP
 s O
 like O
-2 B-NP
+DIGIT B-NP
 hours I-NP
 by O
 bus B-NP
@@ -213383,7 +213383,7 @@ ok O
 lets O
 set O
 it O
-7pm O
+DIGIT O
 we O
 start O
 this O
@@ -213491,7 +213491,7 @@ mum I-NP
 , O
 including O
 tml B-NP
-3hrs B-NP
+DIGIT B-NP
 session I-NP
 , O
 it B-NP
@@ -213673,7 +213673,7 @@ jio O
 u O
 cut O
 hair O
-2moro O
+DIGIT O
 
 ohh O
 my B-NP
@@ -213731,7 +213731,7 @@ may O
 not O
 go O
 to O
-4u O
+DIGIT O
 to O
 meet O
 carlos O
@@ -213765,7 +213765,7 @@ at O
 blk B-NP
 <#> I-NP
 lvl I-NP
-3 I-NP
+DIGIT I-NP
 . O
 
 i B-NP
@@ -214000,7 +214000,7 @@ so O
 i O
 recruit O
 the O
-2 B-NP
+DIGIT B-NP
 guys I-NP
 who O
 have O
@@ -214020,7 +214020,7 @@ can O
 we B-NP
 meet O
 at O
-1 B-NP
+DIGIT B-NP
 insteadhahaha O
 i B-NP
 wanna O
@@ -214500,7 +214500,7 @@ i O
 reach O
 sch O
 around O
-8 O
+DIGIT O
 should O
 be O
 can O
@@ -214540,9 +214540,9 @@ for O
 mins O
 cause O
 my O
-2 O
+DIGIT O
 to O
-4pmlesson O
+DIGIT O
 change O
 to O
 essay O
@@ -214591,7 +214591,7 @@ birthdays B-NP
 . O
 d O
 
-9 B-NP
+DIGIT B-NP
 to I-NP
 <#> I-NP
 tagerror I-NP
@@ -214727,7 +214727,7 @@ haha O
 can O
 go O
 tog O
-7pm B-NP
+DIGIT B-NP
 close O
 
 shuo O
@@ -215007,7 +215007,7 @@ tan I-NP
 
 leaving O
 in O
-5 O
+DIGIT O
 
 haha O
 they B-NP
@@ -215228,7 +215228,7 @@ that O
 plus O
 jap1 O
 so O
-6 O
+DIGIT O
 altogether O
 
 yo O
@@ -215525,7 +215525,7 @@ i B-NP
 ve O
 been O
 to O
-4u B-NP
+DIGIT B-NP
 a O
 couple O
 times O
@@ -215539,7 +215539,7 @@ stuck O
 in O
 assembly B-NP
 until O
-4pm B-NP
+DIGIT B-NP
 
 ya O
 hmmm O
@@ -215777,7 +215777,7 @@ now I-NP
 haha O
 things B-NP
 for O
-4 B-NP
+DIGIT B-NP
 days I-NP
 lo O
 shoes B-NP
@@ -215865,7 +215865,7 @@ if O
 possible O
 
 channel O
-8 O
+DIGIT O
 
 hahaha O
 ya O
@@ -215933,7 +215933,7 @@ morning O
 im O
 busy O
 is O
-1pm O
+DIGIT O
 okay O
 for O
 you O
@@ -215987,7 +215987,7 @@ kancheepuram O
 dtchennai O
 <#> O
 time O
-8 O
+DIGIT O
 am O
 on O
 both O
@@ -216382,7 +216382,7 @@ manz O
 i B-NP
 free O
 until O
-3 B-NP
+DIGIT B-NP
 now O
 at O
 banner O
@@ -216579,16 +216579,16 @@ die O
 seriously O
 
 ya O
-1 B-NP
+DIGIT B-NP
 free O
 for O
-4 B-NP
+DIGIT B-NP
 
 i B-NP
 went O
 back O
 sch B-NP
-1st O
+DIGIT O
 lols O
 u B-NP
 won O
@@ -216820,7 +216820,7 @@ the B-NP
 iphone I-NP
 de O
 only O
-1 B-NP
+DIGIT B-NP
 left O
 le O
 lol O
@@ -216835,7 +216835,7 @@ lol O
 
 i B-NP
 put O
-8 B-NP
+DIGIT B-NP
 am O
 to O
 <#> B-NP
@@ -216920,9 +216920,9 @@ days O
 or O
 u O
 want O
-2 O
+DIGIT O
 to O
-4 O
+DIGIT O
 pm O
 on O
 friday O
@@ -217116,7 +217116,7 @@ take O
 bus O
 <#> O
 . O
-6min O
+DIGIT O
 walk O
 ba O
 
@@ -217126,7 +217126,7 @@ sent O
 it B-NP
 on O
 the B-NP
-4th I-NP
+DIGIT I-NP
 . O
 
 giving O
@@ -217393,7 +217393,7 @@ gee O
 
 today O
 until O
-3pm O
+DIGIT O
 eh O
 
 yeahh O
@@ -217546,7 +217546,7 @@ le O
 at O
 jurong B-NP
 point I-NP
-8 B-NP
+DIGIT B-NP
 pm I-NP
 
 haha O
@@ -217693,7 +217693,7 @@ is O
 cannot O
 what O
 the O
-3 O
+DIGIT O
 of O
 them O
 stick O
@@ -217795,7 +217795,7 @@ outside O
 
 oh O
 got O
-5 O
+DIGIT O
 to O
 decimal O
 pm O
@@ -217893,7 +217893,7 @@ when O
 
 okgive O
 me O
-5 O
+DIGIT O
 mini O
 go O
 toilet O
@@ -218194,7 +218194,7 @@ wtf O
 ok O
 bt O
 abt O
-8 B-NP
+DIGIT B-NP
 then O
 will O
 reach O
@@ -218226,7 +218226,7 @@ love O
 u O
 
 were O
-2 O
+DIGIT O
 stops O
 away O
 
@@ -218526,7 +218526,7 @@ it O
 today B-NP
 
 block O
-3 O
+DIGIT O
 or O
 uncle O
 noodle O
@@ -218632,7 +218632,7 @@ think O
 it B-NP
 s O
 at O
-7 B-NP
+DIGIT B-NP
 
 because O
 the B-NP
@@ -218645,7 +218645,7 @@ worksheet I-NP
 after O
 sitting O
 through O
-3 B-NP
+DIGIT B-NP
 hours I-NP
 beside O
 somone B-NP
@@ -218661,7 +218661,7 @@ out O
 and O
 scream O
 after O
-5 B-NP
+DIGIT B-NP
 minutes I-NP
 so O
 yeah O
@@ -218775,7 +218775,7 @@ my B-NP
 way I-NP
 to O
 blk B-NP
-4 I-NP
+DIGIT I-NP
 already O
 
 my O
@@ -218915,7 +218915,7 @@ clementi O
 later O
 at O
 bout O
-5 O
+DIGIT O
 
 haha O
 nope O
@@ -219023,9 +219023,9 @@ be O
 looking O
 her B-NP
 between O
-2 B-NP
+DIGIT B-NP
 to O
-4pm B-NP
+DIGIT B-NP
 
 just O
 send O
@@ -219129,7 +219129,7 @@ p O
 
 k O
 after O
-9 B-NP
+DIGIT B-NP
 rite O
 
 no O
@@ -219268,7 +219268,7 @@ sat I-NP
 i I-NP
 have I-NP
 is O
-5th B-NP
+DIGIT B-NP
 feb I-NP
 .. O
 
@@ -219485,10 +219485,10 @@ with O
 chester O
 meet O
 at O
-7 O
+DIGIT O
 
 whoop O
-3 B-NP
+DIGIT B-NP
 rounds I-NP
 of I-NP
 pong I-NP
@@ -219772,7 +219772,7 @@ anyway O
 tml B-NP
 u B-NP
 before B-NP
-2pm I-NP
+DIGIT I-NP
 got O
 breakright O
 we B-NP
@@ -219870,7 +219870,7 @@ all O
 but O
 we O
 have O
-3 B-NP
+DIGIT B-NP
 years O
 of O
 experience O
@@ -219942,7 +219942,7 @@ ya O
 everyday O
 wake O
 up O
-7 O
+DIGIT O
 zzz O
 plus O
 travel O
@@ -220109,7 +220109,7 @@ love O
 u B-NP
 wifey O
 
-2nite B-NP
+DIGIT B-NP
 give O
 u B-NP
 ? O
@@ -220196,7 +220196,7 @@ free O
 next O
 mon O
 after O
-6 O
+DIGIT O
 
 hmmm O
 i O
@@ -220361,7 +220361,7 @@ be O
 reaching O
 in O
 abt B-NP
-2 I-NP
+DIGIT I-NP
 mins I-NP
 . O
 
@@ -220472,7 +220472,7 @@ oops O
 i B-NP
 on O
 bus B-NP
-2 B-NP
+DIGIT B-NP
 more I-NP
 stops I-NP
 
@@ -220666,7 +220666,7 @@ foreign O
 number O
 call O
 me O
-4 O
+DIGIT O
 times O
 oo O
 
@@ -220844,18 +220844,18 @@ him O
 a O
 few O
 things O
-1fuel O
+DIGIT O
 consumption O
 <#> O
 kmlitre O
 is O
 gd O
-2 O
+DIGIT O
 any O
 overhaul O
 n O
 when O
-3 O
+DIGIT O
 howmany O
 km O
 per O
@@ -220868,12 +220868,12 @@ is O
 changed O
 duringregular O
 servicing O
-4 O
+DIGIT O
 any O
 stuff O
 changed O
 last O
-6 O
+DIGIT O
 months O
 or O
 year O
@@ -221082,7 +221082,7 @@ lol O
 :) O
 
 bblp O
-2 B-NP
+DIGIT B-NP
 pm I-NP
 can O
 
@@ -221564,7 +221564,7 @@ them O
 the O
 schedule O
 
-1 O
+DIGIT O
 ah O
 dont O
 want O
@@ -221644,7 +221644,7 @@ go O
 out O
 eat O
 eh O
-2moro O
+DIGIT O
 not O
 gojng O
 anymore O
@@ -221690,41 +221690,41 @@ nice O
 tasty B-NP
 rice I-NP
 
-2 B-NP
+DIGIT B-NP
 gb O
 ddr3 B-NP
 ram I-NP
 : O
-3 B-NP
+DIGIT B-NP
 years O
 <#> B-NP
 gb O
 hdd B-NP
 : O
-3 B-NP
+DIGIT B-NP
 years O
 dvd B-NP
 writer I-NP
 : O
-1 B-NP
+DIGIT B-NP
 year O
 iball B-NP
 cabinet I-NP
 : O
-3 B-NP
+DIGIT B-NP
 years O
 keyboard B-NP
 & I-NP
 mouse I-NP
 : O
-3 B-NP
+DIGIT B-NP
 years O
 <#> B-NP
 " O
 dell B-NP
 square I-NP
 : O
-3 B-NP
+DIGIT B-NP
 years O
 with O
 intel B-NP
@@ -222137,7 +222137,7 @@ will O
 be O
 free O
 after B-NP
-2 I-NP
+DIGIT I-NP
 
 haha O
 apparently O
@@ -222597,7 +222597,7 @@ lastname I-NP
 ? O
 
 ok O
-9pmcine B-NP
+DIGIT B-NP
 ? O
 
 sat O
@@ -222637,7 +222637,7 @@ i O
 still O
 at O
 redhill O
-2day B-NP
+DIGIT B-NP
 left O
 very O
 early O
@@ -222671,7 +222671,7 @@ class I-NP
 bench I-NP
 until O
 about O
-1pm B-NP
+DIGIT B-NP
 
 haha O
 good O
@@ -222775,7 +222775,7 @@ i O
 go O
 get O
 iphone O
-4 O
+DIGIT O
 sia O
 if O
 this O
@@ -222854,7 +222854,7 @@ whole O
 morning O
 to O
 bout O
-7pm O
+DIGIT O
 nothing O
 to O
 do O
@@ -223613,7 +223613,7 @@ just O
 got O
 your O
 sms O
-2 B-NP
+DIGIT B-NP
 ! O
 
 yeah O
@@ -223945,7 +223945,7 @@ lol O
 ok O
 ~ O
 
-2moro B-NP
+DIGIT B-NP
 gg O
 hostel B-NP
 ? O
@@ -223956,15 +223956,15 @@ got O
 a O
 lesson O
 from O
-3 O
+DIGIT O
 to O
-4pm O
+DIGIT O
 another O
 one O
 at O
-6pm O
+DIGIT O
 to O
-7pm O
+DIGIT O
 butthe O
 last O
 one O
@@ -224216,7 +224216,7 @@ go O
 if O
 i O
 find O
-1 O
+DIGIT O
 more O
 person O
 
@@ -224330,7 +224330,7 @@ stay O
 at O
 home B-NP
 until O
-3 B-NP
+DIGIT B-NP
 towait O
 for O
 pearlyn B-NP
@@ -224516,7 +224516,7 @@ gatex O
 each O
 input O
 control O
-2 O
+DIGIT O
 output O
 
 unless O
@@ -224532,7 +224532,7 @@ one O
 round O
 causejason O
 bout O
-8pm O
+DIGIT O
 free O
 
 hey O
@@ -224598,7 +224598,7 @@ i B-NP
 m O
 at O
 canteen B-NP
-2 I-NP
+DIGIT I-NP
 le O
 call O
 me B-NP
@@ -225147,13 +225147,13 @@ your O
 weekend O
 
 hey O
-2moro O
+DIGIT O
 meet O
 where O
 
 awesome O
 okay O
-3pm B-NP
+DIGIT B-NP
 at O
 expo B-NP
 eh O
@@ -225164,7 +225164,7 @@ we B-NP
 are O
 at O
 blk B-NP
-4 I-NP
+DIGIT I-NP
 lvl I-NP
 <#> I-NP
 . O
@@ -225254,7 +225254,7 @@ it O
 will O
 reach O
 by O
-9 O
+DIGIT O
 only O
 she O
 telling O
@@ -225762,7 +225762,7 @@ online O
 for O
 interview B-NP
 yeap O
-8 B-NP
+DIGIT B-NP
 pm I-NP
 ? O
 
@@ -225977,7 +225977,7 @@ then O
 wed O
 afternoon O
 around O
-2 O
+DIGIT O
 where O
 you O
 wanna O
@@ -226039,7 +226039,7 @@ in O
 sun B-NP
 tv I-NP
 USR O
-6pm B-NP
+DIGIT B-NP
 and O
 nan O
 ungal O
@@ -226049,7 +226049,7 @@ on O
 <#> B-NP
 th O
 USR O
-6pm O
+DIGIT O
 in O
 jaya O
 tv O
@@ -226126,7 +226126,7 @@ nvm O
 then O
 btw O
 u O
-2moro O
+DIGIT O
 going O
 kayaking O
 
@@ -226141,7 +226141,7 @@ day O
 dear O
 i B-NP
 at O
-2nd B-NP
+DIGIT B-NP
 last I-NP
 row I-NP
 .. O
@@ -226481,7 +226481,7 @@ already O
 house B-NP
 ? O
 season B-NP
-8 I-NP
+DIGIT I-NP
 just O
 premiered O
 this B-NP
@@ -226668,7 +226668,7 @@ shecame B-NP
 when I-NP
 i I-NP
 was I-NP
-4 I-NP
+DIGIT I-NP
 haha O
 haha O
 i O
@@ -226991,7 +226991,7 @@ the B-NP
 bridge I-NP
 behind O
 canteen B-NP
-2 I-NP
+DIGIT I-NP
 
 nope O
 why O
@@ -227048,7 +227048,7 @@ bah O
 >< O
 yeah O
 from O
-7 B-NP
+DIGIT B-NP
 to I-NP
 th I-NP
 dec I-NP
@@ -227562,7 +227562,7 @@ outside O
 lt O
 <#> O
 in O
-5 O
+DIGIT O
 min O
 
 ya O
@@ -227607,7 +227607,7 @@ har O
 hey O
 lynette O
 later O
-1hr O
+DIGIT O
 before O
 you O
 reach O
@@ -227689,7 +227689,7 @@ lol O
 gd O
 sia O
 got O
-2nd B-NP
+DIGIT B-NP
 prize I-NP
 . O
 
@@ -227969,8 +227969,8 @@ book O
 
 i O
 bout O
-5 O
-5 O
+DIGIT O
+DIGIT O
 plus O
 reach O
 then O
@@ -228845,7 +228845,7 @@ wow O
 haha O
 so O
 random O
-7 B-NP
+DIGIT B-NP
 
 i O
 dont O
@@ -229686,7 +229686,7 @@ last B-NP
 guys I-NP
 . O
 bring O
-2 B-NP
+DIGIT B-NP
 sets O
 clothes B-NP
 toiletries I-NP
@@ -229849,7 +229849,7 @@ slpin B-NP
 at O
 discussion B-NP
 rm I-NP
-2 I-NP
+DIGIT I-NP
 
 hi O
 dear O
@@ -229901,7 +229901,7 @@ will O
 go O
 home B-NP
 after B-NP
-3pm I-NP
+DIGIT I-NP
 then O
 mert O
 you B-NP
@@ -230038,10 +230038,10 @@ it O
 hmmm O
 okay O
 
-4 O
+DIGIT O
 tacos B-NP
 + O
-1 O
+DIGIT O
 rajas B-NP
 burrito I-NP
 , O
@@ -230089,12 +230089,12 @@ can O
 help O
 me B-NP
 buy O
-4 B-NP
+DIGIT B-NP
 packers I-NP
 of I-NP
 flour I-NP
 and I-NP
-1 I-NP
+DIGIT I-NP
 packet I-NP
 of I-NP
 egg I-NP
@@ -230371,7 +230371,7 @@ you O
 joining O
 us O
 later O
-1pm O
+DIGIT O
 at O
 nyp O
 
@@ -230432,7 +230432,7 @@ le O
 
 i O
 think O
-6th B-NP
+DIGIT B-NP
 door I-NP
 from I-NP
 the I-NP
@@ -230494,12 +230494,12 @@ small O
 small O
 put O
 at O
-1 O
+DIGIT O
 corner O
 lorhahahahahungryroarrr O
 
 its O
-5th O
+DIGIT O
 floor O
 
 alright O
@@ -230774,7 +230774,7 @@ nt O
 here B-NP
 yet O
 abt O
-2 B-NP
+DIGIT B-NP
 weeks I-NP
 time I-NP
 then O
@@ -230876,7 +230876,7 @@ okie O
 u O
 get O
 ur O
-4 O
+DIGIT O
 de O
 answer O
 then O
@@ -231311,7 +231311,7 @@ time I-NP
 de O
 we B-NP
 have O
-6 B-NP
+DIGIT B-NP
 ? O
 
 haha O
@@ -231637,7 +231637,7 @@ just O
 tot O
 of O
 getting O
-1 B-NP
+DIGIT B-NP
 for O
 casual O
 normal O
@@ -231692,7 +231692,7 @@ camp O
 in O
 pl6 O
 
-2day B-NP
+DIGIT B-NP
 u O
 free O
 
@@ -231763,9 +231763,9 @@ week O
 mentor O
 overseas O
 i O
-1 O
-3 O
-5 O
+DIGIT O
+DIGIT O
+DIGIT O
 free O
 i O
 everyday O
@@ -231780,7 +231780,7 @@ no O
 la O
 engage O
 on O
-2nd B-NP
+DIGIT B-NP
 jan I-NP
 . O
 she B-NP
@@ -231839,7 +231839,7 @@ ideawerkz B-NP
 office I-NP
 tmr O
 after O
-4pm B-NP
+DIGIT B-NP
 ? O
 
 there O
@@ -232007,7 +232007,7 @@ lols O
 ok O
 usually O
 tues O
-2pm O
+DIGIT O
 lik O
 tt O
 
@@ -232035,7 +232035,7 @@ only O
 take O
 it O
 at O
-4th O
+DIGIT O
 year O
 den O
 tie O
@@ -232207,7 +232207,7 @@ google B-NP
 doc I-NP
 lehtmr O
 meet O
-4 B-NP
+DIGIT B-NP
 discuss O
 
 nope O
@@ -232405,7 +232405,7 @@ about O
 guys B-NP
 ! O
 
-9 B-NP
+DIGIT B-NP
 plus I-NP
 maybe O
 
@@ -232553,7 +232553,7 @@ us B-NP
 . O
 u B-NP
 coming O
-9 B-NP
+DIGIT B-NP
 right O
 
 whenever O
@@ -232804,13 +232804,13 @@ lift O
 near O
 letterboxes O
 tolevel O
-7 O
+DIGIT O
 walk O
 corridor O
 then O
 to O
 level O
-6 O
+DIGIT O
 
 why O
 havent O
@@ -232928,17 +232928,17 @@ pick O
 me O
 up O
 at O
-4 O
+DIGIT O
 instead O
 of O
-330 O
+DIGIT O
 
 i O
 last O
 week O
 went O
 gym O
-3 O
+DIGIT O
 times O
 then O
 today O
@@ -233088,7 +233088,7 @@ haha O
 i O
 cannot O
 play O
-3d O
+DIGIT O
 games O
 my O
 bro O
@@ -233186,7 +233186,7 @@ lols O
 
 is O
 this B-NP
-7 B-NP
+DIGIT B-NP
 ? O
 i B-NP
 havent O
@@ -233227,9 +233227,9 @@ back O
 today O
 
 wksht B-NP
-2c I-NP
+DIGIT I-NP
 quest I-NP
-5 I-NP
+DIGIT I-NP
 
 wen O
 dun O
@@ -234024,7 +234024,7 @@ class O
 started O
 like O
 barely O
-1hr O
+DIGIT O
 only O
 
 got O
@@ -234138,7 +234138,7 @@ got O
 see O
 feng B-NP
 shui I-NP
-1 I-NP
+DIGIT I-NP
 cannot O
 anyhow O
 shiftlol O
@@ -234184,7 +234184,7 @@ needs O
 to O
 sleep O
 by O
-7pm O
+DIGIT O
 so O
 im O
 sorry O
@@ -234468,7 +234468,7 @@ t O
 yet O
 like O
 maybe O
-38 O
+DIGIT O
 throughx O
 itscrazy O
 h B-NP
@@ -234712,7 +234712,7 @@ said O
 good O
 your B-NP
 last I-NP
-4 I-NP
+DIGIT I-NP
 days I-NP
 tobe O
 a B-NP
@@ -234940,7 +234940,7 @@ blk O
 serangoon O
 north O
 ave O
-4 O
+DIGIT O
 HT O
 <#> O
 
@@ -235036,7 +235036,7 @@ i B-NP
 m O
 meeting O
 you B-NP
-2pm B-NP
+DIGIT B-NP
 at O
 tanjong B-NP
 pagar I-NP
@@ -235050,7 +235050,7 @@ will O
 be O
 free O
 after B-NP
-2 I-NP
+DIGIT I-NP
 ; O
 can O
 help O
@@ -235079,7 +235079,7 @@ early O
 i B-NP
 today O
 end O
-4 O
+DIGIT O
 rehhh O
 
 it B-NP
@@ -235118,7 +235118,7 @@ i B-NP
 ll O
 call O
 aftr O
-1 B-NP
+DIGIT B-NP
 hour I-NP
 . O
 
@@ -235152,7 +235152,7 @@ working O
 i O
 overslept O
 missed O
-1 O
+DIGIT O
 class O
 -.-" O
 
@@ -235181,7 +235181,7 @@ late O
 k O
 3 B-NP
 
-1 B-NP
+DIGIT B-NP
 more I-NP
 stop I-NP
 
@@ -235303,7 +235303,7 @@ you B-NP
 mean O
 <#> B-NP
 minus O
-3 B-NP
+DIGIT B-NP
 its O
 <#> B-NP
 
@@ -235349,7 +235349,7 @@ idk O
 indi O
 morning B-NP
 till O
-2 B-NP
+DIGIT B-NP
 plus I-NP
 
 ok O
@@ -235668,7 +235668,7 @@ mom I-NP
 get O
 up O
 before O
-3 B-NP
+DIGIT B-NP
 
 lol O
 yeah O
@@ -235717,7 +235717,7 @@ go O
 do O
 now O
 
-3 B-NP
+DIGIT B-NP
 min I-NP
 train I-NP
 
@@ -235805,13 +235805,13 @@ was O
 chem B-NP
 rep I-NP
 for O
-4 B-NP
+DIGIT B-NP
 years I-NP
 and O
 perep O
 in O
 year O
-3 B-NP
+DIGIT B-NP
 , O
 then O
 now O
@@ -236134,7 +236134,7 @@ doesnt O
 add O
 up O
 to O
-1 O
+DIGIT O
 
 hmmm O
 now O
@@ -236302,7 +236302,7 @@ wrong I-NP
 box I-NP
 . O
 got O
-4 O
+DIGIT O
 box B-NP
 at O
 the B-NP
@@ -236362,7 +236362,7 @@ i B-NP
 still O
 at O
 chapter B-NP
-1 I-NP
+DIGIT I-NP
 lols O
 
 which O
@@ -236406,7 +236406,7 @@ wake O
 me B-NP
 up O
 at O
-2 B-NP
+DIGIT B-NP
 pm I-NP
 :) O
 
@@ -236601,7 +236601,7 @@ meet O
 in O
 town O
 at O
-6 O
+DIGIT O
 yes O
 i O
 canhaha O
@@ -237028,7 +237028,7 @@ may O
 be O
 there O
 at O
-8 O
+DIGIT O
 
 called O
 me O
@@ -237390,7 +237390,7 @@ hv O
 physics O
 will O
 end O
-7 B-NP
+DIGIT B-NP
 
 i B-NP
 today B-NP
@@ -237701,7 +237701,7 @@ sleepp O
 lessons B-NP
 start O
 at O
-3 B-NP
+DIGIT B-NP
 ! O
 
 anytime B-NP
@@ -237742,7 +237742,7 @@ eap B-NP
 will I-NP
 meet O
 tagerror B-NP
-2p I-NP
+DIGIT I-NP
 m O
 
 so O
@@ -237937,13 +237937,13 @@ teaching O
 
 sry O
 gt O
-2 O
+DIGIT O
 girls O
 actually O
 we O
 take O
 those O
-2 O
+DIGIT O
 guys O
 alr O
 
@@ -237987,7 +237987,7 @@ doing O
 ya O
 i O
 free O
-2moro B-NP
+DIGIT B-NP
 . O
 yh O
 nvr O
@@ -238071,7 +238071,7 @@ yo O
 so O
 we B-NP
 meet O
-3pm B-NP
+DIGIT B-NP
 eh O
 
 ahh O
@@ -238207,7 +238207,7 @@ when O
 im O
 home O
 in O
-3 O
+DIGIT O
 weeks O
 we O
 have O
@@ -238943,8 +238943,8 @@ free O
 call O
 me O
 at O
-2 B-NP
-2moro I-NP
+DIGIT B-NP
+DIGIT I-NP
 ? O
 
 w B-NP
@@ -239029,7 +239029,7 @@ anytime I-NP
 or O
 wed B-NP
 after I-NP
-4 I-NP
+DIGIT I-NP
 ? O
 i B-NP
 ll O
@@ -239234,7 +239234,7 @@ although O
 for O
 the O
 past O
-2 O
+DIGIT O
 tue O
 i O
 also O
@@ -239258,7 +239258,7 @@ u O
 xian O
 mafan O
 wait O
-5 O
+DIGIT O
 min O
 come O
 online O
@@ -239404,7 +239404,7 @@ ah O
 hahahha O
 
 okay O
-6 O
+DIGIT O
 mins O
 to O
 and O
@@ -240058,7 +240058,7 @@ name B-NP
 are O
 karuking B-NP
 
-500 O
+DIGIT O
 pm O
 don O
 foerget O
@@ -240349,7 +240349,7 @@ still O
 hols O
 so O
 enjoy O
-1st O
+DIGIT O
 
 haha O
 i B-NP
@@ -240997,14 +240997,14 @@ u O
 later O
 
 the O
-9gag O
+DIGIT O
 link O
 haha O
 wow O
 lunch O
 so O
 late O
-2 O
+DIGIT O
 packets O
 omg O
 i O
@@ -241245,7 +241245,7 @@ down O
 
 i O
 dled O
-3d B-NP
+DIGIT B-NP
 its B-NP
 very O
 imp O
@@ -241283,7 +241283,7 @@ sony B-NP
 can O
 use O
 those O
-3rd B-NP
+DIGIT B-NP
 party I-NP
 sigma I-NP
 brand I-NP
@@ -241378,9 +241378,9 @@ u B-NP
 b O
 free O
 abt B-NP
-4 I-NP
+DIGIT I-NP
 to I-NP
-6 I-NP
+DIGIT I-NP
 ? O
 
 haha O
@@ -241505,7 +241505,7 @@ itis B-NP
 on O
 fri O
 decimal B-NP
-2 B-NP
+DIGIT B-NP
 week I-NP
 later I-NP
 then O
@@ -241515,7 +241515,7 @@ can O
 go O
 lec B-NP
 hahaleft O
-2 B-NP
+DIGIT B-NP
 more I-NP
 i O
 dunno O
@@ -241604,7 +241604,7 @@ journal I-NP
 to O
 do O
 and O
-2moro B-NP
+DIGIT B-NP
 got O
 chem B-NP
 retest I-NP
@@ -241612,7 +241612,7 @@ cant O
 go O
 gym B-NP
 . O
-2moro B-NP
+DIGIT B-NP
 then O
 gym B-NP
 ? O
@@ -241891,7 +241891,7 @@ just O
 cyclic O
 u O
 draw O
-2 O
+DIGIT O
 points O
 a O
 to O
@@ -241986,7 +241986,7 @@ too O
 
 pandy B-NP
 joined O
-4w B-NP
+DIGIT B-NP
 technologies I-NP
 todayhe O
 got O
@@ -242045,7 +242045,7 @@ better O
 thurs O
 night O
 meaning O
-5th O
+DIGIT O
 august O
 paiseh O
 juz O
@@ -242053,7 +242053,7 @@ checked O
 hp O
 bh O
 said O
-7th O
+DIGIT O
 
 hi O
 dad B-NP
@@ -242247,7 +242247,7 @@ outram B-NP
 there O
 open O
 grin O
-9 B-NP
+DIGIT B-NP
 - I-NP
 <#> I-NP
 (: O
@@ -243035,7 +243035,7 @@ up O
 your B-NP
 db O
 at O
-4 B-NP
+DIGIT B-NP
 is O
 it O
 
@@ -243158,17 +243158,17 @@ do O
 the O
 jig O
 
-1 O
+DIGIT O
 b O
 <#> O
 . O
-2 O
+DIGIT O
 alvin O
 chia O
-3 O
+DIGIT O
 mechanical O
 engineering O
-4 O
+DIGIT O
 wkday O
 nightswkkends O
 or O
@@ -243234,7 +243234,7 @@ ps O
 la O
 get O
 priorities B-NP
-1st O
+DIGIT O
 
 probably O
 will O
@@ -243730,7 +243730,7 @@ or O
 one O
 torch O
 and O
-2bold O
+DIGIT O
 
 ya O
 jus B-NP
@@ -243905,7 +243905,7 @@ hers B-NP
 la O
 polky O
 dots O
-1 O
+DIGIT O
 
 ya O
 go O
@@ -243913,7 +243913,7 @@ get O
 hack O
 for O
 level O
-6 O
+DIGIT O
 single O
 player O
 normal O
@@ -244073,7 +244073,7 @@ doc I-NP
 then O
 for O
 scene B-NP
-1 I-NP
+DIGIT I-NP
 , O
 u B-NP
 really O
@@ -244108,7 +244108,7 @@ aa O
 gayi O
 
 <#> O
-5 B-NP
+DIGIT B-NP
 
 what O
 i O
@@ -244293,7 +244293,7 @@ be O
 available O
 from B-NP
 to I-NP
-6 I-NP
+DIGIT I-NP
 . O
 
 haha O
@@ -244415,7 +244415,7 @@ he B-NP
 liked O
 like O
 uhh O
-2 B-NP
+DIGIT B-NP
 of I-NP
 my I-NP
 pics I-NP
@@ -244676,7 +244676,7 @@ jumers I-NP
 casino I-NP
 and I-NP
 funktastic I-NP
-5 I-NP
+DIGIT I-NP
 at I-NP
 martinis I-NP
 hope O
@@ -244808,7 +244808,7 @@ buffet O
 tonight O
 at O
 about O
-8pm O
+DIGIT O
 
 if O
 you B-NP
@@ -244852,11 +244852,11 @@ oso O
 -.-" O
 
 so O
-2moro B-NP
+DIGIT B-NP
 go O
 sch B-NP
 at O
-2 B-NP
+DIGIT B-NP
 ? O
 
 ah O
@@ -244899,7 +244899,7 @@ use O
 web B-NP
 service I-NP
 lolcan O
-1 O
+DIGIT O
 lathe O
 ah B-NP
 neh I-NP
@@ -245201,7 +245201,7 @@ sahara O
 desert O
 s5 O
 ep O
-1 O
+DIGIT O
 
 if O
 you O
@@ -245367,7 +245367,7 @@ haha O
 oo O
 haha O
 yea O
-8 O
+DIGIT O
 <#> O
 hahaha O
 oh O
@@ -245523,7 +245523,7 @@ dun O
 like O
 my O
 paperhahaunfair O
-1 O
+DIGIT O
 sia O
 
 wooooooow O
@@ -245737,7 +245737,7 @@ haha O
 the B-NP
 website I-NP
 says O
-1 B-NP
+DIGIT B-NP
 hour I-NP
 max I-NP
 wor O
@@ -245942,7 +245942,7 @@ installation I-NP
 will O
 happen O
 within O
-3 B-NP
+DIGIT B-NP
 days I-NP
 . O
 
@@ -246002,7 +246002,7 @@ def O
 be O
 ready O
 by O
-9 O
+DIGIT O
 
 lol O
 but O
@@ -246096,7 +246096,7 @@ at O
 e4 O
 btw O
 
-5 B-NP
+DIGIT B-NP
 more O
 min O
 
@@ -246213,9 +246213,9 @@ i O
 think O
 at O
 most O
-1 O
+DIGIT O
 or O
-2 O
+DIGIT O
 gone O
 lo O
 sob O
@@ -246245,7 +246245,7 @@ thks O
 dearie B-NP
 !!!! O
 
-3 B-NP
+DIGIT B-NP
 at O
 where O
 
@@ -246285,9 +246285,9 @@ used O
 to O
 eatinganytime O
 between O
-6 O
+DIGIT O
 to O
-9 O
+DIGIT O
 ah O
 haha O
 
@@ -246584,7 +246584,7 @@ down O
 i B-NP
 cant O
 watch O
-8 B-NP
+DIGIT B-NP
 til O
 wednesday B-NP
 ... O
@@ -246805,7 +246805,7 @@ at O
 je B-NP
 ? O
 
-4 O
+DIGIT O
 plus O
 
 i B-NP
@@ -246884,7 +246884,7 @@ a O
 i B-NP
 already O
 bought O
-2 B-NP
+DIGIT B-NP
 eggs I-NP
 .. O
 
@@ -246902,14 +246902,14 @@ dy B-NP
 a I-NP
 tagerror B-NP
 left I-NP
-5 I-NP
+DIGIT I-NP
 and I-NP
 tagerror I-NP
-6must O
+DIGIT O
 tagerror B-NP
 i I-NP
 n O
-4 O
+DIGIT O
 pages O
 . B-NP
 u I-NP
@@ -247246,7 +247246,7 @@ go O
 meeting B-NP
 first O
 until O
-7 B-NP
+DIGIT B-NP
 . O
 later O
 le O
@@ -247327,7 +247327,7 @@ to O
 our O
 house O
 after O
-7pm O
+DIGIT O
 today O
 wouldthat O
 work O
@@ -247373,7 +247373,7 @@ it O
 d O
 
 about O
-7pm B-NP
+DIGIT B-NP
 ? O
 
 serious O
@@ -247384,10 +247384,10 @@ ive O
 got O
 seats O
 for O
-2 O
+DIGIT O
 got O
 another O
-3 O
+DIGIT O
 of O
 myfriends O
 though O
@@ -247637,7 +247637,7 @@ it I-NP
 tagerror I-NP
 got O
 gradient O
-1 O
+DIGIT O
 so O
 make O
 liao O
@@ -247657,7 +247657,7 @@ rder O
 to O
 l B-NP
 this O
-1 O
+DIGIT O
 at O
 edge O
 quite O
@@ -247746,12 +247746,12 @@ ya O
 u O
 right O
 non O
-1 O
+DIGIT O
 star O
 onlydat O
 decimal O
 to O
-1pm O
+DIGIT O
 v O
 short O
 niaz O
@@ -247919,7 +247919,7 @@ for O
 eng O
 in O
 year O
-6 O
+DIGIT O
 oh O
 icic O
 okaythen O
@@ -248547,7 +248547,7 @@ loop I-NP
 is O
 <#> B-NP
 , O
-2nd B-NP
+DIGIT B-NP
 is O
 <#> O
 , O
@@ -248750,7 +248750,7 @@ blk B-NP
 serangoon I-NP
 north I-NP
 ave I-NP
-4 I-NP
+DIGIT I-NP
 HT I-NP
 <#> I-NP
 . O
@@ -249032,7 +249032,7 @@ mak I-NP
 e O
 it O
 is O
-4pm O
+DIGIT O
 
 youre B-NP
 not O
@@ -249188,7 +249188,7 @@ i O
 finish O
 class O
 at O
-8 O
+DIGIT O
 today O
 
 nuuuuuu O
@@ -249289,7 +249289,7 @@ will O
 be O
 there O
 by O
-6pm O
+DIGIT O
 
 yup O
 i B-NP
@@ -249309,9 +249309,9 @@ time B-NP
 ? O
 
 about O
-8 O
+DIGIT O
 to O
-9 O
+DIGIT O
 
 okie O
 just O
@@ -249677,7 +249677,7 @@ time O
 i O
 gotry O
 the O
-5 O
+DIGIT O
 colour O
 pearl O
 de O
@@ -249964,7 +249964,7 @@ off O
 like O
 randomlly O
 within O
-5min O
+DIGIT O
 of O
 opening O
 
@@ -250102,7 +250102,7 @@ hes O
 notfrom O
 my O
 yr O
-4 O
+DIGIT O
 class O
 de O
 haha O
@@ -250502,7 +250502,7 @@ out O
 send O
 u B-NP
 by O
-2nite B-NP
+DIGIT B-NP
 thks O
 
 haha O
@@ -250563,11 +250563,11 @@ only O
 yik O
 choong O
 
-9 O
+DIGIT O
 hours O
-6 O
+DIGIT O
 magazines O
-3 O
+DIGIT O
 return O
 visits O
 
@@ -250659,7 +250659,7 @@ fine O
 kk O
 reach O
 at O
-4 O
+DIGIT O
 plus O
 
 that B-NP
@@ -251010,26 +251010,26 @@ about O
 the O
 outstanding O
 issues O
-1soil O
+DIGIT O
 for O
 the O
 backyard O
-2 O
+DIGIT O
 paint O
 touch O
 up O
 and O
-3 O
+DIGIT O
 plastic O
 edge O
 for O
 thesliding O
 glass O
 door O
-4 O
+DIGIT O
 bathtub O
 sanding O
-5 O
+DIGIT O
 gold O
 color O
 for O
@@ -251045,13 +251045,13 @@ sandblasted O
 not O
 a O
 sticker O
-6tilers O
+DIGIT O
 access O
 door O
 to O
 be O
 reconstructed O
-7 O
+DIGIT O
 please O
 send O
 me O
@@ -251220,7 +251220,7 @@ douby B-NP
 ghaut I-NP
 meet O
 us O
-7 B-NP
+DIGIT B-NP
 ppl I-NP
 not O
 balanced B-NP
@@ -251327,7 +251327,7 @@ tmr O
 blk O
 b O
 level O
-3 O
+DIGIT O
 forgot O
 what O
 room O
@@ -251569,26 +251569,26 @@ long I-NP
 day I-NP
 today B-NP
 
-1 O
+DIGIT O
 a5t2 O
-2 O
+DIGIT O
 alvin B-NP
 chia I-NP
 kian I-NP
 wei I-NP
 . O
-3 O
+DIGIT O
 mechanical B-NP
 engineering I-NP
 . O
-4 O
+DIGIT O
 forsat O
 before O
 <#> B-NP
 pm O
 or O
 after O
-2pm B-NP
+DIGIT B-NP
 . O
 
 no O
@@ -251696,11 +251696,11 @@ hey O
 my O
 fringe O
 season O
-2 O
+DIGIT O
 and O
 ltm O
 season O
-3 O
+DIGIT O
 dl O
 until O
 where O
@@ -251747,7 +251747,7 @@ sgd O
 to O
 rm O
 bring O
-2x9sgd O
+DIGIT O
 in O
 change O
 to O
@@ -251876,7 +251876,7 @@ isthat O
 gay O
 gimme O
 ard O
-5 O
+DIGIT O
 min O
 i O
 need O
@@ -251916,7 +251916,7 @@ ur O
 cap O
 not O
 bad O
-1 O
+DIGIT O
 right O
 i O
 see O
@@ -252106,12 +252106,12 @@ people B-NP
 lessons O
 start O
 today B-NP
-4 I-NP
+DIGIT I-NP
 pm I-NP
 at O
 meeting B-NP
 room I-NP
-4 I-NP
+DIGIT I-NP
 next O
 to O
 hodroom B-NP
@@ -252199,7 +252199,7 @@ alright O
 oh O
 ya O
 i B-NP
-4got O
+DIGIT O
 u B-NP
 bday B-NP
 in O
@@ -252258,7 +252258,7 @@ songs B-NP
 
 eh O
 like O
-34 B-NP
+DIGIT B-NP
 lolwhen O
 u B-NP
 meeting O
@@ -252441,7 +252441,7 @@ will O
 also O
 be O
 about O
-6 O
+DIGIT O
 so O
 not O
 muchdiff O
@@ -252462,7 +252462,7 @@ th O
 now O
 comm O
 got O
-5confirmed O
+DIGIT O
 members O
 
 am O
@@ -252527,7 +252527,7 @@ my B-NP
 compound B-NP
 for O
 assn B-NP
-2 I-NP
+DIGIT I-NP
 !!!! O
 
 dar B-NP
@@ -252712,10 +252712,10 @@ done I-NP
 
 tripti O
 ka O
-2nd O
+DIGIT O
 sem O
 me O
-4 O
+DIGIT O
 sub O
 me O
 back O
@@ -252962,7 +252962,7 @@ from O
 ? O
 
 total B-NP
-6 I-NP
+DIGIT I-NP
 pages I-NP
 including O
 cover B-NP
@@ -253068,7 +253068,7 @@ he B-NP
 say O
 go O
 find O
-1 B-NP
+DIGIT B-NP
 moreperson I-NP
 to O
 join O
@@ -253141,7 +253141,7 @@ and O
 the B-NP
 whole I-NP
 lorong I-NP
-4 I-NP
+DIGIT I-NP
 is O
 jammed O
 
@@ -253479,7 +253479,7 @@ class I-NP
 tmrw B-NP
 right O
 
-14inch O
+DIGIT O
 <#> O
 npt O
 male O
@@ -253511,7 +253511,7 @@ tmr O
 thanks O
 its O
 at O
-5 B-NP
+DIGIT B-NP
 , O
 should O
 i B-NP
@@ -253672,7 +253672,7 @@ probably O
 be O
 there O
 before O
-3 B-NP
+DIGIT B-NP
 
 im O
 glad O
@@ -253707,7 +253707,7 @@ can O
 go O
 on O
 the O
-2nd O
+DIGIT O
 day O
 wad O
 or O
@@ -253753,7 +253753,7 @@ those O
 breath O
 oso O
 considered O
-1k O
+DIGIT O
 
 oh O
 and O
@@ -254004,7 +254004,7 @@ arh O
 lol O
 theyorder O
 like O
-6 O
+DIGIT O
 bowl O
 lol O
 haha O
@@ -254066,7 +254066,7 @@ cant O
 check O
 mail B-NP
 
-4shared B-NP
+DIGIT B-NP
 usually O
 for O
 non B-NP
@@ -254130,7 +254130,7 @@ my B-NP
 work I-NP
 at O
 level B-NP
-1 I-NP
+DIGIT I-NP
 till O
 its B-NP
 about I-NP
@@ -254187,7 +254187,7 @@ free O
 next B-NP
 monevening I-NP
 abt I-NP
-7plus I-NP
+DIGIT I-NP
 . O
 wat B-NP
 are O
@@ -254207,7 +254207,7 @@ to O
 go O
 to O
 hos O
-2morow O
+DIGIT O
 after O
 that O
 i O
@@ -254490,7 +254490,7 @@ i B-NP
 jus O
 say O
 the B-NP
-1st I-NP
+DIGIT I-NP
 thing I-NP
 in I-NP
 my I-NP
@@ -254509,7 +254509,7 @@ fara B-NP
 ups O
 which O
 is O
-3days O
+DIGIT O
 also O
 and O
 the O
@@ -254517,7 +254517,7 @@ shipping O
 company O
 that O
 takes O
-2wks O
+DIGIT O
 the O
 other O
 way O
@@ -254579,7 +254579,7 @@ omg O
 discrete O
 math O
 assignment O
-2 O
+DIGIT O
 due O
 next O
 monday O
@@ -254955,7 +254955,7 @@ im O
 walking O
 already O
 
-2pm B-NP
+DIGIT B-NP
 , O
 is O
 it B-NP
@@ -255351,7 +255351,7 @@ ns I-NP
 (: O
 
 we B-NP
-3 B-NP
+DIGIT B-NP
 people I-NP
 need O
 to O
@@ -255363,7 +255363,7 @@ i B-NP
 never O
 see O
 ur B-NP
-1st I-NP
+DIGIT I-NP
 sms I-NP
 until O
 now O
@@ -255455,7 +255455,7 @@ changes O
 in O
 the O
 next O
-6hrs B-NP
+DIGIT B-NP
 . O
 it B-NP
 can O
@@ -255483,7 +255483,7 @@ let O
 me B-NP
 know O
 in O
-6hrs B-NP
+DIGIT B-NP
 
 haha O
 nush O
@@ -255729,7 +255729,7 @@ they O
 take O
 calls O
 from O
-9 O
+DIGIT O
 to O
 <#> O
 . O
@@ -256150,7 +256150,7 @@ your B-NP
 program I-NP
 
 morning B-NP
-9 I-NP
+DIGIT I-NP
 meet O
 kallang B-NP
 mrt I-NP
@@ -256354,7 +256354,7 @@ done O
 le O
 but O
 the B-NP
-2ndpage I-NP
+DIGIT I-NP
 i B-NP
 dunno O
 what O
@@ -256400,7 +256400,7 @@ tut O
 le O
 lol O
 haha O
-4 O
+DIGIT O
 tummy O
 we O
 are O
@@ -256493,7 +256493,7 @@ thanks O
 will O
 reach O
 at O
-1 O
+DIGIT O
 
 just O
 reached O
@@ -256599,12 +256599,12 @@ safe O
 (: O
 
 test B-NP
-2 I-NP
+DIGIT I-NP
 on O
 whole B-NP
 of I-NP
 chapter I-NP
-2 I-NP
+DIGIT I-NP
 ? O
 
 haha O
@@ -256709,7 +256709,7 @@ juz O
 nw O
 u B-NP
 say O
-2pm B-NP
+DIGIT B-NP
 rite O
 
 rogelr O
@@ -256895,7 +256895,7 @@ who B-NP
 else O
 going O
 i B-NP
-1 B-NP
+DIGIT B-NP
 end O
 e O
 
@@ -257022,10 +257022,10 @@ what O
 trap O
 
 bout O
-8 O
+DIGIT O
 plus O
 to O
-9 O
+DIGIT O
 can O
 
 how O
@@ -257044,11 +257044,11 @@ b O
 i B-NP
 booked O
 at O
-6pm B-NP
+DIGIT B-NP
 but O
 start O
 at O
-7 B-NP
+DIGIT B-NP
 please O
 
 on O
@@ -257117,7 +257117,7 @@ u B-NP
 recently O
 got O
 strike O
-4d O
+DIGIT O
 
 gls O
 only O
@@ -257372,7 +257372,7 @@ will O
 watch O
 shrek B-NP
 in O
-3db O
+DIGIT O
 
 the O
 t O
@@ -257471,7 +257471,7 @@ le O
 hey O
 done O
 ass B-NP
-4 I-NP
+DIGIT I-NP
 ? O
 
 no O
@@ -257540,7 +257540,7 @@ childrens O
 day O
 presentsince O
 year O
-1 B-NP
+DIGIT B-NP
 ! O
 haha O
 ooo O
@@ -257666,7 +257666,7 @@ lol O
 no O
 lo O
 is O
-5 O
+DIGIT O
 to O
 decimal O
 ! O
@@ -257740,18 +257740,18 @@ korean O
 bbq O
 restaurant O
 named O
-2d1nreservations O
+DIGIT O
 will O
 be O
 done O
 today O
 at O
-6pm O
+DIGIT O
 we O
 will O
 meet O
 at O
-7pm O
+DIGIT O
 on O
 fridayso O
 do O
@@ -258700,7 +258700,7 @@ do O
 you B-NP
 want O
 bold B-NP
-2 I-NP
+DIGIT I-NP
 or O
 bb B-NP
 torch I-NP
@@ -258894,7 +258894,7 @@ right O
 
 can O
 buy O
-2 O
+DIGIT O
 packets O
 of O
 food O
@@ -259111,7 +259111,7 @@ leaving O
 earlier O
 wakeup O
 at O
-7 B-NP
+DIGIT B-NP
 then O
 goeat O
 breakfast B-NP
@@ -259250,14 +259250,14 @@ saturday B-NP
 d O
 
 msg O
-1490 O
+DIGIT O
 from O
 df501e0b21bc88cc1e464dd95bf722da8865851c93267498 O
 , O
 to250c5bf324c49948a409ec3a79628cfa O
 , O
 20101121 O
-100129 O
+DIGIT O
 
 i B-NP
 feel O
@@ -259357,7 +259357,7 @@ vid O
 of O
 ya O
 flips O
-2moro O
+DIGIT O
 
 yo O
 yo O
@@ -259810,7 +259810,7 @@ i B-NP
 got O
 lt B-NP
 at O
-6pm B-NP
+DIGIT B-NP
 . O
 wanna O
 join O
@@ -259827,7 +259827,7 @@ oh O
 well O
 actually O
 got O
-2 O
+DIGIT O
 extra O
 tickets O
 de O
@@ -259911,7 +259911,7 @@ fren O
 la O
 not O
 attached O
-1s O
+DIGIT O
 intro O
 leh O
 seriously O
@@ -259949,7 +259949,7 @@ thanks O
 bro B-NP
 
 status B-NP
-9ra3zaqc O
+DIGIT O
 
 how O
 did O
@@ -260075,12 +260075,12 @@ dadgood O
 morning O
 
 repairing O
-1 O
+DIGIT O
 of O
 the O
 heel O
 rest O
-3 O
+DIGIT O
 layers O
 cf O
 vacuum O
@@ -260408,7 +260408,7 @@ er O
 have O
 la O
 got O
-4 O
+DIGIT O
 lessons O
 before O
 the O
@@ -260452,7 +260452,7 @@ you B-NP
 will O
 owe O
 me B-NP
-5 B-NP
+DIGIT B-NP
 kois I-NP
 . O
 
@@ -260491,9 +260491,9 @@ later O
 hv O
 tut B-NP
 frm O
-2 O
+DIGIT O
 - O
-3 O
+DIGIT O
 
 yeap O
 i B-NP
@@ -260595,14 +260595,14 @@ $ B-NP
 % I-NP
 off O
 for O
-2 B-NP
+DIGIT B-NP
 will O
 be O
 $ B-NP
 <#> I-NP
 . O
 for O
-3 B-NP
+DIGIT B-NP
 pax I-NP
 , O
 <#> B-NP
@@ -260619,7 +260619,7 @@ in O
 other B-NP
 words I-NP
 , O
-1 B-NP
+DIGIT B-NP
 card I-NP
 only O
 gives O
@@ -260732,7 +260732,7 @@ lo O
 headache O
 just O
 finishqn O
-1 O
+DIGIT O
 but O
 dunno O
 correct O
@@ -260999,7 +260999,7 @@ very O
 entertaining O
 
 status B-NP
-9qe O
+DIGIT O
 <#> O
 b7 O
 
@@ -261233,7 +261233,7 @@ pack O
 gari B-NP
 or O
 something B-NP
-9ja I-NP
+DIGIT I-NP
 that O
 you B-NP
 will O
@@ -261298,7 +261298,7 @@ lor O
 
 ends O
 at O
-2pm B-NP
+DIGIT B-NP
 today O
 
 its O
@@ -261310,7 +261310,7 @@ haha O
 i O
 want O
 iphone O
-5 O
+DIGIT O
 tt O
 but O
 got O
@@ -261597,7 +261597,7 @@ haha O
 i B-NP
 sometimes O
 practice O
-6 B-NP
+DIGIT B-NP
 hours I-NP
 at I-NP
 a I-NP
@@ -261673,7 +261673,7 @@ will O
 go O
 back O
 sch O
-1st O
+DIGIT O
 
 then O
 at O
@@ -261719,7 +261719,7 @@ daddy O
 you O
 reaching O
 at O
-6pm O
+DIGIT O
 sharp O
 
 if O
@@ -261772,7 +261772,7 @@ you B-NP
 turn O
 up O
 
-5pm B-NP
+DIGIT B-NP
 for O
 dinner B-NP
 . O
@@ -262104,7 +262104,7 @@ i O
 didnt O
 leave O
 trailsia O
-2day O
+DIGIT O
 rained O
 like O
 mother O
@@ -262684,7 +262684,7 @@ m O
 startled O
 that O
 its O
-9 B-NP
+DIGIT B-NP
 
 cannot O
 my B-NP
@@ -262710,7 +262710,7 @@ can O
 its O
 this O
 saturday O
-6pm O
+DIGIT O
 USR O
 cityhall O
 mrt O
@@ -262853,7 +262853,7 @@ u B-NP
 hmm O
 ok O
 see O
-1st O
+DIGIT O
 
 uhh O
 shop B-NP
@@ -262988,7 +262988,7 @@ m O
 at O
 work B-NP
 til O
-5 B-NP
+DIGIT B-NP
 =( O
 laaame O
 
@@ -263010,7 +263010,7 @@ sayhe O
 also O
 has O
 uncharted O
-2 O
+DIGIT O
 and O
 mgs4 O
 lol O
@@ -263111,7 +263111,7 @@ gt O
 another B-NP
 meeting I-NP
 till O
-2 O
+DIGIT O
 u B-NP
 all O
 discuss O
@@ -263151,7 +263151,7 @@ must O
 hand O
 in O
 by O
-2moro B-NP
+DIGIT B-NP
 
 lol O
 check B-NP
@@ -263223,7 +263223,7 @@ got O
 jam O
 reaching O
 in O
-2 O
+DIGIT O
 mins O
 
 yay O
@@ -263358,7 +263358,7 @@ p O
 tot O
 u B-NP
 coming O
-2day B-NP
+DIGIT B-NP
 ? O
 
 heh O
@@ -263902,7 +263902,7 @@ i O
 gotta O
 serve O
 additional O
-2 O
+DIGIT O
 months O
 
 no O
@@ -264145,7 +264145,7 @@ also O
 lao O
 sai O
 these B-NP
-2 I-NP
+DIGIT I-NP
 days I-NP
 . O
 
@@ -264179,7 +264179,7 @@ chinese B-NP
 >< O
 
 why O
-6pm B-NP
+DIGIT B-NP
 ? O
 
 how O
@@ -264478,7 +264478,7 @@ boarding O
 assembly O
 
 i O
-6 O
+DIGIT O
 end O
 
 i B-NP
@@ -264529,7 +264529,7 @@ meet O
 at O
 orchard B-NP
 mrt I-NP
-6pm B-NP
+DIGIT B-NP
 . O
 we B-NP
 will O
@@ -264809,7 +264809,7 @@ them B-NP
 bah O
 
 before B-NP
-9 I-NP
+DIGIT I-NP
 
 my B-NP
 battery I-NP
@@ -264993,7 +264993,7 @@ update O
 the B-NP
 files I-NP
 by O
-9am B-NP
+DIGIT B-NP
 later I-NP
 . O
 i B-NP
@@ -265262,7 +265262,7 @@ please O
 remember O
 my O
 shorts O
-2 B-NP
+DIGIT B-NP
 pairs O
 ah O
 dark O
@@ -265375,7 +265375,7 @@ at O
 night O
 untik O
 like O
-5 O
+DIGIT O
 am O
 
 tml O
@@ -265940,7 +265940,7 @@ wake O
 up O
 
 wed B-NP
-2pm I-NP
+DIGIT I-NP
 u O
 can O
 make O
@@ -266130,7 +266130,7 @@ hahaha O
 aiya O
 nvmone O
 la O
-2 B-NP
+DIGIT B-NP
 weeks I-NP
 glhf I-NP
 to O
@@ -266184,7 +266184,7 @@ and O
 we O
 are O
 group O
-1lol O
+DIGIT O
 
 chcolate O
 chocolate O
@@ -266432,7 +266432,7 @@ rushing O
 there O
 to O
 slp O
-1st O
+DIGIT O
 lols O
 
 lol O
@@ -266551,7 +266551,7 @@ try O
 need O
 to O
 finish O
-2 B-NP
+DIGIT B-NP
 lab I-NP
 
 my O
@@ -266738,7 +266738,7 @@ shirt I-NP
 eh O
 lesson O
 till O
-6 O
+DIGIT O
 u O
 
 yooo O
@@ -266824,7 +266824,7 @@ really O
 lol O
 
 eh O
-2moro O
+DIGIT O
 u O
 going O
 dulan O
@@ -266998,9 +266998,9 @@ dice B-NP
 , O
 art B-NP
 class I-NP
-6 B-NP
+DIGIT B-NP
 thru I-NP
-9 I-NP
+DIGIT I-NP
 :( O
 thanks O
 though O
@@ -267192,7 +267192,7 @@ btw O
 we O
 meeting O
 nyp O
-1pm O
+DIGIT O
 hor O
 
 nights O
@@ -267416,7 +267416,7 @@ do O
 you O
 have O
 the O
-4 O
+DIGIT O
 names O
 ready O
 
@@ -267445,7 +267445,7 @@ fix O
 this O
 outstanding O
 itemsince O
-3 O
+DIGIT O
 weeks O
 now O
 also O
@@ -267564,7 +267564,7 @@ luck O
 u B-NP
 did O
 it B-NP
-1st O
+DIGIT O
 ditch O
 me B-NP
 at O
@@ -267665,7 +267665,7 @@ super O
 fury O
 
 cant O
-2moro O
+DIGIT O
 morning O
 study O
 then O
@@ -267896,7 +267896,7 @@ colin B-NP
 mr B-NP
 kan I-NP
 from O
-4 B-NP
+DIGIT B-NP
 verde I-NP
 villa I-NP
 . O
@@ -268064,7 +268064,7 @@ today O
 meet O
 tomorrow O
 evening O
-6pm O
+DIGIT O
 most O
 thingsscheduled O
 will O
@@ -268079,14 +268079,14 @@ alot O
 tyler B-NP
 getting O
 an O
-8th O
+DIGIT O
 has O
 to O
 leave O
 not O
 long O
 after O
-9 B-NP
+DIGIT B-NP
 , O
 can O
 you O
@@ -268207,7 +268207,7 @@ i O
 got O
 one O
 maybe O
-8 O
+DIGIT O
 yrs O
 ago O
 for O
@@ -268377,7 +268377,7 @@ will O
 be O
 there B-NP
 in O
-7 B-NP
+DIGIT B-NP
 mins I-NP
 . O
 
@@ -268456,7 +268456,7 @@ be O
 able O
 to O
 visit O
-2 O
+DIGIT O
 verde O
 to O
 see O
@@ -268489,7 +268489,7 @@ water O
 ba O
 end O
 at O
-2 O
+DIGIT O
 u O
 
 then O
@@ -268543,7 +268543,7 @@ sure O
 you B-NP
 trust O
 the O
-9ja B-NP
+DIGIT B-NP
 person I-NP
 you B-NP
 are I-NP
@@ -268987,7 +268987,7 @@ hee O
 coming O
 out O
 in O
-5 B-NP
+DIGIT B-NP
 min I-NP
 
 with O
@@ -269063,7 +269063,7 @@ bring O
 
 anything O
 on O
-2day B-NP
+DIGIT B-NP
 ? O
 
 haha O
@@ -269530,7 +269530,7 @@ according O
 to O
 smb B-NP
 chapter B-NP
-4b I-NP
+DIGIT I-NP
 is O
 tested O
 
@@ -269637,7 +269637,7 @@ internet I-NP
 resets O
 on O
 the B-NP
-1st I-NP
+DIGIT I-NP
 of I-NP
 the I-NP
 month I-NP
@@ -269696,10 +269696,10 @@ to O
 do O
 project O
 i O
-2moro O
+DIGIT O
 <#> O
 to O
-1 O
+DIGIT O
 free O
 
 yeah O
@@ -270026,7 +270026,7 @@ very O
 close O
 
 over O
-1hr O
+DIGIT O
 long O
 queue O
 for O
@@ -270051,7 +270051,7 @@ starting O
 at7pm O
 though O
 
-4 O
+DIGIT O
 pm O
 cand O
 
@@ -270099,7 +270099,7 @@ ill O
 be O
 there O
 after O
-3 O
+DIGIT O
 =/ O
 i O
 had O
@@ -270229,7 +270229,7 @@ mhmm O
 of O
 course O
 lah O
-7 O
+DIGIT O
 exams O
 leh O
 
@@ -270428,7 +270428,7 @@ le O
 is O
 at O
 level O
-4 O
+DIGIT O
 rite O
 
 coz O
@@ -270561,7 +270561,7 @@ u O
 guys O
 after O
 my O
-4pm O
+DIGIT O
 lesson O
 haha O
 see O
@@ -270685,10 +270685,10 @@ too O
 
 ok O
 intermediate O
-1 O
+DIGIT O
 and O
 basic O
-1 O
+DIGIT O
 u O
 wan O
 to O
@@ -270745,7 +270745,7 @@ expansion I-NP
 decima I-NP
 l O
 in O
-1or O
+DIGIT O
 decimal O
 tb O
 if O
@@ -270778,7 +270778,7 @@ ll O
 be O
 at O
 canteen B-NP
-2 I-NP
+DIGIT I-NP
 . O
 
 ok O
@@ -270889,7 +270889,7 @@ go O
 charge O
 hp B-NP
 .. O
-3pm B-NP
+DIGIT B-NP
 find O
 u B-NP
 
@@ -271058,8 +271058,8 @@ im O
 having O
 lessons O
 from O
-5pmto O
-6pm O
+DIGIT O
+DIGIT O
 so O
 i O
 can O
@@ -271081,7 +271081,7 @@ says O
 ok O
 (: O
 
-5more B-NP
+DIGIT B-NP
 minutes I-NP
 .. O
 erm O
@@ -271880,7 +271880,7 @@ and O
 i B-NP
 slept O
 for O
-4 B-NP
+DIGIT B-NP
 hours O
 aft O
 i O
@@ -272141,7 +272141,7 @@ okkkk O
 i B-NP
 end O
 at O
-5 O
+DIGIT O
 too O
 
 hey O
@@ -272236,7 +272236,7 @@ rite O
 kk O
 cya O
 at O
-2 O
+DIGIT O
 then O
 
 ooh O
@@ -272474,11 +272474,11 @@ is O
 early O
 de O
 okay O
-2moro O
+DIGIT O
 meet O
 at O
 simei O
-9 O
+DIGIT O
 
 no O
 i O
@@ -272915,7 +272915,7 @@ we B-NP
 meet O
 later B-NP
 at I-NP
-2pm I-NP
+DIGIT I-NP
 ? O
 there B-NP
 is O
@@ -273138,7 +273138,7 @@ shall I-NP
 jio I-NP
 my I-NP
 year I-NP
-4 I-NP
+DIGIT I-NP
 class I-NP
 go O
 xd O
@@ -273415,13 +273415,13 @@ you O
 about O
 some O
 issues O
-1 O
+DIGIT O
 bathtubsanding O
 when O
 is O
 it O
 scheduled O
-2 O
+DIGIT O
 drainage O
 in O
 many O
@@ -273431,12 +273431,12 @@ the O
 houseis O
 too O
 slow O
-3 O
+DIGIT O
 dry O
 kitchen O
 pipe O
 leaking O
-4 O
+DIGIT O
 neighbors O
 wall O
 repairand O
@@ -273466,7 +273466,7 @@ date B-NP
 <#> B-NP
 ^_^ O
 
-4 B-NP
+DIGIT B-NP
 girls I-NP
 . O
 they B-NP
@@ -273570,7 +273570,7 @@ u B-NP
 telling O
 her B-NP
 
-5 B-NP
+DIGIT B-NP
 la O
 i O
 tink O
@@ -273742,7 +273742,7 @@ back O
 cus O
 postponed O
 till O
-3 B-NP
+DIGIT B-NP
 still O
 notconfirmed O
 emo O
@@ -274098,7 +274098,7 @@ to O
 eat O
 
 steamboat O
-6 O
+DIGIT O
 gift O
 exhange O
 <#> O
@@ -274163,19 +274163,19 @@ by O
 bowenmarsh O
 
 yeah O
-2 O
+DIGIT O
 star O
 is O
-3 O
+DIGIT O
 days O
 thats O
 why O
-2 O
+DIGIT O
 weekends O
-3 O
+DIGIT O
 star O
 is O
-4 O
+DIGIT O
 days O
 and O
 soon O
@@ -274326,7 +274326,7 @@ sound O
 for O
 tonite O
 
-5 O
+DIGIT O
 min O
 break O
 now O
@@ -274449,7 +274449,7 @@ card I-NP
 hey O
 now O
 got O
-4 O
+DIGIT O
 pple O
 asking O
 name O
@@ -274846,14 +274846,14 @@ about O
 the O
 outstanding O
 issues O
-1soil O
+DIGIT O
 for O
 the O
 backyard O
-2 O
+DIGIT O
 mirror O
 installation O
-3 O
+DIGIT O
 paint O
 touch O
 up O
@@ -274865,10 +274865,10 @@ the O
 sliding O
 glass O
 door O
-5 O
+DIGIT O
 bathtub O
 sanding O
-6glass O
+DIGIT O
 silicone O
 sealup O
 of O
@@ -275324,7 +275324,7 @@ confirm O
 with O
 u B-NP
 before O
-6pm B-NP
+DIGIT B-NP
 ? O
 cause O
 might O
@@ -275362,7 +275362,7 @@ kk O
 then O
 when O
 nearing O
-6th O
+DIGIT O
 april O
 we O
 then O
@@ -275637,7 +275637,7 @@ eh O
 we O
 outside O
 hall O
-5 O
+DIGIT O
 
 oh O
 ps O
@@ -275658,7 +275658,7 @@ now O
 
 p B-NP
 load O
-4 O
+DIGIT O
 tagerror B-NP
 each I-NP
 abt O
@@ -275747,7 +275747,7 @@ haha O
 she O
 like O
 all O
-3 O
+DIGIT O
 
 woah O
 racist B-NP
@@ -275760,7 +275760,7 @@ think O
 he O
 onli O
 got O
-2 O
+DIGIT O
 papers O
 sibooou O
 can O
@@ -275825,7 +275825,7 @@ storey I-NP
 i O
 go O
 turn O
-1 B-NP
+DIGIT B-NP
 rnd O
 first O
 
@@ -276116,7 +276116,7 @@ u B-NP
 like O
 forever B-NP
 busy I-NP
-1 I-NP
+DIGIT I-NP
 u B-NP
 shd O
 try O
@@ -276249,7 +276249,7 @@ the B-NP
 ebook I-NP
 . O
 due O
-7th B-NP
+DIGIT B-NP
 feb I-NP
 . O
 
@@ -276819,19 +276819,19 @@ can O
 make O
 some B-NP
 plans I-NP
-4 B-NP
+DIGIT B-NP
 the O
 day O
 looking O
 forward O
-2 B-NP
+DIGIT B-NP
 seeing O
 u B-NP
 & O
 spending O
 some B-NP
 time I-NP
-2gether O
+DIGIT O
 
 the O
 bus B-NP
@@ -276918,7 +276918,7 @@ to O
 do O
 first O
 meet O
-9pm B-NP
+DIGIT B-NP
 ? O
 
 he B-NP
@@ -277126,7 +277126,7 @@ well O
 shun O
 bian O
 install O
-6 O
+DIGIT O
 pac O
 inside O
 then O
@@ -277508,7 +277508,7 @@ whye I-NP
 on O
 lrt B-NP
 , O
-5 B-NP
+DIGIT B-NP
 more I-NP
 stops I-NP
 
@@ -277688,7 +277688,7 @@ a B-NP
 reebok I-NP
 cap I-NP
 got O
-9 B-NP
+DIGIT B-NP
 bucks I-NP
 !^^ O
 
@@ -277962,7 +277962,7 @@ ppl B-NP
 lets O
 meet O
 at O
-4pm B-NP
+DIGIT B-NP
 in O
 sch B-NP
 to O
@@ -278118,7 +278118,7 @@ lot I-NP
 of I-NP
 stoners I-NP
 
-2 B-NP
+DIGIT B-NP
 more I-NP
 stops I-NP
 . O
@@ -278534,7 +278534,7 @@ utml O
 
 i O
 see O
-1st O
+DIGIT O
 k O
 
 yup O
@@ -278702,7 +278702,7 @@ is O
 . O
 
 tml O
-8 O
+DIGIT O
 korean O
 bbq O
 u O
@@ -278759,13 +278759,13 @@ combo I-NP
 singapore B-NP
 only O
 got O
-1 B-NP
+DIGIT B-NP
 type I-NP
 of I-NP
 mantis I-NP
 ar O
 hey O
-2moro B-NP
+DIGIT B-NP
 im B-NP
 ma O
 meeting O
@@ -278773,7 +278773,7 @@ joel B-NP
 at B-NP
 clementi I-NP
 at O
-6 B-NP
+DIGIT B-NP
 to O
 go O
 eat O
@@ -278900,7 +278900,7 @@ the B-NP
 market I-NP
 bo B-NP
 bian I-NP
-1 I-NP
+DIGIT I-NP
 la O
 how O
 to O
@@ -279146,18 +279146,18 @@ decimal O
 hrsbreakdown O
 <#> O
 9 O
-3hr O
-3 O
+DIGIT O
+DIGIT O
 <#> O
-2hr O
-9 O
+DIGIT O
+DIGIT O
 <#> O
 decimal O
 hr O
 <#> O
 / O
 <#> O
-2hrsend O
+DIGIT O
 me B-NP
 your B-NP
 results I-NP
@@ -279217,7 +279217,7 @@ flu I-NP
 when O
 i B-NP
 was O
-6 B-NP
+DIGIT B-NP
 ! O
 ooo O
 dun O
@@ -279250,7 +279250,7 @@ have O
 a O
 drink O
 or O
-6 O
+DIGIT O
 and O
 youll O
 forget O
@@ -279628,7 +279628,7 @@ probably O
 be O
 there O
 at O
-5 O
+DIGIT O
 
 no O
 i B-NP
@@ -279749,7 +279749,7 @@ w O
 
 <#> O
 <#> O
-8 O
+DIGIT O
 
 no B-NP
 idea I-NP
@@ -280022,7 +280022,7 @@ meeting O
 u B-NP
 tmr B-NP
 at O
-2 B-NP
+DIGIT B-NP
 pm I-NP
 right O
 
@@ -280091,7 +280091,7 @@ i O
 only O
 go O
 to O
-2pm B-NP
+DIGIT B-NP
 lecture I-NP
 later O
 
@@ -280284,7 +280284,7 @@ me B-NP
 dunno O
 how O
 left O
-9 B-NP
+DIGIT B-NP
 marks I-NP
 blank O
 
@@ -280386,7 +280386,7 @@ do O
 mon O
 free O
 before O
-2 B-NP
+DIGIT B-NP
 . O
 night B-NP
 cannot O
@@ -280450,7 +280450,7 @@ decimal O
 pm O
 
 i O
-2moro O
+DIGIT O
 with O
 family O
 mon O
@@ -280628,7 +280628,7 @@ in O
 camp O
 during O
 round O
-2better O
+DIGIT O
 be O
 safe O
 first O
@@ -280801,7 +280801,7 @@ transit O
 totally O
 on O
 july O
-4 O
+DIGIT O
 
 ehhhhh O
 lol O
@@ -280931,9 +280931,9 @@ full O
 liao O
 itook O
 tues O
-3 O
+DIGIT O
 to O
-4 O
+DIGIT O
 instead O
 
 ok O
@@ -280954,7 +280954,7 @@ u B-NP
 i B-NP
 pon O
 at O
-5 B-NP
+DIGIT B-NP
 sobsobsob O
 lonely O
 journey O
@@ -281070,7 +281070,7 @@ i O
 normally O
 end O
 around O
-6 O
+DIGIT O
 but O
 got O
 free O

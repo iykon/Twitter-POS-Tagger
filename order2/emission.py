@@ -5,6 +5,7 @@ class emission(object):
     def __init__(self):
         self.matrix = {}
         self.labels = {}
+        self.freq = {}
         self.most = None
     # compute:
     #1.the count(y->x) saved in the first returned value with key "x y" in hashing table
@@ -37,6 +38,13 @@ class emission(object):
                     self.labels[label] += 1
                 else:
                     self.labels[label] = 1
+            # for tag in self.matrix:
+                # self.freq[tag] = {}
+                # for word in self.matrix[tag]:
+                    # if str(self.matrix[tag][word]) in self.freq[tag]:
+                        # self.freq[tag][str(self.matrix[tag][word])] += 1
+                    # else:
+                        # self.freq[tag][str(self.matrix[tag][word])] = 1
         except IOError, e:
             print e
             exit(0)
@@ -50,6 +58,19 @@ class emission(object):
 
         numer = 0
         denom = 0
+        # if tag in self.matrix:
+            # if word in self.matrix[tag]:
+                # numer = self.matrix[tag][word]
+                # return 1.0*numer / self.labels[tag]
+            # elif str(1) in self.freq[tag]:
+                # numer = self.freq[tag]["1"]
+                # if numer == self.labels[tag]:
+                    # return self.labels[tag]*1.0/(self.labels[tag]+1.0)
+                # else:
+                    # return 1.0*numer/self.labels[tag]
+            # else:
+                # return self.labels[tag]*1.0/(self.labels[tag]+1.0)
+
         if word in self.matrix:
             if tag in self.matrix[word]:
                 numer = self.matrix[word][tag]
@@ -58,6 +79,7 @@ class emission(object):
                 numer = 0
         else :
             # new word
+            # self.new += 1
             numer = self.labels[tag]
 
         if tag in self.labels:
@@ -75,7 +97,9 @@ class emission(object):
             inline = inf.readlines()
             writeline = []
             for line in inline:
-                if line == '\n':
+                print len(line)
+                print line
+                if line == '\n' or line=='\r\n':
                     writeline.append('\n')
                     continue
                 line = line.strip()
@@ -140,3 +164,26 @@ class emission(object):
             if inf:
                 inf.close()
             return total
+    def newword(self,infile, outfile) :
+        inf = open(infile, 'r')
+        outf = open(outfile,'w')
+
+        inline = inf.readlines()
+        outline = []
+        length = len(inline)
+        new = 0
+        for i in range(length) :
+            word = inline[i]
+            if(word=='\n'):
+                continue
+            else:
+                word = word.strip()
+                if word not in self.matrix:
+                    new = new +1
+                    outline.append(str(i))
+        outf.writelines(outline)
+        inf.close()
+        outf.close()
+        return new, outline
+
+

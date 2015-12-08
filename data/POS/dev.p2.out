@@ -8,7 +8,7 @@ know VBP
 it PRP
 's POS
 almost NN
-3 UH
+3 CD
 . .
 Yli NN
 gets VBZ
@@ -34,7 +34,7 @@ finally RB
 QUAKE NN
 : :
 Mag NN
-4.5 NN
+4.5 CD
 , ,
 Saturday NNP
 , ,
@@ -42,12 +42,12 @@ September NNP
 18 CD
 2010 CD
 at IN
-10:03 NN
+10:03 CD
 am VBP
 ( (
 NZST) NN
 , ,
-20 NN
+20 CD
 km NN
 south-west NN
 of IN
@@ -63,7 +63,7 @@ ago IN
 I PRP
 responded NN
 to TO
-a TD
+a DT
 angry JJ
 cardiologist NN
 whom NN
@@ -162,7 +162,7 @@ seems VBZ
 like IN
 you PRP
 had VBD
-a TD
+a DT
 fantastic NN
 time NN
 !!! .
@@ -175,7 +175,7 @@ ttys NN
 
 I PRP
 need VBP
-a TD
+a DT
 syringe NN
 of IN
 anything NN
@@ -250,7 +250,7 @@ Eduardo NN
 Surita NN
 : :
 your PRP$
-a TD
+a DT
 freaking NN
 ... :
 http://tumblr.com/xmciuda0t URL
@@ -371,7 +371,7 @@ Game NN
 is VBZ
 droppin NN
 in IN
-a TD
+a DT
 month NN
 or CC
 so RB
@@ -408,13 +408,13 @@ stick NN
 with IN
 SD2 NN
 for IN
-a TD
+a DT
 while IN
 - :
 that WDT
 saves NN
 me PRP
-3 UH
+3 CD
 or CC
 4 CD
 steps NNP
@@ -460,14 +460,14 @@ RT RT
 : :
 PG&lt;E NN
 donated NN
-35G NN
+35G CD
 to TO
 state NNP
 committe NN
 chairman NN
 investigating NN
 them PRP
-1day NN
+1day CD
 after IN
 explosion NN
 in IN
@@ -585,7 +585,7 @@ RT RT
 . .
 6 CD
 . .
-2011 NN
+2011 CD
 . .
 The DT
 day NN
@@ -644,7 +644,7 @@ before IN
 but CC
 it PRP
 was VBD
-a TD
+a DT
 short NN
 experience NN
 ( (
@@ -693,12 +693,12 @@ low JJ
 interest NN
 rates NNS
 , ,
-2011 NN
+2011 CD
 is VBZ
 proving NN
 to TO
 be VB
-a TD
+a DT
 great JJ
 time NN
 to TO
@@ -717,13 +717,13 @@ Saying VBG
 I PRP
 'm VBP
 having VBG
-a TD
+a DT
 bad JJ
 hair NN
 day NN
 " ''
 is VBZ
-a TD
+a DT
 huge JJ
 understatement NN
 today NN
@@ -772,7 +772,7 @@ Saturday NNP
 - :
 Benefits NN
 of IN
-a TD
+a DT
 Great JJ
 #Coach HT
 
@@ -787,7 +787,7 @@ I PRP
 wear VB
 shorts NNS
 and CC
-a TD
+a DT
 tee NN
 shirt NN
 everyone NN
@@ -824,7 +824,7 @@ our PRP$
 shocked NN
 faces NN
 that WDT
-23 NN
+23 CD
 days NNS
 of IN
 rehab NN
@@ -835,13 +835,13 @@ work NN
 
 i PRP
 want VBP
-a TD
+a DT
 bath NN
 but CC
 do VBP
 n't RB
 have VBP
-a TD
+a DT
 bath NN
 , ,
 shut NN
@@ -859,7 +859,7 @@ will MD
 be VB
 round NN
 at IN
-10am NN
+10am CD
 so RB
 go VB
 away NN
@@ -919,8 +919,8 @@ I PRP
 think VBP
 you PRP
 need VBP
-a TD
-12 NN
+a DT
+12 CD
 step NN
 program NN
 . .
@@ -1055,11 +1055,11 @@ be VB
 happier NN
 . .
 Ending NN
-a TD
+a DT
 crappy NN
 week NN
 on IN
-a TD
+a DT
 good JJ
 note NN
 is VBZ
@@ -1191,7 +1191,7 @@ do VBP
 n't RB
 really RB
 have VBP
-a TD
+a DT
 favourite NN
 . .
 It PRP
@@ -1253,7 +1253,7 @@ lest NN
 when WRB
 i PRP
 was VBD
-3 UH
+3 CD
 . .
 He PRP
 has VBZ
@@ -1261,7 +1261,7 @@ issues NN
 . .
 He PRP
 held VBD
-a TD
+a DT
 knife NN
 at IN
 mom NN
@@ -1276,7 +1276,7 @@ that WDT
 
 Man UH
 gets VBZ
-20 NN
+20 CD
 years NNS
 in IN
 murder NN
@@ -1341,7 +1341,7 @@ releasing NN
 on IN
 Feb NNP
 . .
-4th NN
+4th CD
 . .
 It PRP
 's POS
@@ -1383,7 +1383,7 @@ forr NN
 no UH
 reason NN
 &lt; UH
-3 UH
+3 CD
 . .
 It PRP
 wass NN
@@ -1471,7 +1471,7 @@ to TO
 help VB
 someone NN
 order NN
-a TD
+a DT
 phone NN
 ) )
 #metropcs HT
@@ -1524,7 +1524,7 @@ Specials NN
 too RB
 .. :
 tex NN
-980-333-3923 NN
+980-333-3923 CD
 to TO
 get VBP
 on IN
@@ -1547,7 +1547,7 @@ design NN
 book NN
 covers NN
 for IN
-a TD
+a DT
 living VBG
 hate VBP
 when WRB
@@ -1556,7 +1556,7 @@ say VBP
 do VBP
 n't RB
 judge NN
-a TD
+a DT
 book NN
 by IN
 its PRP$
@@ -1587,7 +1587,7 @@ n't RB
 believe VB
 mee NN
 &lt; UH
-3 UH
+3 CD
 
 Happy JJ
 birfday NN
@@ -1613,7 +1613,7 @@ tonight NN
 
 How WRB
 about IN
-a TD
+a DT
 great JJ
 improv NN
 comedy NN
@@ -1657,7 +1657,7 @@ tweet VB
 
 @FirstLadyEve USR
 have VBP
-a TD
+a DT
 dating NN
 show NN
 with IN
@@ -1756,7 +1756,7 @@ and CC
 got VBD
 : :
 Part NN
-7 NNS
+7 CD
 ! .
 Try VB
 it PRP
@@ -1793,7 +1793,7 @@ care NN
 if IN
 I PRP
 do VBP
-a TD
+a DT
 countdown NN
 to TO
 #wku HT
@@ -1843,7 +1843,7 @@ Good JJ
 Morning UH
 ! .
 Have VBP
-a TD
+a DT
 pleasant NN
 and CC
 happy JJ
@@ -1924,7 +1924,7 @@ Good JJ
 morning UH
 ! .
 Have VBP
-a TD
+a DT
 Good JJ
 day NN
 :) UH
@@ -1939,7 +1939,7 @@ The DT
 only RB
 way NNP
 for IN
-a TD
+a DT
 relationship NN
 to TO
 survive NN
@@ -2013,7 +2013,7 @@ play NN
 Her PRP$
 husband NN
 is VBZ
-a TD
+a DT
 ... :
 http://yhoo.it/bX9l33 URL
 
@@ -2052,7 +2052,7 @@ written NN
 since NN
 Sept NN
 ' ''
-09 NN
+09 CD
 , ,
 the DT
 delay NN
@@ -2112,7 +2112,7 @@ as IN
 we PRP
 are VBP
 taking VBG
-a TD
+a DT
 good JJ
 rest VB
 from IN
@@ -2211,7 +2211,7 @@ I PRP
 can MD
 upgrade NN
 to TO
-a TD
+a DT
 BlackBerry NN
 in IN
 November NNP
@@ -2219,7 +2219,7 @@ November NNP
 Yesss NN
 . .
 &lt; UH
-3 UH
+3 CD
 BB NN
 Bold NN
 , ,
@@ -2244,7 +2244,7 @@ for IN
 Sunday NNP
 !! .
 
-A TD
+A DT
 NEW JJ
 Alcohol NN
 energy NN
@@ -2328,19 +2328,19 @@ brother NN
 !!! .
 He PRP
 's POS
-20 NN
+20 CD
 today NN
 ! .
 Holy NN
 crap NN
 , ,
-20 NN
+20 CD
 ? .
 Jeez NN
 man UH
 ... :
 
-2011 NN
+2011 CD
 first JJ
 time NN
 home URL
@@ -2350,7 +2350,7 @@ in IN
 Temecula NNP
 CA MD
 : :
-2011 NN
+2011 CD
 First JJ
 Time NN
 Home URL
@@ -2375,9 +2375,9 @@ house NN
 Hattiesburg NN
 on IN
 the DT
-1s NN
+1s CD
 n CC
-2s NN
+2s CD
 !! .
 
 Monsters NNS
@@ -2426,7 +2426,7 @@ era NN
 got VBD
 off RP
 to TO
-a TD
+a DT
 good JJ
 start VB
 last JJ
@@ -2439,7 +2439,7 @@ will MD
 try VB
 to TO
 snap NN
-a TD
+a DT
 f NN
 ... :
 http://bit.ly/bSS914 URL
@@ -2451,7 +2451,7 @@ RT RT
 @GeeSPOT_ USR
 : :
 does VBZ
-a TD
+a DT
 new JJ
 ep NN
 of IN
@@ -2475,7 +2475,7 @@ Williams NN
 . .
 Won NN
 Big JJ
-12 NN
+12 CD
 Rookie NN
 of IN
 the DT
@@ -2549,14 +2549,14 @@ up RP
 it PRP
 's POS
 on IN
-a TD
+a DT
 Saturday NNP
 though NN
 . .
 So RB
 that WDT
 's POS
-a TD
+a DT
 thing NN
 . .
 
@@ -2581,7 +2581,7 @@ tweeps NN
 . .
 have VBP
 'll MD
-a TD
+a DT
 fabulous NN
 day NN
 .... :
@@ -2636,7 +2636,7 @@ hold VBP
 
 I PRP
 have VBP
-a TD
+a DT
 test NN
 tomorrow NN
 , ,
@@ -2694,7 +2694,7 @@ it PRP
 
 gonna VBG
 watch VB
-500 NN
+500 CD
 days NNS
 of IN
 summer NN
@@ -2702,7 +2702,7 @@ summer NN
 and CC
 call VB
 it PRP
-a TD
+a DT
 night NN
 :\ NN
 
@@ -2744,7 +2744,7 @@ time NN
 GaGa NNP
 played NN
 here RB
-a TD
+a DT
 few JJ
 weeks NNS
 back RB
@@ -2825,9 +2825,9 @@ confirm NN
 to TO
 , ,
 winning NN
-a TD
+a DT
 Nokia NN
-5800 NN
+5800 CD
 ? .
 
 Cruisers NN
@@ -2844,7 +2844,7 @@ Jan NNP
 . .
 22 CD
 , ,
-4:30 NN
+4:30 CD
 to TO
 ??. NN
 Contact NN
@@ -2977,7 +2977,7 @@ Manchester NNP
 tomorrow NN
 on IN
 BA NN
-2910 NN
+2910 CD
 and CC
 fly VB
 to TO

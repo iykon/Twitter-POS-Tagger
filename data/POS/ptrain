@@ -35,7 +35,7 @@ to TO
 portland NNP
 in IN
 tminus NN
-26 CD
+DIGIT CD
 days NNS
 
 yay UH
@@ -217,7 +217,7 @@ bornthiswayfriday NNP
 
 observances NNS
 mark VBP
-911 CD
+DIGIT CD
 anniversary NN
 : :
 observances NNS
@@ -334,7 +334,7 @@ good JJ
 times NNS
 . .
 
-2 NNP
+DIGIT NNP
 steps NNP
 back NNP
 will MD
@@ -345,7 +345,7 @@ ugly NNP
 mug NNP
 live RB
 on IN
-08 CD
+DIGIT CD
 jan NNP
 : :
 URL URL
@@ -423,7 +423,7 @@ again RB
 HT HT
 be VBP
 the DT
-15th JJ
+DIGIT JJ
 rt RT
 & CC
 get VBP
@@ -517,7 +517,7 @@ USR USR
 today NN
 is VBZ
 my PRP$
-20th JJ
+DIGIT JJ
 birthday NN
 and CC
 it PRP
@@ -537,7 +537,7 @@ you PRP
 today NN
 ! .
 lt UH
-3 UH
+DIGIT UH
 
 there EX
 was VBD
@@ -703,7 +703,7 @@ are VBP
 in IN
 bed NN
 by IN
-2319 CD
+DIGIT CD
 on IN
 the DT
 friday NNP
@@ -826,7 +826,7 @@ HT HT
 
 belles NNP
 mansion NN
-4 IN
+DIGIT IN
 bday NN
 dinner NN
 . .
@@ -855,7 +855,7 @@ should MD
 be VB
 given VBN
 to TO
-2nd NN
+DIGIT NN
 in IN
 table NN
 . .
@@ -904,7 +904,7 @@ is VBZ
 getting VBG
 married VBN
 lt UH
-3 UH
+DIGIT UH
 yours PRP$
 is VBZ
 marked VBN
@@ -1024,7 +1024,7 @@ USR USR
 for IN
 qualifying VBG
 in IN
-1st JJ
+DIGIT JJ
 place NN
 today NN
 !!! .
@@ -1117,7 +1117,7 @@ USR USR
 : :
 sonybud NNP
 light NNP
-3d NN
+DIGIT NN
 tailgate NN
 parties NNS
 on IN
@@ -1188,7 +1188,7 @@ me PRP
 happy JJ
 birthday NN
 on IN
-11feb CD
+DIGIT CD
 ... :
 ok UH
 ... :
@@ -1454,7 +1454,7 @@ team NN
 this DT
 sunday NNP
 at IN
-4 CD
+DIGIT CD
 pm NN
 anyone NN
 know VB
@@ -1622,7 +1622,7 @@ and CC
 seconds NNS
 till IN
 feb NNP
-9th CD
+DIGIT CD
 ! .
 HT HT
 URL URL
@@ -1703,7 +1703,7 @@ housetonight NN
 til IN
 sunday NNP
 route NNP
-66 CD
+DIGIT CD
 tomarrow NN
 wit IN
 the DT
@@ -1760,7 +1760,7 @@ your PRP$
 pin NN
 HT NN
 is VBZ
-3919 CD
+DIGIT CD
 . .
 you PRP
 may MD
@@ -1787,7 +1787,7 @@ concepcion NNP
 ny NNP
 | :
 september NNP
-1 CD
+DIGIT CD
 ... :
 URL URL
 
@@ -1870,7 +1870,7 @@ yo UH
 the DT
 bong NNP
 went VBD
-5o JJ
+DIGIT JJ
 last JJ
 night NN
 papers NNS
@@ -1923,7 +1923,7 @@ month NN
 weeeeee UH
 ! .
 
-2 CD
+DIGIT CD
 days NNS
 til IN
 HT HT
@@ -2004,7 +2004,7 @@ him PRP
 livestrong NNP
 day NNP
 is VBZ
-100210 CD
+DIGIT CD
 around IN
 the DT
 world NN
@@ -2083,7 +2083,7 @@ first JJ
 time NN
 ! .
 : UH
-3 UH
+DIGIT UH
 
 no DT
 loss NN
@@ -2139,7 +2139,7 @@ loved NN
 one NN
 on IN
 the DT
-14th CD
+DIGIT CD
 feb NNP
 with IN
 breakfast NN
@@ -2184,7 +2184,7 @@ of NNP
 learning NNP
 g24 NNP
 at IN
-7pm CD
+DIGIT CD
 ! .
 be VB
 sure JJ
@@ -2202,11 +2202,11 @@ republican NNP
 tailgate NNP
 tomorrow NN
 USR IN
-930 CD
+DIGIT CD
 in IN
 yellow NNP
 lot NNP
-17 CD
+DIGIT CD
 for IN
 food NN
 before IN
@@ -2307,7 +2307,7 @@ webinar NN
 on IN
 oct NNP
 . .
-6 CD
+DIGIT CD
 . .
 URL URL
 
@@ -2337,7 +2337,7 @@ go VBP
 again RB
 paranormal NNP
 activity NNP
-2 CD
+DIGIT CD
 URL URL
 i PRP
 m VBP
@@ -2454,7 +2454,7 @@ and CC
 got VBD
 : :
 part NN
-6 CD
+DIGIT CD
 :) UH
 ! .
 try VB
@@ -2545,7 +2545,7 @@ before IN
 they PRP
 get VBP
 are VBP
-2 CD
+DIGIT CD
 weeks NNS
 ago IN
 j NNP
@@ -2587,7 +2587,7 @@ her PRP
 : :
 i PRP
 m VBP
-15 CD
+DIGIT CD
 .. :
 old JJ
 enough RB
@@ -2640,7 +2640,7 @@ student NN
 i PRP
 m VBP
 a DT
-22 CD
+DIGIT CD
 year NN
 old JJ
 first JJ
@@ -2708,14 +2708,14 @@ some DT
 yummies NNS
 !! .
 lt UH
-3 UH
+DIGIT UH
 
 i PRP
 swear VBP
 when WRB
 you PRP
 miss VBP
-1 CD
+DIGIT CD
 day NN
 of IN
 school NN
@@ -2754,7 +2754,7 @@ HT HT
 rt RT
 USR USR
 : :
-58 CD
+DIGIT CD
 years NNS
 ago IN
 today NN
@@ -2795,7 +2795,7 @@ levin NNP
 , ,
 hien NNP
 lt UH
-3 UH
+DIGIT UH
 and CC
 fabi NNP
 . .
@@ -2805,7 +2805,7 @@ a DT
 great JJ
 daaaaay NN
 lt UH
-33 UH
+DIGIT UH
 
 love VBP
 how WRB
@@ -2851,7 +2851,7 @@ roundup NN
 : :
 this DT
 saturday NNP
-12th CD
+DIGIT CD
 february NNP
 at IN
 the DT
@@ -2859,7 +2859,7 @@ bpa NNP
 , ,
 kick VB
 off RP
-3p CD
+DIGIT CD
 ... :
 URL URL
 
@@ -2914,7 +2914,7 @@ their PRP$
 ground NN
 for IN
 the DT
-14th JJ
+DIGIT JJ
 day NN
 in IN
 tahrir NNP
@@ -3003,9 +3003,9 @@ win VB
 . .
 ends VBZ
 tue NNP
-8 CD
+DIGIT CD
 feb NNP
-8pm CD
+DIGIT CD
 x UH
 URL URL
 ... :
@@ -3019,7 +3019,7 @@ is VBZ
 strate JJ
 clowns NNS
 ... :
-85 CD
+DIGIT CD
 of IN
 deez DT
 niggaz NNS
@@ -3090,7 +3090,7 @@ no RB
 no RB
 no RB
 ( (
-8 CD
+DIGIT CD
 ) )
 
 if IN
@@ -3245,11 +3245,11 @@ musings NNP
 post NN
 : :
 bookaday NNP
-2010 CD
+DIGIT CD
 HT NN
-243 CD
+DIGIT CD
 ( (
-104 CD
+DIGIT CD
 ) )
 -- :
 gray NNP
@@ -3273,7 +3273,7 @@ tonight NN
 but CC
 managed VBD
 a DT
-30 CD
+DIGIT CD
 min NN
 run NN
 and CC
@@ -3339,7 +3339,7 @@ us PRP
 for IN
 the DT
 last JJ
-4 CD
+DIGIT CD
 years NNS
 in IN
 the DT
@@ -3382,7 +3382,7 @@ URL URL
 eating VBG
 ! .
 after IN
-18 CD
+DIGIT CD
 hours NNS
 . .
 
@@ -3404,7 +3404,7 @@ USR USR
 URL URL
 
 long JJ
-18k CD
+DIGIT CD
 run NN
 done VBN
 and CC
@@ -3473,8 +3473,8 @@ i PRP
 m VBP
 staying VBG
 in RP
-2day NN
-2 TO
+DIGIT NN
+DIGIT TO
 rest VB
 this DT
 week NN
@@ -3500,7 +3500,7 @@ tonight NN
 at IN
 edge NNP
 at IN
-8301030 CD
+DIGIT CD
 ! .
 come VB
 twirlllllllllll VB
@@ -3518,7 +3518,7 @@ mail NN
 : :
 week NN
 of IN
-102 CD
+DIGIT CD
 URL URL
 
 today NN
@@ -3596,7 +3596,7 @@ we PRP
 eat VBP
 a DT
 lot NN
-2 RB
+DIGIT RB
 , ,
 grilled JJ
 saute JJ
@@ -3653,7 +3653,7 @@ day NN
 USR USR
 ik UH
 me PRP
-2 RB
+DIGIT RB
 . .
 at IN
 night NN
@@ -3674,7 +3674,7 @@ day NN
 drags VBZ
 
 just RB
-5 CD
+DIGIT CD
 days NNS
 until IN
 our PRP$
@@ -3726,7 +3726,7 @@ and CC
 i PRP
 get VBP
 a DT
-612 CD
+DIGIT CD
 
 rt RT
 USR USR
@@ -3753,7 +3753,7 @@ see VBP
 her PRP
 tomorrow NN
 : UH
-3 UH
+DIGIT UH
 so UH
 yeah UH
 ca MD
@@ -3834,7 +3834,7 @@ today NN
 la NNP
 fitness NNP
 w IN
-4 CD
+DIGIT CD
 others NNS
 ) )
 URL URL
@@ -3842,7 +3842,7 @@ URL URL
 this DT
 is VBZ
 the DT
-2nd CD
+DIGIT CD
 hospital NNS
 ive PRP
 been VBN
@@ -3909,7 +3909,7 @@ camarillo NNP
 shelter NN
 on IN
 jan NNP
-6 CD
+DIGIT CD
 URL URL
 
 HT HT
@@ -4015,7 +4015,7 @@ i PRP
 have VBP
 to TO
 clean VB
-60 CD
+DIGIT CD
 lbs NNS
 of IN
 chitlins NN
@@ -4042,7 +4042,7 @@ pig NN
 
 foto NN
 feb NNP
-6 CD
+DIGIT CD
 : :
 st NNP
 luke NNP
@@ -4064,7 +4064,7 @@ HT HT
 fans NNS
 get VBP
 ready JJ
-4 IN
+DIGIT IN
 tuesday NNP
 dollar NN
 oyster NN
@@ -4150,7 +4150,7 @@ rt RT
 USR USR
 : :
 episodes NNS
-110 CD
+DIGIT CD
 of IN
 pretty NNP
 little NNP
@@ -4162,7 +4162,7 @@ the DT
 uk NNP
 on IN
 october NNP
-18 CD
+DIGIT CD
 ! .
 
 sitting VBG
@@ -4245,7 +4245,7 @@ twitter URL
 com URL
 today NN
 at IN
-1pm CD
+DIGIT CD
 pst NNP
 . .
 ll MD
@@ -4306,7 +4306,7 @@ a DT
 hard JJ
 time NN
 doing VBG
-a TD
+a DT
 sit NN
 up NN
 ... :
@@ -4320,7 +4320,7 @@ USR USR
 signups NNS
 increased VBD
 by IN
-60 CD
+DIGIT CD
 after IN
 actually RB
 removing VBG
@@ -4507,7 +4507,7 @@ and CC
 got VBD
 : :
 part NN
-6 CD
+DIGIT CD
 :) UH
 ! .
 try VB
@@ -4535,7 +4535,7 @@ have VBP
 nt RB
 tweeted VBN
 in IN
-10 CD
+DIGIT CD
 days NNS
 . .
 HT HT
@@ -4683,9 +4683,9 @@ to TO
 jail NN
 . .
 for IN
-3 CD
+DIGIT CD
 years NNS
-26 CD
+DIGIT CD
 ! .
 - :
 URL URL
@@ -4713,14 +4713,14 @@ off IN
 i PRP
 have VBP
 a DT
-4 CD
+DIGIT CD
 day NN
 stetch NN
 startin VBG
 tomorrow NN
 . .
 
-80 CD
+DIGIT CD
 degrees NNS
 in IN
 sf NNP
@@ -4754,11 +4754,11 @@ sits VBZ
 , ,
 downs NNP
 plays VBZ
-2b NN
+DIGIT NN
 , ,
 cj NNP
 bats VBZ
-5th JJ
+DIGIT JJ
 . .
 USR USR
 URL URL
@@ -4850,9 +4850,9 @@ way NNP
 in IN
 stores NNS
 nov NNP
-2 CD
+DIGIT CD
 , ,
-2010 CD
+DIGIT CD
 souljaboytellemiganingcom URL
 via IN
 USR USR
@@ -4947,7 +4947,7 @@ at IN
 berkeley NNP
 in IN
 oct NNP
-6th CD
+DIGIT CD
 ?! .
 
 a DT
@@ -4969,7 +4969,7 @@ the DT
 low JJ
 to TO
 mid JJ
-40s CD
+DIGIT CD
 , ,
 before IN
 cooling VBG
@@ -4977,11 +4977,11 @@ cooling VBG
 URL URL
 
 USR USR
-177 CD
+DIGIT CD
 people NNS
 ! .
 : UH
-0 UH
+DIGIT UH
 lol UH
 a DT
 week NN
@@ -4998,11 +4998,11 @@ go NNP
 quality NNP
 kitchen NNP
 ( (
-8th NNP
+DIGIT NNP
 ave NNP
 , ,
 w NNP
-38th NNP
+DIGIT NNP
 st NNP
 , ,
 new NNP
@@ -5218,7 +5218,7 @@ christmas NNP
 event NN
 URL URL
 ( (
-1213 CD
+DIGIT CD
 ) )
 
 rt RT
@@ -5246,7 +5246,7 @@ onehour JJ
 winter NN
 finale NN
 december NNP
-28 CD
+DIGIT CD
 ... :
 
 polling NN
@@ -5258,7 +5258,7 @@ today NN
 counting NN
 on IN
 november NNP
-24 CD
+DIGIT CD
 URL URL
 
 sorry UH
@@ -5275,7 +5275,7 @@ when WRB
 reading VBG
 at IN
 age NN
-3 CD
+DIGIT CD
 then IN
 ll MD
 take VB
@@ -5286,7 +5286,7 @@ wait VB
 till IN
 they PRP
 re VBP
-6 CD
+DIGIT CD
 . .
 HT HT
 
@@ -5322,7 +5322,7 @@ i PRP
 m VBP
 leaving VBG
 june NNP
-21 CD
+DIGIT CD
 and CC
 just RB
 traveling VBG
@@ -5357,7 +5357,7 @@ award NNP
 to TO
 nov NNP
 . .
-5 CD
+DIGIT CD
 URL URL
 
 amazon NNP
@@ -5368,7 +5368,7 @@ desire NNP
 z NNP
 unlocked JJ
 october NNP
-11 CD
+DIGIT CD
 : :
 we PRP
 just RB
@@ -5411,7 +5411,7 @@ bored JJ
 
 kk UH
 its PRP
-2248 CD
+DIGIT CD
 friday NNP
 nyt NN
 d UH
@@ -5445,7 +5445,7 @@ boardroom NN
 full JJ
 of IN
 niggers NNS
-3times NNS
+DIGIT NNS
 my PRP$
 age NN
 . .
@@ -5456,7 +5456,7 @@ the DT
 tender JJ
 age NN
 of IN
-17 CD
+DIGIT CD
 !! .
 im PRP
 pleased JJ
@@ -5521,7 +5521,7 @@ in IN
 years NNS
 ... :
 piranha NNP
-3d NNP
+DIGIT NNP
 just RB
 exceeded VBN
 the DT
@@ -5672,13 +5672,13 @@ the DT
 brothers NNS
 tonight NN
 ... :
-1 CD
+DIGIT CD
 . .
 we PRP
 lost VBD
 jeopardy NN
 and CC
-2 CD
+DIGIT CD
 . .
 they PRP
 re VBP
@@ -5807,7 +5807,7 @@ night UH
 people NNS
 !!! .
 off IN
-2 TO
+DIGIT TO
 bed NN
 .... :
 again RB
@@ -5820,7 +5820,7 @@ my PRP$
 birthday NN
 which WDT
 happens VBZ
-1 CD
+DIGIT CD
 time NN
 every DT
 year NN
@@ -5941,7 +5941,7 @@ were VBD
 greaaaat JJ
 tonight NN
 lt UH
-3 UH
+DIGIT UH
 xx UH
 
 USR USR
@@ -6028,7 +6028,7 @@ michael NNP
 kraus NNP
 on IN
 september NNP
-17 CD
+DIGIT CD
 ... :
 URL URL
 HT HT
@@ -6049,7 +6049,7 @@ day NN
 for IN
 an DT
 additional JJ
-15 NN
+DIGIT NN
 off IN
 on IN
 all DT
@@ -6133,9 +6133,9 @@ fl NNP
 ) )
 - :
 dec NNP
-31 CD
+DIGIT CD
 , ,
-2010 CD
+DIGIT CD
 - :
 photo NN
 gallery NN
@@ -6146,7 +6146,7 @@ paso NNP
 tx NNP
 - :
 december NNP
-30 CD
+DIGIT CD
 : :
 running NN
 back NN
@@ -6184,7 +6184,7 @@ start VB
 HT HT
 on IN
 oct NNP
-1 CD
+DIGIT CD
 - :
 check VB
 it PRP
@@ -6433,7 +6433,7 @@ john NNP
 , ,
 USR USR
 oct NNP
-79 CD
+DIGIT CD
 . .
 livethedreamconference URL
 . URL

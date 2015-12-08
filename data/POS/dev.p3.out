@@ -6,9 +6,9 @@ let VB
 her PRP
 know VBP
 it PRP
-'s VBZ
-almost NN
-3 UH
+'s POS
+almost NNP
+3 CD
 . .
 Yli PRP
 gets VBZ
@@ -33,28 +33,28 @@ finally RB
 
 QUAKE USR
 : :
-Mag UH
-4.5 UH
-, UH
-Saturday UH
-, UH
-September UH
-18 UH
-2010 UH
-at UH
-10:03 UH
-am UH
+Mag NNP
+4.5 CD
+, ,
+Saturday NNP
+, ,
+September NNP
+18 NNP
+2010 CD
+at IN
+10:03 NNS
+am VBP
 ( UH
 NZST) UH
-, UH
-20 UH
-km UH
-south-west UH
-of UH
-Christchurch UH
-. UH
-http://tinyurl.com/265n4mx UH
-#eqnz UH
+, ,
+20 CD
+km NN
+south-west NN
+of IN
+Christchurch NN
+. .
+http://tinyurl.com/265n4mx URL
+#eqnz HT
 
 @DrHubaEvaluator USR
 Not RB
@@ -414,9 +414,9 @@ while NN
 that DT
 saves NN
 me PRP
-3 UH
+3 CD
 or CC
-4 IN
+4 CD
 steps NNP
 when WRB
 I PRP
@@ -458,16 +458,16 @@ painful NN
 RT RT
 @mrdaveyd USR
 : :
-PG&lt;E PRP
-donated VBP
-35G VBG
+PG&lt;E NNP
+donated NNP
+35G CD
 to TO
 state NNP
 committe NNP
 chairman NNP
 investigating ,
 them PRP
-1day VBP
+1day CD
 after IN
 explosion NN
 in IN
@@ -585,7 +585,7 @@ RT RT
 . .
 6 CD
 . .
-2011 UH
+2011 CD
 . .
 The DT
 day NN
@@ -693,7 +693,7 @@ low JJ
 interest NN
 rates NNS
 , ,
-2011 PRP
+2011 NNP
 is VBZ
 proving VBG
 to TO
@@ -859,8 +859,8 @@ will MD
 be VB
 round NN
 at IN
-10am PRP
-so RB
+10am CD
+so CC
 go VB
 away IN
 you PRP
@@ -920,7 +920,7 @@ think VBP
 you PRP
 need VBP
 a DT
-12 JJ
+12 CD
 step NN
 program NN
 . .
@@ -1164,7 +1164,7 @@ Gigli NN
 Really RB
 . .
 
-spent IN
+spent VBG
 all DT
 day NN
 entering IN
@@ -1253,7 +1253,7 @@ lest .
 when WRB
 i PRP
 was VBD
-3 UH
+3 CD
 . .
 He PRP
 has VBZ
@@ -1276,7 +1276,7 @@ that IN
 
 Man UH
 gets VBZ
-20 JJ
+20 CD
 years NNS
 in IN
 murder DT
@@ -1341,7 +1341,7 @@ releasing NN
 on IN
 Feb NNP
 . .
-4th UH
+4th CD
 . .
 It PRP
 's VBZ
@@ -1382,8 +1382,8 @@ special NN
 forr IN
 no DT
 reason NN
-&lt; UH
-3 UH
+&lt; CC
+3 CD
 . .
 It PRP
 wass VBP
@@ -1424,8 +1424,8 @@ RT RT
 : :
 Shout VB
 out RP
-2 TO
-all DT
+2 CD
+all IN
 the DT
 real JJ
 women NN
@@ -1523,8 +1523,8 @@ drink NN
 Specials .
 too RB
 .. :
-tex PRP
-980-333-3923 VBP
+tex NNP
+980-333-3923 CD
 to TO
 get VB
 on IN
@@ -1756,7 +1756,7 @@ and CC
 got VBD
 : :
 Part NN
-7 NNS
+7 CD
 ! .
 Try VB
 it PRP
@@ -2328,19 +2328,19 @@ brother RT
 !!! .
 He PRP
 's VBZ
-20 DT
+20 CD
 today NN
 ! .
 Holy PRP
 crap VBP
 , ,
-20 NNP
+20 CD
 ? .
 Jeez UH
 man UH
 ... :
 
-2011 DT
+2011 CD
 first JJ
 time NN
 home NN
@@ -2350,7 +2350,7 @@ in IN
 Temecula NNP
 CA MD
 : :
-2011 DT
+2011 CD
 First JJ
 Time NN
 Home NN
@@ -2375,9 +2375,9 @@ house NN
 Hattiesburg NN
 on IN
 the DT
-1s NN
+1s CD
 n CC
-2s NN
+2s CD
 !! .
 
 Monsters NNS
@@ -2475,8 +2475,8 @@ Williams NNP
 . .
 Won RB
 Big JJ
-12 NN
-Rookie NN
+12 CD
+Rookie NNS
 of IN
 the DT
 Week NN
@@ -2622,12 +2622,12 @@ tweet UH
 
 it PRP
 was VBD
-half UH
-past UH
-8 UH
-when UH
-the UH
-drugs UH
+half DT
+past NN
+8 NN
+when WRB
+the DT
+drugs NN
 began UH
 to UH
 take UH
@@ -2694,7 +2694,7 @@ it PRP
 
 gonna VBG
 watch VB
-500 JJ
+500 CD
 days NNS
 of IN
 summer NNP
@@ -2826,8 +2826,8 @@ to TO
 , .
 winning VB
 a DT
-Nokia JJ
-5800 NN
+Nokia NNP
+5800 CD
 ? .
 
 Cruisers USR
@@ -2844,7 +2844,7 @@ Jan NNP
 . .
 22 CD
 , ,
-4:30 VBG
+4:30 CD
 to TO
 ??. VB
 Contact DT
@@ -2863,8 +2863,8 @@ goin VBG
 
 #NFL HT
 Week NN
-2 TO
-picks DT
+2 CD
+picks NN
 blog NN
 is VBZ
 up RP
@@ -2976,8 +2976,8 @@ to TO
 Manchester NNP
 tomorrow NN
 on IN
-BA DT
-2910 NN
+BA NNP
+2910 CD
 and CC
 fly VB
 to TO
