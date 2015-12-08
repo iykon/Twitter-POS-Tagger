@@ -116,6 +116,7 @@ def viterbi_Nbest(e, t, infile, outfile, best=10, p=True):
                                     prob = 1.0*b.elements[j].score * t.transit(llword,lword,'STOP')
                                     nb.add(llword,lword,prob,j)
                 nb.best()
+                print "score:", nb.elements[0].score
                 matrix.append(nb)
                 # print "end sentence:",nb.elements[0].word,"score:",nb.elements[0].score, "from:",nb.elements[0].path
             else:
@@ -232,30 +233,30 @@ def main():
 
     e0 = em.emission()
     t0 = tr.transition()
-    print "without preprocessor"
-    e0.compute('../data/POS/train')
-    t0.compute('../data/POS/train')
-    e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out',p=False)
-    print "POS,MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
-    print "POS,MLE likelihood:", e0.filelikelihood("../data/POS/dev.p2.out",p=False)
+    # print "without preprocessor"
+    # e0.compute('../data/POS/train')
+    # t0.compute('../data/POS/train')
+    # e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out',p=False)
+    # print "POS,MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
+    # print "POS,MLE likelihood:", e0.filelikelihood("../data/POS/dev.p2.out",p=False)
     # viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out',p=False)
     # print "POS,DP:", tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
     # print "POS,DP likelihood:", e0.filelikelihood("../data/POS/dev.p3.out", p=False)
-    start = time.clock()
-    viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=1, p=False)
-    print "runtime:",time.clock()-start
-    c = 1
-    while c<=1:
-        print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
-        print c,":POS, DP2 likelihood:", e0.filelikelihood("../data/POS/dev.p4.out",p=False, col=c)
-        c+=1
+    # start = time.clock()
+    # viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=1, p=False)
+    # print "runtime:",time.clock()-start
+    # c = 1
+    # while c<=1:
+        # print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
+        # print c,":POS, DP2 likelihood:", e0.filelikelihood("../data/POS/dev.p4.out",p=False, col=c)
+        # c+=1
 
     print "with preprocessor"
     e0.compute('../data/POS/ptrain')
     t0.compute('../data/POS/ptrain')
     e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out')
-    print "POS, MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
-    print "POS, MLE, likelihood:",e0.filelikelihood("../data/POS/dev.p2.out")
+    # print "POS, MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
+    # print "POS, MLE, likelihood:",e0.filelikelihood("../data/POS/dev.p2.out")
     # viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out')
     # print "POS, DP:",tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
     # print "POS, DP likelihood:", e0.filelikelihood("../data/POS/dev.p3.out")
@@ -268,42 +269,42 @@ def main():
         print c,":POS, DP2 likelihood:", e0.filelikelihood("../data/POS/dev.p4.out",col=c)
         c += 1
 
-    e1 = em.emission()
-    t1 = tr.transition()
-    print "without preprocessor"
-    e1.compute('../data/NPC/train')
-    t1.compute('../data/NPC/train')
-    e1.predict('../data/NPC/dev.in','../data/NPC/dev.p2.out',p=False)
-    print "NPC,MLE:", tool.evaluate('../data/NPC/dev.p2.out','../data/NPC/dev.out')
-    print "NPC,MLE likelihood:", e1.filelikelihood("../data/NPC/dev.p2.out",p=False)
+    # e1 = em.emission()
+    # t1 = tr.transition()
+    # print "without preprocessor"
+    # e1.compute('../data/NPC/train')
+    # t1.compute('../data/NPC/train')
+    # e1.predict('../data/NPC/dev.in','../data/NPC/dev.p2.out',p=False)
+    # print "NPC,MLE:", tool.evaluate('../data/NPC/dev.p2.out','../data/NPC/dev.out')
+    # print "NPC,MLE likelihood:", e1.filelikelihood("../data/NPC/dev.p2.out",p=False)
     # viterbi_best(e1,t1,'../data/NPC/dev.in','../data/NPC/dev.p3.out',p=False)
     # print "NPC,DP:", tool.evaluate('../data/NPC/dev.p3.out','../data/NPC/dev.out')
     # print "NPC,DP likelihood:", e1.filelikelihood("../data/NPC/dev.p3.out",p=False)
-    start = time.clock()
-    viterbi_Nbest(e1, t1, '../data/NPC/dev.in', '../data/NPC/dev.p4.out', best=1, p=False)
-    print "runtime:",time.clock() - start
-    c = 1
-    while c <= 1:
-        print c,":NPC, DP2:", tool.evaluate('../data/NPC/dev.p4.out', '../data/NPC/dev.out',col=c)
-        print c,":NPC, DP2 likelihood:", e1.filelikelihood("../data/NPC/dev.p4.out",p=False, col=c)
-        c += 1
+    # start = time.clock()
+    # viterbi_Nbest(e1, t1, '../data/NPC/dev.in', '../data/NPC/dev.p4.out', best=1, p=False)
+    # print "runtime:",time.clock() - start
+    # c = 1
+    # while c <= 1:
+        # print c,":NPC, DP2:", tool.evaluate('../data/NPC/dev.p4.out', '../data/NPC/dev.out',col=c)
+        # print c,":NPC, DP2 likelihood:", e1.filelikelihood("../data/NPC/dev.p4.out",p=False, col=c)
+        # c += 1
 
-    print "with preprocessor"
-    e1.compute('../data/NPC/ptrain')
-    t1.compute('../data/NPC/ptrain')
-    e1.predict('../data/NPC/dev.in','../data/NPC/dev.p2.out')
-    print 'NPC, MLE:', tool.evaluate('../data/NPC/dev.p2.out','../data/NPC/dev.out')
-    print "NPC, MLE likelihood:", e1.filelikelihood("../data/NPC/dev.p2.out")
+    # print "with preprocessor"
+    # e1.compute('../data/NPC/ptrain')
+    # t1.compute('../data/NPC/ptrain')
+    # e1.predict('../data/NPC/dev.in','../data/NPC/dev.p2.out')
+    # print 'NPC, MLE:', tool.evaluate('../data/NPC/dev.p2.out','../data/NPC/dev.out')
+    # print "NPC, MLE likelihood:", e1.filelikelihood("../data/NPC/dev.p2.out")
     # viterbi_best(e1,t1,'../data/NPC/dev.in','../data/NPC/dev.p3.out')
     # print 'NPC, DP:',tool.evaluate('../data/NPC/dev.p3.out','../data/NPC/dev.out')
     # print "NPC, DP likelihood:", e1.filelikelihood("../data/NPC/dev.p3.out")
-    start = time.clock()
-    viterbi_Nbest(e1, t1, '../data/NPC/dev.in', '../data/NPC/dev.p4.out', best=1)
-    print "runtime:",time.clock()-start
-    c = 1
-    while c <= 1:
-        print c,":NPC, DP2:", tool.evaluate('../data/NPC/dev.p4.out', '../data/NPC/dev.out',col=c)
-        print c,":NPC, DP2 likelihood:", e1.filelikelihood("../data/NPC/dev.p4.out",col=c)
-        c += 1
+    # start = time.clock()
+    # viterbi_Nbest(e1, t1, '../data/NPC/dev.in', '../data/NPC/dev.p4.out', best=1)
+    # print "runtime:",time.clock()-start
+    # c = 1
+    # while c <= 1:
+        # print c,":NPC, DP2:", tool.evaluate('../data/NPC/dev.p4.out', '../data/NPC/dev.out',col=c)
+        # print c,":NPC, DP2 likelihood:", e1.filelikelihood("../data/NPC/dev.p4.out",col=c)
+        # c += 1
 if __name__ == '__main__':
     main()

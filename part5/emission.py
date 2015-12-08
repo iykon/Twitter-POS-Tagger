@@ -47,7 +47,6 @@ class emission(object):
     def emit(self,word, tag,p=True):
         if p:
             word = tool.processWord(word)
-
         numer = 0
         denom = 0
         if word in self.matrix:

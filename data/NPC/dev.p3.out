@@ -6394,7 +6394,7 @@ end O
 of O
 the B-NP
 queue I-NP
-#AFAX O
+#AFAX I-NP
 
 True. O
 It B-NP
@@ -30033,8 +30033,8 @@ Oh O
 ._. O
 
 Jeff O
-jeff B-NP
 jeff O
+jeff B-NP
 jeff O
 
 Nowadays O

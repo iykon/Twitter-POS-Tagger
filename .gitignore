@@ -10,10 +10,9 @@ ptrain
 .idea/*
 #compiled python
 *.pyc
-
 # Mac directory file
 .DS_Store
-
+*.pdf
 #pyenv directory
 .python-version
 msl.py

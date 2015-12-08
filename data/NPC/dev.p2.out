@@ -1130,7 +1130,7 @@ for O
 a B-NP
 boat I-NP
 ride I-NP
-@ O
+@ I-NP
 lake O
 Naivasha O
 .if O
@@ -2662,12 +2662,12 @@ you B-NP
 get O
 Car I-NP
 Loan I-NP
-@ O
+@ I-NP
 8% B-NP
 but O
 Education O
 Loan I-NP
-@ O
+@ I-NP
 <#> B-NP
 %. O
 "Where O
@@ -6394,7 +6394,7 @@ end I-NP
 of I-NP
 the B-NP
 queue I-NP
-#AFAX O
+#AFAX I-NP
 
 True. O
 It B-NP
@@ -15173,7 +15173,7 @@ to O
 catch O
 the B-NP
 movie I-NP
-@ O
+@ I-NP
 <DECIMAL> B-NP
 cineleisure? O
 
@@ -26858,7 +26858,7 @@ chicken I-NP
 rice. I-NP
 <DECIMAL> B-NP
 pm I-NP
-@potong O
+@potong I-NP
 pasir B-NP
 mrt I-NP
 busstop I-NP
@@ -31501,7 +31501,7 @@ in? O
 
 Orh! O
 Take O
-@ O
+@ I-NP
 shower I-NP
 and I-NP
 rest I-NP
@@ -35579,7 +35579,7 @@ Cause O
 I B-NP
 finish O
 sch B-NP
-@ O
+@ I-NP
 4plus O
 then O
 eve B-NP

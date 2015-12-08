@@ -522,14 +522,14 @@ not O
 attend O
 job O
 fair O
-cms O
+USR O
 infosystems O
 gandipuram O
 on O
 <#> O
 jandesktop O
 engg O
-@ O
+USR O
 cms O
 feg O
 netsoft O
@@ -4754,7 +4754,7 @@ then O
 goin O
 block O
 <#> O
-# O
+HT O
 <#> O
 ! O
 
@@ -8253,7 +8253,7 @@ kajiao O
 i B-NP
 finish O
 sch B-NP
-@ O
+USR O
 6pm B-NP
 . O
 
@@ -34124,7 +34124,7 @@ up O
 suddenly O
 at O
 < B-NP
-#> O
+HT O
 haha O
 
 u B-NP
@@ -39163,7 +39163,7 @@ all B-NP
 she B-NP
 looks O
 mad O
-@ O
+USR O
 u B-NP
 in O
 the B-NP
@@ -46320,7 +46320,7 @@ serangoon O
 north O
 ave O
 4 O
-# O
+HT O
 <#> B-NP
 <#> B-NP
 . O
@@ -53924,7 +53924,7 @@ anot O
 after O
 <#> B-NP
 pm I-NP
-@ O
+USR O
 my B-NP
 house I-NP
 . O
@@ -55310,7 +55310,7 @@ tomorrow O
 is O
 decimal O
 pm O
-@ O
+USR O
 serangoon O
 mrt O
 alright O
@@ -57008,7 +57008,7 @@ jan I-NP
 <#> B-NP
 to O
 1pm B-NP
-@ O
+USR O
 pay4pay B-NP
 no I-NP
 <#> I-NP
@@ -59554,7 +59554,7 @@ watch O
 decimal O
 de O
 bah O
-@ O
+USR O
 cineleisure O
 pleasetell O
 the O
@@ -61767,7 +61767,7 @@ blk B-NP
 bishan I-NP
 st I-NP
 <#> I-NP
-# I-NP
+HT I-NP
 <#> I-NP
 
 ohh O
@@ -63517,7 +63517,7 @@ you B-NP
 are O
 also O
 my B-NP
-1 I-NP
+HT I-NP
 . O
 go O
 get O
@@ -65542,7 +65542,7 @@ at O
 ah O
 forgot O
 my O
-# B-NP
+HT B-NP
 > O
 . O
 later O
@@ -66219,7 +66219,7 @@ early O
 are O
 u B-NP
 still O
-@ O
+USR O
 home B-NP
 ? O
 i B-NP
@@ -67410,7 +67410,7 @@ party O
 haha O
 okay O
 thanks O
-lot O
+USR O
 
 wow O
 can O
@@ -73784,7 +73784,7 @@ jan O
 bet O
 <#> O
 to3 O
-@ O
+USR O
 pay4pay O
 no O
 <#> O
@@ -78445,7 +78445,7 @@ rd O
 suite O
 2 O
 phone O
-# O
+HT O
 <#> O
 . O
 its O
@@ -83533,7 +83533,7 @@ so I-NP
 free I-NP
 for I-NP
 mahjong I-NP
-@ I-NP
+USR I-NP
 leos I-NP
 house I-NP
 ?? O
@@ -95669,7 +95669,7 @@ do O
 u O
 hv O
 cel B-NP
-# I-NP
+HT I-NP
 of I-NP
 yen I-NP
 ? O
@@ -109587,7 +109587,7 @@ now O
 whats O
 your B-NP
 house I-NP
-# I-NP
+HT I-NP
 again O
 ? O
 and O
@@ -117551,7 +117551,7 @@ ok O
 ure B-NP
 sunda I-NP
 y O
-#> B-NP
+HT B-NP
 is I-NP
 f I-NP
 ine O
@@ -124499,7 +124499,7 @@ hav O
 lunch B-NP
 tme I-NP
 2day B-NP
-@ O
+USR O
 d B-NP
 shop I-NP
 
@@ -133566,7 +133566,7 @@ liao I-NP
 mean O
 
 6pm B-NP
-@ O
+USR O
 ur B-NP
 hous I-NP
 e O
@@ -135987,7 +135987,7 @@ serangoon I-NP
 north I-NP
 ave I-NP
 4 I-NP
-# I-NP
+HT I-NP
 <#> I-NP
 
 the B-NP
@@ -142655,7 +142655,7 @@ it B-NP
 at I-NP
 sunday I-NP
 < I-NP
-#> O
+HT O
 . O
 forgot O
 to B-NP
@@ -153503,7 +153503,7 @@ kiss O
 u B-NP
 ! O
 on O
-# B-NP
+HT B-NP
 > O
 le O
 later O
@@ -155130,7 +155130,7 @@ bah O
 my B-NP
 lesson I-NP
 end O
-@ O
+USR O
 4pm O
 hehe O
 
@@ -157271,7 +157271,7 @@ dude B-NP
 would O
 come O
 look O
-@ O
+USR O
 my B-NP
 jeep I-NP
 so O
@@ -171489,7 +171489,7 @@ free O
 i B-NP
 going O
 sch B-NP
-@ O
+USR O
 4pm B-NP
 . O
 
@@ -173275,7 +173275,7 @@ ar O
 does O
 <#> B-NP
 terminate O
-@ O
+USR O
 clementi B-NP
 ? O
 
@@ -173687,7 +173687,7 @@ cc O
 or O
 c O
 or O
-c O
+HT O
 but O
 doesnt O
 want O
@@ -175644,7 +175644,7 @@ haha O
 if O
 you B-NP
 r O
-@ O
+USR O
 home B-NP
 then O
 come O
@@ -176395,7 +176395,7 @@ ma O
 sent O
 to O
 ur B-NP
-livecomsg I-NP
+USR I-NP
 
 nope O
 your O
@@ -179833,7 +179833,7 @@ u O
 reached O
 
 room B-NP
-# I-NP
+HT I-NP
 <#> I-NP
 
 haha O
@@ -199978,8 +199978,8 @@ watching O
 tron O
 legacy O
 again O
-tron O
-tronlegacy O
+HT O
+HT O
 lalalalala O
 
 ok O
@@ -205011,7 +205011,7 @@ monfri B-NP
 from O
 <#> B-NP
 pm O
-@ O
+USR O
 string O
 gr O
 complex O
@@ -205862,7 +205862,7 @@ person B-NP
 . O
 she B-NP
 endwork O
-@ O
+USR O
 5pm B-NP
 . O
 
@@ -210409,7 +210409,7 @@ i B-NP
 meet O
 u B-NP
 decimal B-NP
-@ O
+USR O
 boonkeng B-NP
 mrt I-NP
 ? O
@@ -215951,7 +215951,7 @@ for O
 <#> B-NP
 pass O
 outs O
-chennai O
+USR O
 on O
 <#> O
 , O
@@ -217179,7 +217179,7 @@ we B-NP
 meet O
 at O
 decimal B-NP
-@ I-NP
+USR I-NP
 marsiling I-NP
 ok O
 
@@ -226038,7 +226038,7 @@ film O
 in O
 sun B-NP
 tv I-NP
-@ O
+USR O
 6pm B-NP
 and O
 nan O
@@ -226048,7 +226048,7 @@ kavalan O
 on O
 <#> B-NP
 th O
-@ O
+USR O
 6pm O
 in O
 jaya O
@@ -231683,9 +231683,9 @@ mugging O
 and O
 fun O
 with O
-shaocloud O
-veacon O
-halfasorrow O
+USR O
+USR O
+USR O
 
 lg O
 camp O
@@ -234941,7 +234941,7 @@ serangoon O
 north O
 ave O
 4 O
-# O
+HT O
 <#> O
 
 hi O
@@ -237408,7 +237408,7 @@ work B-NP
 kiddie O
 palace O
 at O
-# O
+HT O
 <#> O
 
 somebody O
@@ -248751,7 +248751,7 @@ serangoon I-NP
 north I-NP
 ave I-NP
 4 I-NP
-# I-NP
+HT I-NP
 <#> I-NP
 . O
 do O
@@ -248977,7 +248977,7 @@ u B-NP
 r O
 missed O
 p O
-@-}-- O
+USR O
 :-* O
 
 hahaha O
@@ -255759,7 +255759,7 @@ use O
 our O
 address O
 the O
-# O
+HT O
 is O
 <#> O
 <#> O
@@ -256090,7 +256090,7 @@ otherwise O
 will O
 sendto O
 enquiries O
-@ O
+USR O
 azora O
 
 hihi O
@@ -256795,7 +256795,7 @@ lemeeting O
 bh O
 at O
 decimal O
-engine O
+USR O
 ok O
 dearwan O
 meet O
@@ -258523,7 +258523,7 @@ ppl B-NP
 lets O
 meet O
 com2 B-NP
-# I-NP
+HT I-NP
 <#> I-NP
 
 noice O
@@ -262711,7 +262711,7 @@ its O
 this O
 saturday O
 6pm O
-@ O
+USR O
 cityhall O
 mrt O
 
@@ -263643,7 +263643,7 @@ here O
 it B-NP
 s O
 just O
-miko B-NP
+HT B-NP
 irl I-NP
 
 i B-NP
@@ -268389,7 +268389,7 @@ confirmed O
 <#> O
 boonlay O
 way O
-# O
+HT O
 <#> O
 tradehub O
 <#> O
@@ -278211,7 +278211,7 @@ keep O
 it B-NP
 :/ O
 
-jeff O
+USR O
 i O
 think O
 grizi O

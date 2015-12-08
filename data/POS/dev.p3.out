@@ -56,7 +56,7 @@ Christchurch UH
 http://tinyurl.com/265n4mx UH
 #eqnz UH
 
-@DrHubaEvaluator PRP
+@DrHubaEvaluator USR
 Not RB
 long JJ
 ago IN
@@ -114,9 +114,9 @@ looking VBG
 for IN
 software NN
 n CC
-usb DT
-drivers NN
-http://f.ast.ly/DfxRf .
+usb NN
+drivers :
+http://f.ast.ly/DfxRf URL
 
 Friday NNP
 Night NN
@@ -156,8 +156,8 @@ Surf NN
 Coast :
 http://twitpic.com/38c0c6 URL
 
-@gabbysueurban PRP
-WELL RB
+@gabbysueurban USR
+WELL UH
 seems VBZ
 like IN
 you PRP
@@ -226,7 +226,7 @@ pants NNS
 too RB
 short RB
 . .
-#dammit URL
+#dammit HT
 
 Day NNP
 One CD
@@ -277,7 +277,7 @@ Metallurgy DT
 Engineers NN
 . .
 
-#oneofmyfollowers PRP
+#oneofmyfollowers HT
 has VBZ
 the DT
 hoodie NN
@@ -286,7 +286,7 @@ wanna VBP
 wear VB
 tonite NN
 . .
-#ohwell URL
+#ohwell HT
 
 I PRP
 hate VBP
@@ -355,7 +355,7 @@ tomorrow NN
 omg UH
 :/ UH
 
-@_Kinghoopa IN
+@_Kinghoopa USR
 the DT
 one NN
 thats DT
@@ -394,7 +394,7 @@ today NN
 . .
 http://tinyurl.com/2bhyuq7 URL
 
-@winashbrown NN
+@winashbrown USR
 If IN
 that DT
 auto NN
@@ -427,8 +427,8 @@ links .
 RT RT
 @malikismusic USR
 : :
-#TEAMPOSITIVITY IN
-ALL DT
+#TEAMPOSITIVITY HT
+ALL IN
 DAY NN
 !!!! TO
 RETWEET VB
@@ -524,7 +524,7 @@ against IN
 Christine DT
 O'Donnell JJ
 today NN
-http://bit.ly/9nTWQw IN
+http://bit.ly/9nTWQw URL
 Seriously NN
 . .
 
@@ -589,7 +589,7 @@ RT RT
 . .
 The DT
 day NN
-@owlcity NN
+@owlcity USR
 went VBD
 on IN
 an DT
@@ -603,8 +603,8 @@ twitter NNP
 . .
 xD UH
 
-@OrionCards PRP
-there RB
+@OrionCards USR
+there UH
 will MD
 be VB
 , ,
@@ -653,7 +653,7 @@ entendre NNP
 intended) NNP
 . .
 
-@IzzieZac PRP
+@IzzieZac USR
 Told VBD
 you PRP
 !! .
@@ -742,8 +742,8 @@ this DT
 disheveled NN
 ! .
 
-@toukie_s PRP
-i'mgoing VBP
+@toukie_s USR
+i'mgoing WRB
 to TO
 sleep VB
 , ,
@@ -757,7 +757,7 @@ you PRP
 tomorrow NN
 
 Great JJ
-#COACHING NN
+#COACHING HT
 - :
 Mike NNP
 McCarthy NNP
@@ -774,7 +774,7 @@ Benefits NNS
 of IN
 a DT
 Great JJ
-#Coach .
+#Coach HT
 
 RT RT
 @ItsTheTeenLife USR
@@ -889,11 +889,11 @@ week NN
 More JJR
 info NN
 here RB
-http://bit.ly/cNOeyS .
+http://bit.ly/cNOeyS URL
 
-@yourjessica PRP
-'ll MD
-do VB
+@yourjessica USR
+'ll PRP
+do VBP
 it PRP
 tomorrow NN
 . .
@@ -950,8 +950,8 @@ re UH
 ... UH
 http://bit.ly/hgMKjS UH
 
-@yeastieboys NN
-that WDT
+@yeastieboys USR
+that DT
 's VBZ
 terrible NN
 . .
@@ -999,10 +999,10 @@ The DT
 all DT
 day NN
 event NN
-features IN
-America's... NNP
-http://tinyurl.com/28hd9fu NNP
-#fb NNP
+features NN
+America's... :
+http://tinyurl.com/28hd9fu URL
+#fb HT
 
 I PRP
 'm VBP
@@ -1036,8 +1036,8 @@ year NN
 RT RT
 @Huddy85 USR
 : :
-@Mz_Twilightxxx PRP
-*kisses VBP
+@Mz_Twilightxxx USR
+*kisses UH
 your PRP$
 ass**sneezes NN
 after* IN
@@ -1177,7 +1177,7 @@ works VBP
 out RP
 =D UH
 
-@BexsterBexster RT
+@BexsterBexster USR
 @shinobi32768 USR
 I PRP
 've VBP
@@ -1239,11 +1239,11 @@ to TO
 my PRP$
 wonderful NN
 wife IN
-@lizwoodring NN
+@lizwoodring USR
 !!! .
 
-@JoshRamsayArmy RT
-Kay USR
+@JoshRamsayArmy USR
+Kay UH
 sorry UH
 ... :
 Well UH
@@ -1282,8 +1282,8 @@ in IN
 murder DT
 plot NN
 against IN
-judge NN
-http://bit.ly/agB9iL .
+judge CD
+http://bit.ly/agB9iL URL
 
 Tryna VBG
 Get VB
@@ -1291,8 +1291,8 @@ Into IN
 Something NN
 Tonight NN
 
-CHILLIN PRP
-@LIVE VBP
+CHILLIN RT
+@LIVE USR
 TONIGHT NN
 ! .
 
@@ -1356,9 +1356,9 @@ ADHD PRP
 May MD
 Not RB
 Need VBP
-Antipsychotic DT
-Meds NN
-http://t.co/JfGm0uH .
+Antipsychotic RB
+Meds :
+http://t.co/JfGm0uH URL
 
 every DT
 year NN
@@ -1370,9 +1370,9 @@ get VB
 yo UH
 ass JJ
 in IN
-trouble DT
-smdh NN
-#doinme .
+trouble NN
+smdh .
+#doinme HT
 
 Today NN
 I PRP
@@ -1538,7 +1538,7 @@ Stephen NNP
 the DT
 Intellectual NN
 . .
-@bbhess VB
+@bbhess USR
 I PRP
 bet MD
 ppl VB
@@ -1568,7 +1568,7 @@ an DT
 image NN
 today NN
 through IN
-@shutterstock NN
+@shutterstock USR
 ! .
 My PRP$
 gallery NN
@@ -1598,7 +1598,7 @@ p-i-m-p IN
 I PRP
 know VBP
 ... :
-@amcdavid NNP
+@amcdavid USR
 ! .
 We PRP
 're VBP
@@ -1645,23 +1645,23 @@ at IN
 - :
 . URL
 - :
-@_Rhiann URL
+@_Rhiann USR
 
 when WRB
 did VBD
-@thecodysimpson DT
+@thecodysimpson IN
 last JJ
 tweet NN
 ,? .
 ;) UH
 
-@FirstLadyEve PRP
-have VBP
+@FirstLadyEve USR
+have VB
 a DT
 dating JJ
 show NN
 with IN
-@ogochocinco DT
+@ogochocinco USR
 evry JJ
 week NN
 'll MD
@@ -1671,10 +1671,10 @@ sum NNP
 hawt NNP
 dude NNP
 2 CD
-keep IN
-ur PRP$
-intrest NN
-like IN
+keep UH
+ur UH
+intrest UH
+like UH
 @willdemps UH
 my$ UH
 on UH
@@ -1796,7 +1796,7 @@ do VBP
 a DT
 countdown NN
 to TO
-#wku DT
+#wku NN
 homecoming NN
 ? .
 ok UH
@@ -1826,9 +1826,9 @@ fellow NN
 BELIEBER IN
 shoutout NN
 for IN
-@rchristelyn.....@rchristeyn....@rchristelyn...she NNP
-'s POS
-one NN
+@rchristelyn.....@rchristeyn....@rchristelyn...she USR
+'s VBZ
+one CD
 of IN
 my PRP$
 bestfriends NN
@@ -1837,7 +1837,7 @@ our PRP$
 school NN
 
 RT RT
-@ericjohnsalut :
+@ericjohnsalut IN
 " ''
 Good JJ
 Morning NN
@@ -1851,8 +1851,8 @@ day NN
 !" :
 http://dlvr.it/5Rh4w URL
 
-@Elinor_Althani PRP
-ahhhh VBP
+@Elinor_Althani USR
+ahhhh :
 reading VBG
 , .
 still RB
@@ -1971,7 +1971,7 @@ RT RT
 RT RT
 @JustBecausee USR
 : :
-#Justbecause VB
+#Justbecause HT
 I PRP
 can MD
 help VB
@@ -2072,8 +2072,8 @@ about IN
 days NNS
 . .
 
-@abbi5895 RT
-Bacon USR
+@abbi5895 USR
+Bacon UH
 swishers UH
 !! .
 RT RT
@@ -2091,8 +2091,8 @@ Bacon DT
 cereal NN
 is VBZ
 up RP
-next JJ
-http://hjv.dw.tc/Q0t2R .
+next IN
+http://hjv.dw.tc/Q0t2R URL
 
 NHL RT
 Betting USR
@@ -2162,7 +2162,7 @@ boots NNS
 out RP
 tonight NN
 ! .
-#bittersweet URL
+#bittersweet HT
 
 fckn RT
 emily USR
@@ -2186,9 +2186,9 @@ is VBZ
 my PRP$
 main NN
 goonie IN
-@bobbyboutit DT
+@bobbyboutit USR
 birthday NN
-#teamchino .
+#teamchino NN
 ca MD
 n't RB
 move VBP
@@ -2231,7 +2231,7 @@ come VBP
 Bday NN
 party NN
 for IN
-@SILVRSCREENSTAR NN
+@SILVRSCREENSTAR USR
 then IN
 hp6 NN
 with IN
@@ -2279,7 +2279,7 @@ Monday NNP
 to TO
 Everyone NN
 ! .
-#education PRP
+#education NN
 can MD
 never RB
 be VB
@@ -2288,8 +2288,8 @@ away NN
 ... :
 go VB
 follow VB
-your PRP$
-#dreams NN
+your PRP
+#dreams HT
 
 NO UH
 Saints PRP
@@ -2323,8 +2323,8 @@ my PRP$
 not RB
 so IN
 little NNP
-brother NNP
-@xHangmanx NNP
+brother RT
+@xHangmanx USR
 !!! .
 He PRP
 's VBZ
@@ -2383,7 +2383,7 @@ n CC
 Monsters NNS
 , ,
 tweet VB
-@defpenradio PRP
+@defpenradio USR
 and CC
 ask VBP
 them PRP
@@ -2394,7 +2394,7 @@ reveal VB
 new JJ
 info NN
 about IN
-#BornThisWay NN
+#BornThisWay HT
 ! .
 
 RT RT
@@ -2455,7 +2455,7 @@ a DT
 new JJ
 ep NN
 of IN
-#BGC TO
+#BGC HT
 come VB
 on IN
 tonight NN
@@ -2724,9 +2724,9 @@ hot JJ
 water NN
 uggghh .
 
-@Yeweezii RT
-Jst USR
-lock :
+@Yeweezii USR
+Jst PRP
+lock VBP
 her PRP
 outside IN
 4 CD
@@ -2740,7 +2740,7 @@ d UH
 time NNP
 :-D UH
 
-@ConorMc_Ginty NNP
+@ConorMc_Ginty USR
 GaGa NNP
 played ,
 here RB
@@ -2815,7 +2815,7 @@ ItS PRP$
 fRiDaY NN
 !! .
 
-http://bit.ly/aTTQYq USR
+http://bit.ly/aTTQYq NN
 When WRB
 Pepsi PRP
 to TO
@@ -2861,7 +2861,7 @@ day NN
 goin VBG
 ? .
 
-#NFL DT
+#NFL HT
 Week NN
 2 TO
 picks DT
@@ -2869,8 +2869,8 @@ blog NN
 is VBZ
 up RP
 on IN
-@The_Score DT
-website NN
+@The_Score USR
+website USR
 ... :
 http://blogs.thescore.com/nfl/2010/09/17/pizzolaw2/ URL
 
@@ -2895,9 +2895,9 @@ today NN
 . .
 HELL UH
 YEAH UH
-http://tumblr.com/xt21gcptqr UH
+http://tumblr.com/xt21gcptqr URL
 
-@Kristi_Taylor PRP
+@Kristi_Taylor USR
 Going VBG
 to TO
 Windsor DT
@@ -2961,8 +2961,8 @@ Wkwkwk UH
 RT RT
 @riesranty USR
 : :
-@azkuro NNP
-kak NNP
+@azkuro USR
+kak :
 ajul NNP
 , ,
 titip NNP
@@ -2985,8 +2985,8 @@ Barbados VB
 on IN
 Sunday NNP
 
-@firecore RT
-http://twitpic.com/3xgdng USR
+@firecore USR
+http://twitpic.com/3xgdng URL
 - :
 sign VB
 me PRP
