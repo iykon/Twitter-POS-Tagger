@@ -1,4 +1,17 @@
-##instruction
+#SUTD ML project
+**A POS&NPC tagger for tweets with Hidden Markov Model**
+
+Name: Yuan Bowei
+
+Student ID: 1001916
+##Directory Structure
+**src** Source code, all following intructions are for this directory
+
+**order2** a combination of MLE predictor, first order HMM and second order HMM ,plus some smoothing, the best performance parameter combination can give a 78% correction rate. 
+
+**data** training data, test data and output data
+
+##Instruction
 This package consists of four python modules:
 
 1. **emission.py:**This module computes emission probability with given training text.
