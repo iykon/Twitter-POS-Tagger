@@ -67,7 +67,7 @@ def viterbi_best(e, t, infile, outfile, p=True):
 
         rg = range(len(inlines))
         for i in rg:
-            # print "loop:",i
+            # print "loop:",i, "line:",inlines[i]
             line = inlines[i]
             tags = {}
             if START and line!='\n' and line!='\r\n':
@@ -124,7 +124,9 @@ def viterbi_best(e, t, infile, outfile, p=True):
         finalpath = []
         lasttag = ""
         for i in rg:
-            if inlines[i] == '\n':
+            print "decode:",i
+            print "word:",inlines[i]
+            if inlines[i] == '\n' or inlines[i]=='\r\n':
                 if isinstance(path[i], str):
                     lasttag = path[i]
                     # print "i:",i
@@ -201,7 +203,7 @@ def viterbi_Nbest(e, bt, tt, infile, outfile,lambda0=0.4, lambda1=0.5, lambda2=0
                 for tag in e.labels:
                     tags[tag] = {}
                     for lword in e.labels:
-                        tags[tag][lword] = 1.0*matrix[i-1][lword]*(lambda0+lambda1*bt.startwith(tag)+lambda2*tt.transit('START',lword,tag))* e.emit(word,tag,p)
+                        tags[tag][lword] = 1.0*matrix[i-1][lword]*(lambda0+lambda1*bt.transit(lword,tag)+lambda2*tt.transit('START',lword,tag))* e.emit(word,tag,p)
                 matrix.append(tags)
                 SECSTART = False
             elif line == '\n':
@@ -314,8 +316,8 @@ def viterbi_Nbest(e, bt, tt, infile, outfile,lambda0=0.4, lambda1=0.5, lambda2=0
                     lw = lastelement[j].lword
                     nm = lastelement[j].path
                     scr = lastelement[j].score
-                    # if scr == 0:
-                        # word = word + ' '+e.mostprob()
+                    if scr == 0:
+                        word = word + ' '+e.mostprob()
                     # else :
                     word = word + ' '+ lw
                     # print "word:",word
@@ -370,22 +372,30 @@ def main():
     e0.compute('../data/POS/ptrain')
     bt0.compute('../data/POS/ptrain')
     tt0.compute('../data/POS/ptrain')
-    e0.predict('../data/POS/test.in','../data/POS/test.p1.out')
+    # e0.predict('../data/POS/test.in','../data/POS/test.p1.out')
     # era,eno= tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out',col=1,pr=True)
     # print "error rate:",era
     # print "POS, MLE, likelihood:",e0.filelikelihood("../data/POS/dev.p2.out")
-    viterbi_best(e0,bt0,'../data/POS/test.in','../data/POS/test.p2.out')
-    # era,eno = tool.evaluate('../data/POS/train.out','../data/POS/train')
+    # with new smoothing 0.27637
+    # viterbi_best(e0,bt0,'../data/POS/dev.in','../data/POS/dev.p2.out')
+    # era,eno = tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out',pr=True)
     # print "POS, DP:", era
     # print "POS, DP likelihood:", e0.filelikelihood("../data/POS/dev.p3.out")
     # start = time.clock()
-    # viterbi_Nbest(e0, bt0, tt0, '../data/POS/dev.in', '../data/POS/dev.p4.out',lambda0=0, lambda1=1.0, lambda2=0.0, best=1)
+    # 0.5 1.5 0: 0.2574
+    # 1 10 1: 0.2422
+    # 1 15 1: 0.2422
+    # 1 20 1: 0.239
+    # 1 25 1: 0.2369
+    # 1 30 1: 0.235
+    # 1 35 1: 0.2334
+    # viterbi_Nbest(e0, bt0, tt0, '../data/POS/dev.in', '../data/POS/dev.p5.out',lambda0=1.0, lambda1=30.0, lambda2=1.0, best=1)
     # print "runtime:",time.clock() - start
-    # c = 1
-    # while c <= 1:
-        # era, eno = tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c,pr=True)
-        # print c,":POS, DP2:",era       # print c,":POS, DP2 likelihood:", e0.filelikelihood("../data/POS/dev.p4.out",col=c)
-        # c += 1
+    c = 1
+    while c <= 1:
+        era, eno = tool.evaluate('../data/POS/dev.p5.out', '../data/POS/dev.out',col=c,pr=True)
+        print c,":POS, DP2:",era       # print c,":POS, DP2 likelihood:", e0.filelikelihood("../data/POS/dev.p4.out",col=c)
+        c += 1
 
     # e1 = em.emission()
     # t1 = tr.transition()

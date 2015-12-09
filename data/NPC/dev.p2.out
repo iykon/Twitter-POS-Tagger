@@ -583,7 +583,7 @@ chinese B-NP
 class! I-NP
 My B-NP
 year I-NP
-4 I-NP
+4 B-NP
 classroom B-NP
 can O
 watch O
@@ -1130,7 +1130,7 @@ for O
 a B-NP
 boat I-NP
 ride I-NP
-@ O
+@ I-NP
 lake I-NP
 Naivasha I-NP
 .if O
@@ -1716,7 +1716,7 @@ Scoliosis I-NP
 Clinic I-NP
 HPB I-NP
 Level I-NP
-4 I-NP
+4 B-NP
 , O
 is O
 on O
@@ -2262,7 +2262,7 @@ engin I-NP
 :-( O
 
 Do O
-9ja I-NP
+9ja B-NP
 peeps B-NP
 buy O
 perf I-NP
@@ -2662,12 +2662,12 @@ you B-NP
 get O
 Car I-NP
 Loan I-NP
-@ O
+@ I-NP
 8% B-NP
 but O
 Education O
 Loan I-NP
-@ O
+@ I-NP
 <#> B-NP
 %. O
 "Where O
@@ -3241,7 +3241,7 @@ exam I-NP
 is O
 for O
 february I-NP
-4 I-NP
+4 B-NP
 . O
 Wish O
 you B-NP
@@ -3394,7 +3394,7 @@ only O
 eh. O
 
 Hmmm O
-4 I-NP
+4 B-NP
 groups I-NP
 eh. O
 
@@ -4704,14 +4704,14 @@ say O
 anything? B-NP
 
 Msg I-NP
-54: I-NP
+54: B-NP
 from O
 <3752a4ca0fb31b06b860fa9bc47d8df487f52cf1f07d98dd> O
 , O
 to<8c0a99aa600c281987f52cf1f07d98dd> I-NP
 , O
 "2011.10.01 I-NP
-09:39:25 I-NP
+09:39:25 B-NP
 
 Ahhh O
 small I-NP
@@ -4833,7 +4833,7 @@ lo. O
 is O
 just O
 *tag-error* I-NP
-4p I-NP
+4p B-NP
 and I-NP
 strate I-NP
 gy I-NP
@@ -5148,7 +5148,7 @@ T.T... O
 or O
 we B-NP
 play O
-3man I-NP
+3man B-NP
 wif O
 normaltiles I-NP
 that B-NP
@@ -5737,7 +5737,7 @@ x O
 when O
 y B-NP
 is O
-0 O
+0 B-NP
 
 Hi O
 Ricky, B-NP
@@ -6107,7 +6107,7 @@ drama? I-NP
 
 You B-NP
 want O
-2pc I-NP
+2pc B-NP
 chicken I-NP
 instead O
 KFC B-NP
@@ -6414,7 +6414,7 @@ phd I-NP
 , O
 you B-NP
 get O
-5years I-NP
+5years B-NP
 of I-NP
 salary I-NP
 . O
@@ -6683,7 +6683,7 @@ liao O
 The B-NP
 paddle I-NP
 is O
-2m I-NP
+2m B-NP
 I B-NP
 think! O
 
@@ -7217,7 +7217,7 @@ ah? O
 
 Lol O
 tamp B-NP
-4pm.haha. I-NP
+4pm.haha. B-NP
 
 She B-NP
 got O
@@ -7414,7 +7414,7 @@ able O
 to O
 start O
 ard O
-4th I-NP
+4th B-NP
 December, I-NP
 longest I-NP
 shld O
@@ -9075,7 +9075,7 @@ aft O
 2moro B-NP
 nid O
 wait O
-3wks O
+3wks B-NP
 exam I-NP
 over O
 then O
@@ -9622,7 +9622,7 @@ me B-NP
 will O
 train B-NP
 together. O
-2weeks I-NP
+2weeks B-NP
 later O
 see O
 how O
@@ -9678,7 +9678,7 @@ missed O
 thewalls I-NP
 of I-NP
 the B-NP
-3rd I-NP
+3rd B-NP
 floor I-NP
 master I-NP
 bath. I-NP
@@ -10210,14 +10210,14 @@ time I-NP
 btw O
 
 Msg I-NP
-2398: I-NP
+2398: B-NP
 from O
 <df501e0b21bc88cc1e464dd95bf722da8865851c93267498> O
 , O
 to<d053c98a1c705a68a409ec3a79628cfa> I-NP
 , O
 "2011.03.03 I-NP
-12:47:00 I-NP
+12:47:00 B-NP
 
 Eh?!! O
 Haha. O
@@ -11088,7 +11088,7 @@ if O
 got O
 wed B-NP
 after O
-4 I-NP
+4 B-NP
 pm I-NP
 de O
 let O
@@ -11209,7 +11209,7 @@ chia I-NP
 mechanical I-NP
 engineering I-NP
 . O
-4) I-NP
+4) B-NP
 weekdaynights I-NP
 excluding I-NP
 tue B-NP
@@ -11327,14 +11327,14 @@ u B-NP
 !! O
 
 Msg I-NP
-58: O
+58: B-NP
 from O
 <3752a4ca0fb31b06b860fa9bc47d8df487f52cf1f07d98dd> O
 , O
 to<acef5ca33641dcec87f52cf1f07d98dd> I-NP
 , O
 "2011.10.05 I-NP
-08:13:36 I-NP
+08:13:36 B-NP
 
 Yes O
 should O
@@ -13050,7 +13050,7 @@ we B-NP
 can O
 get O
 an B-NP
-8th I-NP
+8th B-NP
 at O
 usf B-NP
 some B-NP
@@ -14851,7 +14851,7 @@ symbol O
 Who B-NP
 is O
 the B-NP
-2nd I-NP
+2nd B-NP
 spinner I-NP
 for O
 csk. I-NP
@@ -15173,7 +15173,7 @@ to O
 catch O
 the B-NP
 movie I-NP
-@ O
+@ I-NP
 <DECIMAL> B-NP
 cineleisure? O
 
@@ -15908,7 +15908,7 @@ GOING O
 TO O
 SLEEP O
 UNTIL O
-4 I-NP
+4 B-NP
 
 Rofl O
 morning I-NP
@@ -16238,7 +16238,7 @@ they? B-NP
 
 Eh O
 just O
-4 I-NP
+4 B-NP
 days I-NP
 stuff I-NP
 lo. O
@@ -16492,7 +16492,7 @@ cookin I-NP
 
 I B-NP
 asked O
-1st! I-NP
+1st! B-NP
 Eh O
 I B-NP
 may O
@@ -16780,7 +16780,7 @@ can O
 make O
 it..lecture I-NP
 from O
-4~ I-NP
+4~ B-NP
 <#> B-NP
 pm. I-NP
 haha.enjoy I-NP
@@ -17652,7 +17652,7 @@ K, O
 see O
 you B-NP
 soon O
-<3 B-NP
+<3 O
 
 Is O
 there B-NP
@@ -18060,7 +18060,7 @@ charges I-NP
 Go O
 back O
 hostel B-NP
-1st I-NP
+1st B-NP
 
 Where O
 do O
@@ -19099,7 +19099,7 @@ I'll O
 be O
 there B-NP
 before O
-4 I-NP
+4 B-NP
 . O
 
 So O
@@ -19364,7 +19364,7 @@ mean O
 <DECIMAL> B-NP
 hrs I-NP
 or O
-2hrs O
+2hrs B-NP
 hahaha O
 
 so O
@@ -19853,7 +19853,7 @@ watch O
 I B-NP
 am O
 number I-NP
-4 I-NP
+4 B-NP
 tml B-NP
 lah O
 lol O
@@ -20471,7 +20471,7 @@ They B-NP
 can O
 come O
 today..after I-NP
-4 I-NP
+4 B-NP
 pm..Thank I-NP
 you.. B-NP
 
@@ -20949,7 +20949,7 @@ finish O
 
 Nhsbe I-NP
 <#> B-NP
-4 I-NP
+4 B-NP
 
 Its O
 okay! O
@@ -21282,7 +21282,7 @@ dance I-NP
 
 R B-NP
 u B-NP
-4 I-NP
+4 B-NP
 real I-NP
 
 Eh O
@@ -21848,7 +21848,7 @@ okay O
 eh. O
 
 The B-NP
--1/2 B-NP
+-1/2 I-NP
 is O
 in O
 the B-NP
@@ -22574,7 +22574,7 @@ then O
 
 Haha O
 oh O
-7th I-NP
+7th B-NP
 is O
 the B-NP
 one I-NP
@@ -23287,7 +23287,7 @@ my B-NP
 friend I-NP
 spent O
 abt O
-8k I-NP
+8k B-NP
 today B-NP
 o.o O
 super O
@@ -23636,7 +23636,7 @@ YX B-NP
 chenwei I-NP
 Timo B-NP
 got O
-1st I-NP
+1st B-NP
 for O
 frisbee B-NP
 lol O
@@ -24488,7 +24488,7 @@ BTW O
 ur B-NP
 math B-NP
 ass I-NP
-5c I-NP
+5c B-NP
 i B-NP
 wrong I-NP
 I B-NP
@@ -24695,7 +24695,7 @@ take O
 my B-NP
 math B-NP
 chapter I-NP
-4 I-NP
+4 B-NP
 notes? I-NP
 
 Just O
@@ -24732,7 +24732,7 @@ is O
 the B-NP
 TA I-NP
 mark B-NP
-1.lol.the I-NP
+1.lol.the B-NP
 coding I-NP
 not O
 really O
@@ -25035,7 +25035,7 @@ I B-NP
 was O
 last I-NP
 ended O
-4+ I-NP
+4+ B-NP
 
 Haha O
 what B-NP
@@ -25418,7 +25418,7 @@ meeting I-NP
 Chong I-NP
 hui I-NP
 at O
-4 I-NP
+4 B-NP
 .. O
 Then O
 meeting I-NP
@@ -25495,7 +25495,7 @@ le! O
 Food I-NP
 poisoning I-NP
 laosai B-NP
-4 I-NP
+4 B-NP
 times I-NP
 vomitted O
 twice O
@@ -25714,7 +25714,7 @@ today B-NP
 haha O
 
 You B-NP
-3rd I-NP
+3rd B-NP
 year I-NP
 lao O
 jiao O
@@ -26198,7 +26198,7 @@ too! O
 Goodnight B-NP
 dear B-NP
 ryan B-NP
-^^<3 B-NP
+^^<3 O
 
 I B-NP
 go O
@@ -26276,7 +26276,7 @@ you B-NP
 Lol.cs5 I-NP
 is O
 like O
-6gb.how I-NP
+6gb.how B-NP
 to O
 pass O
 u B-NP
@@ -26469,7 +26469,7 @@ next B-NP
 Wed B-NP
 lateafternoon I-NP
 eg O
-~5pm? B-NP
+~5pm? O
 Also, O
 can O
 you B-NP
@@ -26858,7 +26858,7 @@ chicken I-NP
 rice. I-NP
 <DECIMAL> B-NP
 pm I-NP
-@potong O
+@potong I-NP
 pasir B-NP
 mrt I-NP
 busstop I-NP
@@ -28079,7 +28079,7 @@ coming O
 back O
 at O
 3 B-NP
-4 I-NP
+4 B-NP
 
 Jason B-NP
 ok O
@@ -29624,7 +29624,7 @@ early! O
 Yeas I-NP
 going O
 up O
-1st I-NP
+1st B-NP
 
 Han I-NP
 re O
@@ -30531,7 +30531,7 @@ I B-NP
 are O
 the B-NP
 youngest O
-2haha I-NP
+2haha B-NP
 :P O
 no O
 la O
@@ -30803,7 +30803,7 @@ now B-NP
 
 Do O
 worksheet I-NP
-4 I-NP
+4 B-NP
 quest I-NP
 3 B-NP
 
@@ -30864,14 +30864,14 @@ cause O
 lessons I-NP
 end I-NP
 at O
-4 I-NP
+4 B-NP
 . O
 Lol O
 wad O
 to O
 do O
 between O
-4 I-NP
+4 B-NP
 to O
 5 B-NP
 plus I-NP
@@ -31339,7 +31339,7 @@ to O
 I B-NP
 hope. O
 
-<3 B-NP
+<3 O
 u B-NP
 too O
 dearie! B-NP
@@ -31501,7 +31501,7 @@ in? O
 
 Orh! O
 Take O
-@ O
+@ I-NP
 shower I-NP
 and I-NP
 rest I-NP
@@ -31747,7 +31747,7 @@ k. O
 Muacks! B-NP
 
 Yea O
-4 I-NP
+4 B-NP
 of I-NP
 us B-NP
 . O
@@ -32739,7 +32739,7 @@ not O
 waking O
 up O
 until O
-4 I-NP
+4 B-NP
 in O
 the B-NP
 afternoon, I-NP
@@ -33206,7 +33206,7 @@ chia. I-NP
 3) B-NP
 mechanical I-NP
 engineering. I-NP
-4) I-NP
+4) B-NP
 wkday O
 nights,prefer O
 wkkends, I-NP
@@ -33424,7 +33424,7 @@ the B-NP
 market I-NP
 for O
 an B-NP
-8th I-NP
+8th B-NP
 
 Shouldn't O
 change O
@@ -35260,8 +35260,8 @@ gvcd. I-NP
 And I-NP
 yep O
 3 B-NP
-5v O
-2gnd I-NP
+5v B-NP
+2gnd B-NP
 
 Your B-NP
 ARP B-NP
@@ -35348,7 +35348,7 @@ i B-NP
 .ll O
 be O
 there B-NP
-4 I-NP
+4 B-NP
 you B-NP
 no O
 mata I-NP
@@ -35553,7 +35553,7 @@ le O
 
 Can O
 la. O
-1st I-NP
+1st B-NP
 pay O
 must O
 treat I-NP
@@ -35579,8 +35579,8 @@ Cause O
 I B-NP
 finish O
 sch B-NP
-@ O
-4plus I-NP
+@ I-NP
+4plus B-NP
 then O
 eve B-NP
 ask O

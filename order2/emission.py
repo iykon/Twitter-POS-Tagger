@@ -38,13 +38,14 @@ class emission(object):
                     self.labels[label] += 1
                 else:
                     self.labels[label] = 1
-            # for tag in self.matrix:
-                # self.freq[tag] = {}
-                # for word in self.matrix[tag]:
-                    # if str(self.matrix[tag][word]) in self.freq[tag]:
-                        # self.freq[tag][str(self.matrix[tag][word])] += 1
-                    # else:
-                        # self.freq[tag][str(self.matrix[tag][word])] = 1
+            for word in self.matrix:
+                for tag in self.matrix[word]:
+                    if tag not in self.freq:
+                        self.freq[tag]={}
+                    if str(self.matrix[word][tag]) not in self.freq[tag]:
+                        self.freq[tag][str(self.matrix[word][tag])] = 1
+                    else:
+                        self.freq[tag][str(self.matrix[word][tag])] += 1
         except IOError, e:
             print e
             exit(0)
@@ -73,21 +74,25 @@ class emission(object):
 
         if word in self.matrix:
             if tag in self.matrix[word]:
-                numer = self.matrix[word][tag]
+                numer = self.matrix[word][tag] - 0.75
             else :
                 # count zero under this tag
                 numer = 0
         else :
             # new word
             # self.new += 1
-            numer = self.labels[tag]
+            # numer = self.labels[tag]
+            if "1" in self.freq[tag]:
+                numer = self.freq[tag]["1"]
+            else:
+                numer = 0
 
         if tag in self.labels:
             denom = self.labels[tag]
         else:
             raise RuntimeError("Tag '"+tag+"' not found")
 
-        return numer*1.0/(denom+1.0)
+        return numer*1.0/denom
     # predict the labels of the input file
     def predict(self, infile, outfile, p=True):
         # start=time.clock()
@@ -97,12 +102,12 @@ class emission(object):
             inline = inf.readlines()
             writeline = []
             for line in inline:
-                print len(line)
-                print line
+                # print len(line)
+                # print line
                 if line == '\n' or line=='\r\n':
                     writeline.append('\n')
                     continue
-                line = line.strip()
+                line = line.strip('\n')
                 bestprob = 0
                 besttag = ""
                 for tag in self.labels.keys():

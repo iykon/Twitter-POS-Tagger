@@ -59,6 +59,7 @@ class emission(object):
         else :
             # new word
             numer = 1
+            # numer = self.labels[tag]
 
         if tag in self.labels:
             denom = self.labels[tag]

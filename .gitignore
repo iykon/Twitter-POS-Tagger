@@ -16,3 +16,4 @@ ptrain
 #pyenv directory
 .python-version
 msl.py
+*.zip

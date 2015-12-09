@@ -13,8 +13,14 @@ def hasURL(word):
 # other words, erase the punctuations
 def processWord(word):
 # if word has URL, return the word it self
-    # if hasURL(word) :
-        # return word
+    if hasURL(word) :
+        return "URL"
+    if word[0] == '@':
+        return "USR"
+    if word[0] == '#':
+        return 'HT'
+    if word[0] in ['0','1','2','3','4','5','6','7','8','9']:
+        return "DIGIT"
     pword = ''.join(ch for ch in word if ch not in string.punctuation)
     if pword == '':
         pword = word

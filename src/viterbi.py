@@ -155,7 +155,7 @@ def viterbi_best(e, t, infile, outfile, p=True):
                 tag = finalpath.pop()
                 outlines.append(word + " " + tag + "\n")
         outf.writelines(outlines)
-    except IOError, e:
+    except IOError,e:
         print e
         exit(0)
     finally:
@@ -290,13 +290,13 @@ def main():
         # print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
         # c+=1
 
-    print "with preprocessor"
-    e0.compute('../data/POS/ptrain')
-    t0.compute('../data/POS/ptrain')
-    e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out')
-    print "POS, MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
-    viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out')
-    print "POS, DP:",tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
+    # print "with preprocessor"
+    # e0.compute('../data/POS/ptrain')
+    # t0.compute('../data/POS/ptrain')
+    # e0.predict('../data/POS/dev.in','../data/POS/dev.p2.out')
+    # print "POS, MLE:", tool.evaluate('../data/POS/dev.p2.out','../data/POS/dev.out')
+    # viterbi_best(e0,t0,'../data/POS/dev.in','../data/POS/dev.p3.out')
+    # print "POS, DP:",tool.evaluate('../data/POS/dev.p3.out','../data/POS/dev.out')
     # start = time.clock()
     # viterbi_Nbest(e0, t0, '../data/POS/dev.in', '../data/POS/dev.p4.out', best=10)
     # print "runtime:",time.clock() - start
@@ -305,15 +305,15 @@ def main():
         # print c,":POS, DP2:", tool.evaluate('../data/POS/dev.p4.out', '../data/POS/dev.out',col=c)
         # c += 1
 
-    e1 = em.emission()
-    t1 = tr.transition()
-    print "without preprocessor"
-    e1.compute('../data/NPC/train')
-    t1.compute('../data/NPC/train')
-    e1.predict('../data/NPC/dev.in','../data/NPC/dev.p2.out',p=False)
-    print "NPC,MLE:", tool.evaluate('../data/NPC/dev.p2.out','../data/NPC/dev.out')
-    viterbi_best(e1,t1,'../data/NPC/dev.in','../data/NPC/dev.p3.out',p=False)
-    print "NPC,DP:", tool.evaluate('../data/NPC/dev.p3.out','../data/NPC/dev.out')
+    # e1 = em.emission()
+    # t1 = tr.transition()
+    # print "without preprocessor"
+    # e1.compute('../data/NPC/train')
+    # t1.compute('../data/NPC/train')
+    # e1.predict('../data/NPC/dev.in','../data/NPC/dev.p2.out',p=False)
+    # print "NPC,MLE:", tool.evaluate('../data/NPC/dev.p2.out','../data/NPC/dev.out')
+    # viterbi_best(e1,t1,'../data/NPC/dev.in','../data/NPC/dev.p3.out',p=False)
+    # print "NPC,DP:", tool.evaluate('../data/NPC/dev.p3.out','../data/NPC/dev.out')
     # start = time.clock()
     # viterbi_Nbest(e1, t1, '../data/NPC/dev.in', '../data/NPC/dev.p4.out', best=10, p=False)
     # print "runtime:",time.clock() - start
@@ -322,13 +322,13 @@ def main():
         # print c,":NPC, DP2:", tool.evaluate('../data/NPC/dev.p4.out', '../data/NPC/dev.out',col=c)
         # c += 1
 
-    print "with preprocessor"
-    e1.compute('../data/NPC/ptrain')
-    t1.compute('../data/NPC/ptrain')
-    e1.predict('../data/NPC/dev.in','../data/NPC/dev.p2.out')
-    print 'NPC, MLE:', tool.evaluate('../data/NPC/dev.p2.out','../data/NPC/dev.out')
-    viterbi_best(e1,t1,'../data/NPC/dev.in','../data/NPC/dev.p3.out')
-    print 'NPC, DP:',tool.evaluate('../data/NPC/dev.p3.out','../data/NPC/dev.out')
+    # print "with preprocessor"
+    # e1.compute('../data/NPC/ptrain')
+    # t1.compute('../data/NPC/ptrain')
+    # e1.predict('../data/NPC/dev.in','../data/NPC/dev.p2.out')
+    # print 'NPC, MLE:', tool.evaluate('../data/NPC/dev.p2.out','../data/NPC/dev.out')
+    # viterbi_best(e1,t1,'../data/NPC/dev.in','../data/NPC/dev.p3.out')
+    # print 'NPC, DP:',tool.evaluate('../data/NPC/dev.p3.out','../data/NPC/dev.out')
     # start = time.clock()
     # viterbi_Nbest(e1, t1, '../data/NPC/dev.in', '../data/NPC/dev.p4.out', best=10)
     # print "runtime:",time.clock()-start

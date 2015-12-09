@@ -2262,7 +2262,7 @@ engin O
 :-( O
 
 Do O
-9ja B-NP
+9ja O
 peeps O
 buy O
 perf O
@@ -3406,7 +3406,7 @@ fetch O
 me B-NP
 later? O
 About O
-2pm B-NP
+2pm O
 from O
 school O
 
@@ -4710,8 +4710,8 @@ from O
 , O
 to<8c0a99aa600c281987f52cf1f07d98dd> O
 , O
-"2011.10.01 B-NP
-09:39:25 I-NP
+"2011.10.01 O
+09:39:25 O
 
 Ahhh O
 small O
@@ -5463,10 +5463,10 @@ over O
 I B-NP
 think O
 
-It B-NP
-'s I-NP
-part I-NP
-2 I-NP
+It O
+'s O
+part O
+2 O
 wad O
 
 Going O
@@ -5897,8 +5897,8 @@ train! O
 Wah O
 lol O
 I B-NP
-9 O
-plus O
+9 I-NP
+plus I-NP
 leh. O
 
 Aunty O
@@ -6682,9 +6682,9 @@ training O
 liao O
 The B-NP
 paddle I-NP
-is I-NP
-2m I-NP
-I O
+is O
+2m O
+I B-NP
 think! O
 
 You O
@@ -7247,9 +7247,9 @@ Hor O
 now O
 you B-NP
 owe O
-3 O
-of O
-us B-NP
+3 B-NP
+of I-NP
+us I-NP
 one I-NP
 koi I-NP
 each I-NP
@@ -7413,8 +7413,8 @@ be O
 able O
 to O
 start O
-ard B-NP
-4th I-NP
+ard O
+4th B-NP
 December, I-NP
 longest I-NP
 shld O
@@ -7506,7 +7506,7 @@ should O
 hahaha O
 
 Hey O
-2moro B-NP
+2moro O
 how O
 u B-NP
 going O
@@ -9072,11 +9072,11 @@ train O
 Similan... O
 But O
 aft O
-2moro B-NP
+2moro O
 nid O
 wait O
-3wks O
-exam O
+3wks B-NP
+exam I-NP
 over O
 then O
 can O
@@ -10216,8 +10216,8 @@ from O
 , O
 to<d053c98a1c705a68a409ec3a79628cfa> O
 , O
-"2011.03.03 B-NP
-12:47:00 I-NP
+"2011.03.03 O
+12:47:00 O
 
 Eh?!! O
 Haha. O
@@ -11333,8 +11333,8 @@ from O
 , O
 to<acef5ca33641dcec87f52cf1f07d98dd> O
 , O
-"2011.10.05 B-NP
-08:13:36 I-NP
+"2011.10.05 O
+08:13:36 O
 
 Yes O
 should O
@@ -13374,8 +13374,8 @@ my B-NP
 Chinese I-NP
 teacher I-NP
 for O
-3 O
-years O
+3 B-NP
+years I-NP
 haha!Yeah O
 about O
 now O
@@ -15439,7 +15439,7 @@ I B-NP
 meet O
 you B-NP
 at O
-1pm B-NP
+1pm O
 ? O
 
 aha O
@@ -16778,9 +16778,9 @@ tink O
 i B-NP
 can O
 make O
-it..lecture B-NP
-from I-NP
-4~ I-NP
+it..lecture O
+from O
+4~ B-NP
 <#> I-NP
 pm. I-NP
 haha.enjoy I-NP
@@ -17192,7 +17192,7 @@ camera I-NP
 
 Tml O
 , O
-2pm B-NP
+2pm O
 at O
 ion B-NP
 orchard I-NP
@@ -18695,8 +18695,8 @@ wht O
 time O
 do O
 you B-NP
-work O
-2morrow? B-NP
+work I-NP
+2morrow? O
 
 Go O
 home B-NP
@@ -21228,9 +21228,9 @@ viewings O
 , O
 can't O
 take O
-phonecalls O
-past O
-7pm O
+phonecalls B-NP
+past I-NP
+7pm I-NP
 . O
 Thanks O
 
@@ -21282,7 +21282,7 @@ dance I-NP
 
 R O
 u B-NP
-4 I-NP
+4 O
 real O
 
 Eh O
@@ -21847,8 +21847,8 @@ Hmm O
 okay O
 eh. O
 
-The O
--1/2 B-NP
+The B-NP
+-1/2 I-NP
 is O
 in O
 the B-NP
@@ -22878,8 +22878,8 @@ buffet? I-NP
 But O
 now O
 got O
-3 O
-ppl O
+3 B-NP
+ppl I-NP
 , O
 need O
 even O
@@ -23285,10 +23285,10 @@ lend O
 me! O
 my B-NP
 friend I-NP
-spent I-NP
-abt I-NP
-8k I-NP
-today O
+spent O
+abt O
+8k O
+today B-NP
 o.o O
 super O
 crazy!! O
@@ -24488,8 +24488,8 @@ BTW O
 ur B-NP
 math I-NP
 ass I-NP
-5c I-NP
-i O
+5c O
+i B-NP
 wrong O
 I B-NP
 tink. O
@@ -24731,9 +24731,9 @@ cos O
 is O
 the O
 TA O
-mark B-NP
-1.lol.the I-NP
-coding I-NP
+mark O
+1.lol.the O
+coding O
 not O
 really O
 difficult O
@@ -25494,8 +25494,8 @@ sick O
 le! O
 Food B-NP
 poisoning I-NP
-laosai B-NP
-4 I-NP
+laosai O
+4 B-NP
 times I-NP
 vomitted O
 twice O
@@ -26469,7 +26469,7 @@ next O
 Wed B-NP
 lateafternoon I-NP
 eg O
-~5pm? B-NP
+~5pm? O
 Also, O
 can O
 you B-NP
@@ -26733,7 +26733,7 @@ Yea O
 why? O
 U B-NP
 going O
-2moro B-NP
+2moro O
 ? O
 
 Sorry O
@@ -27754,7 +27754,7 @@ jus O
 asked O
 u B-NP
 nia. O
-2moro B-NP
+2moro O
 staying O
 over O
 
@@ -28123,7 +28123,7 @@ I B-NP
 also O
 I B-NP
 since O
-1pm B-NP
+1pm O
 lo O
 even O
 worse! O
@@ -30018,7 +30018,7 @@ right? O
 U O
 wan O
 gym O
-2moro B-NP
+2moro O
 instead? O
 Mon O
 do O
@@ -30033,8 +30033,8 @@ Oh O
 ._. O
 
 Jeff O
-jeff B-NP
 jeff O
+jeff B-NP
 jeff O
 
 Nowadays O
@@ -31669,8 +31669,8 @@ much O
 less, O
 lower O
 than O
-5k). B-NP
-We O
+5k). O
+We B-NP
 can't O
 work O
 with O
@@ -34074,8 +34074,8 @@ a4 I-NP
 paper I-NP
 one I-NP
 stack I-NP
-$5 I-NP
-cheap I-NP
+$5 O
+cheap O
 or O
 ex? O
 
@@ -35214,7 +35214,7 @@ But O
 now O
 it's O
 fucking O
-2pm! B-NP
+2pm! O
 What O
 the O
 fuck?! O
@@ -35579,8 +35579,8 @@ Cause O
 I B-NP
 finish O
 sch B-NP
-@ I-NP
-4plus I-NP
+@ O
+4plus O
 then O
 eve O
 ask O

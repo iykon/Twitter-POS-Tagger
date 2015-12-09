@@ -77,8 +77,10 @@ def evaluate(testfile,answerfile,col=1, pr = False):
         i = 0
         error = 0
         total = 0
-        if len(answer) != len(test):
-            raise RuntimeError("File length different")
+        # print len(answer)
+        # print len(test)
+        # if len(answer) != len(test):
+            # raise RuntimeError("File length different")
         while i<len(answer) and i<len(test):
             # print i,'-th loop\n'
             if test[i]=='\n' and answer[i]=='\n':
