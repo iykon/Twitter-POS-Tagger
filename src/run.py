@@ -18,7 +18,7 @@ if args.algorithm==0:
 	e = em.emission()
 	e.compute(args.trainfile)
 	e.predict(args.infile,args.outfile,args.process)
-	print tool.evaluate('../data/POS/dev.out',args.outfile,col=1)
+	# print tool.evaluate('../data/POS/dev.out',args.outfile,col=1)
 
 elif args.algorithm==1:
 	if args.best != 1:
@@ -30,7 +30,7 @@ elif args.algorithm==1:
 	t = tr.transition()
 	t.compute(args.trainfile)
 	viterbi.viterbi_best(e,t,args.infile,args.outfile,args.process)
-	print tool.evaluate('../data/POS/dev.out',args.outfile,col=1)
+	# print tool.evaluate('../data/POS/dev.out',args.outfile,col=1)
 elif args.algorithm==2:
 	e = em.emission()
 	e.compute(args.trainfile)
@@ -38,7 +38,7 @@ elif args.algorithm==2:
 	t.compute(args.trainfile)
 
 	viterbi.viterbi_Nbest(e,t,args.infile,args.outfile,args.best, args.process)
-	c = 1
-	while c<args.best:
-		print tool.evaluate(args.outfile,'../data/POS/dev.out',col=c)
-		c = c+1
+	# c = 1
+	# while c<=args.best:
+		# print tool.evaluate(args.outfile,'../data/POS/dev.out',col=c)
+		# c = c+1
