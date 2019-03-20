@@ -5,18 +5,18 @@ Name: Yuan Bowei
 
 Student ID: 1001916
 ##Directory Structure
-**src** Source code, all following intructions are for this directory
+**src** Source code, all following instructions are for this directory
 
-**order2** a combination of MLE predictor, first order HMM and second order HMM ,plus some smoothing, the best performance parameter combination can give a 78% correction rate. 
+**order2** a combination of MLE predictor, first-order HMM and second-order HMM, plus some smoothing, the best performance parameter combination can give a 78% correction rate. 
 
-**data** training data, test data and output data
+**data** training data, test data, and output data
 
 ##Instruction
 This package consists of four python modules:
 
 1. **emission.py:**This module computes emission probability with given training text.
 2. **transition.py:**This module computes transition probability with given training text.
-3. **viterbi.py:** This module implements viterbi algorithm to predict the tag of given test text
+3. **viterbi.py:** This module implements Viterbi algorithm to predict the tag of given test text
 4. **toolbox.py:**This module is a box of tools, providing functionalities and optimization for three modules above, including preprocessor, evaluation of a prediction
 
 ##How to run the code
@@ -81,7 +81,7 @@ After this step the *matrix* and *labels* in emission classes is computed with t
 This function returns a floating number specifying the emission probability of the given ***word*** and ***tag***.
 ####guess the most probable tag
 	e.mostprob()
-It happens in Hidden Markov Model that at some points in a sentence, all possible tags score 0. One enhacement is to tag this position as the most probable label among all possible labels, which could improve the result to some degree.
+It happens in Hidden Markov Model that at some points in a sentence, all possible tags score 0. One enhancement is to tag this position as the most probable label among all possible labels, which could improve the result to some degree.
 
 ####MLE predictor:
 With the emission probability, one way to predict labels of a given corpus is to use Maximal Likelihood, that is, to find out the most probable tag for the word under emission probability.
@@ -107,7 +107,7 @@ $$T(y_n->y_{n+1}) = \frac{count(y_n,STOP)}{count(STOP)}$$
 	
 	import transition
 	t = transition.transition()
-Similarly to that in emission.py, this procedure give an empty transition object with empty dictioinaries.
+Similarly to that in emission.py, this procedure gives an empty transition object with empty dictionaries.
 
 ###compute the transition probability
 
@@ -221,11 +221,11 @@ This method processes one sentence into one processed word and one processed tag
 This method processes a word with the following rule:
 
   *  when one word contains only punctuations, for example ":)", ":(", remains the same
-  *  the words begins with '@' are turned into USR to be currectly labeled as USR
+  *  the words begins with '@' are turned into USR to be currently labeled as USR
   *  digits are turned into 'digit'
   *  words starting with '#' are turned into 'HT'
   *  for other words with not only punctuations like "hello!", remove the punctuations in them and modify into lower case. This generalization procedure could slightly improve the results.
-  *  [deprecated]exception is URL, initially URL are retained, but in terms of the error rate there were not improvements, so deprecated:
+  *  [deprecated]exception is URL, initially URL is retained, but in terms of the error rate there were no improvements, so deprecated:
 
 		hasURL(word) #judge whether one sentence has URL
 
